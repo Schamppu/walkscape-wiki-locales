@@ -60,7 +60,14 @@
         "stock": "Vorrat",
         "type": "Kategorie",
         "value": "Wert",
-        "WEAR": "W.E.A.R"
+        "WEAR": "W.E.A.R",
+        "buildingType": "Typ des Gebäudes",
+        "always": "Immer",
+        "bonusExp": "Bonus<br>XP",
+        "buildingName": "Name des Gebäudes",
+        "charges": "Kosten",
+        "cooldowns": "Abklingzeiten",
+        "finalChance": "Letzte<br>Chance"
     },
     "pageHeaders": {
         "abilities": "Fähigkeiten",
