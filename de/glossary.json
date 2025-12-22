@@ -67,7 +67,11 @@
         "buildingName": "Name des Gebäudes",
         "charges": "Aufladungen",
         "cooldowns": "Abklingzeiten",
-        "finalChance": "Letzte<br>Chance"
+        "finalChance": "Letzte<br>Chance",
+        "finalOdds": "Letzte<br>Quoten",
+        "initialChance": "Ursprüngliche<br>Chance",
+        "locations": "Standorte",
+        "initialAppearance": "Ursprüngliches<br>Aussehen"
     },
     "pageHeaders": {
         "abilities": "Fähigkeiten",
@@ -81,7 +85,8 @@
         "requirement": "Anforderung",
         "requirements": "Anforderungen",
         "sources": "Quellen",
-        "uses": "Verwendungen"
+        "uses": "Verwendungen",
+        "locations": "Standorte"
     },
     "modules": {
         "ItemInfobox": {
