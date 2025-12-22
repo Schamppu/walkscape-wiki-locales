@@ -488,6 +488,41 @@
             "main": "The following [[Special:MyLanguage/Services | services]] can be used at this location."
         }
     },
+	"Pets": {
+		"Normal": "Normal Pet",
+		"Rare": "Rare Pet",
+		"Abilities": {
+			"unlock": "This ability is unlocked at level {unlockLevel}."
+		},
+		"Attributes": {
+			"unlock": "These attributes are active at level {unlockLevel}."
+		},
+		"Experience": {
+			"XPGain": "Requires {experienceNumber} total experience to advance to level {nextLevel}.",
+			"ChangeToJuvenile": "This pet will become a '''Juvenile''' when it reaches level {nextLevel}.",
+			"ChangeToAdult": "This pet will become an '''Adult''' when it reaches level {nextLevel}."
+		},
+		"Infobox": {
+			"animation": "Animated:",
+			"Normal": "Normal",
+			"Light": "Light",
+			"Dark": "Dark",
+			"Rare": "Rare"
+		},
+		"Intro": {
+			"normal": "{petName} is a [[Special:MyLanguage/Pets | pet]]. It hatches from a {eggName}.",
+			"rare": "{petName} is a rare [[Special:MyLanguage/Pets | pet]]. It hatches from a rare {eggName}.",
+			"stageEgg": "This pet is an Egg from level 0 to level 1.",
+			"stageJuvi": "This pet is a Juvenile from level 1 to {adultLevel}.",
+			"stageAdult": "This pet is an Adult at level {adultLevel}."
+		},
+		"Names": {
+			"main": "These are the default names this pet can have when it first hatches:"
+		},
+		"Requirement": {
+			"NoXPReq": "This pet has no special requiremetns to gain experience."
+		}
+	},
     "Shops": {
         "allBuy": "This shop has items for sale.",
         "allSell": "All normal items may be sold at this shop.",
