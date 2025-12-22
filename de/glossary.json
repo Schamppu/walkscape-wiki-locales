@@ -1,1 +1,232 @@
-{}
+{
+    "common": {
+        "achievementName": "Erfolgstitel",
+        "activityName": "Aktivitätsname",
+        "atLeast": "{number} oder mehr",
+        "attribute": "Attribut",
+        "attributes": "Attribute",
+        "baseRate": "Grundrate",
+        "baseSteps": "Basis<br>Schritte",
+        "baseXp": "Basis<br>XP",
+        "baseXpStep": "Basis<br>XP/Schritte",
+        "chance": "Chance",
+        "chanceChest": "Chance<br>(pro Truhe)",
+        "chanceRoll": "Chance<br>(pro Aktion)",
+        "chestName": "Name der Truhe",
+        "cooldown": "Abklingzeit",
+        "difficulty": "Schwierigkeit",
+        "duration": "Wirkungsdauer",
+        "effect": "Effekt",
+        "factionName": "Fraktionsname",
+        "fineAttributes": "Feine Attribute",
+        "itemName": "Itemname",
+        "job": "Jobanfrage",
+        "jobBoardName": "Name der Jobbörse",
+        "keywords": "Schlüsselwörter",
+        "level": "Level",
+        "location": "Orte",
+        "materials": "verwendete<br>Materialien",
+        "maxEfficency": "maximale<br>Arbeitseffizienz",
+        "maxXpStep": "maximale<br>XP/Schritt",
+        "minSteps": "Mindest<br>schritte",
+        "NA": "N/A",
+        "need": "Benötigt:",
+        "never": "Niemals",
+        "noFine": "Dieser Gegenstand besitzt keine feine Version.",
+        "none": "Keine",
+        "normalAttributes": "Normale Attribute",
+        "note": "Notiz",
+        "nothing": "Nichts",
+        "odds": "Wahrscheinlichkeit",
+        "oneInX": "~1 in {number}",
+        "price": "Preis",
+        "quantity": "Menge",
+        "rawMaterials": "Rohstoffe",
+        "recipeName": "Name des Rezepts",
+        "recipeWEAR": "vollständiges Rezept<br>W.E.A.R",
+        "region": "Region",
+        "relAttribute": "relevantes Attribut",
+        "relAttributes": "relevante Attribute",
+        "requirement": "Anforderung",
+        "requirements": "Anforderungen",
+        "reward": "Belohnung",
+        "rewards": "Belohnungen",
+        "rollNote": "Führt {number} Würfe aus",
+        "serviceReq": "Service<br>Anforderungen",
+        "shopName": "Shopname",
+        "skills": "Fertigkeiten",
+        "skillWithLevel": "{skill} lvl. {level}",
+        "source": "Quelle",
+        "stock": "Vorrat",
+        "type": "Kategorie",
+        "value": "Wert",
+        "WEAR": "W.E.A.R"
+    },
+    "pageHeaders": {
+        "abilities": "Fähigkeiten",
+        "ability": "Fähigkeiten",
+        "attribute": "Attribut",
+        "attributes": "Attribute",
+        "guides": "Leitfäden",
+        "loadouts": "Ausrüstungs-Sets",
+        "quantity": "Menge",
+        "relatedItems": "Verwandte Gegenstände",
+        "requirement": "Anforderung",
+        "requirements": "Anforderungen",
+        "sources": "Quellen",
+        "uses": "Verwendungen"
+    },
+    "modules": {
+        "ItemInfobox": {
+            "bankable": "Einlagerbar:",
+            "droppable": "Verwerfbar:",
+            "duration": "Wirkungsdauer:",
+            "fineValue": "Wert (Feine Version):",
+            "fineVersion": "Feine Version:",
+            "keyword": "Schlüsselwort:",
+            "keywords": "Schlüsselwörter:",
+            "properties": "Eigenschaften:",
+            "quality": "Qualität:",
+            "rarity": "Seltenheit:",
+            "sellable": "Verkäuflich:",
+            "slot": "Slot:",
+            "tradable": "Handelbar:",
+            "type": "Typ:",
+            "value": "Wert:"
+        },
+        "ItemsActions": {
+            "MemosphereNote": "Erfahrung skaliert mit dem Fertigkeitslevel.<br>Erfahrung = {timesLevel}&times; {skill}-Level",
+            "NoCooldown": "Keine Abklingzeit.",
+            "NoRequirement": "Keine Anforderung.",
+            "RockStarAmuletNote": "Dieser Gegenstand führt {rollAmount} Würfe auf dem [[Special:MyLanguage/Gems#Gem_Pouch_Table|Edelsteinbeutel-Tisch]] aus."
+        },
+        "ItemsAttributes": {
+            "None": "Dieses Item hat keine Attribute."
+        },
+        "ItemsIntroDescription": {
+            "ItemTypes": {
+                "Collectible": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Collectibles | Sammelgegenstand]].",
+                "Consumable": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Consumables | Verbrauchsgegenstand]].",
+                "Container": "Das {itemName} [[Special:MyLanguage/Items | item]] ist eine [[Special:MyLanguage/Chests | Truhe]].",
+                "Crafted": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Crafted | hergestellter Gegenstand]].",
+                "Loot": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Loot | Beutegegenstand]].",
+                "Material": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Materials | Material]]."
+            },
+            "None": "Das {itemName} [[Special:MyLanguage/Items | item]] kann derzeit nicht erhalten werden.",
+            "Plurals": {
+                "AchievementCompletion": "Kann als Belohnung für den Abschluss von [[Special:MyLanguage/Achievements | Erfolgen]] vergeben werden.",
+                "AchievementPoint": "Kann als Belohnung vergeben werden, wenn du genügend [[Special:MyLanguage/Achievement Points | Errungenschaftspunkte]] gesammelt hast.",
+                "Activity": "Kann bei  [[Special:MyLanguage/Activities | Aktivitäten]] erhalten werden. ",
+                "Chest": "Kann in [[Special:MyLanguage/Chests | Truhen]] gefunden werden.",
+                "FactionRepeatingReward": "Kann als wiederkehrende Belohnung vergeben werden, wenn du genügend [[Special:MyLanguage/Faction Reputation | Fraktionsruf]] gesammelt hast.",
+                "FactionReward": "Kann als Belohnung vergeben werden, wenn du genügend [[Special:MyLanguage/Faction Reputation | Fraktionsruf]] gesammelt hast.",
+                "ItemAttribute": "Kann als besonderes Ergebnis von [[Special:MyLanguage/Item_Finding_(Mechanics) | special drop table]] [[Special:MyLanguage/Attributes | attributes]] erhalten werden.",
+                "JobBoard": "Kann als Belohnung für das Abschließen von [[Special:MyLanguage/Job Boards | Jobs]] vergeben werden.",
+                "RecipeMain": "Kann mithilfe von [[Special:MyLanguage/Recipes | Rezepten]] hergestellt werden.",
+                "RecipeSecondary": "Kann als zusätzlicher Bonusgegenstand aus [[Special:MyLanguage/Recipes | Rezepten]] erhalten werden.",
+                "Shop": "Kann in einigen [[Special:MyLanguage/Shops | Shops]] gekauft werden.",
+                "ShopPayment": "Kann als Bezahlung für den Verkauf von Gegenständen an einige [[Special:MyLanguage/Shops | Shops]] erhalten werden."
+            },
+            "Singulars": {
+                "AchievementCompletion": "Kann als Belohnung für den Abschluss eines [[Special:MyLanguage/Achievements | achievement]] vergeben werden.",
+                "AchievementPoint": "Kann als Belohnung für das Erreichen einer bestimmten Anzahl an [[Special:MyLanguage/Achievement Points | achievement points]] vergeben werden.",
+                "Activity": "Kann bei einer [[Special:MyLanguage/Activities | Aktivität]] erhalten werden.",
+                "Chest": "Kann in einer [[Special:MyLanguage/Chests | Truhe]] gefunden werden",
+                "FactionRepeatingReward": "Kann als wiederkehrende Belohnung vergeben werden, wenn du genügend [[Special:MyLanguage/Faction Reputation | Fraktionsruf]] gesammelt hast.",
+                "FactionReward": "Kann als Belohnung vergeben werden, wenn du genügend [[Special:MyLanguage/Faction Reputation | Fraktionsruf]] gesammelt hast.",
+                "ItemAttribute": "Kann als besonderes Ergebnis von [[Special:MyLanguage/Item_Finding_(Mechanics) | special drop table]] [[Special:MyLanguage/Attributes | attributes]] erhalten werden.",
+                "JobBoard": "Kann als Belohnung für das Abschließen eines [[Special:MyLanguage/Job Boards | Jobs]] vergeben werden.",
+                "RecipeMain": "Kann mithilfe eines [[Special:MyLanguage/Recipes | Rezepts]] hergestellt werden.",
+                "RecipeSecondary": "Kann als zusätzlicher Bonusgegenstand aus einem [[Special:MyLanguage/Recipes | Rezepts]] erhalten werden.",
+                "Shop": "Kann in einem [[Special:MyLanguage/Shops | Shop]] gekauft werden.",
+                "ShopPayment": "Kann als Bezahlung für den Verkauf von Gegenständen an einen [[Special:MyLanguage/Shops | Shop]] erhalten werden."
+            }
+        },
+        "ItemSources": {
+            "ActivityRollNote": "<sup>†</sup>Hinweis: Bei dieser Aktivität wird die Beute mehrmals ausgewürfelt.",
+            "ChestRollNote": "<sup>†</sup>Hinweis: Truhen enthalten mehrfach ausgewürfelte Beute.",
+            "FactionRepeatingReward": "jeden {reputationAmount} Fraktionsruf",
+            "factionRewardRequirement": "Fraktionsruf von {reputationAmount} in {factionName}",
+            "NoSources": "Dieser Gegenstand kann derzeit aus keiner Quelle erhalten werden.",
+            "RecipeRollNote": "<sup>†</sup>Hinweis: Bei diesem Rezept werden Bonusbelohnungen mehrmals ausgewürfelt.",
+            "sectionHeaders": {
+                "AchievementCompletion": "Belohnung für den Abschluss eines Erfolgs",
+                "AchievementPoint": "Erfolgs­punkt­belohnung",
+                "Activity": "Beute aus Aktivitäten",
+                "additionalRecipeOutputs": "Zusätzliche Herstellungsergebnisse",
+                "Chest": "Beute aus Truhen",
+                "craftingFlow": "Fertigungsprozess",
+                "FactionRepeatingReward": "Wiederkehrende Fraktionsbelohnung",
+                "FactionReward": "Fraktionsbelohnung",
+                "ItemAttribute": "Attribut-Beute",
+                "JobBoard": "Jobböres Bezahlung",
+                "RecipeMain": "Primäres Rezept-Ergebnis",
+                "RecipeSecondary": "Sekundäres Rezept-Ergebnis",
+                "Shop": "Einkäufe in Shops",
+                "ShopPayment": "Shopwährung"
+            },
+            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is a value that shows the average steps for one item at maximum work efficiency."
+        },
+        "ItemsRequirements": {
+            "None": "Für die Verwendung dieses Items sind keine Voraussetzungen nötig."
+        },
+        "ItemUses": {
+            "DefaultCollectible": "Dieses Item gewährt 1 [[Special:MyLanguage/Achievement Points|Erfolgspunkt]], wenn es gefunden wird.",
+            "DefaultConsumable": "Dieses Item kann verwendet werden, um einen temporären Effekt zu aktivieren.",
+            "DefaultGear": "Dieses Item kann von deinem Charakter ausgerüstet werden.",
+            "DefaultMaterial": "Dieses Item hat aktuell keine Verwendung in Rezepten oder besonderen Anwendungen.",
+            "FactionReward": "{factionName} Fraktionsruf",
+            "NoUses": "Momentan hat dieses Item keinen speziellen Nutzen.",
+            "Plurals": {
+                "AchievementUse": "{itemName} wird für die folgenden [[Special:MyLanguage/Achievements|Erfolge]] benötigt:",
+                "JobBoardUse": "{itemName} kann in den folgenden [[Special:MyLanguage/Job Boards|Jobs]] angefordert werden:",
+                "RecipeUse": "{itemName} ist eine Zutat in den folgenden [[Special:MyLanguage/Recipes|Rezepten]]:",
+                "RequirementUse": "{itemName} ist in den folgenden Sonderfällen eine Voraussetzung:",
+                "SpecialCurrencyUse": "{itemName} kann in den folgenden [[Special:MyLanguage/Shops|Shops]] als Währung verwendet werden:",
+                "SpecialShopPaymentUse": "{itemName} kann in den folgenden [[Special:MyLanguage/Shops|Shops]] verkauft werden, um eine besondere Währung zu erhalten:"
+            },
+            "RequirementUses": {
+                "Plurals": {
+                    "activities": "{itemName} wird benötigt, um die folgenden Aktivitäten auszuführen:",
+                    "items": "{itemName} wird für ein Attribut auf den folgenden Gegenständen benötigt:",
+                    "locations": "{itemName} wird benötigt, um die folgenden Orte sehen zu können:",
+                    "services": "{itemName} wird benötigt, um die folgenden Dienste zu nutzen:",
+                    "terrain_modifiers": "{itemName} wird für die folgenden Routen benötigt:"
+                },
+                "Singulars": {
+                    "activities": "{itemName} wird benötigt, um die folgende Aktivität auszuführen:",
+                    "items": "{itemName} wird für ein Attribut auf dem folgenden Gegenstand benötigt:",
+                    "locations": "{itemName} wird benötigt, um den folgenden Ort zu sehen:",
+                    "services": "{itemName} wird benötigt, um den folgenden Dienst zu nutzen:",
+                    "terrain_modifiers": "{itemName} wird für die folgende Route benötigt:"
+                }
+            },
+            "sectionHeaders": {
+                "AchievementUse": "Erfolg",
+                "JobBoardUse": "Jobbörsen",
+                "RecipeUse": "Rezeptzutat",
+                "RequirementUse": "Anforderungen",
+                "SpecialCurrencyUse": "Währung",
+                "SpecialShopPaymentUse": "Spezialangebot"
+            },
+            "Singulars": {
+                "AchievementUse": "{itemName} wird für den folgenden [[Special:MyLanguage/Achievements|Erfolg]] benötigt.",
+                "JobBoardUse": "{itemName} kann in dem folgenden [[Special:MyLanguage/Job Boards|Job]] angefordert werden.",
+                "RecipeUse": "{itemName} ist eine Zutat im folgenden [[Special:MyLanguage/Recipes|Rezept]].",
+                "RequirementUse": "{itemName} ist eine Voraussetzung im folgenden Sonderfall.",
+                "SpecialCurrencyUse": "{itemName} kann im folgenden [[Special:MyLanguage/Shops|Shop]] als Währung verwendet werden.",
+                "SpecialShopPaymentUse": "{itemName} kann im folgenden [[Special:MyLanguage/Shops|Shop]] verkauft werden, um eine spezielle Währung zu erhalten."
+            }
+        }
+    },
+    "Helpers": {
+        "addGearGuide": "Du kannst dabei helfen, neue zu erstellen.",
+        "autoString": "Diese Seite wird automatisch aktualisiert, um die Informationen in der [[Special:MyLanguage/Versions | aktuelle Spielversion]] widerzuspiegeln.",
+        "editGear": "Ausrüstungs-Sets bearbeiten",
+        "editGuide": "Leitfäden bearbeiten",
+        "noGear": "Aktuell existieren noch keine Ausrüstungs-Sets.",
+        "noGuide": "Aktuell existieren noch keine Leitfäden.",
+        "unknownString": "Diese Seite enthält Informationen für eine '''unbekannte''' Spielversion.",
+        "versionString": "Diese Seite wurde aktualisiert und entspricht nun der Spielversion:"
+    }
+}

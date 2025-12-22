@@ -1,26 +1,481 @@
 {
     "common": {
-        "activityName": "Aktiviteetin nimi",
+        "achievementName": "Saavutuksen Nimi",
+        "activityName": "Aktiviteetin Nimi",
         "always": "Aina",
-        "attribute": "Attribuutti",
-        "attributes": "Attribuutit",
-        "baseRate": "Kanta<br>määrä",
-        "baseSteps": "Kanta<br>askeleet",
-        "baseXp": "Kanta<br>kokemus",
-        "bonusExp": "Bonus<br>kokemus",
-        "buildingName": "Rakennuksen nimi",
-        "buildingType": "Rakennuksen tyyppi",
+        "atLeast": "vähintään {number}",
+        "attribute": "Ominaisuus",
+        "attributes": "Ominaisuudet",
+        "baseRate": "Perus<br>Määrä",
+        "baseSteps": "Perus<br>Askelmäärä",
+        "baseXp": "Perus<br>XP",
+        "baseXpStep": "Perus<br>XP/Askel",
+        "bonusExp": "Bonus<br>EXP",
+        "buildingName": "Rakennus",
         "chance": "Todennäköisyys",
-        "chanceChest": "Todennäköisyys<br>(per arkku)",
+        "chanceChest": "Todennäköisyys<br>(Per Chest)",
+        "chanceRoll": "Todennäköisyys<br>(Per Roll)",
         "charges": "Lataukset",
-        "chestName": "Arkun nimi",
-        "cooldown": "Jäähdytysaika",
-        "cooldowns": "Jäähdytysajat",
-        "duration": "Aika",
-        "effect": "Efekti",
-        "achievementName": "Saavutuksen nimi",
-        "atLeast": "{number} tai enemmän",
-        "baseXpStep": "Kanta<br>kokemus/askeleet",
-        "difficulty": "Haastavuus"
+        "chestName": "Arkku",
+        "cooldown": "Palautumisaika",
+        "cooldowns": "Palautumisajat",
+        "difficulty": "Vaikeus",
+        "duration": "Kesto",
+        "effect": "Vaikutus",
+        "factionName": "Ryhmittymä",
+        "finalChance": "Lopullinen<br>Todennäköisyys",
+        "finalOdds": "Lopullinen<br>Todennäköisyys",
+        "fineAttributes": "Oivat Ominaisuudet",
+        "initialAppearance": "Ensiesiintyminen",
+        "initialChance": "Alustava<br>Todennäköisyys",
+        "initialOdds": "Alustava<br>Todennäköisyys",
+        "itemName": "Esineen Nimi",
+        "job": "Työtehtävä",
+        "jobBoardName": "Työtehtävätaulu",
+        "keywords": "Avainsanat",
+        "level": "Taso",
+        "location": "Paikka",
+        "locations": "Paikat",
+        "materials": "Käytetyt<br>Materiaalit",
+        "maxChanceLevel": "Ylimmän<br>Todennäköisyyden Taso",
+        "maxEfficency": "Ylin<br>Työtehokkuus",
+        "maxXpStep": "Ylin<br>XP/Askel",
+        "minSteps": "Alin<br>Askelmäärä",
+        "NA": "Ei Saatavilla",
+        "need": "Tarve:",
+        "never": "Ei koskaan",
+        "noFine": "Tämä esine ei voi olla Oiva.",
+        "none": "Ei mikään",
+        "normalAttributes": "Normaalit ominaisuudet",
+        "note": "Merkintä",
+        "nothing": "Ei mikään",
+        "odds": "Todennäköisyys",
+        "oneInX": "~1 {number}:sta",
+        "payment": "Maksu",
+        "price": "Hinta",
+        "quantity": "Määrä",
+        "rawMaterials": "Raakamateriaalit",
+        "recipeName": "Resepti",
+        "recipeWEAR": "Koko Reseptin<br>W.E.A.R.",
+        "region": "Alue",
+        "relAttribute": "Relevantti Ominaisuus",
+        "relAttributes": "Relevantit Ominaisuudet",
+        "requirement": "Vaatimus",
+        "requirements": "Vaatimukset",
+        "reward": "Palkinto",
+        "rewards": "Palkinnot",
+        "rollNote": "Toistuu {number} kertaa",
+        "serviceReq": "Palvelu-<br>vaatimus",
+        "shopName": "Kauppa",
+        "skill": "Taito",
+        "skills": "Taidot",
+        "skillWithLevel": "{skill} taso: {level}",
+        "source": "Lähde",
+        "stock": "varasto",
+        "supporter": "Tukija",
+        "totalBaseXpStep": "Kokonais<br>XP/ASkel",
+        "totalMaxXpStep": "Ylin <br>XP/Askel Summa",
+        "type": "Esineen Tyyppi",
+        "value": "Arvo",
+        "valueWithStack": "Arvo<br>Yksi (Pino)",
+        "WEAR": "W.E.A.R."
+    },
+    "pageHeaders": {
+        "abilities": "Kyvyt",
+        "ability": "Kyky",
+        "activities": "Aktiviteetit",
+        "activity": "Aktiviteetti",
+        "attribute": "Ominaisuus",
+        "attributes": "Ominaisuudet",
+        "bank": "Pankin Vaihtoehdot",
+        "bonusDrops": "Bonus Dropit",
+        "building": "Rakennus",
+        "buildings": "Rakennukset",
+        "drops": "Dropit",
+        "emergencyActivities": "Hätäaktiviteetit",
+        "emergencyActivity": "Hätäaktiviteetti",
+        "error": "virhe",
+        "experience": "Kokemus",
+        "faction": "Ryhmittymä",
+        "factionRepDrops": "Ryhmittymämaineen Palkinnot",
+        "factions": "Ryhmittymät",
+        "gemDrops": "Jalokivi Drops",
+        "guides": "Oppaat",
+        "hiddenActivities": "Piilotetut Aktiviteetit",
+        "hiddenActivity": "Piilotettu Aktiviteetti",
+        "inventory": "Reppu",
+        "item": "Esine",
+        "items": "Esineet",
+        "jobBoard": "Työtehtävätaulu",
+        "jobBoards": "Työtehtävätaulut",
+        "loadouts": "Varustesetit",
+        "location": "Paikka",
+        "locations": "Paikat",
+        "lootTables": "Esinerivit",
+        "mainDrops": "Päädropit",
+        "purchases": "Ostokset",
+        "quantity": "Määrä",
+        "Quote": "Lainaus",
+        "Quotes": "Lainaukset",
+        "recipe": "Resepti",
+        "recipes": "Reseptit",
+        "relatedItems": "Liittyvät Esineet",
+        "requirement": "Vaatimus",
+        "requirements": "Vaatimukset",
+        "reward": "Palkinto",
+        "rewards": "Palkinto",
+        "route": "Reitti",
+        "routes": "Reitit",
+        "Rumor": "Juoru",
+        "Rumors": "Juorut",
+        "secondaryDrops": "Toissijaiset Dropit",
+        "service": "Palvelu",
+        "services": "Palvelut",
+        "sources": "Lähteet",
+        "travelingChest": "Matkustuksen Arkkumäärän Funktio",
+        "uses": "Käyttökoheet",
+        "visibility": "Näkyvyys"
+    },
+    "modules": {
+        "ItemInfobox": {
+            "bankable": "Bankable:",
+            "droppable": "Droppable:",
+            "duration": "Duration:",
+            "fineValue": "Fine Value:",
+            "fineVersion": "Fine Version:",
+            "keyword": "Keyword:",
+            "keywords": "Keywords:",
+            "properties": "Properties:",
+            "quality": "Quality:",
+            "rarity": "Rarity:",
+            "searchKeyword": "Search<br>Keyword:",
+            "searchKeywords": "Search<br>Keywords:",
+            "sellable": "Sellable:",
+            "slot": "Slot:",
+            "tradable": "Tradable:",
+            "type": "Type:",
+            "value": "Value:"
+        },
+        "ItemsActions": {
+            "ActivityRequirement": "Activity requirements must be met.",
+            "MemosphereNote": "Experience scales with skill level.<br>Experience = {timesLevel}&times; {skill} Level",
+            "NoCooldown": "No cooldown.",
+            "NoRequirement": "No requirement.",
+            "RockStarAmuletNote": "This item takes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
+        },
+        "ItemsAttributes": {
+            "None": "This item has no attributes."
+        },
+        "ItemsIntroDescription": {
+            "ItemTypes": {
+                "Collectible": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Collectibles | collectible]].",
+                "Consumable": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Consumables | consumable]].",
+                "Container": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Chests | chest]].",
+                "Crafted": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Crafted | crafted item]].",
+                "Loot": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Loot | loot item]].",
+                "Material": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Materials | material]]."
+            },
+            "None": "The {itemName} [[Special:MyLanguage/Items | item]] cannot currently be obtained.",
+            "Plurals": {
+                "AchievementCompletion": "It can be given as a reward for completing [[Special:MyLanguage/Achievements | achievements]].",
+                "AchievementPoint": "It can be given as a reward for gaining enough [[Special:MyLanguage/Achievement Points | achievement points]].",
+                "Activity": "It can be dropped from [[Special:MyLanguage/Activities | activities]].",
+                "Chest": "It can be found in [[Special:MyLanguage/Chests | chests]].",
+                "FactionRepeatingReward": "It can be given as a repeating reward for gaining enough [[Special:MyLanguage/Faction Reputation | faction reputation]].",
+                "FactionReward": "It can be given as a reward for gaining enough [[Special:MyLanguage/Faction Reputation | faction reputation]].",
+                "ItemAttribute": "It can be dropped as a special result of [[Special:MyLanguage/Item_Finding_(Mechanics) | special drop table]] [[Special:MyLanguage/Attributes | attributes]].",
+                "JobBoard": "It can be given as a reward for completing [[Special:MyLanguage/Job Boards | job board task]].",
+                "RecipeMain": "It can be created using [[Special:MyLanguage/Recipes | transformation skill recipes]].",
+                "RecipeSecondary": "It can be received as a secondary output from [[Special:MyLanguage/Recipes | transformation skill recipes]].",
+                "Shop": "It can be purchased at some [[Special:MyLanguage/Shops | shops]].",
+                "ShopPayment": "It can be given as payment for selling items to some [[Special:MyLanguage/Shops | shops]]."
+            },
+            "Singulars": {
+                "AchievementCompletion": "It can be given as a reward for completing an [[Special:MyLanguage/Achievements | achievement]].",
+                "AchievementPoint": "It can be given as a reward for gaining enough [[Special:MyLanguage/Achievement Points | achievement points]].",
+                "Activity": "It can be dropped from an [[Special:MyLanguage/Activities | activity]].",
+                "Chest": "It can be found in a [[Special:MyLanguage/Chests | chest]].",
+                "FactionRepeatingReward": "It can be given as a repeating reward for gaining enough [[Special:MyLanguage/Faction Reputation | faction reputation]].",
+                "FactionReward": "It can be given as a reward for gaining enough [[Special:MyLanguage/Faction Reputation | faction reputation]].",
+                "ItemAttribute": "It can be dropped as a special result of a [[Special:MyLanguage/Item_Finding_(Mechanics) | special drop table]] [[Special:MyLanguage/Attributes | attribute]].",
+                "JobBoard": "It can be given as a reward for completing a [[Special:MyLanguage/Job Boards | job board task]].",
+                "RecipeMain": "It can be created using a [[Special:MyLanguage/Recipes | transformation skill recipe]].",
+                "RecipeSecondary": "It can be received as a secondary output from a [[Special:MyLanguage/Recipes | transformation skill recipe]].",
+                "Shop": "It can be purchased at a [[Special:MyLanguage/Shops | shop]].",
+                "ShopPayment": "It can be given as payment for selling items to a [[Special:MyLanguage/Shops | shop]]."
+            }
+        },
+        "ItemSources": {
+            "ActivityRollNote": "<sup>†</sup>Note: This activity rolls for loot more than once.",
+            "ChestRollNote": "<sup>†</sup>Note: Chests roll for loot multiple times.",
+            "FactionRepeatingReward": "Every {reputationAmount} Faction Reputation",
+            "factionRewardRequirement": "{reputationAmount} {factionName} Faction Reputation",
+            "NoSources": "This item cannnot currently be obtained from any source.",
+            "RecipeRollNote": "<sup>†</sup>Note: This recipe rolls for bonus rewards more than once.",
+            "sectionHeaders": {
+                "AchievementCompletion": "Achievement Completion Reward",
+                "AchievementPoint": "Achievement Point Reward",
+                "Activity": "Activity Drops",
+                "additionalRecipeOutputs": "Additional Recipe Outputs",
+                "Chest": "Chest Drops",
+                "craftingFlow": "Crafting Flow",
+                "FactionRepeatingReward": "Faction Repeating Reward",
+                "FactionReward": "Faction Reward",
+                "ItemAttribute": "Item Attribute Drop",
+                "JobBoard": "Job Board Payment",
+                "RecipeMain": "Primary Recipe Output",
+                "RecipeSecondary": "Secondary Recipe Output",
+                "Shop": "Shop Purchases",
+                "ShopPayment": "Shop Currency"
+            },
+            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is a value that shows the average steps for one item at maximum work efficiency."
+        },
+        "ItemsRequirements": {
+            "None": "This item has no requirements to use it. "
+        },
+        "ItemUses": {
+            "DefaultCollectible": "This item grants 1 [[Special:MyLanguage/Achievement Points|achievement point]] when found.",
+            "DefaultConsumable": "This item may be consumed for a temporary buff.",
+            "DefaultGear": "This item may be equipped to your character.",
+            "DefaultMaterial": "This item is not currently used by any recipe or special use.",
+            "DefaultMemosphere": "Memospheres can be used to gain experience.",
+            "FactionReward": "{factionName} Faction Reputation",
+            "NoUses": "This item currently has no special uses.",
+            "Plurals": {
+                "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements|achievements]]:",
+                "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards|jobs]]:",
+                "RecipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes|recipes]]:",
+                "RequirementUse": "{itemName} is a requirement in the following special cases:",
+                "SpecialCurrencyUse": "{itemName} can be used as currency at the following [[Special:MyLanguage/Shops|shops]]:",
+                "SpecialShopPaymentUse": "{itemName} can be sold at the following [[Special:MyLanguage/Shops|shops]] to gain a special currency:"
+            },
+            "RequirementUses": {
+                "Plurals": {
+                    "activities": "{itemName} is required to do the following activities:",
+                    "items": "{itemName} is required for an attribute on the following items:",
+                    "locations": "{itemName} is required to see the following locations:",
+                    "services": "{itemName} is required to use the following services:",
+                    "terrain_modifiers": "{itemName} is required for the following routes:"
+                },
+                "Singulars": {
+                    "activities": "{itemName} is required to do the following activity:",
+                    "items": "{itemName} is required for an attribute on the following item:",
+                    "locations": "{itemName} is required to see the following location:",
+                    "services": "{itemName} is required to use the following service:",
+                    "terrain_modifiers": "{itemName} is required for the following route:"
+                }
+            },
+            "sectionHeaders": {
+                "AchievementUse": "Achievement",
+                "JobBoardUse": "Job Boards",
+                "RecipeUse": "Recipe Ingredient",
+                "RequirementUse": "Requirements",
+                "SpecialCurrencyUse": "Currency",
+                "SpecialShopPaymentUse": "Special Sale"
+            },
+            "Singulars": {
+                "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements | achievement]].",
+                "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards | job]].",
+                "RecipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes | recipe]].",
+                "RequirementUse": "{itemName} is a requirement in the following special case.",
+                "SpecialCurrencyUse": "{itemName} can be used as currency at the following [[Special:MyLanguage/Shops | shop]].",
+                "SpecialShopPaymentUse": "{itemName} can be sold at the following [[Special:MyLanguage/Shops | shop]] to gain a special currency."
+            }
+        },
+        "Keywords": {
+            "activityIntro": "The following are all of the [[Special:MyLanguage/Activities | activities]] that use the '''{Keyword_Name}''' activity keyword.",
+            "bannedKeywordMultiple": "This is a '''Banned Keyword''' and part of a banned keyword group you are only allowed to equip one item with any of these keywords in your tool slots at the same time:",
+            "bannedKeywordSingular": "This is a '''Banned Keyword''' you are only allowed to equip one item with the same banned keyword in your tool slots at the same time.",
+            "consumableIntro": "The following are all of the [[Special:MyLanguage/Consumables | consumables]] that use the '''{Keyword_Name}''' consumable keyword.",
+            "equipmentIntro": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] that use the '''{Keyword_Name}''' equipment keyword.",
+            "gearSet": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] that use the '''{Keyword_Name}''' gear set keyword.",
+            "locationIntro": "The following are all of the [[Special:MyLanguage/Locations | locations]] that use the '''{Keyword_Name}''' location keyword.",
+            "materialIntro": "The following are all of the [[Special:MyLanguage/Materials | materials]] that use the '''{Keyword_Name}''' material keyword.",
+            "recipeIntro": "The following are all of the [[Special:MyLanguage/Recipes | recipes]] that use the '''{Keyword_Name}''' recipe keyword.",
+            "returnString": "Go back to the {keywordImage} [[Special:MyLanguage/Keywords#{keywordType} | Keywords]] page.",
+            "supporterIntro": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] suggested by cult leaders that are currently in the game.",
+            "unknown": "'''{Keyword_Name}''' is an unknown type.",
+            "weightIntro": "The following are all of the [[Special:MyLanguage/Items | items]] that use the '''{Keyword_Name}''' weight keyword.\n\nIt changes the maximum size of the stack of items in your to {stackSize} per stack."
+        },
+        "requirements": {
+            "gameData": "{reputationAmount} {factionName} Faction Reputation",
+            "historyData": "Complete actions of the {activtiyName} activity. {actionCount}"
+        }
+    },
+    "Helpers": {
+        "addGearGuide": "You can help make one.",
+        "autoString": "This page is updated automatically to reflect information in the [[Special:MyLanguage/Versions | current game version]].",
+        "editGear": "Edit Gear Sets",
+        "editGuide": "Edit Guides",
+        "noGear": "No gear sets exist yet.",
+        "noGuide": "No guides exists yet.",
+        "unknownString": "This page reflects information for an '''Unknown''' game version.",
+        "versionString": "This page has been updated to reflect information in game version:"
+    },
+    "Achievements": {
+        "Infobox": {
+            "type": "Type:"
+        },
+        "Intro": {
+            "main": "{achievementName} is an [[Special:MyLanguage/Achievements | achievement]]."
+        },
+        "Requirements": {
+            "None": "This activity has no requirements."
+        },
+        "Rewards": {
+            "None": "This activity has no rewards.",
+            "Other": "Other Rewards:",
+            "Points": "Achievement Point Rewards:"
+        }
+    },
+    "Activities": {
+        "Infobox": {
+            "efficiency": "Max Efficiency:",
+            "mainSkill": "Main Skill:"
+        },
+        "Intro": {
+            "Movement": "This is a [[Special:MyLanguage/Movement_Activities|movement activity]], you will be teleported to {locationEntry} upon completion of an action.",
+            "Skilling": "The {activityName} [[Special:MyLanguage/Activities | activity]] is a {mainSkill} activity."
+        },
+        "Locations": {
+            "Entry": "{location} in {region}",
+            "None": "This activity currently has no location it can be done at.",
+            "Plural": "This activity can be done at the following locations:",
+            "Singular": "This activity can be done at the following location:"
+        },
+        "LootTables": {
+            "SpecialTableNote": "Each of the secondary drops is rolled independently of the others.",
+            "TableRollNote": "<sup>†</sup>Note: This table is rolled {rollNumber} times."
+        },
+        "Requirements": {
+            "Keyword": "Keyword Requirements:",
+            "None": "This activity has no requirements.",
+            "Requirements": "Other Requirements:",
+            "Skill": "Skill Level Requirements:"
+        },
+        "Visibility": {
+            "actionDone": "It is only visible if you have done the following:",
+            "actionNotDone": "It is only visible if you haven't done the following:",
+            "Emergency": {
+                "MainString": "This is an '''emergency''' activity.",
+                "Type": "Emergency"
+            },
+            "Hidden": {
+                "MainString": "This is a '''hidden''' activity.",
+                "Type": "Hidden"
+            },
+            "keywordEquipped": "It is only visible if you meet the following keyword requirements:",
+            "keywordNotEquipped": "It is only visible if you don't meet the following keyword requirements:",
+            "Normal": {
+                "MainString": "This activity is always visible.",
+                "Type": "Normal"
+            }
+        }
+    },
+    "Buildings": {
+        "Bank": {
+            "hasDeposit": "This building allows you to '''deposit''' your items into the bank.",
+            "hasWithdraw": "This building allows you to '''withdraw''' your items from the bank."
+        },
+        "Infobox": {
+            "type": "Type:"
+        },
+        "Intro": {
+            "character": "It is home to the character {characterName}.",
+            "main": "{buildingName} is a \"{buildingType}\" [[Special:MyLanguage/Buildings | building]] located in {buildingLocation} in the {buildingRegion} region.",
+            "noCharacter": "There currently is no [[Special:MyLanguage/Characters | character]] here."
+        },
+        "Requirements": {
+            "None": "This building has no entry requirements."
+        }
+    },
+    "Characters": {
+        "Infobox": {
+            "location": "Location:",
+            "locations": "Locations:"
+        },
+        "Intro": {
+            "main": "{characterName} is a [[Special:MyLanguage/Characters | character]] who can be found at {characterLocation} in {buildingLocation} in the {buildingRegion} region."
+        },
+        "Quotes": {
+            "none": "{characterName} dosen't feel like speaking at this moment."
+        },
+        "Rumors": {
+            "none": "{characterName} currently has no rumors to share."
+        }
+    },
+    "items": {
+        "chestPages": {
+            "findingAttribute": {
+                "birdNests": " They can have the odds of finding them increased with the [[File:Bird Nest.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests (Mechanics)|Find Bird Nests]]''' [[Special:MyLanguage/Find_Bird_Nests_Items|equipment]] [[Special:MyLanguage/Attributes|attribute]].",
+                "chestFinding": " They can have the odds of finding them increased with the [[File:Chest Finding.svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Chest Finding]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribute]]."
+            },
+            "intro": "'''{itemName}''' is an openable [[Special:MyLanguage/Treasury|treasury item]].",
+            "lootIntro": {
+                "adventuringGuild": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]] and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]].",
+                "birdNest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]] that can come from these [[Special:MyLanguage/Chests|chests]].",
+                "chestRolls": "These treasury items take {number} independant loot rolls when they are opened.",
+                "coinPouch": "This is the table for [[Special:MyLanguage/Coins|coins]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
+                "gemPouch": "This is the table for [[Special:MyLanguage/Gems|gems]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
+                "genericChest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]], [[Special:MyLanguage/Coins|coins]], and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]].",
+                "rustyChest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]], and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]]."
+            },
+            "PerChest": "{chance} Per Chest",
+            "perRoll": "{chance} Per Roll",
+            "sectionHeaders": {
+                "main": "Main Loot Table",
+                "money": "Valuables Loot Table",
+                "rarity": "{rarityName} Loot Table"
+            },
+            "sources": {
+                "adventuringGuild": " It can be purchased from the [[Special:MyLanguage/Buildings#outpostType|Adventurers' Guild Buildings]].",
+                "coral": " It can be dropped from most [[Special:MyLanguage/{pageName}#itemSourcesSection|activities]] in [[Special:MyLanguage/Syrenthia|Syrenthia]].",
+                "genericActivities": " It can be found by completing various [[Special:MyLanguage/{pageName}#itemSourcesSection|activities]].",
+                "regional": " It can be [[Special:MyLanguage/{pageName}#itemSourcesSection|received as rewards]] from [[Special:MyLanguage/Job Boards|Job Boards]] and [[Special:MyLanguage/Faction Reputation|Faction Reputation]].",
+                "skilling": " It can drop while doing {skillName} activities, and can be obtained from some [[Special:MyLanguage/{pageName}#itemSourcesSection|other sources]]. These [[Chests]] are the only way to obtain some {skillName} based [[Special:MyLanguage/Equipment|Equipment]].",
+                "sunken": " It can be dropped from some [[Special:MyLanguage/{pageName}#itemSourcesSection|sea related activities]]."
+            },
+            "travelingCalc": "Traveling uses a special function to calculate drop rates for Agility Chests rather than the fixed per action rate in other activities. This is to prevent farming of chests through constant short trips.<br>(0.096736 &times; 2) &times; (2.71828<sup>0.0165921</sup> &times; ''Buffed Skill Level'') &times; ''Distance''"
+        }
+    },
+    "Locations": {
+        "Activities": {
+            "emergency": "These '''Emergency Activities''' are only visible if you are missing key items for traveling, and are there to prevent softlocks.",
+            "hidden": "These '''Hidden Activities''' are only visible if you complete certain required actions first.",
+            "main": "The following [[Special:MyLanguage/Activities | activities]] always available at this location."
+        },
+        "Buildings": {
+            "main": "The following [[Special:MyLanguage/Buildings | buildings]] can be visited at this location."
+        },
+        "Factions": {
+            "main": "{locationName} is a member of the following [[Special:MyLanguage/Faction_Reputation | factions]]:",
+            "sub": "{locationName} has the following [[Special:MyLanguage/Job_Boards | job boards]]:"
+        },
+        "Intro": {
+            "main": "{locationName} is a [[Special:MyLanguage/Locations | location]] that can be found in the {locationRegion} region."
+        },
+        "Routes": {
+            "baseSteps": "Base Steps",
+            "main": "The following [[Special:MyLanguage/Routes | routes]] are available at this location."
+        },
+        "Services": {
+            "main": "The following [[Special:MyLanguage/Services | services]] can be used at this location."
+        }
+    },
+    "Shops": {
+        "allSell": "All normal items may be sold at this shop.",
+        "cosmeticTypes": {
+            "back_accessorie": "Back Accessories Cosmetics",
+            "eye_accessory": "Eye Accessories Cosmetics",
+            "face_accessorie": "Face Accessories Cosmetics",
+            "hair": "Hairstyles Cosmetics",
+            "headwear": "Headwear Cosmetics",
+            "outfit": "Outfits Cosmetics"
+        },
+        "limitedSell": "Only these items may be sold at this shop.",
+        "nobuy": "This shop currently has nothing for sale.",
+        "noSell": "Nothing may be sold at this shop.",
+        "restrictedSell": "Only some items may be sold at this shop.",
+        "specialSell": "These items can be sold to this shop in addition to all normal items."
     }
 }
