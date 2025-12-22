@@ -116,6 +116,10 @@
         "locations": "Locations",
         "lootTables": "Loot Tables",
         "mainDrops": "Main Drops",
+        "name": "Name",
+        "names": "Names",
+        "petXPGrow": "Experience To Grow",
+        "petXPHatch": "Experience To Hatch",
         "purchases": "Purchases",
         "quantity": "Quantity",
         "Quote": "Quote",
@@ -137,7 +141,9 @@
         "sources": "Sources",
         "travelingChest": "Traveling Chest Rate Function",
         "uses": "Uses",
-        "visibility": "Visibility"
+        "visibility": "Visibility",
+        "xpRequirement": "Requirement To Gain Experience",
+        "xpRequirements": "Requirements To Gain Experience"
     },
     "modules": {
         "ItemInfobox": {
@@ -228,7 +234,7 @@
                 "FactionReward": "Faction Reward",
                 "ItemAttribute": "Item Attribute Drop",
                 "JobBoard": "Job Board Payment",
-                "mysteriousMerchant": "Mysterious Merchant",
+                "MysteriousMerchant": "Mysterious Merchant",
                 "RecipeMain": "Primary Recipe Output",
                 "RecipeSecondary": "Secondary Recipe Output",
                 "Shop": "Shop Purchases",
@@ -249,6 +255,7 @@
             "NoUses": "This item currently has no special uses.",
             "Plurals": {
                 "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements|achievements]]:",
+                "ActivityInputUse": "{itemName} is used as a required input for the following [[Special:MyLanguage/Activities | activities]]:",
                 "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards|jobs]]:",
                 "RecipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes|recipes]]:",
                 "RequirementUse": "{itemName} is a requirement in the following special cases:",
@@ -273,20 +280,24 @@
             },
             "sectionHeaders": {
                 "AchievementUse": "Achievement",
+                "ActivityInputUse": "Activity Input",
                 "JobBoardUse": "Job Boards",
-                "mysteriousMerchant": "Mysterious Merchant",
+                "MysteriousMerchant": "Mysterious Merchant",
+                "PetEggUse": "Hatch A Pet",
                 "RecipeUse": "Recipe Ingredient",
                 "RequirementUse": "Requirements",
                 "SpecialCurrencyUse": "Currency",
                 "SpecialShopPaymentUse": "Special Sale"
             },
             "Singulars": {
-                "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements | achievement]].",
-                "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards | job]].",
-                "RecipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes | recipe]].",
-                "RequirementUse": "{itemName} is a requirement in the following special case.",
-                "SpecialCurrencyUse": "{itemName} can be used as currency at the following [[Special:MyLanguage/Shops | shop]].",
-                "SpecialShopPaymentUse": "{itemName} can be sold at the following [[Special:MyLanguage/Shops | shop]] to gain a special currency."
+                "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements | achievement]]:",
+                "ActivityInputUse": "{itemName} is used as a required input for the following [[Special:MyLanguage/Activities | activity]]:",
+                "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards | job]]:",
+                "PetEggUse": "{itemName} is an pet egg that can be claimed then hatched into a {petName} pet.",
+                "RecipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes | recipe]]:",
+                "RequirementUse": "{itemName} is a requirement in the following special case:",
+                "SpecialCurrencyUse": "{itemName} can be used as currency at the following [[Special:MyLanguage/Shops | shop]]:",
+                "SpecialShopPaymentUse": "{itemName} can be sold at the following [[Special:MyLanguage/Shops | shop]] to gain a special currency:"
             }
         },
         "Keywords": {
@@ -488,41 +499,41 @@
             "main": "The following [[Special:MyLanguage/Services | services]] can be used at this location."
         }
     },
-	"Pets": {
-		"Normal": "Normal Pet",
-		"Rare": "Rare Pet",
-		"Abilities": {
-			"unlock": "This ability is unlocked at level {unlockLevel}."
-		},
-		"Attributes": {
-			"unlock": "These attributes are active at level {unlockLevel}."
-		},
-		"Experience": {
-			"XPGain": "Requires {experienceNumber} total experience to advance to level {nextLevel}.",
-			"ChangeToJuvenile": "This pet will become a '''Juvenile''' when it reaches level {nextLevel}.",
-			"ChangeToAdult": "This pet will become an '''Adult''' when it reaches level {nextLevel}."
-		},
-		"Infobox": {
-			"animation": "Animated:",
-			"Normal": "Normal",
-			"Light": "Light",
-			"Dark": "Dark",
-			"Rare": "Rare"
-		},
-		"Intro": {
-			"normal": "{petName} is a [[Special:MyLanguage/Pets | pet]]. It hatches from a {eggName}.",
-			"rare": "{petName} is a rare [[Special:MyLanguage/Pets | pet]]. It hatches from a rare {eggName}.",
-			"stageEgg": "This pet is an Egg from level 0 to level 1.",
-			"stageJuvi": "This pet is a Juvenile from level 1 to {adultLevel}.",
-			"stageAdult": "This pet is an Adult at level {adultLevel}."
-		},
-		"Names": {
-			"main": "These are the default names this pet can have when it first hatches:"
-		},
-		"Requirement": {
-			"NoXPReq": "This pet has no special requiremetns to gain experience."
-		}
-	},
+    "Pets": {
+        "Abilities": {
+            "unlock": "This ability is unlocked at level {unlockLevel}."
+        },
+        "Attributes": {
+            "unlock": "These attributes are active at level {unlockLevel}."
+        },
+        "Experience": {
+            "ChangeToAdult": "This pet will become an '''Adult''' when it reaches level {nextLevel}.",
+            "ChangeToJuvenile": "This pet will become a '''Juvenile''' when it reaches level {nextLevel}.",
+            "XPGain": "Requires {experienceNumber} total experience to advance to level {nextLevel}."
+        },
+        "Infobox": {
+            "animation": "Animated:",
+            "Dark": "Dark",
+            "Light": "Light",
+            "Normal": "Normal",
+            "Rare": "Rare"
+        },
+        "Intro": {
+            "normal": "{petName} is a [[Special:MyLanguage/Pets | pet]]. It hatches from a {eggName}.",
+            "rare": "{petName} is a rare [[Special:MyLanguage/Pets | pet]]. It hatches from a rare {eggName}.",
+            "stageAdult": "This pet is an Adult at level {adultLevel}.",
+            "stageEgg": "This pet is an Egg from level 0 to level 1.",
+            "stageJuvi": "This pet is a Juvenile from level 1 to {adultLevel}."
+        },
+        "Names": {
+            "main": "These are the default names this pet can have when it first hatches:"
+        },
+        "Normal": "Normal Pet",
+        "Rare": "Rare Pet",
+        "Requirement": {
+            "NoXPReq": "This pet has no special requiremetns to gain experience."
+        }
+    },
     "Shops": {
         "allBuy": "This shop has items for sale.",
         "allSell": "All normal items may be sold at this shop.",
