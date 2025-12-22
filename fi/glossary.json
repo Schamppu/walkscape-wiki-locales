@@ -78,7 +78,8 @@
         "type": "Esineen Tyyppi",
         "value": "Arvo",
         "valueWithStack": "Arvo<br>Yksi (Pino)",
-        "WEAR": "W.E.A.R."
+        "WEAR": "W.E.A.R.",
+        "buildingType": "Rakennuksen tyyppi"
     },
     "pageHeaders": {
         "abilities": "Kyvyt",
