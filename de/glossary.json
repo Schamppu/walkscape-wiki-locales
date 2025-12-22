@@ -64,7 +64,10 @@
         "buildingType": "Typ des Gebäudes",
         "always": "Immer",
         "bonusExp": "Bonus<br>XP",
-        "buildingName": "Name des Gebäudes"
+        "buildingName": "Name des Gebäudes",
+        "charges": "Kosten",
+        "cooldowns": "Abklingzeiten",
+        "finalChance": "Letzte<br>Chance"
     },
     "pageHeaders": {
         "abilities": "Fähigkeiten",
