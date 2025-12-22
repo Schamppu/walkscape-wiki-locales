@@ -1,1 +1,26 @@
-{}
+{
+    "common": {
+        "activityName": "Aktiviteetin nimi",
+        "always": "Aina",
+        "attribute": "Attribuutti",
+        "attributes": "Attribuutit",
+        "baseRate": "Kanta<br>määrä",
+        "baseSteps": "Kanta<br>askeleet",
+        "baseXp": "Kanta<br>kokemus",
+        "bonusExp": "Bonus<br>kokemus",
+        "buildingName": "Rakennuksen nimi",
+        "buildingType": "Rakennuksen tyyppi",
+        "chance": "Todennäköisyys",
+        "chanceChest": "Todennäköisyys<br>(per arkku)",
+        "charges": "Lataukset",
+        "chestName": "Arkun nimi",
+        "cooldown": "Jäähdytysaika",
+        "cooldowns": "Jäähdytysajat",
+        "duration": "Aika",
+        "effect": "Efekti",
+        "achievementName": "Saavutuksen nimi",
+        "atLeast": "{number} tai enemmän",
+        "baseXpStep": "Kanta<br>kokemus/askeleet",
+        "difficulty": "Haastavuus"
+    }
+}
