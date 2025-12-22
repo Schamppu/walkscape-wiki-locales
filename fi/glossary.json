@@ -275,7 +275,7 @@
                 "SpecialShopPaymentUse": "Special Sale"
             },
             "Singulars": {
-                "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements | achievement]].",
+                "AchievementUse": "",
                 "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards | job]].",
                 "RecipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes | recipe]].",
                 "RequirementUse": "{itemName} is a requirement in the following special case.",
