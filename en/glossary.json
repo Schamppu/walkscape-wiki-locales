@@ -478,7 +478,7 @@
     "Locations": {
         "Activities": {
             "emergency": "These '''Emergency Activities''' are only visible if you are missing key items for traveling, and are there to prevent softlocks.",
-            "hidden": "These '''Hidden Activities''' are only visible if you complete certain required actions first.",
+            "hidden": "These '''Hidden Activities''' are only visible if you meet the requirements first.",
             "main": "The following [[Special:MyLanguage/Activities | activities]] always available at this location."
         },
         "Buildings": {
@@ -509,7 +509,7 @@
         "Experience": {
             "ChangeToAdult": "This pet will become an '''Adult''' when it reaches level {nextLevel}.",
             "ChangeToJuvenile": "This pet will become a '''Juvenile''' when it reaches level {nextLevel}.",
-            "XPGain": "Requires {experienceNumber} total experience to advance to level {nextLevel}."
+            "XPGain": "Requires an additional {addedExperienceNum} experience to advance to level {nextLevel}. ({totalExperienceNum} total experience required)"
         },
         "Infobox": {
             "animation": "Animated:",
