@@ -344,6 +344,10 @@
         }
     },
     "Activities": {
+        "Collections": {
+            "noSecondaryActivites": "No activities give bonus {skillName} experience.",
+            "secondaryHeader": "Bonus Experience Sources"
+        },
         "Infobox": {
             "efficiency": "Max Efficiency:",
             "mainSkill": "Main Skill:"
