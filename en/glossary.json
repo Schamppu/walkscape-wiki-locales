@@ -541,6 +541,47 @@
             "NoXPReq": "This pet has no special requiremetns to gain experience."
         }
     },
+    "Routes": {
+        "Directions": {
+            "N": {
+                "short": "N",
+                "name": "North"
+            },
+            "NE": {
+                "short": "NE",
+                "name": "Northeast"
+            },
+            "E": {
+                "short": "E",
+                "name": "East"
+            },
+            "SE": {
+                "short": "SE",
+                "name": "Southeast"
+            },
+            "S": {
+                "short": "S",
+                "name": "South"
+            },
+            "SW": {
+                "short": "SW",
+                "name": "Southwest"
+            },
+            "W": {
+                "short": "W",
+                "name": "West"
+            },
+            "NW": {
+                "short": "NW",
+                "name": "Northwest"
+            },
+            "C": {
+                "short": "C",
+                "name": "Center"
+            }
+        },
+        "regionBorder": "This route crosses from {startRegion} into {endRegion}."
+    },
     "Shops": {
         "allBuy": "This shop has items for sale.",
         "allSell": "All normal items may be sold at this shop.",
