@@ -309,11 +309,12 @@
             "bannedKeywordSingular": "This is a '''Banned Keyword''' you are only allowed to equip one item with the same banned keyword in your tool slots at the same time.",
             "consumableIntro": "The following are all of the [[Special:MyLanguage/Consumables | consumables]] that use the '''{Keyword_Name}''' consumable keyword.",
             "equipmentIntro": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] that use the '''{Keyword_Name}''' equipment keyword.",
-            "gearSet": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] that use the '''{Keyword_Name}''' gear set keyword.",
+            "gearSetIntro": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] that use the '''{Keyword_Name}''' gear set keyword.",
             "locationIntro": "The following are all of the [[Special:MyLanguage/Locations | locations]] that use the '''{Keyword_Name}''' location keyword.",
             "materialIntro": "The following are all of the [[Special:MyLanguage/Materials | materials]] that use the '''{Keyword_Name}''' material keyword.",
             "recipeIntro": "The following are all of the [[Special:MyLanguage/Recipes | recipes]] that use the '''{Keyword_Name}''' recipe keyword.",
             "returnString": "Go back to the {keywordImage} [[Special:MyLanguage/Keywords#{keywordType} | Keywords]] page.",
+            "serviceIntro": "The following are all of the [[Special:MyLanguage/Services | services]] that have the '''{Keyword_Name}''' service keyword.",
             "supporterIntro": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] suggested by cult leaders that are currently in the game.",
             "unknown": "'''{Keyword_Name}''' is an unknown type.",
             "weightIntro": "The following are all of the [[Special:MyLanguage/Items | items]] that use the '''{Keyword_Name}''' weight keyword.\n\nIt changes the maximum size of the stack of items in your to {stackSize} per stack."
