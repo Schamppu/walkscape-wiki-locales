@@ -116,6 +116,8 @@
         "items": "Items",
         "jobBoard": "Job Board",
         "jobBoards": "Job Boards",
+        "keyword": "Keyword",
+        "keywords": "Keywords",
         "loadouts": "Gear Sets",
         "location": "Location",
         "locations": "Locations",
@@ -500,6 +502,9 @@
         },
         "Intro": {
             "main": "{locationName} is a [[Special:MyLanguage/Locations | location]] that can be found in the {locationRegion} region."
+        },
+        "Keywords": {
+            "main": "The following [[Special:MyLanguage/Keywords | keywords]] apply to this location."
         },
         "Routes": {
             "baseSteps": "Base Steps",
