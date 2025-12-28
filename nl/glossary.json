@@ -79,7 +79,13 @@
         "chestName": "Naam Van Schatkist",
         "maxChanceLevel": "Maximale Kans<br>Niveau",
         "recipeName": "Naam Van Recept",
-        "totalMaxXpStep": "Totale Maximale<br>XP/Stap"
+        "totalMaxXpStep": "Totale Maximale<br>XP/Stap",
+        "recipeOutputs": "Resultaten<br>Recept",
+        "serviceName": "Naam Van Voorziening",
+        "serviceTeir": "Voorzieningsniveau",
+        "startingLocation": "Startlocatie",
+        "direction": "Richting",
+        "endingLocation": "Eindlocatie"
     },
     "pageHeaders": {
         "abilities": "Abilities",
@@ -143,7 +149,11 @@
         "xpRequirement": "Vereiste Om Ervaring Te Krijgen",
         "xpRequirements": "Vereisten Om Ervaring Te Krijgen",
         "emergencyActivity": "Noodactiviteit",
-        "factionRepDrops": "Factiereputatie-beloning"
+        "factionRepDrops": "Factiereputatie-beloning",
+        "keyword": "Sleutelwoord",
+        "keywords": "Sleutelwoorden",
+        "shop": "Winkel",
+        "shops": "Winkels"
     },
     "modules": {
         "ItemInfobox": {
@@ -199,7 +209,10 @@
             "NoSources": "Dit voorwerp is momenteel van geen enkele bron te verkrijgen.",
             "ChestRollNote": "<sup>†</sup>Let op: Schatkisten geven meerdere keren kans op buit.",
             "RecipeRollNote": "<sup>†</sup>Let op: Dit recept geeft meer dan één keer kans op bonus beloningen.",
-            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is een waarde die het gemiddelde aantal stappen aangeeft voor één voorwerp met maximale werkefficiëntie."
+            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is een waarde die het gemiddelde aantal stappen aangeeft voor één voorwerp met maximale werkefficiëntie.",
+            "RecipeOrString": " of ",
+            "RecipeOutputs": "Resultaten Recept",
+            "RecipeExperience": "Receptervaring"
         },
         "ItemUses": {
             "NoUses": "Dit voorwerp heeft momenteel geen functie.",
@@ -313,7 +326,9 @@
             "equipmentIntro": "Onderstaand zijn alle [[Special:MyLanguage/Equipment | uitrustings- en gereedschapsvoorwerpen]] die het '''{Keyword_Name}''' uitrustings-sleutelwoord gebruiken.",
             "materialIntro": "Onderstaand zijn alle [[Special:MyLanguage/Materials | materialen]] die het '''{Keyword_Name}''' materiaal-sleutelwoord gebruiken.",
             "recipeIntro": "Onderstaand zijn alle [[Special:MyLanguage/Recipes | recepten]] die het '''{Keyword_Name}''' recepten-sleutelwoord gebruiken.",
-            "weightIntro": "Onderstaand zijn alle [[Special:MyLanguage/Items | voorwerpen]] die het '''{Keyword_Name}''' gewicht-sleutelwoord gebruiken.\n\nHet bepaalt de maximale grootte van de stapel van voorwerpen in je inventaris tot {stackSize} per stapel."
+            "weightIntro": "Onderstaand zijn alle [[Special:MyLanguage/Items | voorwerpen]] die het '''{Keyword_Name}''' gewicht-sleutelwoord gebruiken.\n\nHet bepaalt de maximale grootte van de stapel van voorwerpen in je inventaris tot {stackSize} per stapel.",
+            "serviceIntro": "Onderstaand zijn alle [[Special:MyLanguage/Services | voorzieningen]] die het '''{Keyword_Name}''' voorzieningensleutelwoord gebruiken.",
+            "gearSetIntro": "Onderstaand zijn alle [[Special:MyLanguage/Equipment | uitrusting- en gereedschapsvoorwerpen]] die het '''{Keyword_Name}''' uitrustingsset-sleutelwoord gebruiken."
         },
         "requirements": {
             "gameData": "{reputationAmount} {factionName} Factiereputatie",
@@ -460,7 +475,8 @@
             "findingAttribute": {
                 "birdNests": " Er is een hogere kans om ze te vinden met de [[File:Bird Nest.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests (Mechanics)|Vogelnesten Vinden]]''' [[Special:MyLanguage/Find_Bird_Nests_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]].",
                 "chestFinding": " Er is een hogere kans om ze te vinden met de [[File:Chest Finding.svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Schatkisten vinden]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]]."
-            }
+            },
+            "travelingCalc": "Bij het reizen wordt een speciale formule gebruikt die de kans op het vinden van Behendigheid-schatkisten berekent, in plaats van de vaste kans per actie in andere activiteiten. Hierdoor is het niet mogelijk om op een snelle manier schatkisten te verkrijgen door continu korte reizen te maken.<br>(0.096736 &times; 2) &times; (2.71828<sup>0.0165921</sup> &times; ''Verhoogd Vaardigheidsniveau'') &times; ''Afstand''"
         }
     },
     "Characters": {
@@ -477,5 +493,125 @@
         "Rumors": {
             "none": "{characterName} heeft momenteel geen geruchten te delen."
         }
+    },
+    "Pets": {
+        "Rare": "Zeldzaam Beestje",
+        "Abilities": {
+            "unlock": "Deze ability wordt vrijgespeeld op niveau {unlockLevel}."
+        },
+        "Attributes": {
+            "unlock": "Deze attributen zijn actief op niveau {unlockLeven}."
+        },
+        "Normal": "Normaal Beestje",
+        "Infobox": {
+            "Dark": "Donker",
+            "animation": "Geanimeerd:",
+            "Light": "Licht",
+            "Normal": "Normaal",
+            "Rare": "Zeldzaam"
+        },
+        "Experience": {
+            "ChangeToAdult": "Dit beestje wordt '''Volwassen''' wanneer het niveau {nextLevel} bereikt.",
+            "XPGain": "Vereist nog eens {addedExperienceNum} om te vorderen naar niveau {nextLevel}. (Totaal {totalExperienceNum} ervaring vereist)",
+            "ChangeToJuvenile": "Dit beestje wordt een '''Jonkie''' wanneer het niveau {nextLevel} bereikt."
+        },
+        "Intro": {
+            "rare": "{petName} is een zeldzaam [[Special:MyLanguage/Pets | beestje]]. Het komt uit een zeldzaam {eggName}.",
+            "stageAdult": "Dit beestje wordt Volwassen op niveau {adultLevel}.",
+            "stageEgg": "Dit beestje is een Ei van niveau 0 tot niveau 1.",
+            "stageJuvi": "Dit beestje is een Jonkie van niveau 1 tot {adultLevel}.",
+            "normal": "{petName} is een [[Special:MyLanguage/Pets | beestje]]. Het komt uit een {eggName}."
+        },
+        "Requirement": {
+            "NoXPReq": "Dit beestje heeft geen speciale vereisten om ervaring te krijgen."
+        },
+        "Names": {
+            "main": "Dit zijn de standaardnamen die dit beestje kan hebben wanneer het uit een ei komt:"
+        }
+    },
+    "Locations": {
+        "Activities": {
+            "hidden": "Deze '''Verborgen Activiteiten''' zijn alleen zichtbaar als je voldoet aan de vereisten.",
+            "emergency": "Deze '''Noodactiviteiten''' zijn alleen zichtbaar als je voorwerpen mist die vereist zijn om te reizen, en zijn er om te voorkomen dat je personage vast komt te zitten.",
+            "main": "Onderstaande [[Special:MyLanguage/Activities | activiteiten]] zijn altijd beschikbaar op deze locatie."
+        },
+        "Buildings": {
+            "main": "Onderstaande [[Special:MyLanguage/Buildings | gebouwen]] kunnen bezocht worden op deze locatie."
+        },
+        "Factions": {
+            "sub": "{locationName} heeft de onderstaande [[Special:MyLanguage/Job_Boards | prikborden]]:",
+            "main": "{locationName} is onderdeel van de onderstaande [[Special:MyLanguage/Faction_Reputation | facties]]:"
+        },
+        "Intro": {
+            "main": "{locationName} is een [[Special:MyLanguage/Locations | locatie]] die gevonden kan worden in de {locationRegion} regio."
+        },
+        "Routes": {
+            "baseSteps": "Basisstappen",
+            "main": "Onderstaande [[Special:MyLanguage/Routes | routes]] zijn beschikbaar op deze locatie."
+        },
+        "Services": {
+            "main": "Onderstaande [[Special:MyLanguage/Services | voorzieningen]] kunnen gebruikt worden op deze locatie."
+        },
+        "Keywords": {
+            "main": "De onderstaande [[Special:MyLanguage/Keywords#Location_Keywords | sleutelwoorden]] zijn van toepassing op deze locatie."
+        }
+    },
+    "Routes": {
+        "Directions": {
+            "N": {
+                "short": "N",
+                "name": "Noord"
+            },
+            "NE": {
+                "short": "NO",
+                "name": "Noordoost"
+            },
+            "E": {
+                "short": "O",
+                "name": "Oost"
+            },
+            "SE": {
+                "short": "ZO",
+                "name": "Zuidoost"
+            },
+            "S": {
+                "short": "Z",
+                "name": "Zuid"
+            },
+            "SW": {
+                "short": "ZW",
+                "name": "Zuidwest"
+            },
+            "W": {
+                "short": "W",
+                "name": "West"
+            },
+            "NW": {
+                "short": "NW",
+                "name": "Noordwest"
+            },
+            "C": {
+                "short": "M",
+                "name": "Midden"
+            }
+        },
+        "regionBorder": "Deze route gaat van {startRegion} naar {endRegion}."
+    },
+    "Shops": {
+        "allBuy": "Deze winkel heeft voorwerpen te koop.",
+        "allSell": "Alle normale voorwerpen kunnen verkocht worden aan deze winkel.",
+        "cosmeticTypes": {
+            "eye_accessory": "Oogaccessoires Cosmetica",
+            "face_accessorie": "Gezichtaccessoires Cosmetica",
+            "hair": "Kapsel Cosmetica",
+            "outfit": "Outfit Cosmetica",
+            "back_accessorie": "Rugaccessoires Cosmetica",
+            "headwear": "Hoofddeksel Cosmetica"
+        },
+        "limitedSell": "Alleen deze voorwerpen kunnen verkocht worden aan deze winkel.",
+        "noBuy": "Deze winkel heeft momenteel niks te koop.",
+        "restrictedSell": "Slechts enkele voorwerpen kunnen worden verkocht aan deze winkel.",
+        "noSell": "Er kan niks worden verkocht aan deze winkel.",
+        "specialSell": "Naast alle normale voorwerpen kunnen ook deze voorwerpen worden verkocht aan deze winkel."
     }
 }
