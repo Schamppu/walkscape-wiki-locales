@@ -59,6 +59,7 @@
         "quantity": "Quantity",
         "rawMaterials": "Raw Materials",
         "recipeName": "Recipe Name",
+        "recipeOutputs": "Recipe<br>Outputs",
         "recipeWEAR": "Full Recipe<br>W.E.A.R.",
         "region": "Region",
         "relAttribute": "Relevant Attribute",
@@ -145,6 +146,8 @@
         "secondaryDrops": "Secondary Drops",
         "service": "Service",
         "services": "Services",
+        "shop": "Shop",
+        "shops": "Shops",
         "sources": "Sources",
         "travelingChest": "Traveling Chest Rate Function",
         "uses": "Uses",
@@ -229,6 +232,9 @@
             "FactionRepeatingReward": "Every {reputationAmount} Faction Reputation",
             "factionRewardRequirement": "{reputationAmount} {factionName} Faction Reputation",
             "NoSources": "This item cannnot currently be obtained from any source.",
+            "RecipeExperience": "Recipe Expereince",
+            "RecipeOrString": " or ",
+            "RecipeOutputs": "Recipe Outputs",
             "RecipeRollNote": "<sup>†</sup>Note: This recipe rolls for bonus rewards more than once.",
             "sectionHeaders": {
                 "AchievementCompletion": "Achievement Completion Reward",
@@ -504,7 +510,7 @@
             "main": "{locationName} is a [[Special:MyLanguage/Locations | location]] that can be found in the {locationRegion} region."
         },
         "Keywords": {
-            "main": "The following [[Special:MyLanguage/Keywords | keywords]] apply to this location."
+            "main": "The following [[Special:MyLanguage/Keywords#Location_Keywords | keywords]] apply to this location."
         },
         "Routes": {
             "baseSteps": "Base Steps",
