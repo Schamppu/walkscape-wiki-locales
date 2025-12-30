@@ -1,1 +1,22 @@
-{}
+{
+    "common": {
+        "attribute": "Cecha",
+        "activityName": "Nazwa Aktywności",
+        "achievementName": "Nazwa Osiągnięcia",
+        "always": "Zawsze",
+        "atLeast": "{number} lub więcej",
+        "attributes": "Cechy",
+        "baseSteps": "Podstawowe<br>Kroki",
+        "baseRate": "Podstawowe<br>Tempo",
+        "baseXp": "Podstawowe<br>XP",
+        "baseXpStep": "Podstawowe<br>XP/Krok",
+        "bonusExp": "Dodatkowe<br>Doświadczenie",
+        "buildingName": "Nazwa Budynku",
+        "buildingType": "Typ Budynku",
+        "chance": "Szansa",
+        "chanceChest": "Szansa<br>(Dla Skrzyni)",
+        "chanceRoll": "Szansa<br>(Dla Rzutu)",
+        "charges": "Opłaty",
+        "chestName": "Nazwa Skrzyni"
+    }
+}
