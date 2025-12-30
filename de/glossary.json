@@ -202,7 +202,7 @@
                 "AchievementCompletion": "Kann als Belohnung für den Abschluss eines [[Special:MyLanguage/Achievements | achievement]] vergeben werden.",
                 "AchievementPoint": "Kann als Belohnung für das Erreichen einer bestimmten Anzahl an [[Special:MyLanguage/Achievement Points | achievement points]] vergeben werden.",
                 "Activity": "Kann bei einer [[Special:MyLanguage/Activities | Aktivität]] erhalten werden.",
-                "Chest": "Kann in einer [[Special:MyLanguage/Chests | Truhe]] gefunden werden",
+                "Chest": "Kann in einer [[Special:MyLanguage/Chests | Truhe]] gefunden werden.",
                 "FactionRepeatingReward": "Kann als wiederkehrende Belohnung vergeben werden, wenn du genügend [[Special:MyLanguage/Faction Reputation | Fraktionsruf]] gesammelt hast.",
                 "FactionReward": "Kann als Belohnung vergeben werden, wenn du genügend [[Special:MyLanguage/Faction Reputation | Fraktionsruf]] gesammelt hast.",
                 "ItemAttribute": "Kann als besonderes Ergebnis von [[Special:MyLanguage/Item_Finding_(Mechanics) | special drop table]] [[Special:MyLanguage/Attributes | attributes]] erhalten werden.",
@@ -236,7 +236,7 @@
                 "Shop": "Einkäufe in Shops",
                 "ShopPayment": "Shopwährung"
             },
-            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is a value that shows the average steps for one item at maximum work efficiency."
+            "WEARNote": ""
         },
         "ItemsRequirements": {
             "None": "Für die Verwendung dieses Items sind keine Voraussetzungen nötig."
@@ -281,12 +281,12 @@
                 "SpecialShopPaymentUse": "Spezialangebot"
             },
             "Singulars": {
-                "AchievementUse": "{itemName} wird für den folgenden [[Special:MyLanguage/Achievements|Erfolg]] benötigt.",
-                "JobBoardUse": "{itemName} kann in dem folgenden [[Special:MyLanguage/Job Boards|Job]] angefordert werden.",
-                "RecipeUse": "{itemName} ist eine Zutat im folgenden [[Special:MyLanguage/Recipes|Rezept]].",
-                "RequirementUse": "{itemName} ist eine Voraussetzung im folgenden Sonderfall.",
-                "SpecialCurrencyUse": "{itemName} kann im folgenden [[Special:MyLanguage/Shops|Shop]] als Währung verwendet werden.",
-                "SpecialShopPaymentUse": "{itemName} kann im folgenden [[Special:MyLanguage/Shops|Shop]] verkauft werden, um eine spezielle Währung zu erhalten."
+                "AchievementUse": "{itemName} wird für den folgenden [[Special:MyLanguage/Achievements|Erfolg]] benötigt:",
+                "JobBoardUse": "{itemName} kann in dem folgenden [[Special:MyLanguage/Job Boards|Job]] angefordert werden:",
+                "RecipeUse": "{itemName} ist eine Zutat im folgenden [[Special:MyLanguage/Recipes|Rezept]]:",
+                "RequirementUse": "{itemName} ist eine Voraussetzung im folgenden Sonderfall:",
+                "SpecialCurrencyUse": "{itemName} kann im folgenden [[Special:MyLanguage/Shops|Shop]] als Währung verwendet werden:",
+                "SpecialShopPaymentUse": "{itemName} kann im folgenden [[Special:MyLanguage/Shops|Shop]] verkauft werden, um eine spezielle Währung zu erhalten:"
             }
         }
     },
