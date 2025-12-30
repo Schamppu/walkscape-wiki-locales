@@ -85,7 +85,12 @@
         "serviceTeir": "Voorzieningsniveau",
         "startingLocation": "Startlocatie",
         "direction": "Richting",
-        "endingLocation": "Eindlocatie"
+        "endingLocation": "Eindlocatie",
+        "rarity": "Zeldzaamheid",
+        "slot": "Vak",
+        "sources": "Bronnen",
+        "artisanRecipe": "Ambachtsrecept",
+        "slots": "Vakken"
     },
     "pageHeaders": {
         "abilities": "Abilities",
@@ -206,13 +211,14 @@
             "FactionRepeatingReward": "Elke {reputationAmount} Factiereputatie",
             "factionRewardRequirement": "{reputationAmount} {factionName} Factiereputatie",
             "ActivityRollNote": "<sup>†</sup>Let op: Deze activiteit geeft vaker dan één keer kans op buit.",
-            "NoSources": "Dit voorwerp is momenteel van geen enkele bron te verkrijgen.",
+            "NoSources": "Dit voorwerp is momenteel uit geen enkele bron te verkrijgen.",
             "ChestRollNote": "<sup>†</sup>Let op: Schatkisten geven meerdere keren kans op buit.",
             "RecipeRollNote": "<sup>†</sup>Let op: Dit recept geeft meer dan één keer kans op bonus beloningen.",
             "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is een waarde die het gemiddelde aantal stappen aangeeft voor één voorwerp met maximale werkefficiëntie.",
             "RecipeOrString": " of ",
             "RecipeOutputs": "Resultaten Recept",
-            "RecipeExperience": "Receptervaring"
+            "RecipeExperience": "Receptervaring",
+            "RecipeAndString": " en "
         },
         "ItemUses": {
             "NoUses": "Dit voorwerp heeft momenteel geen functie.",
@@ -332,7 +338,7 @@
         },
         "requirements": {
             "gameData": "{reputationAmount} {factionName} Factiereputatie",
-            "historyData": "Voltooi acties van de {activtiyName} activiteit. {actionCount}"
+            "historyData": "Voltooi acties van de {activityName} activiteit. {actionCount}"
         }
     },
     "Buildings": {
@@ -477,6 +483,21 @@
                 "chestFinding": " Er is een hogere kans om ze te vinden met de [[File:Chest Finding.svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Schatkisten vinden]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]]."
             },
             "travelingCalc": "Bij het reizen wordt een speciale formule gebruikt die de kans op het vinden van Behendigheid-schatkisten berekent, in plaats van de vaste kans per actie in andere activiteiten. Hierdoor is het niet mogelijk om op een snelle manier schatkisten te verkrijgen door continu korte reizen te maken.<br>(0.096736 &times; 2) &times; (2.71828<sup>0.0165921</sup> &times; ''Verhoogd Vaardigheidsniveau'') &times; ''Afstand''"
+        },
+        "sources": {
+            "AchievementCompletion": "Beloning Voor Voltooien Prestatie",
+            "AchievementPoints": "Prestatiepunt Beloning",
+            "Chest": "Schatkistenbuit",
+            "FactionRepeatingReward": "Herhalende Factiebeloning",
+            "FactionReward": "Factiebeloning",
+            "ItemAttribute": "Voorwerpattributen-buit",
+            "JobBoard": "Prikbord-betaling",
+            "RecipeMain": "Primair Receptresultaat",
+            "RecipeSecondary": "Secundair Receptresultaat",
+            "Shop": "Winkelaankoop",
+            "ShopPayment": "Winkelvaluta",
+            "Activity": "Activiteitsbuit",
+            "MysteriousMerchantItems": "Verkocht Door Heimelijke Handelaar"
         }
     },
     "Characters": {
