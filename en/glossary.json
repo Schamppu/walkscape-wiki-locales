@@ -73,7 +73,7 @@
         "rollNote": "Does {number} rolls",
         "serviceName": "Service Name",
         "serviceReq": "Service<br>Requirement",
-        "serviceTeir": "Service Teir",
+        "serviceTeir": "Service Tier",
         "shopName": "Shop Name",
         "skill": "Skill",
         "skills": "Skills",
@@ -236,8 +236,8 @@
             "ChestRollNote": "<sup>†</sup>Note: Chests roll for loot multiple times.",
             "FactionRepeatingReward": "Every {reputationAmount} Faction Reputation",
             "factionRewardRequirement": "{reputationAmount} {factionName} Faction Reputation",
-            "NoSources": "This item cannnot currently be obtained from any source.",
-            "RecipeExperience": "Recipe Expereince",
+            "NoSources": "This item cannot currently be obtained from any source.",
+            "RecipeExperience": "Recipe Experience",
             "RecipeAndString": " and ",
             "RecipeOrString": " or ",
             "RecipeOutputs": "Recipe Outputs",
@@ -262,7 +262,7 @@
             "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is a value that shows the average steps for one item at maximum work efficiency."
         },
         "ItemsRequirements": {
-            "None": "This item has no requirements to use it. "
+            "None": "This item has no requirements to use it."
         },
         "ItemUses": {
             "DefaultCollectible": "This item grants 1 [[Special:MyLanguage/Achievement Points|achievement point]] when found.",
@@ -333,11 +333,11 @@
             "serviceIntro": "The following are all of the [[Special:MyLanguage/Services | services]] that have the '''{Keyword_Name}''' service keyword.",
             "supporterIntro": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] suggested by cult leaders that are currently in the game.",
             "unknown": "'''{Keyword_Name}''' is an unknown type.",
-            "weightIntro": "The following are all of the [[Special:MyLanguage/Items | items]] that use the '''{Keyword_Name}''' weight keyword.\n\nIt changes the maximum size of the stack of items in your to {stackSize} per stack."
+            "weightIntro": "The following are all of the [[Special:MyLanguage/Items | items]] that use the '''{Keyword_Name}''' weight keyword.\n\nIt changes the maximum size of the stack of items in your inventory to {stackSize} per stack."
         },
         "requirements": {
             "gameData": "{reputationAmount} {factionName} Faction Reputation",
-            "historyData": "Complete actions of the {activtiyName} activity. {actionCount}"
+            "historyData": "Complete actions of the {activityName} activity. {actionCount}"
         }
     },
     "Helpers": {
@@ -459,7 +459,7 @@
             "main": "{characterName} is a [[Special:MyLanguage/Characters | character]] who can be found at {characterLocation} in {buildingLocation} in the {buildingRegion} region."
         },
         "Quotes": {
-            "none": "{characterName} dosen't feel like speaking at this moment."
+            "none": "{characterName} doesn't feel like speaking at this moment."
         },
         "Rumors": {
             "none": "{characterName} currently has no rumors to share."
@@ -475,7 +475,7 @@
             "lootIntro": {
                 "adventuringGuild": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]] and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]].",
                 "birdNest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]] that can come from these [[Special:MyLanguage/Chests|chests]].",
-                "chestRolls": "These treasury items take {number} independant loot rolls when they are opened.",
+                "chestRolls": "These treasury items take {number} independent loot rolls when they are opened.",
                 "coinPouch": "This is the table for [[Special:MyLanguage/Coins|coins]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
                 "gemPouch": "This is the table for [[Special:MyLanguage/Gems|gems]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
                 "genericChest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]], [[Special:MyLanguage/Coins|coins]], and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]].",
@@ -573,7 +573,7 @@
         "Normal": "Normal Pet",
         "Rare": "Rare Pet",
         "Requirement": {
-            "NoXPReq": "This pet has no special requiremetns to gain experience."
+            "NoXPReq": "This pet has no special requirements to gain experience."
         }
     },
     "Routes": {
