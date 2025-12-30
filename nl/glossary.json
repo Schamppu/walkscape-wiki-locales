@@ -311,7 +311,7 @@
             }
         },
         "ItemsRequirements": {
-            "None": "Dit voorwerp heeft geen vereisten om het te kunnen gebruiken. "
+            "None": "Dit voorwerp heeft geen vereisten om het te kunnen gebruiken."
         },
         "Keywords": {
             "activityIntro": "Onderstaand zijn alle [[Special:MyLanguage/Activities | activiteiten]] die de '''{Keyword_Name}''' activiteiten-sleutelwoord gebruiken.",
