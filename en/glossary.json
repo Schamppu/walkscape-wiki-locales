@@ -3,6 +3,7 @@
         "achievementName": "Achievement Name",
         "activityName": "Activity Name",
         "always": "Always",
+        "artisanRecipe": "Artisan Recipe",
         "atLeast": "{number} or more",
         "attribute": "Attribute",
         "attributes": "Attributes",
@@ -57,6 +58,7 @@
         "payment": "Payment",
         "price": "Price",
         "quantity": "Quantity",
+        "rarity": "Rarity",
         "rawMaterials": "Raw Materials",
         "recipeName": "Recipe Name",
         "recipeOutputs": "Recipe<br>Outputs",
@@ -76,7 +78,10 @@
         "skill": "Skill",
         "skills": "Skills",
         "skillWithLevel": "{skill} lvl. {level}",
+        "slot": "Slot",
+        "slots": "Slots",
         "source": "Source",
+        "sources": "Sources",
         "startingLocation": "Starting Location",
         "stock": "Stock",
         "supporter": "Supporter",
@@ -233,6 +238,7 @@
             "factionRewardRequirement": "{reputationAmount} {factionName} Faction Reputation",
             "NoSources": "This item cannnot currently be obtained from any source.",
             "RecipeExperience": "Recipe Expereince",
+            "RecipeAndString": " and ",
             "RecipeOrString": " or ",
             "RecipeOutputs": "Recipe Outputs",
             "RecipeRollNote": "<sup>†</sup>Note: This recipe rolls for bonus rewards more than once.",
@@ -491,6 +497,21 @@
                 "sunken": " It can be dropped from some [[Special:MyLanguage/{pageName}#itemSourcesSection|sea related activities]]."
             },
             "travelingCalc": "Traveling uses a special function to calculate drop rates for Agility Chests rather than the fixed per action rate in other activities. This is to prevent farming of chests through constant short trips.<br>(0.096736 &times; 2) &times; (2.71828<sup>0.0165921</sup> &times; ''Buffed Skill Level'') &times; ''Distance''"
+        },
+        "sources": {
+            "AchievementCompletion": "Achievement Completion Reward",
+            "AchievementPoints": "Achievement Point Reward",
+            "Activity": "Activity Drop",
+            "Chest": "Chest Drop",
+            "FactionRepeatingReward": "Faction Repeating Reward",
+            "FactionReward": "Faction Reward",
+            "ItemAttribute": "Item Attribute Drop",
+            "JobBoard": "Job Board Payment",
+            "MysteriousMerchantItems": "Sold By Mysterious Merchant",
+            "RecipeMain": "Primary Recipe Output",
+            "RecipeSecondary": "Secondary Recipe Output",
+            "Shop": "Shop Purchase",
+            "ShopPayment": "Shop Currency"
         }
     },
     "Locations": {
