@@ -30,6 +30,8 @@
         "finalChance": "Final<br>Chance",
         "finalOdds": "Final<br>Odds",
         "fineAttributes": "Fine Attributes",
+        "images": "Images",
+        "information": "Information",
         "initialAppearance": "Initial<br>Appearance",
         "initialChance": "Initial<br>Chance",
         "initialOdds": "Initial<br>Odds",
@@ -56,6 +58,12 @@
         "odds": "Odds",
         "oneInX": "~1 in {number}",
         "payment": "Payment",
+        "pet": "Pet Name",
+        "pets": "Pet Names",
+        "petEgg": "Pet Egg Name",
+        "petsEgg": "Pet Egg Names",
+        "petRare": "Rare Pet Name",
+        "petsRare": "Rare Pet Names",
         "price": "Price",
         "quantity": "Quantity",
         "rarity": "Rarity",
@@ -575,6 +583,9 @@
         "Requirement": {
             "NoXPReq": "This pet has no special requirements to gain experience."
         }
+    },
+    "Pfp_Options": {
+        "defaultUnlock": "Always available."
     },
     "Routes": {
         "Directions": {
