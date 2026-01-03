@@ -191,5 +191,48 @@
         "ItemsActions": {
             "ActivityRequirement": "Tegevuse tingimused peavad olema täidetud."
         }
+    },
+    "Routes": {
+        "Directions": {
+            "E": {
+                "short": "E",
+                "name": "Ida"
+            },
+            "N": {
+                "name": "Põhi",
+                "short": "N"
+            },
+            "NE": {
+                "short": "NE",
+                "name": "Kirre"
+            },
+            "SE": {
+                "short": "SE",
+                "name": "Kagu"
+            },
+            "S": {
+                "short": "S",
+                "name": "Lõuna"
+            },
+            "SW": {
+                "short": "SW",
+                "name": "Edel"
+            },
+            "W": {
+                "short": "W",
+                "name": "Lääs"
+            },
+            "NW": {
+                "short": "NW",
+                "name": "Loe"
+            },
+            "C": {
+                "short": "C",
+                "name": "Keskel"
+            }
+        }
+    },
+    "Pfp_Options": {
+        "defaultUnlock": "Alati saadaval."
     }
 }
