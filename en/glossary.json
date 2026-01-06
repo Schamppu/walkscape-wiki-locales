@@ -193,7 +193,8 @@
             "MemosphereNote": "Experience scales with skill level.<br>Experience = {timesLevel}&times; {skill} Level",
             "NoCooldown": "No cooldown.",
             "NoRequirement": "No requirement.",
-            "RockStarAmuletNote": "This item takes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
+            "PresentRainNote": "This ability takes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
+            "RockStarAmuletNote": "This ability takes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
         },
         "ItemsAttributes": {
             "None": "This item has no attributes."
