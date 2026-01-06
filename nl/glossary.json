@@ -90,7 +90,15 @@
         "slot": "Vak",
         "sources": "Bronnen",
         "artisanRecipe": "Ambachtsrecept",
-        "slots": "Vakken"
+        "slots": "Vakken",
+        "information": "Informatie",
+        "pets": "Namen Van Beestje",
+        "petsEgg": "Namen Van Beestjes-Ei",
+        "petEgg": "Naam Van Beestjes-Ei",
+        "petRare": "Naam Van Zeldzaam Beestje",
+        "images": "Afbeeldingen",
+        "pet": "Naam Van Beestje",
+        "petsRare": "Namen Van Zeldzame Beestjes"
     },
     "pageHeaders": {
         "abilities": "Abilities",
@@ -634,5 +642,8 @@
         "restrictedSell": "Slechts enkele voorwerpen kunnen worden verkocht aan deze winkel.",
         "noSell": "Er kan niks worden verkocht aan deze winkel.",
         "specialSell": "Naast alle normale voorwerpen kunnen ook deze voorwerpen worden verkocht aan deze winkel."
+    },
+    "Pfp_Options": {
+        "defaultUnlock": "Altijd beschikbaar."
     }
 }

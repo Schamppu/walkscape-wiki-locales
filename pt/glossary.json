@@ -1,1 +1,6 @@
-{}
+{
+    "Shops": {
+        "noBuy": "Esta loja não tem atualmente nada para venda.",
+        "limitedSell": "Apenas estes artigos podem ser vendidos nesta loja."
+    }
+}

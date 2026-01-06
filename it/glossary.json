@@ -1,1 +1,17 @@
-{}
+{
+    "common": {
+        "activityName": "Nome Attività",
+        "always": "Sempre",
+        "duration": "Durata",
+        "effect": "Effetto",
+        "factionName": "Nome delle Fazioni",
+        "level": "Livello",
+        "achievementName": "Nome Obiettivo",
+        "difficulty": "Difficoltà",
+        "rarity": "Rarità",
+        "images": "Immagini",
+        "endingLocation": "Posizione Finale",
+        "price": "Prezzo",
+        "quantity": "Quantità"
+    }
+}
