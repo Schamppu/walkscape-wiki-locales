@@ -17,6 +17,7 @@
         "chanceChest": "Szansa<br>(Dla Skrzyni)",
         "chanceRoll": "Szansa<br>(Dla Rzutu)",
         "charges": "Opłaty",
-        "chestName": "Nazwa Skrzyni"
+        "chestName": "Nazwa Skrzyni",
+        "artisanRecipe": "Receptura Rzemieślnicza"
     }
 }
