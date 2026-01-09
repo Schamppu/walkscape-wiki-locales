@@ -1,5 +1,6 @@
 {
     "common": {
+        "abilityName": "Ability Name",
         "achievementName": "Achievement Name",
         "activityName": "Activity Name",
         "always": "Always",
@@ -15,6 +16,7 @@
         "buildingName": "Building Name",
         "buildingType": "Building Type",
         "chance": "Chance",
+        "chanceActivation": "Chance<br>(Per Activation)",
         "chanceChest": "Chance<br>(Per Chest)",
         "chanceRoll": "Chance<br>(Per Roll)",
         "charges": "Charges",
@@ -212,6 +214,7 @@
             },
             "None": "The {itemName} [[Special:MyLanguage/Items | item]] cannot currently be obtained.",
             "Plurals": {
+                "AbilityActivation": "It can be dropped by activating [[Special:MyLanguage/Abilities | abilities]].",
                 "AchievementCompletion": "It can be given as a reward for completing [[Special:MyLanguage/Achievements | achievements]].",
                 "AchievementPoint": "It can be given as a reward for gaining enough [[Special:MyLanguage/Achievement Points | achievement points]].",
                 "Activity": "It can be dropped from [[Special:MyLanguage/Activities | activities]].",
@@ -226,6 +229,7 @@
                 "ShopPayment": "It can be given as payment for selling items to some [[Special:MyLanguage/Shops | shops]]."
             },
             "Singulars": {
+                "AbilityActivation": "It can be dropped by activating an [[Special:MyLanguage/Abilities | ability]].",
                 "AchievementCompletion": "It can be given as a reward for completing an [[Special:MyLanguage/Achievements | achievement]].",
                 "AchievementPoint": "It can be given as a reward for gaining enough [[Special:MyLanguage/Achievement Points | achievement points]].",
                 "Activity": "It can be dropped from an [[Special:MyLanguage/Activities | activity]].",
@@ -241,6 +245,7 @@
             }
         },
         "ItemSources": {
+            "AbilityRollNote": "<sup>†</sup>Note: Abilities can roll for loot multiple times.",
             "ActivityRollNote": "<sup>†</sup>Note: This activity rolls for loot more than once.",
             "ChestRollNote": "<sup>†</sup>Note: Chests roll for loot multiple times.",
             "FactionRepeatingReward": "Every {reputationAmount} Faction Reputation",
@@ -251,7 +256,9 @@
             "RecipeOrString": " or ",
             "RecipeOutputs": "Recipe Outputs",
             "RecipeRollNote": "<sup>†</sup>Note: This recipe rolls for bonus rewards more than once.",
+            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is a value that shows the average steps for one item at maximum work efficiency.",
             "sectionHeaders": {
+                "AbilityActivation": "Ability Activation",
                 "AchievementCompletion": "Achievement Completion Reward",
                 "AchievementPoint": "Achievement Point Reward",
                 "Activity": "Activity Drops",
@@ -267,8 +274,7 @@
                 "RecipeSecondary": "Secondary Recipe Output",
                 "Shop": "Shop Purchases",
                 "ShopPayment": "Shop Currency"
-            },
-            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is a value that shows the average steps for one item at maximum work efficiency."
+            }
         },
         "ItemsRequirements": {
             "None": "This item has no requirements to use it."
