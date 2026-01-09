@@ -98,7 +98,9 @@
         "petRare": "Naam Van Zeldzaam Beestje",
         "images": "Afbeeldingen",
         "pet": "Naam Van Beestje",
-        "petsRare": "Namen Van Zeldzame Beestjes"
+        "petsRare": "Namen Van Zeldzame Beestjes",
+        "abilityName": "Naam Van Ability",
+        "chanceActivation": "Kans<br>(Per Activatie)"
     },
     "pageHeaders": {
         "abilities": "Abilities",
