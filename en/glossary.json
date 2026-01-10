@@ -471,7 +471,9 @@
             "locations": "Locations:"
         },
         "Intro": {
-            "main": "{characterName} is a [[Special:MyLanguage/Characters | character]] who can be found at {characterLocation} in {buildingLocation} in the {buildingRegion} region."
+            "main": "{characterName} is a [[Special:MyLanguage/Characters | character]] who can be found at {characterLocation} in {buildingLocation} in the {buildingRegion} region.",
+            "mysteriousMerchant": "The '''Mysterious Merchant''' is a special [[Special:MyLanguage/Characters | character]] who can be found at various places around Arenum.",
+            "noLocation": "{characterName} is a [[Special:MyLanguage/Characters | character]] who currently is lacking a home."
         },
         "Quotes": {
             "none": "{characterName} doesn't feel like speaking at this moment."
