@@ -195,8 +195,8 @@
             "MemosphereNote": "Experience scales with skill level.<br>Experience = {timesLevel}&times; {skill} Level",
             "NoCooldown": "No cooldown.",
             "NoRequirement": "No requirement.",
-            "PresentRainNote": "This ability takes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
-            "RockStarAmuletNote": "This ability takes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
+            "PresentRainNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
+            "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
         },
         "ItemsAttributes": {
             "None": "This item has no attributes."
@@ -493,7 +493,7 @@
             "lootIntro": {
                 "adventuringGuild": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]] and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]].",
                 "birdNest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]] that can come from these [[Special:MyLanguage/Chests|chests]].",
-                "chestRolls": "These treasury items take {number} independent loot rolls when they are opened.",
+                "chestRolls": "These treasury items make {number} independent loot rolls when they are opened.",
                 "coinPouch": "This is the table for [[Special:MyLanguage/Coins|coins]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
                 "gemPouch": "This is the table for [[Special:MyLanguage/Gems|gems]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
                 "genericChest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]], [[Special:MyLanguage/Coins|coins]], and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]].",
