@@ -403,7 +403,8 @@
         },
         "LootTables": {
             "SpecialTableNote": "Each of the secondary drops is rolled independently of the others.",
-            "TableRollNote": "<sup>†</sup>Note: This table is rolled {rollNumber} times."
+            "TableRollNote": "<sup>†</sup>Note: This table is rolled {rollNumber} times.",
+            "VariableTableInfoHeader": "Full Item Chance Table"
         },
         "Requirements": {
             "Keyword": "Keyword Requirements:",
