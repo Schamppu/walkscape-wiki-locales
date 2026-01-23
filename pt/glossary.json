@@ -2,5 +2,16 @@
     "Shops": {
         "noBuy": "Esta loja não tem atualmente nada para venda.",
         "limitedSell": "Apenas estes artigos podem ser vendidos nesta loja."
+    },
+    "common": {
+        "artisanRecipe": "Receita Artesanal",
+        "achievementName": "Nome da Conquista",
+        "activityName": "Nome da Actividade",
+        "attributes": "Atributos",
+        "baseRate": "Taxa<br>Base",
+        "abilityName": "Nome da Habilidade",
+        "always": "Sempre",
+        "atLeast": "{number} ou mais",
+        "attribute": "Atributo"
     }
 }
