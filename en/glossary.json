@@ -573,6 +573,7 @@
         },
         "Infobox": {
             "animation": "Animated:",
+            "static": "Static:",
             "Dark": "Dark",
             "Light": "Light",
             "Normal": "Normal",
