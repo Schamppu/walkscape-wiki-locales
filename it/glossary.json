@@ -12,6 +12,9 @@
         "images": "Immagini",
         "endingLocation": "Posizione Finale",
         "price": "Prezzo",
-        "quantity": "Quantità"
+        "quantity": "Quantità",
+        "attribute": "Caratteristica",
+        "attributes": "Caratteristiche",
+        "minSteps": "Passi<br>Minimi"
     }
 }
