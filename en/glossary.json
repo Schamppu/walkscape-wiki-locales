@@ -375,7 +375,9 @@
         "Rewards": {
             "None": "This activity has no rewards.",
             "Other": "Other Rewards:",
-            "Points": "Achievement Point Rewards:"
+            "Points": "Achievement Point Rewards:",
+            "Special": "Special",
+            "SkillXP": "Skill XP"
         }
     },
     "Activities": {
