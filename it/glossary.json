@@ -114,7 +114,10 @@
                 "FactionReward": "Può essere dato come ricompensa per aver ottenuto abbastanza [[Special:MyLanguage/Faction Reputation | reputazione di fazione]].",
                 "AchievementCompletion": "Può essere assegnato come ricompensa per aver completato un [[Special:MyLanguage/Achievements | risultato]].",
                 "FactionRepeatingReward": "Può essere assegnato come ricompensa ricorrente per aver ottenuto abbastanza [[Special:MyLanguage/Faction Reputation | reputazione di fazione]].",
-                "JobBoard": "Può essere assegnato come ricompensa per aver completato un [[Special:MyLanguage/Job Boards | compito della bacheca di lavoro]]."
+                "JobBoard": "Può essere assegnato come ricompensa per aver completato un [[Special:MyLanguage/Job Boards | compito della bacheca di lavoro]].",
+                "ShopPayment": "Può essere dato come pagamento per la vendita di articoli a un [[Special:MyLanguage/Shops | negozio]].",
+                "Shop": "È possibile acquistarlo presso un [[Special:MyLanguage/Shops | negozio]].",
+                "RecipeSecondary": "Può essere ottenuto come prodotto secondario da una [[Special:MyLanguage/Recipes | ricetta di abilità di trasformazione]]."
             },
             "ItemTypes": {
                 "Material": "Il file {itemName} [[Speciale:MyLanguage/Items | item]] è un [[Speciale:MyLanguage/Materials | materiale]].",
@@ -172,6 +175,91 @@
         },
         "ItemsAttributes": {
             "None": "Questo elemento non ha attributi."
+        },
+        "ItemSources": {
+            "sectionHeaders": {
+                "AchievementPoint": "Ricompensa punti risultato",
+                "craftingFlow": "Flusso creativo",
+                "AbilityActivation": "Attivazione delle abilità",
+                "AchievementCompletion": "Ricompensa per il completamento dell'obiettivo",
+                "Shop": "Acquisti in negozio",
+                "RecipeSecondary": "Risultato secondario della ricetta",
+                "Chest": "Rilasci di Forzieri",
+                "RecipeMain": "Risultato primario della ricetta",
+                "ShopPayment": "Valuta del negozio",
+                "Activity": "Rilasci dell'attività",
+                "additionalRecipeOutputs": "Risultati aggiuntivi delle ricette",
+                "FactionRepeatingReward": "Ricompensa ripetitiva della fazione",
+                "FactionReward": "Ricompensa di fazione",
+                "ItemAttribute": "Attributo oggetto rilasciato",
+                "JobBoard": "Pagamento bacheca annunci di lavoro",
+                "MysteriousMerchant": "Mercante misterioso"
+            },
+            "AbilityRollNote": "<sup>†</sup>Nota: le abilità possono essere utilizzate più volte per ottenere bottino.",
+            "ActivityRollNote": "<sup>†</sup>Nota: questa attività consente di ottenere bottino più di una volta.",
+            "FactionRepeatingReward": "Ogni {reputationAmount} Reputazione della fazione",
+            "factionRewardRequirement": "{reputationAmount} Reputazione della fazione {factionName}",
+            "RecipeExperience": "Esperienza ricetta",
+            "ChestRollNote": "<sup>†</sup>Nota: i forzieri vengono tirati più volte per ottenere il bottino.",
+            "RecipeOrString": " o ",
+            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] è un valore che indica il numero medio di passaggi per un articolo alla massima efficienza lavorativa.",
+            "RecipeAndString": " e ",
+            "RecipeOutputs": "Risultati della ricetta",
+            "RecipeRollNote": "<sup>†</sup>Nota: questa ricetta garantisce ricompense bonus più di una volta.",
+            "NoSources": "Questo articolo non è attualmente disponibile da nessuna fonte."
+        },
+        "ItemUses": {
+            "sectionHeaders": {
+                "RecipeUse": "Ingredienti della ricetta",
+                "AchievementUse": "Risultato",
+                "ActivityInputUse": "Input attività",
+                "RequirementUse": "Requisiti",
+                "SpecialCurrencyUse": "Valuta",
+                "MysteriousMerchant": "Mercante Misterioso",
+                "JobBoardUse": "Bacheche di annunci di lavoro",
+                "PetEggUse": "Cova un animale domestico",
+                "SpecialShopPaymentUse": "Vendita speciale"
+            },
+            "RequirementUses": {
+                "Plurals": {
+                    "locations": "{itemName} è necessario per visualizzare le seguenti posizioni:",
+                    "activities": "{itemName} è necessario per svolgere le seguenti attività:",
+                    "items": "{itemName} è richiesto come attributo per i seguenti elementi:",
+                    "services": "{itemName} è necessario per utilizzare i seguenti servizi:",
+                    "terrain_modifiers": "{itemName} è necessario per i seguenti percorsi:"
+                },
+                "Singulars": {
+                    "locations": "{itemName} è necessario per visualizzare la seguente posizione:",
+                    "services": "{itemName} è necessario per utilizzare il seguente servizio:",
+                    "terrain_modifiers": "{itemName} è necessario per il seguente percorso:",
+                    "activities": "{itemName} è necessario per svolgere la seguente attività:",
+                    "items": "{itemName} è richiesto come attributo per il seguente elemento:"
+                }
+            },
+            "DefaultCollectible": "Questo oggetto garantisce 1 [[Special:MyLanguage/Achievement Points|punto risultato]] quando viene trovato.",
+            "FactionReward": "Reputazione della fazione {factionName}",
+            "Singulars": {
+                "JobBoardUse": "{itemName} può essere richiesto dal seguente [[Special:MyLanguage/Job Boards | lavoro]]:",
+                "AchievementUse": "{itemName} è necessario per il seguente [[Special:MyLanguage/Achievements | risultato]]:",
+                "ActivityInputUse": "{itemName} è utilizzato come input obbligatorio per la seguente [[Special:MyLanguage/Activities | attività]]:"
+            },
+            "Plurals": {
+                "RequirementUse": "{itemName} è un requisito nei seguenti casi particolari:",
+                "SpecialCurrencyUse": "{itemName} può essere utilizzato come valuta nei seguenti [[Special:MyLanguage/Shops|negozi]]:",
+                "SpecialShopPaymentUse": "{itemName} può essere venduto nei seguenti [[Special:MyLanguage/Shops|negozi]] per ottenere una valuta speciale:",
+                "AchievementUse": "{itemName} è necessario per i seguenti [[Special:MyLanguage/Achievements|risultati]]:",
+                "ActivityInputUse": "{itemName} è utilizzato come input obbligatorio per le seguenti [[Special:MyLanguage/Activities | attività]]:",
+                "JobBoardUse": "{itemName} può essere richiesto dai seguenti [[Special:MyLanguage/Job Boards|lavori]]:",
+                "RecipeUse": "{itemName} è un ingrediente delle seguenti [[Special:MyLanguage/Recipes|ricette]]:"
+            },
+            "DefaultConsumable": "Questo oggetto può essere consumato per ottenere un potenziamento temporaneo.",
+            "DefaultGear": "Questo oggetto può essere equipaggiato dal tuo personaggio.",
+            "DefaultMaterial": "Questo oggetto non è attualmente utilizzato in nessuna ricetta o per usi speciali.",
+            "DefaultMemosphere": "Le Memosfere possono essere utilizzate per acquisire esperienza.",
+            "NoUses": "Questo oggetto non ha attualmente alcun uso speciale."
+        },
+        "ItemsRequirements": {
+            "None": "Questo oggetto non ha requisiti per essere utilizzato."
         }
     },
     "pageHeaders": {
