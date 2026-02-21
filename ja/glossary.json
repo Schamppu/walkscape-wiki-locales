@@ -1,1 +1,7 @@
-{}
+{
+    "common": {
+        "achievementName": "実績名",
+        "activityName": "アクティビティ名",
+        "abilityName": "技名"
+    }
+}
