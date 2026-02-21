@@ -241,7 +241,12 @@
             "Singulars": {
                 "JobBoardUse": "{itemName} può essere richiesto dal seguente [[Special:MyLanguage/Job Boards | lavoro]]:",
                 "AchievementUse": "{itemName} è necessario per il seguente [[Special:MyLanguage/Achievements | risultato]]:",
-                "ActivityInputUse": "{itemName} è utilizzato come input obbligatorio per la seguente [[Special:MyLanguage/Activities | attività]]:"
+                "ActivityInputUse": "{itemName} è utilizzato come input obbligatorio per la seguente [[Special:MyLanguage/Activities | attività]]:",
+                "RequirementUse": "{itemName} è un requisito nel seguente caso speciale:",
+                "SpecialCurrencyUse": "{itemName} può essere utilizzato come valuta nei seguenti [[Special:MyLanguage/Shops | negozio]]:",
+                "SpecialShopPaymentUse": "{itemName} può essere venduto nel seguente [[Special:MyLanguage/Shops | negozio]] per ottenere una valuta speciale:",
+                "PetEggUse": "{itemName} è un uovo di animale domestico che può essere reclamato e poi fatto schiudere in un animale domestico {petName}.",
+                "RecipeUse": "{itemName} è un ingrediente nella seguente [[Special:MyLanguage/Recipes | ricetta]]:"
             },
             "Plurals": {
                 "RequirementUse": "{itemName} è un requisito nei seguenti casi particolari:",
@@ -260,6 +265,26 @@
         },
         "ItemsRequirements": {
             "None": "Questo oggetto non ha requisiti per essere utilizzato."
+        },
+        "Keywords": {
+            "unknown": "'''{Keyword_Name}''' è un tipo sconosciuto.",
+            "supporterIntro": "Di seguito sono elencati tutti gli [[Special:MyLanguage/Equipment | equipaggiamenti e strumenti]] suggeriti dai leader del culto attualmente presenti nel gioco.",
+            "serviceIntro": "Di seguito sono elencati tutti i [[Special:MyLanguage/Services | servizi]] che hanno la parola chiave del servizio '''{Keyword_Name}'''.",
+            "weightIntro": "Di seguito sono elencati tutti gli [[Special:MyLanguage/Items | oggetti]] che utilizzano la parola chiave weight '''{Keyword_Name}'''.\n\nModifica la dimensione massima della pila di oggetti nel tuo inventario a {stackSize} per pila.",
+            "equipmentIntro": "Di seguito sono elencati tutti gli [[Special:MyLanguage/Equipment | equipaggiamenti e strumenti]] che utilizzano la parola chiave equipaggiamento '''{Keyword_Name}'''.",
+            "locationIntro": "Di seguito sono elencate tutte le [[Special:MyLanguage/Locations | locations]] che utilizzano la parola chiave location '''{Keyword_Name}'''.",
+            "returnString": "Torna alla pagina {keywordImage} [[Special:MyLanguage/Keywords#{keywordType} | Parole chiave]].",
+            "gearSetIntro": "Di seguito sono elencati tutti gli [[Special:MyLanguage/Equipment | equipaggiamenti e strumenti]] che utilizzano la parola chiave del set di equipaggiamenti '''{Keyword_Name}'''.",
+            "activityIntro": "Di seguito sono elencate tutte le [[Special:MyLanguage/Activities | attività]] che utilizzano la parola chiave attività '''{Keyword_Name}'''.",
+            "bannedKeywordSingular": "Questa è una '''Parola chiave vietata''': ti è consentito equipaggiare un solo oggetto con la stessa parola chiave vietata nei tuoi slot degli strumenti alla volta.",
+            "consumableIntro": "Di seguito sono elencati tutti i [[Special:MyLanguage/Consumables | consumables]] che utilizzano la parola chiave consumable '''{Keyword_Name}'''.",
+            "materialIntro": "Di seguito sono elencati tutti i [[Special:MyLanguage/Materials | materiali]] che utilizzano la parola chiave materiale '''{Keyword_Name}'''.",
+            "recipeIntro": "Di seguito sono elencate tutte le [[Special:MyLanguage/Recipes | ricette]] che utilizzano la parola chiave '''{Keyword_Name}'''.",
+            "bannedKeywordMultiple": "Questa è una '''Parola chiave vietata''' e fa parte di un gruppo di parole chiave vietate. Ti è consentito equipaggiare un solo oggetto con una qualsiasi di queste parole chiave nei tuoi slot degli strumenti alla volta:"
+        },
+        "requirements": {
+            "gameData": "{reputationAmount} Reputazione della fazione {factionName}",
+            "historyData": "Completa le azioni dell'attività {activityName}. {actionCount}"
         }
     },
     "pageHeaders": {
@@ -329,5 +354,62 @@
         "sources": "Provenienze",
         "uses": "Usi",
         "travelingChest": "Funzione di velocità del forziere di viaggio"
+    },
+    "Achievements": {
+        "Rewards": {
+            "SkillXP": "XP abilità",
+            "Special": "Speciale",
+            "None": "Questa attività non prevede ricompense.",
+            "Other": "Altri premi:",
+            "Points": "Premi in punti risultato:"
+        },
+        "Infobox": {
+            "type": "Tipo:"
+        },
+        "Intro": {
+            "main": "{achievementName} è un [[Special:MyLanguage/Achievements | risultato]]."
+        }
+    },
+    "Helpers": {
+        "noGear": "Non esiste ancora set di equipaggiamento.",
+        "noGuide": "Non esistono ancora guide.",
+        "unknownString": "Questa pagina riporta le informazioni per una versione del gioco '''Sconosciuta'''.",
+        "versionString": "Questa pagina è stata aggiornata per riflettere le informazioni nella versione del gioco:",
+        "addGearGuide": "Puoi contribuire a realizzarne uno.",
+        "autoString": "Questa pagina viene aggiornata automaticamente per riflettere le informazioni nella [[Special:MyLanguage/Versions | versione corrente del gioco]].",
+        "editGear": "Modifica set di equipaggiamento",
+        "editGuide": "Modifica Guide"
+    },
+    "Activities": {
+        "Infobox": {
+            "efficiency": "Massima efficienza:",
+            "mainSkill": "Abilità principale:"
+        },
+        "Collections": {
+            "noSecondaryActivites": "Nessuna attività conferisce esperienza bonus {skillName}.",
+            "secondaryHeader": "Fonti di esperienza bonus"
+        },
+        "Locations": {
+            "Plural": "Questa attività può essere svolta nei seguenti luoghi:",
+            "Singular": "Questa attività può essere svolta presso la seguente sede:",
+            "Entry": "{location} in {region}",
+            "None": "Al momento non esiste un luogo in cui svolgere questa attività."
+        },
+        "LootTables": {
+            "SpecialTableNote": "Ciascuna dei rilasci secondari viene lanciato indipendentemente dalle altre.",
+            "TableRollNote": "<sup>†</sup>Nota: questa tabella viene aggiornata {rollNumber} volte.",
+            "VariableTableInfoHeader": "Tabella delle probabilità di vincita dell'oggetto completo"
+        },
+        "Requirements": {
+            "Keyword": "Requisiti delle parole chiave:"
+        },
+        "Inputs": {
+            "Plural": "Per questa attività è necessario fornire i seguenti elementi per ogni azione:",
+            "Singular": "Questa attività richiede che per ogni azione venga fornito il seguente elemento:"
+        },
+        "Intro": {
+            "Movement": "Questa è un'[[Special:MyLanguage/Movement_Activities|attività di movimento]], verrai teletrasportato a {locationEntry} al completamento di un'azione.",
+            "Skilling": "L'attività {activityName} [[Special:MyLanguage/Activities |]] è un'attività {mainSkill}."
+        }
     }
 }
