@@ -401,7 +401,10 @@
             "VariableTableInfoHeader": "Tabella delle probabilità di vincita dell'oggetto completo"
         },
         "Requirements": {
-            "Keyword": "Requisiti delle parole chiave:"
+            "Keyword": "Requisiti delle parole chiave:",
+            "Requirements": "Altri requisiti:",
+            "Skill": "Requisiti relativi al livello di competenza:",
+            "None": "Questa attività non ha requisiti."
         },
         "Inputs": {
             "Plural": "Per questa attività è necessario fornire i seguenti elementi per ogni azione:",
@@ -410,6 +413,76 @@
         "Intro": {
             "Movement": "Questa è un'[[Special:MyLanguage/Movement_Activities|attività di movimento]], verrai teletrasportato a {locationEntry} al completamento di un'azione.",
             "Skilling": "L'attività {activityName} [[Special:MyLanguage/Activities |]] è un'attività {mainSkill}."
+        },
+        "Visibility": {
+            "actionDone": "È visibile solo se hai fatto quanto segue:",
+            "actionNotDone": "È visibile solo se non hai eseguito le seguenti operazioni:",
+            "Emergency": {
+                "MainString": "Si tratta di un'attività di ‘’'emergenza'‘’.",
+                "Type": "Emergenza"
+            },
+            "Hidden": {
+                "MainString": "Questa è un'attività ‘’'nascosta'‘’.",
+                "Type": "Nascosta"
+            },
+            "keywordEquipped": "È visibile solo se soddisfi i seguenti requisiti relativi alle parole chiave:",
+            "keywordNotEquipped": "È visibile solo se \"non\" soddisfi i seguenti requisiti relativi alle parole chiave:",
+            "Normal": {
+                "Type": "Normale",
+                "MainString": "Questa attività è sempre visibile."
+            }
+        }
+    },
+    "Buildings": {
+        "Visibility": {
+            "keywordNotEquipped": "È visibile solo se non soddisfi i seguenti requisiti relativi alle parole chiave:",
+            "Normal": {
+                "MainString": "Questo edificio è sempre visibile.",
+                "Type": "Normale"
+            },
+            "actionDone": "È visibile solo se hai fatto quanto segue:",
+            "Hidden": {
+                "Type": "Nascosto",
+                "MainString": "Questo è un edificio “nascosto”."
+            },
+            "actionNotDone": "È visibile solo se non hai eseguito le seguenti operazioni:",
+            "keywordEquipped": "È visibile solo se soddisfi i seguenti requisiti relativi alle parole chiave:"
+        },
+        "Requirements": {
+            "mainReq": "È possibile accedere a questo edificio solo se è stato soddisfatto il seguente requisito:",
+            "mainReqs": "È possibile accedere a questo edificio solo se sono stati soddisfatti i seguenti requisiti:",
+            "negReqs": "Non è possibile accedere a questo edificio se si verificano le seguenti condizioni:",
+            "None": "Questo edificio non ha requisiti di accesso.",
+            "negReq": "Non è possibile accedere a questo edificio se si verifica il seguente requisito:"
+        },
+        "Bank": {
+            "hasWithdraw": "Questo edificio ti permette di ‘’'ritirare'‘’ i tuoi oggetti dalla banca.",
+            "hasDeposit": "Questo edificio ti permette di ‘’'depositare'‘’ i tuoi oggetti in banca."
+        },
+        "Infobox": {
+            "type": "Tipo:"
+        },
+        "Intro": {
+            "character": "È la casa del personaggio {characterName}.",
+            "main": "{buildingName} è un “{buildingType}” [[Special:MyLanguage/Buildings | edificio]] situato a {buildingLocation} nella regione {buildingRegion}.",
+            "noCharacter": "Al momento non ci sono [[Special:MyLanguage/Characters | personaggi]] qui."
+        }
+    },
+    "Characters": {
+        "Infobox": {
+            "location": "Posizione:",
+            "locations": "Posizioni:"
+        },
+        "Quotes": {
+            "none": "{characterName} non ha voglia di parlare in questo momento."
+        },
+        "Rumors": {
+            "none": "{characterName} al momento non ha nessuna voce da condividere."
+        },
+        "Intro": {
+            "main": "{characterName} è un [[Special:MyLanguage/Characters | personaggio]] che si trova a {characterLocation} in {buildingLocation} nella regione {buildingRegion}.",
+            "mysteriousMerchant": "Il ‘’'Mercante Misterioso'‘’ è un [[Special:MyLanguage/Characters | personaggio]] speciale che può essere trovato in vari luoghi dell'Arenum.",
+            "noLocation": "{characterName} è un [[Special:MyLanguage/Characters | personaggio]] che attualmente non ha una casa."
         }
     }
 }
