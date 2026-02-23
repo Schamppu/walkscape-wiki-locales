@@ -406,7 +406,9 @@
         "Rewards": {
             "None": "Deze activiteit heeft geen beloningen.",
             "Other": "Andere beloningen:",
-            "Points": "Prestatiepunt-beloningen:"
+            "Points": "Prestatiepunt-beloningen:",
+            "SkillXP": "Vaardigheidservaring",
+            "Special": "Speciaal"
         }
     },
     "Activities": {
