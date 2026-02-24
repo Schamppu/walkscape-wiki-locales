@@ -127,7 +127,7 @@
                 "Pet egg": "Il file {itemName} [[Special:MyLanguage/Items | item]] è un [[Special:MyLanguage/Pet_Eggs | uovo animale domestico]].",
                 "Container": "Il file {itemName} [[Special:MyLanguage/Items | item]] è un [[Special:MyLanguage/Chests | Forziere]].",
                 "Currency": "L'elemento {itemName} [[Special:MyLanguage/Items | item]] è una [[Special:MyLanguage/Currencies | valuta]].",
-                "Loot": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è uno [[Speciale:La mia lingua/Bottino | oggetto bottino]]."
+                "Loot": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è uno [[Special:MyLanguage/Loot | oggetto bottino]]."
             },
             "Plurals": {
                 "Chest": "Si può trovare in [[Special:MyLanguage/Chests | forzieri]].",
