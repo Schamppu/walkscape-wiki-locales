@@ -406,7 +406,9 @@
         "Rewards": {
             "None": "Deze activiteit heeft geen beloningen.",
             "Other": "Andere beloningen:",
-            "Points": "Prestatiepunt-beloningen:"
+            "Points": "Prestatiepunt-beloningen:",
+            "SkillXP": "Vaardigheidservaring",
+            "Special": "Speciaal"
         }
     },
     "Activities": {
@@ -539,7 +541,8 @@
             "animation": "Geanimeerd:",
             "Light": "Licht",
             "Normal": "Normaal",
-            "Rare": "Zeldzaam"
+            "Rare": "Zeldzaam",
+            "static": "Statisch:"
         },
         "Experience": {
             "ChangeToAdult": "Dit beestje wordt '''Volwassen''' wanneer het niveau {nextLevel} bereikt.",
