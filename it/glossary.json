@@ -120,13 +120,13 @@
                 "RecipeSecondary": "Può essere ottenuto come prodotto secondario da una [[Special:MyLanguage/Recipes | ricetta di abilità di trasformazione]]."
             },
             "ItemTypes": {
-                "Material": "Il file {itemName} [[Special:MyLanguage/Items | item]] è un [[Special:MyLanguage/Materials | materiale]].",
+                "Material": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Materials | materiale]].",
                 "Crafted": "L'oggetto {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Crafted | oggetto creato]].",
-                "Collectible": "Il file {itemName} [[Special:MyLanguage/Items | elemento]] è un [[Special:MyLanguage/Collectibles |collectible]].",
-                "Consumable": "L'articolo {itemName} [[Special:MyLanguage/Items | item]] è un [[Special:MyLanguage/Consumables | consumable]].",
-                "Pet egg": "Il file {itemName} [[Special:MyLanguage/Items | item]] è un [[Special:MyLanguage/Pet_Eggs | uovo animale domestico]].",
-                "Container": "Il file {itemName} [[Special:MyLanguage/Items | item]] è un [[Special:MyLanguage/Chests | Forziere]].",
-                "Currency": "L'elemento {itemName} [[Special:MyLanguage/Items | item]] è una [[Special:MyLanguage/Currencies | valuta]].",
+                "Collectible": "Il file {itemName} [[Special:MyLanguage/Items | elemento]] è un [[Special:MyLanguage/Collectibles | Collezionabili]].",
+                "Consumable": "L'articolo {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Consumables | consumabili]].",
+                "Pet egg": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Pet_Eggs | uovo animale domestico]].",
+                "Container": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Chests | forziere]].",
+                "Currency": "L'elemento {itemName} [[Special:MyLanguage/Items | oggetto]] è una [[Special:MyLanguage/Currencies | valuta]].",
                 "Loot": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è uno [[Special:MyLanguage/Loot | oggetto bottino]]."
             },
             "Plurals": {
@@ -144,13 +144,13 @@
                 "AchievementPoint": "Può essere dato come ricompensa per aver ottenuto abbastanza [[Special:MyLanguage/Achievement Points | punti risultato]].",
                 "ShopPayment": "Può essere dato come pagamento per la vendita di oggetti ad alcuni [[Special:MyLanguage/Shops | negozi]]."
             },
-            "None": "Al momento non è possibile ottenere l'oggetto {itemName} [[Special:MyLanguage/Items | item]]."
+            "None": "Al momento non è possibile ottenere l'oggetto {itemName} [[Special:MyLanguage/Items | oggetto]]."
         },
         "ItemsActions": {
             "MemosphereNote": "L'esperienza è proporzionale al livello di abilità.<br>Esperienza = {timesLevel}&times; {skill} Livello",
             "ActivityRequirement": "Devono essere soddisfatti i requisiti dell'attività.",
-            "PresentRainNote": "Questa abilità fa sì che {rollAmount} tiri sulla [[Special:MyLanguage/Present Rain|Present Rain Table]].",
-            "RockStarAmuletNote": "Questa abilità fa sì che i tiri siano {rollAmount} sulla [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]].",
+            "PresentRainNote": "Questa abilità fa sì che {rollAmount} tiri sulla [[Special:MyLanguage/Present Rain|Tabella Pioggia di Regali]].",
+            "RockStarAmuletNote": "Questa abilità fa sì che i tiri siano {rollAmount} sulla [[Special:MyLanguage/Gems#Gem_Pouch_Table|Tabella della Custodia di Gemme]].",
             "NoCooldown": "Nessun tempo di ricarica.",
             "NoRequirement": "Nessun requisito."
         },
@@ -272,7 +272,7 @@
             "serviceIntro": "Di seguito sono elencati tutti i [[Special:MyLanguage/Services | servizi]] che hanno la parola chiave del servizio '''{Keyword_Name}'''.",
             "weightIntro": "Di seguito sono elencati tutti gli [[Special:MyLanguage/Items | oggetti]] che utilizzano la parola chiave weight '''{Keyword_Name}'''.\n\nModifica la dimensione massima della pila di oggetti nel tuo inventario a {stackSize} per pila.",
             "equipmentIntro": "Di seguito sono elencati tutti gli [[Special:MyLanguage/Equipment | equipaggiamenti e strumenti]] che utilizzano la parola chiave equipaggiamento '''{Keyword_Name}'''.",
-            "locationIntro": "Di seguito sono elencate tutte le [[Special:MyLanguage/Locations | locations]] che utilizzano la parola chiave location '''{Keyword_Name}'''.",
+            "locationIntro": "Di seguito sono elencate tutte le [[Special:MyLanguage/Locations | luoghi]] che utilizzano la parola chiave location '''{Keyword_Name}'''.",
             "returnString": "Torna alla pagina {keywordImage} [[Special:MyLanguage/Keywords#{keywordType} | Parole chiave]].",
             "gearSetIntro": "Di seguito sono elencati tutti gli [[Special:MyLanguage/Equipment | equipaggiamenti e strumenti]] che utilizzano la parola chiave del set di equipaggiamenti '''{Keyword_Name}'''.",
             "activityIntro": "Di seguito sono elencate tutte le [[Special:MyLanguage/Activities | attività]] che utilizzano la parola chiave attività '''{Keyword_Name}'''.",
@@ -505,7 +505,7 @@
         "Intro": {
             "stageAdult": "Questo animale domestico è un adulto di livello {adultLevel}.",
             "stageEgg": "Questo animale domestico è un uovo dal livello 0 al livello 1.",
-            "rare": "{petName} is a [[Special:MyLanguage/Pets | pet]]. It hatches from an {eggName}.",
+            "rare": "{petName} is a [[Special:MyLanguage/Pets | animale domestico]]. It hatches from an {eggName}.",
             "stageJuvi": "Questo animale domestico è un giovane dal livello 1 al {adultLevel}.",
             "normal": "{petName} è un [[Special:MyLanguage/Pets | animale domestico]]. Si schiude da un {eggName}."
         },
@@ -517,7 +517,7 @@
             "NoXPReq": "Questo animale domestico non ha requisiti particolari per acquisire esperienza."
         },
         "Abilities": {
-            "unlock": "Here you can take advantage of the following [[Special:MyLanguage/Services | services]]."
+            "unlock": "Questa abilità viene sbloccata al livello {unlockLevel}."
         },
         "Normal": "Animale domestico comune"
     },
@@ -587,8 +587,8 @@
                 "rarity": "Tabella bottino {rarityName}"
             },
             "findingAttribute": {
-                "birdNests": " Possono aumentare le probabilità di trovarli con l'[[File:Bird Nest.svg|20px]] ‘’'[[Special:MyLanguage/Find Bird Nests (Mechanics)|Find Bird Nests]]‘’' [[Special:MyLanguage/Find_Bird_Nests_Items|equipaggiamento]] [[Special:MyLanguage/Attributes|attributo]].",
-                "chestFinding": " Possono aumentare le probabilità di trovarli con l'[[File:Chest Finding.svg|20px]] ‘’'[[Special:MyLanguage/Chest Finding (Mechanics)|Chest Finding]]‘’' [[Special:MyLanguage/Chest_Finding_Items|equipaggiamento]] [[Special:MyLanguage/Attributes|attributo]]."
+                "birdNests": " Possono aumentare le probabilità di trovarli con l'[[File:Bird Nest.svg|20px]] ‘’'[[Special:MyLanguage/Find Bird Nests (Mechanics)|Cerca nidi di uccello]]‘’' [[Special:MyLanguage/Find_Bird_Nests_Items|equipaggiamento]] [[Special:MyLanguage/Attributes|attributo]].",
+                "chestFinding": " Possono aumentare le probabilità di trovarli con l'[[File:Chest Finding.svg|20px]] ‘’'[[Special:MyLanguage/Chest Finding (Mechanics)|Cerca Forzieri]]‘’' [[Special:MyLanguage/Chest_Finding_Items|equipaggiamento]] [[Special:MyLanguage/Attributes|attributo]]."
             },
             "lootIntro": {
                 "birdNest": "Queste sono le sottotabelle relative ai vari [[Special:MyLanguage/Materials|materiali]] che possono essere ottenuti da questi [[Special:MyLanguage/Chests| forzieri]].",
@@ -609,7 +609,7 @@
             },
             "perRoll": "{chance} Per Tiro",
             "travelingCalc": "Il viaggio utilizza una funzione speciale per calcolare i tassi di caduta dei forzieri dell'agilità, anziché il tasso fisso per azione utilizzato in altre attività. Questo per impedire il farming dei forzieri attraverso viaggi brevi e costanti. <br>(0,096736 × 2) × (2,71828<sup>0,0165921</sup> × ‘'Livello abilità potenziato’') × ‘'Distanza’'",
-            "intro": "'‘’{itemName}‘’' è un oggetto del tesoro apribile [[Special:MyLanguage/Treasury|tesoro]].",
+            "intro": "'‘’{itemName}‘’' è un oggetto del tesoro apribile [[Special:MyLanguage/Treasury|oggetto tesoro]].",
             "PerChest": "{chance} Per baule"
         },
         "sources": {
