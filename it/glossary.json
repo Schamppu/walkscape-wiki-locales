@@ -55,7 +55,7 @@
         "buildingName": "Nome della costruzione",
         "buildingType": "Tipo della costruzione",
         "chanceActivation": "Possibilità<br>(Per attivazione)",
-        "materials": "MAteriali<br>usati",
+        "materials": "Materiali<br>usati",
         "maxXpStep": "Massimo<br>XP/Passo",
         "pet": "Nome dell'animale domestico",
         "pets": "Nomi degli animali domestici",
@@ -120,14 +120,14 @@
                 "RecipeSecondary": "Può essere ottenuto come prodotto secondario da una [[Special:MyLanguage/Recipes | ricetta di abilità di trasformazione]]."
             },
             "ItemTypes": {
-                "Material": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Materials | materiale]].",
+                "Material": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Materials | materiale]].",
                 "Crafted": "L'oggetto {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Crafted | oggetto creato]].",
-                "Collectible": "Il file {itemName} [[Special:MyLanguage/Items | elemento]] è un [[Special:MyLanguage/Collectibles | Collezionabili]].",
+                "Collectible": "Il {itemName} [[Special:MyLanguage/Items | elemento]] è un [[Special:MyLanguage/Collectibles | Collezionabili]].",
                 "Consumable": "L'articolo {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Consumables | consumabili]].",
-                "Pet egg": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Pet_Eggs | uovo animale domestico]].",
-                "Container": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Chests | forziere]].",
+                "Pet egg": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Pet_Eggs | uovo animale domestico]].",
+                "Container": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Chests | forziere]].",
                 "Currency": "L'elemento {itemName} [[Special:MyLanguage/Items | oggetto]] è una [[Special:MyLanguage/Currencies | valuta]].",
-                "Loot": "Il file {itemName} [[Special:MyLanguage/Items | oggetto]] è uno [[Special:MyLanguage/Loot | oggetto bottino]]."
+                "Loot": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è uno [[Special:MyLanguage/Loot | oggetto bottino]]."
             },
             "Plurals": {
                 "Chest": "Si può trovare in [[Special:MyLanguage/Chests | forzieri]].",
@@ -246,7 +246,7 @@
                 "SpecialCurrencyUse": "{itemName} può essere utilizzato come valuta nei seguenti [[Special:MyLanguage/Shops | negozio]]:",
                 "SpecialShopPaymentUse": "{itemName} può essere venduto nel seguente [[Special:MyLanguage/Shops | negozio]] per ottenere una valuta speciale:",
                 "PetEggUse": "{itemName} è un uovo di animale domestico che può essere reclamato e poi fatto schiudere in un animale domestico {petName}.",
-                "RecipeUse": "{itemName} è un ingrediente nella seguente [[Special:MyLanguage/Recipes | ricetta]]:"
+                "RecipeUse": "La {itemName} è un ingrediente nella seguente [[Special:MyLanguage/Recipes | ricetta]]:"
             },
             "Plurals": {
                 "RequirementUse": "{itemName} è un requisito nei seguenti casi particolari:",
