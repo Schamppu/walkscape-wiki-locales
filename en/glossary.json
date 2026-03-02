@@ -109,6 +109,8 @@
         "activity": "Activity",
         "attribute": "Attribute",
         "attributes": "Attributes",
+        "attributeInput": "Attribute (Input)",
+        "attributesInput": "Attributes (Input)",
         "bank": "Bank Options",
         "bonusDrops": "Bonus Drops",
         "building": "Building",
