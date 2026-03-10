@@ -291,7 +291,7 @@
             "NoUses": "This item currently has no special uses.",
             "Plurals": {
                 "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements|achievements]]:",
-                "ActivityInputUse": "{itemName} is used as a required input for the following [[Special:MyLanguage/Activities | activities]]:",
+                "ActivityInputUse": "{itemName} can be used as an input for the following [[Special:MyLanguage/Activities | activities]]:",
                 "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards|jobs]]:",
                 "RecipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes|recipes]]:",
                 "RequirementUse": "{itemName} is a requirement in the following special cases:",
