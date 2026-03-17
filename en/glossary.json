@@ -29,6 +29,7 @@
         "effect": "Effect",
         "endingLocation": "Ending Location",
         "factionName": "Faction Name",
+        "factionReward": "{factionName} Faction Rewards",
         "finalChance": "Final<br>Chance",
         "finalOdds": "Final<br>Odds",
         "fineAttributes": "Fine Attributes",
