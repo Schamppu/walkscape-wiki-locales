@@ -1,1 +1,163 @@
-{}
+{
+    "common": {
+        "shopName": "Название Магазина",
+        "always": "Всегда",
+        "achievementName": "Название Достижения",
+        "chestName": "Название Сундука",
+        "cooldown": "Восстановление",
+        "difficulty": "Сложность",
+        "skills": "Навыки",
+        "information": "Информация",
+        "maxEfficency": "Максимальная<br>Эффективность Работы",
+        "minSteps": "Минимум<br>Шагов",
+        "need": "Необходимо:",
+        "never": "Никогда",
+        "noFine": "Этот предмет не может быть качественным.",
+        "pet": "Имя Питомца",
+        "petEgg": "Название Яйца Питомца",
+        "price": "Цена",
+        "quantity": "Количество",
+        "rarity": "Редкость",
+        "recipeName": "Название Рецепта",
+        "region": "Регион",
+        "relAttributes": "Связанные Атрибуты",
+        "requirement": "Требование",
+        "requirements": "Требования",
+        "reward": "Награда",
+        "rewards": "Награды",
+        "serviceName": "Название Услуги",
+        "skill": "Навык",
+        "slot": "Слот",
+        "slots": "Слоты",
+        "source": "Источник",
+        "sources": "Источники",
+        "type": "Тип Предмета",
+        "oneInX": "~1 из {number}",
+        "petRare": "Имя Редкого Питомца",
+        "relAttribute": "Связанный Атрибут",
+        "buildingType": "Тип Здания",
+        "serviceReq": "Требование<br>Услуги",
+        "materials": "Использованные<br>Материалы",
+        "abilityName": "Название Способоности",
+        "chance": "Шанс",
+        "atLeast": "{number} или более",
+        "charges": "Заряды",
+        "buildingName": "Название Здания",
+        "chanceActivation": "Шанс<br>(За Активацию)",
+        "itemName": "Название Предмета",
+        "jobBoardName": "Название Доски Заданий",
+        "keywords": "Ключевые Слова",
+        "level": "Уровень",
+        "location": "Локация",
+        "locations": "Локации",
+        "direction": "Направление",
+        "duration": "Длительность",
+        "effect": "Эффект",
+        "factionName": "Название Фракции"
+    },
+    "pageHeaders": {
+        "factionRepDrops": "Награды за Репутацию Фракции",
+        "item": "Предмет",
+        "items": "Предметы",
+        "inventory": "Инвентарь",
+        "relatedItems": "Связанные Предметы",
+        "requirement": "Требование",
+        "route": "Маршрут",
+        "abilities": "Способности",
+        "ability": "Способность",
+        "attributes": "Атрибуты",
+        "building": "Здание",
+        "buildings": "Здания",
+        "error": "ошибка",
+        "faction": "Фракция",
+        "factions": "Фракции",
+        "guides": "Руководства",
+        "hiddenActivity": "Скрытая Активность",
+        "inputs": "Необходимые Предметы",
+        "jobBoard": "Доска Заданий",
+        "keyword": "Ключевое Слово",
+        "loadouts": "Наборы Снаряжения",
+        "location": "Локация",
+        "locations": "Локации",
+        "quantity": "Количество",
+        "Quote": "Цитата",
+        "Quotes": "Цитаты",
+        "recipe": "Рецепт",
+        "recipes": "Рецепты",
+        "reward": "Награда",
+        "jobBoards": "Доски Заданий",
+        "routes": "Маршруты",
+        "Rumor": "Слух",
+        "Rumors": "Слухи",
+        "service": "Услуга",
+        "shop": "Магазин",
+        "shops": "Магазины",
+        "sources": "Источники",
+        "visibility": "Видимость",
+        "name": "Имя",
+        "names": "Имена",
+        "petXPGrow": "Опыт Для Взросления",
+        "petXPHatch": "Опыт Для Вылупления",
+        "attribute": "Атрибут",
+        "input": "Необходимый Предмет",
+        "keywords": "Ключевые Слова",
+        "services": "Услуги",
+        "rewards": "Награды",
+        "hiddenActivities": "Скрытые Активностт",
+        "requirements": "Требования",
+        "xpRequirement": "Требование для Получения Опыта",
+        "activities": "Активности",
+        "activity": "Активность",
+        "xpRequirements": "Требования для Получения Опыта"
+    },
+    "modules": {
+        "ItemInfobox": {
+            "type": "Тип:",
+            "keywords": "Ключевые слова:",
+            "fineVersion": "Качественная Версия:",
+            "quality": "Качество:",
+            "rarity": "Редкость:",
+            "slot": "Слот:",
+            "value": "Стоимость:",
+            "duration": "Длительность:",
+            "keyword": "Ключевое слово:"
+        },
+        "ItemsActions": {
+            "ActivityRequirement": "Требования активности должны быть удовлетворены.",
+            "NoRequirement": "Требования нет.",
+            "NoCooldown": "Перезарядки нет.",
+            "MemosphereNote": "Опыт зависит от уровня навыка.<br>Опыт = {timesLevel}&times; Уровень {skill}"
+        },
+        "ItemsAttributes": {
+            "None": "У этого предмета нет атрибутов."
+        },
+        "ItemsIntroDescription": {
+            "ItemTypes": {
+                "Collectible": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Collectibles | коллекционный предмет]].",
+                "Consumable": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Consumables | расходник]].",
+                "Container": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Chests | сундук]]."
+            }
+        },
+        "ItemUses": {
+            "Plurals": {
+                "SpecialCurrencyUse": "{itemName} может использоваться как валюта в следующих [[Special:MyLanguage/Shops|магазинах]]:",
+                "SpecialShopPaymentUse": "{itemName} может быть продан в следующих [[Special:MyLanguage/Shops|магазинах]], чтобы получить особую валюту:"
+            },
+            "RequirementUses": {
+                "Plurals": {
+                    "activities": "{itemName} необходим для выполнения следующих активностей:"
+                }
+            }
+        }
+    },
+    "Characters": {
+        "Rumors": {
+            "none": "{characterName} пока не сообщает никаких слухов."
+        }
+    },
+    "Shops": {
+        "noSell": "В этом магазине нельзя ничего продать.",
+        "noBuy": "На данный момент в этом магазине ничего не продаётся.",
+        "restrictedSell": "В этом магазине можно продать только некоторые предметы."
+    }
+}
