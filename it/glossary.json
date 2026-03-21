@@ -353,7 +353,9 @@
         "shops": "Negozi",
         "sources": "Provenienze",
         "uses": "Usi",
-        "travelingChest": "Funzione di velocità del forziere di viaggio"
+        "travelingChest": "Funzione di velocità del forziere di viaggio",
+        "attributeInput": "Attributo (Ingresso)",
+        "attributesInput": "Attributi (Ingresso)"
     },
     "Achievements": {
         "Rewards": {
