@@ -53,7 +53,13 @@
         "direction": "Направление",
         "duration": "Длительность",
         "effect": "Эффект",
-        "factionName": "Название Фракции"
+        "factionName": "Название Фракции",
+        "activityName": "Название Активности",
+        "cooldowns": "Восстановления",
+        "note": "Примечание",
+        "artisanRecipe": "Ремесленный Рецепт",
+        "attribute": "Атрибут",
+        "attributes": "Атрибуты"
     },
     "pageHeaders": {
         "factionRepDrops": "Награды за Репутацию Фракции",
@@ -136,6 +142,23 @@
                 "Collectible": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Collectibles | коллекционный предмет]].",
                 "Consumable": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Consumables | расходник]].",
                 "Container": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Chests | сундук]]."
+            },
+            "Plurals": {
+                "Activity": "Может быть получен из [[Special:MyLanguage/Activities | активностей]].",
+                "Chest": "Может быть найден в [[Special:MyLanguage/Chests | сундуках]].",
+                "FactionReward": "Может быть наградой за получение достаточного количества [[Special:MyLanguage/Faction Reputation | репутации фракции]].",
+                "Shop": "Может быть приобретён в некоторых [[Special:MyLanguage/Shops | магазинах]].",
+                "ShopPayment": "Может приниматься в качестве оплаты в некоторых [[Special:MyLanguage/Shops | магазинах]].",
+                "AbilityActivation": "Может быть получен при активации [[Special:MyLanguage/Abilities | способностей]].",
+                "AchievementPoint": "Может быть получен в качестве награды за получение достаточного числа [[Special:MyLanguage/Achievement Points | очков достижений]].",
+                "AchievementCompletion": "Может быть получен в качестве награды за выполнение [[Special:MyLanguage/Achievements | достижений]].",
+                "FactionRepeatingReward": "Может быть повторяющейся наградой за получение достаточного количества [[Special:MyLanguage/Faction Reputation | репутации фракции]].",
+                "JobBoard": "Может быть наградой за выполнение [[Special:MyLanguage/Job Boards | работы с доски заданий]]."
+            },
+            "Singulars": {
+                "AchievementCompletion": "Может быть наградой за получение [[Special:MyLanguage/Achievements | достижения]].",
+                "AbilityActivation": "Может быть получен при активации [[Special:MyLanguage/Abilities | способности]].",
+                "AchievementPoint": "Может быть получен в качестве награды за получение достаточного числа [[Special:MyLanguage/Achievement Points | очков достижений]]."
             }
         },
         "ItemUses": {
@@ -158,6 +181,80 @@
     "Shops": {
         "noSell": "В этом магазине нельзя ничего продать.",
         "noBuy": "На данный момент в этом магазине ничего не продаётся.",
-        "restrictedSell": "В этом магазине можно продать только некоторые предметы."
+        "restrictedSell": "В этом магазине можно продать только некоторые предметы.",
+        "allBuy": "Этот магазин продаёт предметы.",
+        "allSell": "Все обычные предметы могут быть проданы в этом магазине.",
+        "limitedSell": "Только эти предметы могут быть проданы в данном магазине."
+    },
+    "Pets": {
+        "Infobox": {
+            "static": "Статичный:",
+            "Dark": "Тёмный",
+            "Normal": "Обычный",
+            "Light": "Светлый",
+            "Rare": "Редкий",
+            "animation": "Анимированный:"
+        },
+        "Requirement": {
+            "NoXPReq": "У этого питомца нет требований для получения опыта."
+        },
+        "Experience": {
+            "ChangeToJuvenile": "Этот питомец станет '''Детёнышем''', когда достигнет уровня {nextLevel}.",
+            "ChangeToAdult": "Этот питомец станет '''Взрослым''', когда достигнет уровня {nextLevel}.",
+            "XPGain": "Потребуется дополнительно {addedExperienceNum} опыта, чтобы достичь уровня {nextLevel}. (всего потребуется {totalExperienceNum} опыта)"
+        },
+        "Intro": {
+            "stageEgg": "Этот питомец является Яйцом с уровня 0 до уровня 1.",
+            "stageAdult": "Этот питомец становится взрослым на уровне {adultLevel}.",
+            "stageJuvi": "Этот питомец является Детёнышем с уровня 1 до уровня {adultLevel}."
+        },
+        "Names": {
+            "main": "Питомец может иметь одно из следующих имён по умолчанию, когда вылупляется:"
+        },
+        "Normal": "Обычный Питомец",
+        "Rare": "Редкий Питомец"
+    },
+    "Routes": {
+        "Directions": {
+            "N": {
+                "short": "С",
+                "name": "Север"
+            },
+            "E": {
+                "short": "В",
+                "name": "Восток"
+            },
+            "NW": {
+                "short": "СЗ",
+                "name": "Северо-запад"
+            },
+            "W": {
+                "name": "Запад",
+                "short": "З"
+            },
+            "C": {
+                "name": "Центр",
+                "short": "Ц"
+            },
+            "NE": {
+                "short": "СВ",
+                "name": "Северо-восток"
+            },
+            "SE": {
+                "short": "ЮВ",
+                "name": "Юго-восток"
+            },
+            "SW": {
+                "short": "ЮЗ",
+                "name": "Юго-запад"
+            },
+            "S": {
+                "short": "Ю",
+                "name": "Юг"
+            }
+        }
+    },
+    "Pfp_Options": {
+        "defaultUnlock": "Всегда доступно."
     }
 }
