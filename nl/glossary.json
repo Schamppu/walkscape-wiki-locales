@@ -253,7 +253,7 @@
                 "RecipeUse": "{itemName} is een ingrediënt in de volgende [[Special:MyLanguage/Recipes|recepten]]:",
                 "RequirementUse": "{itemName} is nodig voor de volgende speciale gevallen:",
                 "SpecialCurrencyUse": "{itemName} kan als valuta gebruikt worden bij de volgende [[Special:MyLanguage/Shops|winkels]]:",
-                "ActivityInputUse": "{itemName} wordt gebruikt als vereiste invoer voor de volgende [[Special:MyLanguage/Activities | activiteiten]]:",
+                "ActivityInputUse": "{itemName} kan gebruikt worden als invoer voor de volgende [[Special:MyLanguage/Activities | activiteiten]]:",
                 "SpecialShopPaymentUse": "{itemName} kan verkocht worden bij de volgende [[Special:MyLanguage/Shops|winkels]] om een speciale valuta te verkrijgen:",
                 "AchievementUse": "{itemName} is nodig voor de volgende [[Special:MyLanguage/Achievements|prestaties]]:"
             },
@@ -283,7 +283,12 @@
                 "AchievementUse": "{itemName} is nodig voor de volgende [[Special:MyLanguage/Achievements | prestaties]]:",
                 "PetEggUse": "{itemName} is een ei dat geclaimd kan worden en vervolgens uitgebroed kan worden tot een {petName} beestje."
             },
-            "DefaultMaterial": "Dit voorwerp wordt momenteel niet gebruikt voor een recept of andere functie."
+            "DefaultMaterial": "Dit voorwerp wordt momenteel niet gebruikt voor een recept of andere functie.",
+            "ActivityInputUses": {
+                "noAttributeBonus": "Deze activiteit profiteert niet van materiaal eigenschappen.",
+                "fineBenefit": "Deze activiteit profiteert extra van het gebruik van [[Special:MyLanguage/Fine_Material#Activity_Inputs|fine material]].",
+                "noFineBenefit": "Deze activiteit profiteert niet van het gebruik van [[Special:MyLanguage/Fine_Material#Activity_Inputs|fijn materiaal]]."
+            }
         },
         "ItemsIntroDescription": {
             "ItemTypes": {
