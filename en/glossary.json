@@ -199,6 +199,7 @@
             "NoCooldown": "No cooldown.",
             "NoRequirement": "No requirement.",
             "PresentRainNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
+            "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/That's A Wrap|That's A Wrap Table]].",
             "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
         },
         "ItemsAttributes": {
