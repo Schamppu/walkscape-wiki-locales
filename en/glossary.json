@@ -400,8 +400,10 @@
             "mainSkill": "Main Skill:"
         },
         "Inputs": {
-            "Plural": "This activity requires the following items be supplied for each action:",
-            "Singular": "This activity requires the following item be supplied for each action:"
+            "PluralRequired": "This activity requires the following items be supplied for each action:",
+            "SingularRequired": "This activity requires the following item be supplied for each action:",
+            "PluralOptional": "This activity may use the following items if supplied for each action:",
+            "SingularOptional": "This activity may use the following item if supplied for each action:"
         },
         "Intro": {
             "Movement": "This is a [[Special:MyLanguage/Movement_Activities|movement activity]], you will be teleported to {locationEntry} upon completion of an action.",
