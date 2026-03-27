@@ -302,8 +302,8 @@
             },
             "ActivityInputUses": {
                 "fineBenefit": "This activity gains extra benefits from using [[Special:MyLanguage/Fine_Material#Activity_Inputs|fine material]] inputs.",
-                "noFineBenefit": "This activity gains no extra benefit from using [[Special:MyLanguage/Fine_Material#Activity_Inputs|fine material]] inputs.",
-                "noAttributeBonus": "This activity gains no benefit from material attributes.",
+                "noFineBenefit": "This activity gains '''no extra benefit''' from using [[Special:MyLanguage/Fine_Material#Activity_Inputs|fine material]] inputs.",
+                "noAttributeBonus": "This activity gains '''no benefit''' from material attributes.",
                 "requireFine": "This activity requires using [[Special:MyLanguage/Fine_Material|fine material]] inputs."
             },
             "RequirementUses": {
