@@ -63,6 +63,7 @@
         "nothing": "Nothing",
         "odds": "Odds",
         "oneInX": "~1 in {number}",
+        "oneInXActions": "~1 in {number} actions",
         "payment": "Payment",
         "pet": "Pet Name",
         "pets": "Pet Names",
@@ -189,6 +190,7 @@
             "properties": "Properties:",
             "quality": "Quality:",
             "rarity": "Rarity:",
+            "role": "Role:",
             "searchKeyword": "Search<br>Keyword:",
             "searchKeywords": "Search<br>Keywords:",
             "sellable": "Sellable:",
@@ -360,6 +362,7 @@
             "recipeIntro": "The following are all of the [[Special:MyLanguage/Recipes | recipes]] that use the '''{Keyword_Name}''' recipe keyword.",
             "returnString": "Go back to the {keywordImage} [[Special:MyLanguage/Keywords#{keywordType} | Keywords]] page.",
             "serviceIntro": "The following are all of the [[Special:MyLanguage/Services | services]] that have the '''{Keyword_Name}''' service keyword.",
+            "containerIntro": "The following are all of the [[Special:MyLanguage/Chests | containers]] that have the '''{Keyword_Name}''' container keyword.",
             "supporterIntro": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] suggested by cult leaders that are currently in the game.",
             "unknown": "'''{Keyword_Name}''' is an unknown type.",
             "weightIntro": "The following are all of the [[Special:MyLanguage/Items | items]] that use the '''{Keyword_Name}''' weight keyword.\n\nIt changes the maximum size of the stack of items in your inventory to {stackSize} per stack."
@@ -609,6 +612,7 @@
         },
         "Normal": "Normal Pet",
         "Rare": "Rare Pet",
+        "Level": "Level {level}",
         "Requirement": {
             "NoXPReq": "This pet has no special requirements to gain experience."
         }
