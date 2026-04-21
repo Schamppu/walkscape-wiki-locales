@@ -100,7 +100,12 @@
         "pet": "Naam Van Beestje",
         "petsRare": "Namen Van Zeldzame Beestjes",
         "abilityName": "Naam Van Ability",
-        "chanceActivation": "Kans<br>(Per Activatie)"
+        "chanceActivation": "Kans<br>(Per Activatie)",
+        "building": "Gebouw",
+        "regions": "Regio's",
+        "buildings": "Gebouwen",
+        "characterName": "Personage naam",
+        "oneInXActions": "~1 per {number} acties"
     },
     "pageHeaders": {
         "abilities": "Abilities",
@@ -168,7 +173,9 @@
         "keyword": "Sleutelwoord",
         "keywords": "Sleutelwoorden",
         "shop": "Winkel",
-        "shops": "Winkels"
+        "shops": "Winkels",
+        "attributeInput": "Attribuut (invoer)",
+        "attributesInput": "Attributen (invoer)"
     },
     "modules": {
         "ItemInfobox": {
@@ -188,7 +195,8 @@
             "slot": "Uitrustingsvak:",
             "tradable": "Te Ruilen:",
             "type": "Type:",
-            "value": "Waarde:"
+            "value": "Waarde:",
+            "role": "Rol:"
         },
         "ItemsAttributes": {
             "None": "Dit voorwerp heeft geen attributen."
