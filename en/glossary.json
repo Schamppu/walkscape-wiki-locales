@@ -578,6 +578,10 @@
         },
         "Services": {
             "main": "The following [[Special:MyLanguage/Services | services]] can be used at this location."
+        },
+        "Visibility": {
+            "mainSingular": "This location is only visible if the following requirement is met.",
+            "mainPlural": "This location is only visible if the following requirements are met."
         }
     },
     "Pets": {
