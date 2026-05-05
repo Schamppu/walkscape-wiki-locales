@@ -65,6 +65,7 @@
         "oddsRoll": "Odds<br>(Per Roll)",
         "oneInX": "~1 in {number}",
         "oneInXActions": "~1 in {number} actions",
+        "oneInXChests": "~1 in {number} chests",
         "oneInXRolls": "~1 in {number} rolls",
         "payment": "Payment",
         "pet": "Pet Name",
