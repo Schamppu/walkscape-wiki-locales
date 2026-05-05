@@ -135,7 +135,9 @@
         "sources": "Lähteet",
         "travelingChest": "Matkustuksen Arkkumäärän Funktio",
         "uses": "Käyttökoheet",
-        "visibility": "Näkyvyys"
+        "visibility": "Näkyvyys",
+        "keyword": "Avainsana",
+        "keywords": "Avainsanat"
     },
     "modules": {
         "ItemInfobox": {
