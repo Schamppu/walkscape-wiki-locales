@@ -108,7 +108,8 @@
         "oneInXActions": "circa 1 su {number} azioni",
         "oddsRoll": "Probabilità<br>(per lancio)",
         "oneInXRolls": "circa 1 volta ogni {number} tiri",
-        "regions": "Regioni"
+        "regions": "Regioni",
+        "oneInXChests": "circa 1 in {number} forzieri"
     },
     "modules": {
         "ItemsIntroDescription": {
