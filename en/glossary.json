@@ -41,6 +41,7 @@
         "initialAppearance": "Initial<br>Appearance",
         "initialChance": "Initial<br>Chance",
         "initialOdds": "Initial<br>Odds",
+        "inputItems": "Input Items",
         "itemName": "Item Name",
         "job": "Job Request",
         "jobBoardName": "Job Board Name",
@@ -438,7 +439,7 @@
         },
         "Visibility": {
             "actionDone": "It is only visible if you have done the following:",
-            "actionNotDone": "It is only visible if you ''haven't'' done the following:",
+            "actionNotDone": "It is only visible if you '''have not''' done the following:",
             "Emergency": {
                 "MainString": "This is an '''emergency''' activity.",
                 "Type": "Emergency"
@@ -448,7 +449,9 @@
                 "Type": "Hidden"
             },
             "keywordEquipped": "It is only visible if you meet the following keyword requirements:",
-            "keywordNotEquipped": "It is only visible if you ''don't'' meet the following keyword requirements:",
+            "keywordNotEquipped": "It is only visible if you '''do not''' meet the following keyword requirements:",
+            "abilityAvailable": "It is only visible while the following is true:",
+            "abilityNotAvailable": "It is only visible while the following '''is not''' true:",
             "Normal": {
                 "MainString": "This activity is always visible.",
                 "Type": "Normal"
