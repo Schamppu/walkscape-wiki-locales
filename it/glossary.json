@@ -100,7 +100,16 @@
         "oneInX": "~1 in {number}",
         "payment": "Pagamento",
         "rawMaterials": "Materie prime",
-        "recipeName": "Nome della ricetta"
+        "recipeName": "Nome della ricetta",
+        "building": "Edificio",
+        "buildings": "Edifici",
+        "characterName": "Nome del personaggio",
+        "factionReward": "Ricompense della fazione {factionName}",
+        "oneInXActions": "circa 1 su {number} azioni",
+        "oddsRoll": "Probabilità<br>(per lancio)",
+        "oneInXRolls": "circa 1 volta ogni {number} tiri",
+        "regions": "Regioni",
+        "oneInXChests": "circa 1 in {number} forzieri"
     },
     "modules": {
         "ItemsIntroDescription": {
@@ -152,7 +161,8 @@
             "PresentRainNote": "Questa abilità fa sì che {rollAmount} tiri sulla [[Special:MyLanguage/Present Rain|Tabella Pioggia di Regali]].",
             "RockStarAmuletNote": "Questa abilità fa sì che i tiri siano {rollAmount} sulla [[Special:MyLanguage/Gems#Gem_Pouch_Table|Tabella della Custodia di Gemme]].",
             "NoCooldown": "Nessun tempo di ricarica.",
-            "NoRequirement": "Nessun requisito."
+            "NoRequirement": "Nessun requisito.",
+            "ThatsAWrapNote": "Questa abilità effettua {rollAmount} tiri sulla [[Special:MyLanguage/That's A Wrap|tabella “È tutto”]."
         },
         "ItemInfobox": {
             "bankable": "Depositabile:",
@@ -171,7 +181,8 @@
             "searchKeywords": "Cerca<br>Parole chiave:",
             "sellable": "Vendibile:",
             "slot": "Slot:",
-            "tradable": "Commerciabile:"
+            "tradable": "Commerciabile:",
+            "role": "Ruolo:"
         },
         "ItemsAttributes": {
             "None": "Questo elemento non ha attributi."
@@ -253,7 +264,7 @@
                 "SpecialCurrencyUse": "{itemName} può essere utilizzato come valuta nei seguenti [[Special:MyLanguage/Shops|negozi]]:",
                 "SpecialShopPaymentUse": "{itemName} può essere venduto nei seguenti [[Special:MyLanguage/Shops|negozi]] per ottenere una valuta speciale:",
                 "AchievementUse": "{itemName} è necessario per i seguenti [[Special:MyLanguage/Achievements|risultati]]:",
-                "ActivityInputUse": "{itemName} è utilizzato come input obbligatorio per le seguenti [[Special:MyLanguage/Activities | attività]]:",
+                "ActivityInputUse": "{itemName} può essere utilizzato come input per le seguenti [[Special:MyLanguage/Activities | attività]]:",
                 "JobBoardUse": "{itemName} può essere richiesto dai seguenti [[Special:MyLanguage/Job Boards|lavori]]:",
                 "RecipeUse": "{itemName} è un ingrediente delle seguenti [[Special:MyLanguage/Recipes|ricette]]:"
             },
@@ -261,7 +272,13 @@
             "DefaultGear": "Questo oggetto può essere equipaggiato dal tuo personaggio.",
             "DefaultMaterial": "Questo oggetto non è attualmente utilizzato in nessuna ricetta o per usi speciali.",
             "DefaultMemosphere": "Le Memosfere possono essere utilizzate per acquisire esperienza.",
-            "NoUses": "Questo oggetto non ha attualmente alcun uso speciale."
+            "NoUses": "Questo oggetto non ha attualmente alcun uso speciale.",
+            "ActivityInputUses": {
+                "requireFine": "Questa attività richiede l'utilizzo di input [[Special:MyLanguage/Fine_Material|materiale fine]].",
+                "noFineBenefit": "Questa attività non trae ‘'alcun vantaggio aggiuntivo’' dall'utilizzo di [[Special:MyLanguage/Fine_Material#Activity_Inputs|materie prime pregiate]].",
+                "noAttributeBonus": "Questa attività non trae alcun vantaggio dagli attributi materiali.",
+                "fineBenefit": "Questa attività offre ulteriori vantaggi grazie all'utilizzo di [[Special:MyLanguage/Fine_Material#Activity_Inputs|materiale pregiato]] come materia prima."
+            }
         },
         "ItemsRequirements": {
             "None": "Questo oggetto non ha requisiti per essere utilizzato."
@@ -280,7 +297,8 @@
             "consumableIntro": "Di seguito sono elencati tutti i [[Special:MyLanguage/Consumables | consumables]] che utilizzano la parola chiave consumable '''{Keyword_Name}'''.",
             "materialIntro": "Di seguito sono elencati tutti i [[Special:MyLanguage/Materials | materiali]] che utilizzano la parola chiave materiale '''{Keyword_Name}'''.",
             "recipeIntro": "Di seguito sono elencate tutte le [[Special:MyLanguage/Recipes | ricette]] che utilizzano la parola chiave '''{Keyword_Name}'''.",
-            "bannedKeywordMultiple": "Questa è una '''Parola chiave vietata''' e fa parte di un gruppo di parole chiave vietate. Ti è consentito equipaggiare un solo oggetto con una qualsiasi di queste parole chiave nei tuoi slot degli strumenti alla volta:"
+            "bannedKeywordMultiple": "Questa è una '''Parola chiave vietata''' e fa parte di un gruppo di parole chiave vietate. Ti è consentito equipaggiare un solo oggetto con una qualsiasi di queste parole chiave nei tuoi slot degli strumenti alla volta:",
+            "containerIntro": "Di seguito sono elencati tutti i [[Special:MyLanguage/Chests | contenitori]] che hanno la parola chiave del contenitore '''{Keyword_Name}'''."
         },
         "requirements": {
             "gameData": "{reputationAmount} Reputazione della fazione {factionName}",
@@ -410,7 +428,11 @@
         },
         "Inputs": {
             "Plural": "Per questa attività è necessario fornire i seguenti elementi per ogni azione:",
-            "Singular": "Questa attività richiede che per ogni azione venga fornito il seguente elemento:"
+            "Singular": "Questa attività richiede che per ogni azione venga fornito il seguente elemento:",
+            "PluralOptional": "Questa attività può utilizzare i seguenti elementi, se forniti per ogni azione:",
+            "PluralRequired": "Per ciascuna azione di questa attività è necessario eseguire le seguenti azioni:",
+            "SingularRequired": "Per ogni azione è necessario fornire il seguente elemento:",
+            "SingularOptional": "Questa attività può utilizzare il seguente elemento, se fornito, per ogni azione:"
         },
         "Intro": {
             "Movement": "Questa è un'[[Special:MyLanguage/Movement_Activities|attività di movimento]], verrai teletrasportato a {locationEntry} al completamento di un'azione.",
@@ -521,7 +543,8 @@
         "Abilities": {
             "unlock": "Questa abilità viene sbloccata al livello {unlockLevel}."
         },
-        "Normal": "Animale domestico comune"
+        "Normal": "Animale domestico comune",
+        "Level": "Livello {level}"
     },
     "Routes": {
         "Directions": {
@@ -655,6 +678,10 @@
         },
         "Buildings": {
             "main": "In questa località è possibile visitare i seguenti [[Special:MyLanguage/Buildings | edifici]]."
+        },
+        "Visibility": {
+            "mainSingular": "Questa posizione è visibile solo se è soddisfatto il seguente requisito.",
+            "mainPlural": "Questa posizione è visibile solo se sono soddisfatti i seguenti requisiti."
         }
     },
     "Pfp_Options": {
