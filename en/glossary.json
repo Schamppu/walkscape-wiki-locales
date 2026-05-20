@@ -1,6 +1,7 @@
 {
     "common": {
         "abilityName": "Ability Name",
+        "abilityNames": "Ability Names",
         "achievementName": "Achievement Name",
         "activityName": "Activity Name",
         "always": "Always",
@@ -302,6 +303,7 @@
             "FactionReward": "{factionName} Faction Reputation",
             "NoUses": "This item currently has no special uses.",
             "Plurals": {
+                "AbilityCharging": "{itemName} is used to charge the following [[Special:MyLanguage/Abilities | abilities]]:",
                 "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements|achievements]]:",
                 "ActivityInputUse": "{itemName} can be used as an input for the following [[Special:MyLanguage/Activities | activities]]:",
                 "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards|jobs]]:",
@@ -333,6 +335,7 @@
                 }
             },
             "sectionHeaders": {
+                "AbilityCharging": "Ability Charging",
                 "AchievementUse": "Achievement",
                 "ActivityInputUse": "Activity Input",
                 "JobBoardUse": "Job Boards",
@@ -344,6 +347,7 @@
                 "SpecialShopPaymentUse": "Special Sale"
             },
             "Singulars": {
+                "AbilityCharging": "{itemName} is used to charge the following [[Special:MyLanguage/Abilities | ability]]:",
                 "AchievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements | achievement]]:",
                 "ActivityInputUse": "{itemName} is used as a required input for the following [[Special:MyLanguage/Activities | activity]]:",
                 "JobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards | job]]:",
