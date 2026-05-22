@@ -1,1 +1,12 @@
-{}
+{
+    "common": {
+        "artisanRecipe": "Řemeslný recept",
+        "atLeast": "{číslo} nebo více",
+        "activityName": "Název aktivity",
+        "always": "Vždy",
+        "abilityNames": "Názvy schopností",
+        "attribute": "Vlastnost",
+        "achievementName": "Název úspěchu",
+        "abilityName": "Název schopnosti"
+    }
+}
