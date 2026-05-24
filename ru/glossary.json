@@ -38,7 +38,7 @@
         "buildingType": "Тип Здания",
         "serviceReq": "Требование<br>Услуги",
         "materials": "Использованные<br>Материалы",
-        "abilityName": "Название Способоности",
+        "abilityName": "Название Способности",
         "chance": "Шанс",
         "atLeast": "{number} или более",
         "charges": "Заряды",
