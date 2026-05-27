@@ -214,7 +214,9 @@
             "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
         },
         "ItemsAttributes": {
-            "None": "This item has no attributes."
+            "None": "This item has no attributes.",
+            "MaterialInput": "This item provides these attributes when used as an input for activities.",
+            "MaterialInputFine": "This item provides these attributes when used as an input for some activities. Fine materials used also benifit from a [[Special:MyLanguage/Fine_Material#Activity_Inputs|global bonus when used as inputs]]."
         },
         "ItemsIntroDescription": {
             "ItemTypes": {
