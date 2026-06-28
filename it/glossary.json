@@ -109,7 +109,9 @@
         "oddsRoll": "Probabilità<br>(per lancio)",
         "oneInXRolls": "circa 1 volta ogni {number} tiri",
         "regions": "Regioni",
-        "oneInXChests": "circa 1 in {number} forzieri"
+        "oneInXChests": "circa 1 in {number} forzieri",
+        "abilityNames": "Nomi delle Abilità",
+        "inputItems": "Oggi in ingresso"
     },
     "modules": {
         "ItemsIntroDescription": {
@@ -185,7 +187,9 @@
             "role": "Ruolo:"
         },
         "ItemsAttributes": {
-            "None": "Questo elemento non ha attributi."
+            "None": "Questo elemento non ha attributi.",
+            "MaterialInput": "Questo elemento fornisce tali attributi quando viene utilizzato come input per le attività.",
+            "MaterialInputFine": "Questo oggetto fornisce questi attributi quando viene utilizzato come input per alcune attività. I materiali pregiati utilizzati beneficiano inoltre di un [[Special:MyLanguage/Fine_Material#Activity_Inputs|bonus globale quando vengono utilizzati come input]]."
         },
         "ItemSources": {
             "sectionHeaders": {
