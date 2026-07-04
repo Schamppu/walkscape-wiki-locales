@@ -27,6 +27,7 @@
         "chestName": "Chest Name",
         "cooldown": "Cooldown",
         "cooldowns": "Cooldowns",
+        "date": "Date",
         "difficulty": "Difficulty",
         "direction": "Direction",
         "duration": "Duration",
@@ -43,6 +44,8 @@
         "initialChance": "Initial<br>Chance",
         "initialOdds": "Initial<br>Odds",
         "inputItems": "Input Items",
+        "item": "Item",
+        "items": "Items",
         "itemName": "Item Name",
         "job": "Job Request",
         "jobBoardName": "Job Board Name",
@@ -55,6 +58,10 @@
         "maxEfficency": "Max<br>Work Efficiency",
         "maxXpStep": "Max<br>XP/Step",
         "minSteps": "Minimum<br>Steps",
+        "message": "Message",
+        "messages": "Messages",
+        "messageSubject": "Subject",
+        "messageText": "Message",
         "NA": "N/A",
         "need": "Need:",
         "never": "Never",
@@ -152,6 +159,8 @@
         "location": "Location",
         "locations": "Locations",
         "lootTables": "Loot Tables",
+        "loreEntry": "Lore Entry",
+        "loreEntries": "Lore Entries",
         "mainDrops": "Main Drops",
         "name": "Name",
         "names": "Names",
@@ -211,7 +220,7 @@
             "NoCooldown": "No cooldown.",
             "NoRequirement": "No requirement.",
             "PresentRainNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
-            "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/That's A Wrap|That's A Wrap Table]].",
+            "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Item_Finding_Items#Linens|Linens Table]].",
             "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
         },
         "ItemsAttributes": {
@@ -228,7 +237,8 @@
                 "Currency": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Currencies | currency]].",
                 "Loot": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Loot | loot item]].",
                 "Material": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Materials | material]].",
-                "Pet egg": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Pet_Eggs | pet egg]]."
+                "Pet egg": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Pet_Eggs | pet egg]].",
+                "Lore item": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Lore_Items | lore item]]."
             },
             "None": "The {itemName} [[Special:MyLanguage/Items | item]] cannot currently be obtained.",
             "Plurals": {
@@ -268,6 +278,7 @@
             "ChestRollNote": "<sup>†</sup>Note: Chests roll for loot multiple times.",
             "FactionRepeatingReward": "Every {reputationAmount} Faction Reputation",
             "factionRewardRequirement": "{reputationAmount} {factionName} Faction Reputation",
+            "MailboxSourceString": "This item is delivered via mail from the [[File:Mailbox.svg|32px]] [[Special:MyLanguage/Mailbox|mailbox]].",
             "NoSources": "This item cannot currently be obtained from any source.",
             "RecipeExperience": "Recipe Experience",
             "RecipeAndString": " and ",
@@ -287,6 +298,7 @@
                 "FactionReward": "Faction Reward",
                 "ItemAttribute": "Item Attribute Drop",
                 "JobBoard": "Job Board Payment",
+                "Mailbox": "Mailbox",
                 "MysteriousMerchant": "Mysterious Merchant",
                 "RecipeMain": "Primary Recipe Output",
                 "RecipeSecondary": "Secondary Recipe Output",
@@ -596,6 +608,13 @@
             "mainSingular": "This location is only visible if the following requirement is met.",
             "mainPlural": "This location is only visible if the following requirements are met."
         }
+    },
+    "Messages": {
+        "Subject": "Subject: ",
+        "Text": "Message: ",
+        "Date": "Date: ",
+        "Item": "Item: ",
+        "Items": "Items: "
     },
     "Pets": {
         "Abilities": {
