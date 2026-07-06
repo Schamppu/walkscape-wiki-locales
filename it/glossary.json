@@ -111,7 +111,15 @@
         "regions": "Regioni",
         "oneInXChests": "circa 1 in {number} forzieri",
         "abilityNames": "Nomi delle Abilità",
-        "inputItems": "Oggi in ingresso"
+        "inputItems": "Oggi in ingresso",
+        "noRarePet": "Questo animale domestico non può essere raro.",
+        "date": "Data",
+        "item": "Oggetto",
+        "items": "Oggetti",
+        "message": "Messaggio",
+        "messages": "Messaggi",
+        "messageSubject": "Oggetto",
+        "messageText": "Messaggio"
     },
     "modules": {
         "ItemsIntroDescription": {
