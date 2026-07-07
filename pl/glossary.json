@@ -27,6 +27,12 @@
         "characterName": "Nazwa Postaci",
         "date": "Data",
         "abilityName": "Nazwa umiejętności",
-        "chanceActivation": "Szansa<br>(Dla Aktywacji)"
+        "chanceActivation": "Szansa<br>(Dla Aktywacji)",
+        "difficulty": "Trudność",
+        "direction": "Kierunek",
+        "endingLocation": "Lokacja Końcowa",
+        "factionName": "Nazwa Frakcji",
+        "duration": "Czas trwania",
+        "effect": "Efekt"
     }
 }
