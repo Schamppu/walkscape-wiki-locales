@@ -33,6 +33,7 @@
         "endingLocation": "Lokacja Końcowa",
         "factionName": "Nazwa Frakcji",
         "duration": "Czas trwania",
-        "effect": "Efekt"
+        "effect": "Efekt",
+        "factionReward": "{factionName} Nagrody Frakcji"
     }
 }
