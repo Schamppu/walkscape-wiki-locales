@@ -18,6 +18,15 @@
         "chanceRoll": "Szansa<br>(Dla Rzutu)",
         "charges": "Opłaty",
         "chestName": "Nazwa Skrzyni",
-        "artisanRecipe": "Receptura Rzemieślnicza"
+        "artisanRecipe": "Receptura Rzemieślnicza",
+        "abilityNames": "Nazwy umiejętności",
+        "cooldown": "Czas odnowienia",
+        "cooldowns": "Czasy odnowień",
+        "buildings": "Budynki",
+        "building": "Budynek",
+        "characterName": "Nazwa Postaci",
+        "date": "Data",
+        "abilityName": "Nazwa umiejętności",
+        "chanceActivation": "Szansa<br>(Dla Aktywacji)"
     }
 }
