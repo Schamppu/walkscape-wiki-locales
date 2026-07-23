@@ -34,6 +34,7 @@
         "factionName": "Nazwa Frakcji",
         "duration": "Czas trwania",
         "effect": "Efekt",
-        "factionReward": "{factionName} Nagrody Frakcji"
+        "factionReward": "{factionName} Nagrody Frakcji",
+        "minSteps": "Minimalnie<br>Kroków"
     }
 }
