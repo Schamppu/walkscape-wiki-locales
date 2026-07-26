@@ -35,6 +35,12 @@
         "duration": "Czas trwania",
         "effect": "Efekt",
         "factionReward": "{factionName} Nagrody Frakcji",
-        "minSteps": "Minimalnie<br>Kroków"
+        "minSteps": "Minimalnie<br>Kroków",
+        "location": "Lokacja",
+        "locations": "Lokacje"
+    },
+    "pageHeaders": {
+        "location": "Lokacja",
+        "locations": "Lokacje"
     }
 }
