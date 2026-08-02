@@ -5,10 +5,13 @@
         "achievementName": "Achievement Name",
         "activityName": "Activity Name",
         "always": "Always",
+        "applicableAttributes": "Applicable<br>Attributes",
+        "applicableAttribute": "Applicable<br>Attribute",
         "artisanRecipe": "Artisan Recipe",
         "atLeast": "{number} or more",
         "attribute": "Attribute",
         "attributes": "Attributes",
+        "baseChestChance": "Base Chest Chance<br><small>(Per Action)</small>",
         "baseRate": "Base<br>Rate",
         "baseSteps": "Base<br>Steps",
         "baseXp": "Base<br>XP",
@@ -20,11 +23,12 @@
         "buildingType": "Building Type",
         "chance": "Chance",
         "characterName": "Character Name",
-        "chanceActivation": "Chance<br>(Per Activation)",
-        "chanceChest": "Chance<br>(Per Chest)",
-        "chanceRoll": "Chance<br>(Per Roll)",
+        "chanceActivation": "Chance<br><small>(Per Activation)</small>",
+        "chanceChest": "Chance<br><small>(Per Chest)</small>",
+        "chanceRoll": "Chance<br><small>(Per Roll)</small>",
         "charges": "Charges",
         "chestName": "Chest Name",
+        "chipCost": "Chip Cost",
         "cooldown": "Cooldown",
         "cooldowns": "Cooldowns",
         "date": "Date",
@@ -100,6 +104,7 @@
         "reward": "Reward",
         "rewards": "Rewards",
         "rollNote": "Does {number} rolls",
+        "sellValue": "Sell Value",
         "serviceName": "Service Name",
         "serviceReq": "Service<br>Requirement",
         "serviceTeir": "Service Tier",
@@ -116,8 +121,10 @@
         "supporter": "Supporter",
         "totalBaseXpStep": "Total Base<br>XP/Step",
         "totalMaxXpStep": "Total Max<br>XP/Step",
+        "tradedItem": "Item Traded",
         "type": "Item Type",
         "value": "Value",
+        "variations": "Variations",
         "valueWithStack": "Value<br>Single (Stack)",
         "WEAR": "W.E.A.R."
     },
@@ -189,6 +196,7 @@
         "sources": "Sources",
         "travelingChest": "Traveling Chest Rate Function",
         "uses": "Uses",
+        "variations": "Variations",
         "visibility": "Visibility",
         "xpRequirement": "Requirement To Gain Experience",
         "xpRequirements": "Requirements To Gain Experience"
@@ -196,6 +204,7 @@
     "modules": {
         "ItemInfobox": {
             "bankable": "Bankable:",
+            "canDelete": "Can Be Retired:",
             "droppable": "Droppable:",
             "duration": "Duration:",
             "fineValue": "Fine Value:",
@@ -300,6 +309,10 @@
                 "JobBoard": "Job Board Payment",
                 "Mailbox": "Mailbox",
                 "MysteriousMerchant": "Mysterious Merchant",
+                "SellToMM": "Sell To Mysterious Merchant",
+                "BuyFromMM": "Buy From Mysterious Merchant",
+                "PayToMM": "Pay To Mysterious Merchant",
+                "ReceiveFromMM": "Receive From Mysterious Merchant",
                 "RecipeMain": "Primary Recipe Output",
                 "RecipeSecondary": "Secondary Recipe Output",
                 "Shop": "Shop Purchases",
@@ -372,6 +385,15 @@
                 "SpecialCurrencyUse": "{itemName} can be used as currency at the following [[Special:MyLanguage/Shops | shop]]:",
                 "SpecialShopPaymentUse": "{itemName} can be sold at the following [[Special:MyLanguage/Shops | shop]] to gain a special currency:"
             }
+        },
+        "ItemVariations": {
+            "base": "This item can be obtained in the following variations.",
+            "none": "This item has no special variations.",
+            "material": "The [[Special:MyLanguage/Fine Material | 'fine' quality material]] can replace a normal drop with a base rate of 1/100. This can be increased by using [[Special:MyLanguage/Fine Material Finding | items with the fine material finding attribute]].",
+            "processed": "The [[Special:MyLanguage/Fine Material | 'fine' quality material]] can can be [[Special:MyLanguage/Recipes | crafted from artisan recipes]] by using all [[Fine Material | fine material]] inputs.",
+            "consumable": "The 'fine' consumable can be [[Special:MyLanguage/Recipes#Cooking | cooked]] by using all [[Fine Material | fine material]] ingredients or may be found from chests where it can replace a normal drop with a fixed rate of 1/100 ",
+            "egg": "The 'rare' egg can replace a normal drop with a base rate of 1/10.",
+            "crafted": "The different qualities can be an outcome of artisan recipes, the results can be improved by using [[Special:MyLanguage/Quality Outcome | items with the quality outcome attribute]]."
         },
         "Keywords": {
             "activityIntro": "The following are all of the [[Special:MyLanguage/Activities | activities]] that use the '''{Keyword_Name}''' activity keyword.",
@@ -448,7 +470,17 @@
         "LootTables": {
             "SpecialTableNote": "Each of the secondary drops is rolled independently of the others.",
             "TableRollNote": "<sup>†</sup>Note: This table is rolled {rollNumber} times.",
-            "VariableTableInfoHeader": "Full Item Chance Table"
+            "VariableTableInfoHeader": "Full Item Chance Table",
+            "gemsNote": "<sup>†</sup>Note: Items on this table are affected by the [[File:Find Gems.svg|20px]] '''[[Special:MyLanguage/Find Gems | Find gems attribute]]'''.",
+            "travelNote": "Travelling has a special chest rate based on route distance.",
+            "SecondaryTableNotes": {
+                "Chests": "Affected by the [[File:Chest Finding.svg|20px]] '''[[Special:MyLanguage/Chest Finding | Chest finding attribute]]'''",
+                "birdNest": "Affected by the [[File:Find Bird Nests.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests | Find bird nests attribute]]'''",
+                "collectibles": "Affected by the [[File:Find Collectibles.svg|20px]] '''[[Special:MyLanguage/Find Collectibles | Find collectibles attribute]]'''",
+                "fineMaterial": "Affected by the [[File:Fine Material Finding.svg|20px]] '''[[Special:MyLanguage/Fine Material Finding | Fine material finding attribute]]'''",
+                "petEgg": "Not affected by any [[Special:MyLanguage/Attributes | attributes]].<br>Fixed 10% (1 in 10) chance of being a rare egg."
+
+            }
         },
         "Requirements": {
             "Keyword": "Keyword Requirements:",
