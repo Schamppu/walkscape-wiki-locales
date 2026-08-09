@@ -141,6 +141,8 @@
         "bonusDrops": "Bonus Drops",
         "building": "Building",
         "buildings": "Buildings",
+        "condition": "Condition",
+        "conditions": "Conditions",
         "drops": "Drop Tables",
         "emergencyActivities": "Emergency Activities",
         "emergencyActivity": "Emergency Activity",
@@ -230,7 +232,8 @@
             "NoRequirement": "No requirement.",
             "PresentRainNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
             "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Item_Finding_Items#Linens|Linens Table]].",
-            "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]]."
+            "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]].",
+            "StudyTimeNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Study Time|Study Time Table]]."
         },
         "ItemsAttributes": {
             "None": "This item has no attributes.",
@@ -491,6 +494,8 @@
         "Visibility": {
             "actionDone": "It is only visible if you have done the following:",
             "actionNotDone": "It is only visible if you '''have not''' done the following:",
+            "conditionDone": "It is only visible if you meet the following requirement:",
+            "conditionNotDone": "It is only visible if you '''do not''' meet the following requirement:",
             "Emergency": {
                 "MainString": "This is an '''emergency''' activity.",
                 "Type": "Emergency"
@@ -532,6 +537,8 @@
         "Visibility": {
             "actionDone": "It is only visible if you have done the following:",
             "actionNotDone": "It is only visible if you ''haven't'' done the following:",
+            "conditionDone": "It is only visible if you meet the following requirement:",
+            "conditionNotDone": "It is only visible if you '''do not''' meet the following requirement:",
             "Hidden": {
                 "MainString": "This is a '''hidden''' building.",
                 "Type": "Hidden"
@@ -617,7 +624,22 @@
             "main": "The following [[Special:MyLanguage/Activities | activities]] always available at this location."
         },
         "Buildings": {
-            "main": "The following [[Special:MyLanguage/Buildings | buildings]] can be visited at this location."
+            "main": "The following [[Special:MyLanguage/Buildings | buildings]] can be visited at this location.",
+            "hasHiddenSingle": "This location has a hidden building, shown with a dashed border, you must meet the requirements to see this building.",
+            "hasHiddenMultiple": "This location has hidden buildings, shown with a dashed border, you must meet the individual requirements to see these buildings."
+        },
+        "Conditions": {
+            "mainSingular": "This location has the following changes after a condition is met.",
+            "mainPlural": "This location has the following changes after conditions are met.",
+            "normal": "Normal Condition",
+            "metCondition": "Condition is Met",
+            "info": "Information",
+            "typeStrings": {
+                "icon": "Icon",
+                "name": "Name",
+                "description": "Description",
+                "isoImage": "Image"
+            }
         },
         "Factions": {
             "main": "{locationName} is a member of the following [[Special:MyLanguage/Faction_Reputation | factions]]:",
