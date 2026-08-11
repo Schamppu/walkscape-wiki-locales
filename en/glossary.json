@@ -567,6 +567,12 @@
         },
         "Rumors": {
             "none": "{characterName} currently has no rumors to share."
+        },
+        "Variants": {
+            "mortonGhains": {
+                "broken": "At Broken Spirit Savings",
+                "restored": "At Restored Spirit Savings"
+            }
         }
     },
     "items": {
