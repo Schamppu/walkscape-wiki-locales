@@ -424,6 +424,7 @@
     "Helpers": {
         "addGearGuide": "You can help make one.",
         "autoString": "This page is updated automatically to reflect information in the [[Special:MyLanguage/Versions | current game version]].",
+        "translateString": "Incorrect or missing translations? Please see [[Special:MyLanguage/Localization | the localization page]] for how you can help out.",
         "editGear": "Edit Gear Sets",
         "editGuide": "Edit Guides",
         "noGear": "No gear sets exist yet.",
