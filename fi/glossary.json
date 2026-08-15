@@ -79,7 +79,9 @@
         "value": "Arvo",
         "valueWithStack": "Arvo<br>Yksi (Pino)",
         "WEAR": "W.E.A.R.",
-        "buildingType": "Rakennuksen tyyppi"
+        "buildingType": "Rakennuksen tyyppi",
+        "abilityNames": "Kykyjen nimet",
+        "abilityName": "Kyvyn nimi"
     },
     "pageHeaders": {
         "abilities": "Kyvyt",
