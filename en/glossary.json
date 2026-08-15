@@ -775,5 +775,15 @@
         "noSell": "Nothing may be sold at this shop.",
         "restrictedSell": "Only some items may be sold at this shop.",
         "specialSell": "These items can be sold to this shop in addition to all normal items."
+    },
+    "Disambiguate": {
+        "mysteriousMerchant": {
+            "characterPage": "This page is about the character. For the service he runs see [[Special:MyLanguage/Mysterious Merchant (Service)|Mysterious Merchant (Service)]].",
+            "servicePage": "This page is about the service. For the character that runs it see [[Special:MyLanguage/Mysterious Merchant (Service)|Mysterious Merchant]]."
+        },
+        "fortOfPermafrost": {
+            "locationPage": "This page is about the location. For the building at this location see [[Special:MyLanguage/Fort of Permafrost (Building)|Fort of Permafrost (Building)]].",
+            "buildingPage": "This page is about the building. For the location with the same name see [[Special:MyLanguage/Fort of Permafrost|Fort of Permafrost]]."
+        }
     }
 }
