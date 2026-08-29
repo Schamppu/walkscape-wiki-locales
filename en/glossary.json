@@ -483,7 +483,7 @@
                 "birdNest": "Affected by the [[File:Find Bird Nests.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests | Find bird nests attribute]]'''",
                 "collectibles": "Affected by the [[File:Find Collectibles.svg|20px]] '''[[Special:MyLanguage/Find Collectibles | Find collectibles attribute]]'''",
                 "fineMaterial": "Affected by the [[File:Fine Material Finding.svg|20px]] '''[[Special:MyLanguage/Fine Material Finding | Fine material finding attribute]]'''",
-                "petEgg": "Not affected by any [[Special:MyLanguage/Attributes | attributes]].<br>Fixed 10% (1 in 10) chance of being a rare egg."
+                "petEgg": "Not modifiable by any special [[Special:MyLanguage/Attributes | attributes]].<br>Fixed 10% (1 in 10) chance of being a rare egg."
 
             }
         },
