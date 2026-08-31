@@ -5,6 +5,7 @@
         "achievementName": "Achievement Name",
         "activityName": "Activity Name",
         "always": "Always",
+        "amount": "{quantity}<big>x</big>",
         "applicableAttributes": "Applicable<br>Attributes",
         "applicableAttribute": "Applicable<br>Attribute",
         "artisanRecipe": "Artisan Recipe",
@@ -31,6 +32,9 @@
         "chipCost": "Chip Cost",
         "cooldown": "Cooldown",
         "cooldowns": "Cooldowns",
+        "cosmetic": "Cosmetic",
+        "cosmetics": "Cosmetics",
+        "cosmeticType": "Cosmetic Type",
         "date": "Date",
         "difficulty": "Difficulty",
         "direction": "Direction",
@@ -89,6 +93,7 @@
         "petRare": "Rare Pet Name",
         "petsRare": "Rare Pet Names",
         "price": "Price",
+        "quality": "Quality",
         "quantity": "Quantity",
         "rarity": "Rarity",
         "rawMaterials": "Raw Materials",
@@ -121,6 +126,10 @@
         "supporter": "Supporter",
         "totalBaseXpStep": "Total Base<br>XP/Step",
         "totalMaxXpStep": "Total Max<br>XP/Step",
+        "tagEgg": "Pet Egg {sortNumber}: {eggString}",
+        "tagMaterial": "Material {sortNumber}: {materialString}",
+        "tagQuality": "Quality {sortNumber}: {qualityString}",
+        "tagRarity": "Rarity {sortNumber}: {rarityString}",
         "tradedItem": "Item Traded",
         "type": "Item Type",
         "value": "Value",
@@ -137,6 +146,8 @@
         "attributes": "Attributes",
         "attributeInput": "Attribute (Input)",
         "attributesInput": "Attributes (Input)",
+        "attachment": "Attachment",
+        "attachments": "Attachments",
         "bank": "Bank Options",
         "bonusDrops": "Bonus Drops",
         "building": "Building",
@@ -175,6 +186,7 @@
         "names": "Names",
         "petXPGrow": "Experience To Grow",
         "petXPHatch": "Experience To Hatch",
+        "prices": "Prices",
         "purchases": "Purchases",
         "quantity": "Quantity",
         "Quote": "Quote",
@@ -672,11 +684,27 @@
         }
     },
     "Messages": {
+        "Headers": {
+            "birthday": "Birthday Messages",
+            "global": "Global Messages"
+        },
+        "HeaderDesc": {
+            "birthday": "Your character will receive birthday messages from [[Special:MyLanguage/Helpful Herbert | Helpful Herbert]] on the anniversary of your character creation.",
+            "global": "These are messages that everyone receives. They may be sent to celebrate or as a gift from the [[Special:MyLanguage/Developers | game devs]]."
+        },
+        "Attachment": "Attachment: ",
+        "Attachments": "Attachments: ",
         "Subject": "Subject: ",
         "Text": "Message: ",
         "Date": "Date: ",
         "Item": "Item: ",
         "Items": "Items: "
+    },
+    "MysteriousMerchant": {
+        "IntroString": {
+            "Inventory": "The Mysterious Merchant will buy items that come from chests, and give you chest-specific chips in exchange that you can use to buy other chest items.\n\nYou don't need to bring what you want to sell with you, the Mysterious Merchant can pull items directly from your bank.",
+            "Prices": "The Mysterious Merchant has a fixed buying and selling price based on the rarity of the item."
+        }
     },
     "Pets": {
         "Abilities": {
@@ -764,7 +792,7 @@
             "skilling": "The '''{service_keyword}''' is the service needed for most {skill_type} [[Special:MyLanguage/Recipes|recipes]].",
             "mysteriousMerchant": "The '''Mysterious Merchant''' offers the service of trading chest loot for chest specific chips and then selling chest loot for the ships. There is a 1:4 rate between selling and buying.",
             "wardrobe": "The '''Wardrobe''' service allows your character to change or apply different [[Special:MyLanguage/Cosmetics|cosmetics]] you have gained or purchased. Wardrobes are generally available in every city.",
-            "mailbox": "The '''Mailbox''' is a [[Special:MyLanguage/Services|service]] that allows players to receive mail and claim attached items.\n\nMailboxes are available in locations that have an unlocked [[Special:MyLanguage/Banks|banks]]. The Mailbox can also be opened from the inventory, but items may only be claimed while at a full service bank.\n\nThe mailbox was introduced as part of the wider development of upcoming trading features, but as of now trading and sending items or mail to other players are not possible. The Mailbox currently provides a way for the developers to send mail, rewards, and other surprises to players, and it is planned to support future systems such as trade deliveries and event rewards."
+            "mailbox": "The '''Mailbox''' is a [[Special:MyLanguage/Services|service]] that allows players to receive mail and claim attached items.\n\nMailboxes are available in locations that have a [[Special:MyLanguage/Banks|bank]] available. The Mailbox can also be opened from the inventory, but items may only be claimed while at a full service bank.\n\nThe mailbox was introduced as part of the wider development of upcoming trading features, but as of now trading and sending items or mail to other players are not possible. The Mailbox currently provides a way for the developers to send mail, rewards, and other surprises to players, and it is planned to support future systems such as trade deliveries and event rewards."
         }
     },
     "Shops": {
