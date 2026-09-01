@@ -152,6 +152,7 @@
         "bonusDrops": "Bonus Drops",
         "building": "Building",
         "buildings": "Buildings",
+        "characters": "Characters",
         "condition": "Condition",
         "conditions": "Conditions",
         "drops": "Drop Tables",
@@ -566,6 +567,11 @@
         }
     },
     "Characters": {
+        "Collection": {
+            "intro": "'''Characters''' are the people you can meet in [[Special:MyLanguage/World|the world]]. They can give you quests, [[Special:MyLanguage/Shops|sell you items]], and more.",
+            "regionHeading": "Characters in {region}",
+            "allHeading": "All Characters"
+        },
         "Infobox": {
             "location": "Location:",
             "locations": "Locations:"
@@ -788,6 +794,14 @@
         "regionBorder": "This route crosses from {startRegion} into {endRegion}."
     },
     "Services": {
+        "Collection": {
+            "intro": "'''Services''' provide access to artisan skill actions and other useful features, such as changing your character's appearance and receiving mail.",
+            "levelsHeading": "Levels",
+            "levelsIntro": "There are two tiers of artisan services.",
+            "basicTier": "{tierPip} '''Basic Service''' — Used for recipes with a skill level requirement below 50.",
+            "advancedTier": "{tierPip} '''Advanced Service''' — Used for recipes with a skill level requirement of 50 or above.",
+            "skillHeading": "{skill} Services"
+        },
         "PageDesc": {
             "skilling": "The '''{service_keyword}''' is the service needed for most {skill_type} [[Special:MyLanguage/Recipes|recipes]].",
             "mysteriousMerchant": "The '''Mysterious Merchant''' offers the service of trading chest loot for chest specific chips and then selling chest loot for the ships. There is a 1:4 rate between selling and buying.",
