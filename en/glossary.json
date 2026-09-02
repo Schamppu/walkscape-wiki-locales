@@ -826,6 +826,25 @@
         "restrictedSell": "Only some items may be sold at this shop.",
         "specialSell": "These items can be sold to this shop in addition to all normal items."
     },
+    "RewardProgress": {
+        "achievementTitle": "Achievement Points",
+        "achievementIntro": "'''Achievement Points''' are given for completing {achievements} and obtaining {collectibles}. Different difficulties of achievements award different amounts of achievement points, and each collectible awards one achievement point.",
+        "rewardsIntro": "There are two types of rewards that can be obtained from achievement points:",
+        "totalProgressLabel": "'''Total Progress Unlocks''' — You gain these rewards based on your total achievement progress and can lose access if more achievement points become available.",
+        "checkpointLabel": "'''Check Point Unlocks''' — These rewards become available at fixed achievement-point checkpoints and remain unlocked.",
+        "totalProgressHeading": "Total Progress Unlocks",
+        "checkpointHeading": "Check Point Unlocks",
+        "percentageRequirement": "Have {percentage}% of the available achievement points. '''[{points}]'''",
+        "checkpointRequirement": "Have '''[{points}]''' achievement points.",
+        "factionTitle": "{factionName} Faction Rewards",
+        "factionIntro": "This is the [[Special:MyLanguage/Faction Reputation | faction reputation reward track]] for the {factionName} faction.",
+        "repeatingRewardHeading": "Repeating Reward",
+        "repeatingRequirement": "Awarded every {points} faction reputation.",
+        "special": "Special",
+        "coins": "{quantity} Coins",
+        "skillExperience": "+{quantity} {skillName} Experience",
+        "cosmetic": "{cosmeticName} Cosmetic"
+    },
     "Disambiguate": {
         "mysteriousMerchant": {
             "characterPage": "This page is about the character. For the service he runs see the [[Special:MyLanguage/Mysterious Merchant (Service)|Mysterious Merchant]] service page.",
