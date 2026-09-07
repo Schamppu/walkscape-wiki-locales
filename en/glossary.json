@@ -678,8 +678,14 @@
             "main": "The following [[Special:MyLanguage/Keywords#Location_Keywords | keywords]] apply to this location."
         },
         "Routes": {
+            "youAreHere": "You are here",
+            "ring": "Route ring {number}",
             "baseSteps": "Base Steps",
             "main": "The following [[Special:MyLanguage/Routes | routes]] are available at this location."
+        },
+        "Map": {
+            "heading": "Map",
+            "externalLink": "Open interactive map"
         },
         "Services": {
             "main": "The following [[Special:MyLanguage/Services | services]] can be used at this location."
@@ -841,7 +847,6 @@
         "repeatingRewardHeading": "Repeating Reward",
         "repeatingRequirement": "Awarded every {points} faction reputation.",
         "special": "Special",
-        "coins": "{quantity} Coins",
         "skillExperience": "+{quantity} {skillName} Experience",
         "cosmetic": "{cosmeticName} Cosmetic"
     },
