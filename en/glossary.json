@@ -155,6 +155,7 @@
         "characters": "Characters",
         "condition": "Condition",
         "conditions": "Conditions",
+        "Consumables": "Consumables",
         "drops": "Drop Tables",
         "emergencyActivities": "Emergency Activities",
         "emergencyActivity": "Emergency Activity",
@@ -209,7 +210,8 @@
         "shop": "Shop",
         "shops": "Shops",
         "sources": "Sources",
-        "travelingChest": "Traveling Chest Rate Function",
+        "travelling": "Travelling",
+        "travelingChest": "Travelling Chest Rate Function",
         "trivia": "Trivia",
         "uses": "Uses",
         "variations": "Variations",
@@ -831,6 +833,56 @@
         "noSell": "Nothing may be sold at this shop.",
         "restrictedSell": "Only some items may be sold at this shop.",
         "specialSell": "These items can be sold to this shop in addition to all normal items."
+    },
+    "skills": {
+        "intros": {
+            "agility": "The '''Agility''' utility [[Special:MyLanguage/Skills|skill]] allows you to gain experience by travelling between locations. Higher Agility levels give you access to better [[Special:MyLanguage/Equipment|equipment]] that can help you travel faster. Equipment such as [[Special:MyLanguage/Skis (Keyword)|skis]] and the [[Special:MyLanguage/Grappling hook|grappling hook]] can change the number of steps required to cross different types of terrain. Future plans for travelling include random events, small quests, discoveries, and items to collect along the way. You can also receive [[Special:MyLanguage/Agility chest|Agility chests]] as rare drops while training Agility.",
+            "carpentry": "The '''Carpentry''' artisan [[Special:MyLanguage/Skills|skill]] allows you to process [[Special:MyLanguage/Materials|materials]] such as logs into planks. Future plans for the skill include constructing farm buildings. Higher Carpentry levels give you access to more types of logs and [[Special:MyLanguage/Equipment|equipment]] that can improve your Carpentry efficiency. You can also receive [[Special:MyLanguage/Carpentry chest|Carpentry chests]] as rare drops while training Carpentry.",
+            "cooking": "The '''Cooking''' artisan [[Special:MyLanguage/Skills|skill]] allows you to prepare [[Special:MyLanguage/Consumables|consumables]] that provide temporary skilling boosts. Some recipes are simple, such as cooking fish, while others require several [[Special:MyLanguage/Materials|materials]]. Higher Cooking levels give you access to more ingredients, better recipes, and [[Special:MyLanguage/Equipment|equipment]] that can improve your Cooking efficiency. You can also receive [[Special:MyLanguage/Cooking chest|Cooking chests]] as rare drops while training Cooking.",
+            "crafting": "The '''Crafting''' artisan [[Special:MyLanguage/Skills|skill]] allows you to create [[Special:MyLanguage/Equipment|equipment]] such as fishing rods, pickaxes, and hatchets for training other skills. Equipment can be crafted in six different [[Special:MyLanguage/Crafted Items#Quality|qualities]], and using [[Special:MyLanguage/Fine Material|fine materials]] increases your chances of making a higher quality item. Higher Crafting levels let you work with more materials to make better items and use equipment that can improve your Crafting efficiency. You can also receive [[Special:MyLanguage/Crafting chest|Crafting chests]] as rare drops while training Crafting.",
+            "fishing": "The '''Fishing''' gathering [[Special:MyLanguage/Skills|skill]] allows you to catch different species of fish. Fish can be cooked with the [[Special:MyLanguage/Cooking|Cooking]] skill to turn them into [[Special:MyLanguage/Consumables|consumables]]. Higher Fishing levels give you access to more species of fish and better [[Special:MyLanguage/Equipment|equipment]] that can improve your Fishing efficiency. You can also receive [[Special:MyLanguage/Fishing chest|Fishing chests]] as rare drops while training Fishing.",
+            "foraging": "The '''Foraging''' gathering [[Special:MyLanguage/Skills|skill]] allows you to gather materials from natural and urban areas. Forests, hills, and plains provide plants and seeds for [[Special:MyLanguage/Cooking|Cooking]] and the planned Farming skill, while towns and cities provide materials for [[Special:MyLanguage/Crafting|Crafting]] and [[Special:MyLanguage/Smithing|Smithing]]. Higher Foraging levels give you access to more materials and better [[Special:MyLanguage/Equipment|equipment]] that can improve your Foraging efficiency. You can also receive [[Special:MyLanguage/Foraging chest|Foraging chests]] as rare drops while training Foraging.",
+            "mining": "The '''Mining''' gathering [[Special:MyLanguage/Skills|skill]] allows you to extract [[Special:MyLanguage/Ore (Keyword)|ores]] and [[Special:MyLanguage/Rough gem (Keyword)|rough gems]]. Ores can be processed into bars with the [[Special:MyLanguage/Smithing|Smithing]] skill. Higher Mining levels give you access to more types of ore and better [[Special:MyLanguage/Equipment|equipment]] that can improve your Mining efficiency. You can also receive [[Special:MyLanguage/Mining chest|Mining chests]] as rare drops while training Mining.",
+            "smithing": "The '''Smithing''' artisan [[Special:MyLanguage/Skills|skill]] allows you to smelt ores into bars and create combat [[Special:MyLanguage/Equipment|equipment]]. Higher Smithing levels let you work with more types of ore, make better items, and use equipment that can improve your Smithing efficiency. You can also receive [[Special:MyLanguage/Smithing chest|Smithing chests]] as rare drops while training Smithing.",
+            "woodcutting": "The '''Woodcutting''' gathering [[Special:MyLanguage/Skills|skill]] allows you to gather logs by chopping trees. Logs can be processed into planks with the [[Special:MyLanguage/Carpentry|Carpentry]] skill. Higher Woodcutting levels give you access to more types of trees, better hatchets, and [[Special:MyLanguage/Equipment|equipment]] that can improve your Woodcutting efficiency. You can also receive [[Special:MyLanguage/Woodcutting chest|Woodcutting chests]] and [[Special:MyLanguage/Bird nest|bird nests]] as rare drops while training Woodcutting.",
+            "trinketry": "The '''Trinketry''' artisan [[Special:MyLanguage/Skills|skill]] allows you to shape [[Special:MyLanguage/Rough gem (Keyword)|rough gems]] into [[Special:MyLanguage/Cut gem (Keyword)|cut gems]] and create rings and amulets. Higher Trinketry levels give you access to more recipes, let you make better items, and allow you to use [[Special:MyLanguage/Equipment|equipment]] that can improve your Trinketry efficiency. You can also receive [[Special:MyLanguage/Trinketry chest|Trinketry chests]] as rare drops while training Trinketry.",
+            "tailoring": "The '''Tailoring''' artisan [[Special:MyLanguage/Skills|skill]] allows you to create hand, chest, and leg gear. Some recipes are simple, such as making [[Special:MyLanguage/Linen cloth|linen cloth]], while others require several [[Special:MyLanguage/Materials|materials]]. Higher Tailoring levels give you access to more materials from [[Special:MyLanguage/Foraging|Foraging]] and [[Special:MyLanguage/Hunting|Hunting]], better recipes, and [[Special:MyLanguage/Equipment|equipment]] that can improve your Tailoring efficiency. You can also receive [[Special:MyLanguage/Tailoring chest|Tailoring chests]] as rare drops while training Tailoring.",
+            "hunting": "The '''Hunting''' gathering [[Special:MyLanguage/Skills|skill]] allows you to gather animal parts from forests, hills, plains, and some cities. These materials are used in [[Special:MyLanguage/Tailoring|Tailoring]] and [[Special:MyLanguage/Cooking|Cooking]]. Higher Hunting levels give you access to more materials, better arrows, and [[Special:MyLanguage/Equipment|equipment]] that can improve your Hunting efficiency. You can also receive [[Special:MyLanguage/Hunting chest|Hunting chests]] as rare drops while training Hunting."
+        },
+        "activities": {
+            "introduction": "The following [[Special:MyLanguage/Activities|activities]] can be repeated indefinitely without consuming [[Special:MyLanguage/Materials|materials]]. Some have [[Special:MyLanguage/Keywords#Gear_and_Tool_Keywords|equipment requirements]] or other requirements that must be met before you can start.",
+            "chestRequirements": "For [[Special:MyLanguage/Activities|activities]] involving two [[Special:MyLanguage/Skills|skills]], you can only receive [[Special:MyLanguage/Chests|chests]] for skills with a level requirement. An activity with a level requirement in {skillName} is therefore eligible to drop {chestLink}.",
+            "equipmentBonuses": "When performing an [[Special:MyLanguage/Activities|activity]], only the primary [[Special:MyLanguage/Skills|skill]] determines which [[Special:MyLanguage/Equipment|equipment]] bonuses apply. [[Special:MyLanguage/Attributes|Attributes]] that apply to the primary skill also affect the secondary skill. For example, +1 experience applies to the secondary skill as well.",
+            "tableIntroduction": "The following activities are eligible to drop {chestLink}."
+        },
+        "bonusExperience": {
+            "introduction": "These activities award {skillName} experience as a bonus alongside experience in the primary skill. Item [[Special:MyLanguage/Attributes|attributes]] that specify \"While {skillName}\" do not apply to these activities.",
+            "chestEligibility": "The following activities are eligible to drop {chestLink} if they have a {skillName} level requirement."
+        },
+        "recipes": {
+            "introduction": "The following recipes require [[Special:MyLanguage/Materials|materials]] and may also require access to a service, usually at a specific location. Each recipe produces one set of outputs by default.",
+            "craftingOutcomeBonus": "Each {skillName} level above a [[Special:MyLanguage/Recipes|recipe's]] level requirement grants +1 [[Special:MyLanguage/Crafting Outcome|Crafting Outcome]] toward [[Special:MyLanguage/Crafted Items|crafted items]], with no cap.",
+            "tableIntroduction": "The following activities are eligible to drop {chestLink}."
+        },
+        "travelling": {
+            "introduction": "'''Travelling''' is one of the main ways to gain Agility [[Special:MyLanguage/Skill Experience|experience]] as you move between locations. The experience gained changes as your [[Special:MyLanguage/Skills|skill]] level increases. The base number of steps depends on the distance between locations; see [[Special:MyLanguage/Routes|Routes]] for the available connections. Each journey is divided into 10 action nodes, which you must complete to arrive at your destination.",
+            "chestChance": "The chance to receive [[Special:MyLanguage/Agility chest|Agility chests]] while travelling scales with the base number of steps required to reach a location, rather than using the base chance per completed action.",
+            "encumbrance": "'''Travelling is unaffected by the penalties from having an [[Special:MyLanguage/Inventory#Overencumbered|overfilled inventory]].'''",
+            "efficiency": "Travelling has no efficiency cap, but each journey between two locations requires at least 100 steps (10 steps per node).",
+            "mechanicsLink": "See [[Special:MyLanguage/Travelling (Mechanics)|Travelling (Mechanics)]] for more information on experience, chest, and efficiency calculations."
+        },
+        "guides": {
+            "none": "No guide exists yet. [{editUrl} You can help make one.]"
+        },
+        "gearSets": {
+            "none": "No gear sets exist yet. [{editUrl} You can help make one.]"
+        },
+        "navigation": {
+            "heading": "[[Special:MyLanguage/Skills|Skill]] Navigation",
+            "gathering": "Gathering<br>Skills",
+            "artisan": "Artisan<br>Skills",
+            "utility": "Utility<br>Skills"
+        }
     },
     "RewardProgress": {
         "achievementTitle": "Achievement Points",
