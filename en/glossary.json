@@ -760,6 +760,11 @@
     "Pfp_Options": {
         "defaultUnlock": "Always available."
     },
+    "Rumors": {
+        "Collection": {
+            "intro": "Rumors are hints and tips given by {characters}."
+        }
+    },
     "Routes": {
         "Directions": {
             "N": {
@@ -885,6 +890,10 @@
         }
     },
     "RewardProgress": {
+        "collectionTitle": "Faction Reputation",
+        "collectionIntro": "Faction Reputation is a measure of your acceptance with each of the major in-game political factions. Currently those include [[Special:MyLanguage/Jarvonia|Jarvonia]], [[Special:MyLanguage/Trellin|Trellin]], [[Special:MyLanguage/Erdwise|Erdwise]], [[Special:MyLanguage/Halfling Rebels|The Halfling Rebels]], and [[Special:MyLanguage/Syrenthia|Syrenthia]]. Faction Reputation is tightly linked to the Jobs and [[Special:MyLanguage/Job Boards|Job Boards]], and provide a lot of rewards for your hard work in the different realms, guilds, and factions around [[Special:MyLanguage/Arenum|Arenum]]! In addition to geographical realms, Guilds are also planned to use this system in the future.\n\nThe Faction Reputation system enables you to level up your reputation in the different in-game realms. This currently may grant you some [[Special:MyLanguage/Skill Experience|Skill Experience]], [[Special:MyLanguage/Items|Items]], [[Special:MyLanguage/Cosmetics|Cosmetic]] rewards, or even access to some special [[Special:MyLanguage/Shops|Shops]]. In this future this may include expanded access to services, shop discounts, new routes, buildings, and cosmetic titles.",
+        "tracksHeading": "Faction Reward Tracks",
+        "activitiesHeading": "Activities With Faction Reputation Rewards",
         "achievementTitle": "Achievement Points",
         "achievementIntro": "'''Achievement Points''' are given for completing {achievements} and obtaining {collectibles}. Different difficulties of achievements award different amounts of achievement points, and each collectible awards one achievement point.",
         "rewardsIntro": "There are two types of rewards that can be obtained from achievement points:",
