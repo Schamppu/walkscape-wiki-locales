@@ -532,6 +532,9 @@
         }
     },
     "Buildings": {
+        "PageNames": {
+            "spiritSavings": "Spirit Savings"
+        },
         "Bank": {
             "hasDeposit": "This building allows you to '''deposit''' your items into the bank.",
             "hasWithdraw": "This building allows you to '''withdraw''' your items from the bank."
