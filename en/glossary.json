@@ -152,6 +152,7 @@
         "bonusDrops": "Bonus Drops",
         "building": "Building",
         "buildings": "Buildings",
+        "character": "Character",
         "characters": "Characters",
         "condition": "Condition",
         "conditions": "Conditions",
@@ -536,8 +537,8 @@
             "spiritSavings": "Spirit Savings"
         },
         "Bank": {
-            "hasDeposit": "This building allows you to '''deposit''' your items into the bank.",
-            "hasWithdraw": "This building allows you to '''withdraw''' your items from the bank."
+            "hasDeposit": "This building allows you to {depositImage} '''deposit''' your items into the bank.",
+            "hasWithdraw": "This building allows you to {withdrawImage} '''withdraw''' your items from the bank."
         },
         "Infobox": {
             "type": "Type:"
