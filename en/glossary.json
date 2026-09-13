@@ -533,6 +533,14 @@
         }
     },
     "Buildings": {
+        "Collection": {
+            "intro": "Buildings are structures in [[Special:MyLanguage/Arenum|the world]] that provide shops, banking, character customization, and other services.",
+            "byType": "Buildings by Type",
+            "byAction": "Buildings by Action",
+            "building": "Building Name",
+            "location": "Location",
+            "region": "Region"
+        },
         "PageNames": {
             "spiritSavings": "Spirit Savings"
         },
@@ -811,6 +819,22 @@
         "regionBorder": "This route crosses from {startRegion} into {endRegion}."
     },
     "Services": {
+        "Barber": {
+            "intro": "Barber Shops are a {shopLink} that allows you to change options related to the way your character looks.",
+            "fee": "Face, nose, hairstyle, facepaint and color options can be changed for a {coinImage} 1,000 coin fee regardless of the number of changes at a time.",
+            "colorOptionsHeading": "Color Options",
+            "optionsHeading": "Cosmetics Options",
+            "barberShopHeading": "Barber shop",
+            "expressionHeading": "Expression",
+            "colorOptions": {
+                "skin": "Skin Color Options",
+                "eye": "Eye Color Options",
+                "eyebrow": "Eyebrow Color Options",
+                "facialHair": "Facial Hair Color Options",
+                "hair": "Hair Color Options",
+                "facepaint": "Facepaint Color Options"
+            }
+        },
         "Collection": {
             "intro": "'''Services''' provide access to artisan skill actions and other useful features, such as changing your character's appearance and receiving mail.",
             "levelsHeading": "Levels",
@@ -827,6 +851,13 @@
         }
     },
     "Shops": {
+        "Collection": {
+            "intro": "Shops are places where you can buy and sell items. They are usually found in [[Special:MyLanguage/Buildings|buildings]]. Visit a shop's building page for its inventory and characters.",
+            "building": "Building Name",
+            "type": "Building Type",
+            "location": "Location",
+            "note": "Note"
+        },
         "allBuy": "This shop has items for sale.",
         "allSell": "All normal items may be sold at this shop.",
         "cosmeticTypes": {
