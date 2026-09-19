@@ -36,6 +36,7 @@
         "cosmetics": "Cosmetics",
         "cosmeticType": "Cosmetic Type",
         "date": "Date",
+        "description": "Description",
         "difficulty": "Difficulty",
         "direction": "Direction",
         "duration": "Duration",
@@ -124,6 +125,7 @@
         "startingLocation": "Starting Location",
         "stock": "Stock",
         "supporter": "Supporter",
+        "threshold": "Threshold",
         "totalBaseXpStep": "Total Base<br>XP/Step",
         "totalMaxXpStep": "Total Max<br>XP/Step",
         "tagEgg": "Pet Egg {sortNumber}: {eggString}",
@@ -532,6 +534,15 @@
             }
         }
     },
+    "Banks": {
+        "Collection": {
+            "primaryBanks": "Primary Banks",
+            "secondaryBanks": "Secondary Banks",
+            "depositOnly": "Deposit Only",
+            "withdrawOnly": "Withdraw Only",
+            "noDepositOrWithdraw": "Cannot Withdraw or Deposit"
+        }
+    },
     "Buildings": {
         "Collection": {
             "intro": "Buildings are structures in [[Special:MyLanguage/Arenum|the world]] that provide shops, banking, character customization, and other services.",
@@ -705,6 +716,7 @@
             "main": "The following [[Special:MyLanguage/Services | services]] can be used at this location."
         },
         "Visibility": {
+            "defaultUnlock": "This location is visible and unlocked for all characters by default.",
             "mainSingular": "This location is only visible if the following requirement is met.",
             "mainPlural": "This location is only visible if the following requirements are met."
         }
