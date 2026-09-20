@@ -12,6 +12,7 @@
         "atLeast": "{number} or more",
         "attribute": "Attribute",
         "attributes": "Attributes",
+        "backToLink": "Back to {link}",
         "baseChestChance": "Base Chest Chance<br><small>(Per Action)</small>",
         "baseRate": "Base<br>Rate",
         "baseSteps": "Base<br>Steps",
@@ -463,7 +464,10 @@
             "Points": "Achievement Point Rewards:",
             "Special": "Special",
             "SkillXP": "Skill XP"
-        }
+        },
+        "collectionTitle": "Achievements",
+        "collectionIntro": "Achievements are unlockables within the game. Unlocking achievements will earn {achievementPoints}. At certain amounts of achievement points, you can unlock special rewards. Some achievements may also give rewards on their own for unlocking them. Achievements have four difficulty levels: Easy, Normal, Hard, and Extreme. There is no relationship between the card colors and any feature of the achievements; they are purely based on which color matches best with the achievement image.",
+        "difficultyHeading": "{difficulty} Achievements"
     },
     "Activities": {
         "Collections": {
