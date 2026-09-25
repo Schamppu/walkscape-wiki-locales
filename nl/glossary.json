@@ -505,7 +505,7 @@
             "intro": "'''{itemName}''' is een [[Special:MyLanguage/Treasury|schatkamer-voorwerp]] dat te openen is.",
             "findingAttribute": {
                 "birdNests": " Er is een hogere kans om ze te vinden met de [[File:Bird Nest.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests (Mechanics)|Vogelnesten Vinden]]''' [[Special:MyLanguage/Find_Bird_Nests_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]].",
-                "chestFinding": " Er is een hogere kans om ze te vinden met de [[File:Chest Finding.svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Schatkisten vinden]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]]."
+                "chestFinding": " Er is een hogere kans om ze te vinden met de [[File:Chest Find (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Schatkisten vinden]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]]."
             },
             "travelingCalc": "Bij het reizen wordt een speciale formule gebruikt die de kans op het vinden van Behendigheid-schatkisten berekent, in plaats van de vaste kans per actie in andere activiteiten. Hierdoor is het niet mogelijk om op een snelle manier schatkisten te verkrijgen door continu korte reizen te maken.<br>(0.096736 &times; 2) &times; (2.71828<sup>0.0165921</sup> &times; ''Verhoogd Vaardigheidsniveau'') &times; ''Afstand''"
         },

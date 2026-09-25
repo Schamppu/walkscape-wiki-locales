@@ -42,6 +42,7 @@
         "direction": "Direction",
         "duration": "Duration",
         "effect": "Effect",
+        "effort": "Effort Value",
         "endingLocation": "Ending Location",
         "factionName": "Faction Name",
         "factionReward": "{factionName} Faction Rewards",
@@ -165,6 +166,7 @@
         "conditions": "Conditions",
         "Consumables": "Consumables",
         "drops": "Drop Tables",
+        "effort": "Effort Values",
         "emergencyActivities": "Emergency Activities",
         "emergencyActivity": "Emergency Activity",
         "error": "error",
@@ -233,6 +235,7 @@
             "canDelete": "Can Be Retired:",
             "droppable": "Droppable:",
             "duration": "Duration:",
+            "effort": "Effort Value:",
             "fineValue": "Fine Value:",
             "fineVersion": "Fine Version:",
             "keyword": "Keyword:",
@@ -258,8 +261,8 @@
             "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Item_Finding_Items#Linens|Linens Table]].",
             "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]].",
             "StudyTimeNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Study Time|Study Time Table]].",
-            "TerminateNote": "XP awarded by this ability depends on the effort value of the items.",
-            "TerminateNoteXP": "See the {keyword} page for more details."
+            "TerminateNote": "XP awarded by this ability depends on the effort value of the items modified by the attribute.",
+            "TerminateNoteXP": "See the {keyword} page for more details. This attribute has a {value} modifier."
         },
         "ItemsAttributes": {
             "None": "This item has no attributes.",
@@ -531,12 +534,12 @@
             "TableRollNote": "<sup>†</sup>Note: This table is rolled {rollNumber} times.",
             "VariableTableInfoHeader": "Full Item Chance Table",
             "VariableTableChartTitle": "{activityName} Chance Graph",
-            "gemsNote": "<sup>†</sup>Note: Items on this table are affected by the [[File:Find Gems.svg|20px]] '''[[Special:MyLanguage/Find Gems | Find gems attribute]]'''.",
+            "gemsNote": "<sup>†</sup>Note: Items on this table are affected by the [[File:Find Gems (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Find Gems | Find gems attribute]]'''.",
             "travelNote": "Travelling has a special chest rate based on route distance.",
             "SecondaryTableNotes": {
-                "Chests": "Affected by the [[File:Chest Finding.svg|20px]] '''[[Special:MyLanguage/Chest Finding | Chest finding attribute]]'''",
-                "birdNest": "Affected by the [[File:Find Bird Nests.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests | Find bird nests attribute]]'''",
-                "collectibles": "Affected by the [[File:Find Collectibles.svg|20px]] '''[[Special:MyLanguage/Find Collectibles | Find collectibles attribute]]'''",
+                "Chests": "Affected by the [[File:Chest Find (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Chest Finding | Chest finding attribute]]'''",
+                "birdNest": "Affected by the [[File:Find Bird Nests (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Find Bird Nests | Find bird nests attribute]]'''",
+                "collectibles": "Affected by the [[File:Find Collectibles (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Find Collectibles | Find collectibles attribute]]'''",
                 "fineMaterial": "Affected by the [[File:Fine Material Finding.svg|20px]] '''[[Special:MyLanguage/Fine Material Finding | Fine material finding attribute]]'''",
                 "petEgg": "Not modifiable by any special [[Special:MyLanguage/Attributes | attributes]].<br>Fixed 10% (1 in 10) chance of being a rare egg."
 
@@ -660,7 +663,7 @@
         "chestPages": {
             "findingAttribute": {
                 "birdNests": " They can have the odds of finding them increased with the [[File:Bird Nest.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests (Mechanics)|Find Bird Nests]]''' [[Special:MyLanguage/Find_Bird_Nests_Items|equipment]] [[Special:MyLanguage/Attributes|attribute]].",
-                "chestFinding": " They can have the odds of finding them increased with the [[File:Chest Finding.svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Chest Finding]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribute]]."
+                "chestFinding": " They can have the odds of finding them increased with the [[File:Chest Find (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Chest Finding]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribute]]."
             },
             "intro": "'''{itemName}''' is an openable [[Special:MyLanguage/Treasury|treasury item]].",
             "lootIntro": {
@@ -974,7 +977,8 @@
         }
     },
     "ItemCollections": {
-        "collectiblesIntro": "'''Collectibles''' are special [[Special:MyLanguage/Items|items]] that require no [[Special:MyLanguage/Inventory|inventory]] space and get added automatically once found under your Character icon > Achievements > Special Items > Collectibles. If they have an effect, it will be applied permanently to your character. They cannot be sold or stack once obtained, and you can only have 1 of each. When obtained from an [[Special:MyLanguage/Activities|activity]], they drop from their own table, and thus do not take away other drop opportunities. Each collectible also grants 1 {achievementPoint} helping you to progress towards rewards and unlocks."
+        "collectiblesIntro": "'''Collectibles''' are special [[Special:MyLanguage/Items|items]] that require no [[Special:MyLanguage/Inventory|inventory]] space and get added automatically once found under your Character icon > Achievements > Special Items > Collectibles. If they have an effect, it will be applied permanently to your character. They cannot be sold or stack once obtained, and you can only have 1 of each. When obtained from an [[Special:MyLanguage/Activities|activity]], they drop from their own table, and thus do not take away other drop opportunities. Each collectible also grants 1 {achievementPoint} helping you to progress towards rewards and unlocks.",
+        "materialsIntro": "'''Materials''' are resource [[Special:MyLanguage/Items|items]] gathered while training skills and used by [[Special:MyLanguage/Recipes|recipes]] to produce food, tools, weapons, shields, jewelry, and other items. Materials can also be obtained from [[Special:MyLanguage/Chests|chests]]. Materials with a fine version can replace a normal drop at a base rate of 1/100; fine materials sell for a higher price and improve crafting quality chances."
     },
     "RewardProgress": {
         "collectionTitle": "Faction Reputation",

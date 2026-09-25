@@ -625,7 +625,7 @@
             },
             "findingAttribute": {
                 "birdNests": " Possono aumentare le probabilità di trovarli con l'[[File:Bird Nest.svg|20px]] ‘’'[[Special:MyLanguage/Find Bird Nests (Mechanics)|Cerca nidi di uccello]]‘’' [[Special:MyLanguage/Find_Bird_Nests_Items|equipaggiamento]] [[Special:MyLanguage/Attributes|attributo]].",
-                "chestFinding": " Possono aumentare le probabilità di trovarli con l'[[File:Chest Finding.svg|20px]] ‘’'[[Special:MyLanguage/Chest Finding (Mechanics)|Cerca Forzieri]]‘’' [[Special:MyLanguage/Chest_Finding_Items|equipaggiamento]] [[Special:MyLanguage/Attributes|attributo]]."
+                "chestFinding": " Possono aumentare le probabilità di trovarli con l'[[File:Chest Find (Attribute Icon).svg|20px]] ‘‘'[[Special:MyLanguage/Chest Finding (Mechanics)|Cerca Forzieri]]‘‘' [[Special:MyLanguage/Chest_Finding_Items|equipaggiamento]] [[Special:MyLanguage/Attributes|attributo]]."
             },
             "lootIntro": {
                 "birdNest": "Queste sono le sottotabelle relative ai vari [[Special:MyLanguage/Materials|materiali]] che possono essere ottenuti da questi [[Special:MyLanguage/Chests| forzieri]].",
