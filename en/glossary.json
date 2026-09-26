@@ -65,6 +65,7 @@
         "location": "Location",
         "locations": "Locations",
         "materials": "Materials<br>Used",
+        "materialsType": "Material<br>Types",
         "maxChanceLevel": "Max Chance<br>Level",
         "maxEfficency": "Max<br>Work Efficiency",
         "maxXpStep": "Max<br>XP/Step",
@@ -205,6 +206,10 @@
         "Quotes": "Quotes",
         "recipe": "Recipe",
         "recipes": "Recipes",
+        "recipeOutput": "Recipe Output",
+        "primaryRecipeOutput": "Primary Recipe Output",
+        "secondaryRecipeOutputs": "Secondary Recipe Outputs",
+        "craftingFlow": "Crafting Flow",
         "relatedItems": "Related Items",
         "requirement": "Requirement",
         "requirements": "Requirements",
@@ -530,7 +535,7 @@
             "Singular": "This activity can be done at the following location:"
         },
         "LootTables": {
-            "SpecialTableNote": "Each of the secondary drops is rolled independently of the others.",
+            "SpecialTableNote": "Each row of these secondary drops are rolled independently of the others. You can get one or more (or none) in a single action.",
             "TableRollNote": "<sup>†</sup>Note: This table is rolled {rollNumber} times.",
             "VariableTableInfoHeader": "Full Item Chance Table",
             "VariableTableChartTitle": "{activityName} Chance Graph",
@@ -572,6 +577,29 @@
                 "MainString": "This activity is always visible.",
                 "Type": "Normal"
             }
+        }
+    },
+    "Recipes": {
+        "Infobox": {
+            "requiredLevel": "Required Level:"
+        },
+        "Intro": {
+            "main": "{recipeName} is a {skill} [[Special:MyLanguage/Recipes | recipe]]."
+        },
+        "output": "Recipe Output",
+        "primaryOutput": "Primary Recipe Output",
+        "secondaryOutputs": "Secondary Recipe Outputs",
+        "craftingFlow": "Crafting Flow",
+        "craftingFlowPlaceholder": "''Crafting flow information will be added here.''",
+        "CraftingFlow": {
+            "craft": "Craft",
+            "ingredient": "Ingredient",
+            "loading": "Enable the WSWB Recipe Flow Gadget to view this interactive crafting tree.",
+            "method": "Method",
+            "need": "Need",
+            "produces": "Produces",
+            "rawMaterials": "Raw Materials",
+            "surplus": "Surplus"
         }
     },
     "Banks": {
