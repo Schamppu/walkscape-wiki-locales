@@ -27,6 +27,8 @@
         "characterName": "Character Name",
         "chanceActivation": "Chance<br><small>(Per Activation)</small>",
         "chanceChest": "Chance<br><small>(Per Chest)</small>",
+        "chanceChestRoll": "Chance<br>Per Chest<br><small>(Per Roll)</small>",
+        "chanceAbilityActivation": "Chance<br>Per Activation<br><small>(Per Roll)</small>",
         "chanceRoll": "Chance<br><small>(Per Roll)</small>",
         "charges": "Charges",
         "chestName": "Chest Name",
@@ -84,6 +86,8 @@
         "note": "Note",
         "nothing": "Nothing",
         "odds": "Odds",
+        "oddsChestRoll": "Odds<br>Per Chest<br><small>(Per Roll)</small>",
+        "oddsAbilityActivation": "Odds<br>Per Activation<br><small>(Per Roll)</small>",
         "oddsRoll": "Odds<br><small>(Per Roll)</small>",
         "oneInX": "~1 in {number}",
         "oneInXAction": "~1 in {number} action",
@@ -117,6 +121,7 @@
         "rewards": "Rewards",
         "rewardType": "Reward Type",
         "rollNote": "Does {number} rolls per action.",
+        "chestRollNote": "Does {number} rolls per chest.",
         "sellValue": "Sell Value",
         "serviceName": "Service Name",
         "serviceReq": "Service<br>Requirement",
@@ -588,6 +593,8 @@
         },
         "output": "Recipe Output",
         "primaryOutput": "Primary Recipe Output",
+        "primaryOutputs": "Primary Recipe Outputs",
+        "secondaryOutput": "Secondary Recipe Output",
         "secondaryOutputs": "Secondary Recipe Outputs",
         "craftingFlow": "Crafting Flow",
         "craftingFlowPlaceholder": "''Crafting flow information will be added here.''",
@@ -1006,7 +1013,11 @@
     },
     "ItemCollections": {
         "collectiblesIntro": "'''Collectibles''' are special [[Special:MyLanguage/Items|items]] that require no [[Special:MyLanguage/Inventory|inventory]] space and get added automatically once found under your Character icon > Achievements > Special Items > Collectibles. If they have an effect, it will be applied permanently to your character. They cannot be sold or stack once obtained, and you can only have 1 of each. When obtained from an [[Special:MyLanguage/Activities|activity]], they drop from their own table, and thus do not take away other drop opportunities. Each collectible also grants 1 {achievementPoint} helping you to progress towards rewards and unlocks.",
-        "materialsIntro": "'''Materials''' are resource [[Special:MyLanguage/Items|items]] gathered while training skills and used by [[Special:MyLanguage/Recipes|recipes]] to produce food, tools, weapons, shields, jewelry, and other items. Materials can also be obtained from [[Special:MyLanguage/Chests|chests]]. Materials with a fine version can replace a normal drop at a base rate of 1/100; fine materials sell for a higher price and improve crafting quality chances."
+        "materialsIntro": "'''Materials''' are resource [[Special:MyLanguage/Items|items]] gathered while training skills and used by [[Special:MyLanguage/Recipes|recipes]] to produce food, tools, weapons, shields, jewelry, and other items. Materials can also be obtained from [[Special:MyLanguage/Chests|chests]]. Materials with a fine version can replace a normal drop at a '''base rate of 1/100'''; fine materials sell for a higher price and improve crafting quality chances."
+    },
+    "RecipeCollections": {
+        "collectionTitle": "Recipes",
+        "collectionIntro": "'''Recipes''' transform [[Special:MyLanguage/Materials|materials]] into refined materials, [[Special:MyLanguage/Consumables|consumables]], equipment, and other items. Recipes may require access to a [[Special:MyLanguage/Services|service]] in addition to their material inputs. Each level above a recipe's skill requirement grants +1 [[Special:MyLanguage/Crafting Outcome|Crafting Outcome]] toward [[Special:MyLanguage/Crafted Items|crafted items]], with no cap."
     },
     "RewardProgress": {
         "collectionTitle": "Faction Reputation",
