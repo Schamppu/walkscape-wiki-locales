@@ -264,7 +264,7 @@
         },
         "ItemsActions": {
             "ActivityRequirement": "Activity requirements must be met.",
-            "MemosphereNote": "Experience scales with skill level.<br>Experience = {timesLevel}&times; {skill} Level",
+            "MemosphereNote": "Experience scales with skill level.<br>Experience = {timesLevel} &times; {skill} Level",
             "NoCooldown": "No cooldown.",
             "NoRequirement": "No requirement.",
             "PresentRainNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
@@ -329,7 +329,7 @@
             "ChestRollNote": "<sup>†</sup>Note: Chests roll for loot multiple times.",
             "FactionRepeatingReward": "Every {reputationAmount} Faction Reputation",
             "factionRewardRequirement": "{reputationAmount} {factionName} Faction Reputation",
-            "MailboxSourceString": "This item is delivered via mail from the [[File:Mailbox.svg|32px]] [[Special:MyLanguage/Mailbox|mailbox]].",
+            "MailboxSourceString": "This item is delivered via mail from the {mailbox}.",
             "NoSources": "This item cannot currently be obtained from any source.",
             "RecipeExperience": "Recipe Experience",
             "RecipeAndString": " and ",
