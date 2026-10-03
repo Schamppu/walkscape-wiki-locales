@@ -698,6 +698,15 @@
     },
     "items": {
         "chestPages": {
+            "navigation": {
+                "heading": "Chest Navigation",
+                "skill": "Skill Chests",
+                "regional": "Regional Chests",
+                "otherChests": "Other Chests",
+                "otherOpenables": "Other Containers"
+            },
+            "noLootTables": "No loot tables are currently available for this container.",
+            "tableOdds": "'''Chance:''' {chanceChest} per chest <small>({chanceRoll} per roll)</small><br>'''Odds:''' {oddsChest} <small>({oddsRoll})</small>",
             "findingAttribute": {
                 "birdNests": " They can have the odds of finding them increased with the [[File:Bird Nest.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests (Mechanics)|Find Bird Nests]]''' [[Special:MyLanguage/Find_Bird_Nests_Items|equipment]] [[Special:MyLanguage/Attributes|attribute]].",
                 "chestFinding": " They can have the odds of finding them increased with the [[File:Chest Find (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Chest Finding]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribute]]."
