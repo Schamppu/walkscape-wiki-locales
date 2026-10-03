@@ -1013,7 +1013,11 @@
     },
     "ItemCollections": {
         "collectiblesIntro": "'''Collectibles''' are special [[Special:MyLanguage/Items|items]] that require no [[Special:MyLanguage/Inventory|inventory]] space and get added automatically once found under your Character icon > Achievements > Special Items > Collectibles. If they have an effect, it will be applied permanently to your character. They cannot be sold or stack once obtained, and you can only have 1 of each. When obtained from an [[Special:MyLanguage/Activities|activity]], they drop from their own table, and thus do not take away other drop opportunities. Each collectible also grants 1 {achievementPoint} helping you to progress towards rewards and unlocks.",
-        "materialsIntro": "'''Materials''' are resource [[Special:MyLanguage/Items|items]] gathered while training skills and used by [[Special:MyLanguage/Recipes|recipes]] to produce food, tools, weapons, shields, jewelry, and other items. Materials can also be obtained from [[Special:MyLanguage/Chests|chests]]. Materials with a fine version can replace a normal drop at a '''base rate of 1/100'''; fine materials sell for a higher price and improve crafting quality chances."
+        "materialsIntro": "'''Materials''' are resource [[Special:MyLanguage/Items|items]] gathered while training skills and used by [[Special:MyLanguage/Recipes|recipes]] to produce food, tools, weapons, shields, jewelry, and other items. Materials can also be obtained from [[Special:MyLanguage/Chests|chests]]. Materials with a fine version can replace a normal drop at a '''base rate of 1/100'''; fine materials sell for a higher price and improve crafting quality chances.",
+        "untradableItems": {
+            "title": "Untradable Items",
+            "intro": "All the items that are ineligible for trading."
+        }
     },
     "RecipeCollections": {
         "collectionTitle": "Recipes",
