@@ -611,6 +611,8 @@
     },
     "Banks": {
         "Collection": {
+            "title": "Banks",
+            "seoDescription": "A Bank is one of the basic types of buildings in the game. Banks can store an unlimited amount of any number of items.",
             "primaryBanks": "Primary Banks",
             "secondaryBanks": "Secondary Banks",
             "depositOnly": "Deposit Only",
@@ -962,6 +964,11 @@
         "specialSell": "These items can be sold to this shop in addition to all normal items."
     },
     "skills": {
+        "collection": {
+            "title": "Skills",
+            "count": "There are currently {count} skills in WalkScape.",
+            "seoDescription": "Skills in WalkScape are trained by taking steps in the real world."
+        },
         "intros": {
             "agility": "The '''Agility''' utility [[Special:MyLanguage/Skills|skill]] allows you to gain experience by travelling between locations. Higher Agility levels give you access to better [[Special:MyLanguage/Equipment|equipment]] that can help you travel faster. Equipment such as [[Special:MyLanguage/Skis (Keyword)|skis]] and the [[Special:MyLanguage/Grappling hook|grappling hook]] can change the number of steps required to cross different types of terrain. Future plans for travelling include random events, small quests, discoveries, and items to collect along the way. You can also receive [[Special:MyLanguage/Agility chest|Agility chests]] as rare drops while training Agility.",
             "carpentry": "The '''Carpentry''' artisan [[Special:MyLanguage/Skills|skill]] allows you to process [[Special:MyLanguage/Materials|materials]] such as logs into planks. Future plans for the skill include constructing farm buildings. Higher Carpentry levels give you access to more types of logs and [[Special:MyLanguage/Equipment|equipment]] that can improve your Carpentry efficiency. You can also receive [[Special:MyLanguage/Carpentry chest|Carpentry chests]] as rare drops while training Carpentry.",
@@ -1012,6 +1019,8 @@
         }
     },
     "ItemCollections": {
+        "consumablesIntro": "'''Consumables''' are [[Special:MyLanguage/Items|items]] typically made using [[Special:MyLanguage/Cooking#recipesSection|recipes]] from the [[Special:MyLanguage/Cooking|Cooking]] skill, or obtained from other [[Special:MyLanguage/Activities|activities]] and [[Special:MyLanguage/Chests|chests]].\n\nTo use a consumable on an [[Special:MyLanguage/Activities|activity]], you must be using enough of it to cover all the steps needed to complete one action.\n\nFor example, if one action of [[Special:MyLanguage/Rescue team|Rescue team]] takes you 5,667 steps, you need to use 6 [[Special:MyLanguage/Jelly sandwich|Jelly sandwiches]]. Each covers 1,000 steps, so 6 sandwiches provide 6,000 steps of coverage.",
+        "petEggsIntro": "Pet eggs are [[Special:MyLanguage/Items|items]] that the player gathers from activities or purchases at shops. Pet eggs can be '''claimed''' and then '''hatched''' into [[Special:MyLanguage/Pets|pets]] that can help you on your journeys.\n\nPet eggs also have a ''Rare'' version that can be received in place of the regular version at a '''base rate of 1/10'''. These can be hatched into rare versions of pets that have a different type and appearance.",
         "collectiblesIntro": "'''Collectibles''' are special [[Special:MyLanguage/Items|items]] that require no [[Special:MyLanguage/Inventory|inventory]] space and get added automatically once found under your Character icon > Achievements > Special Items > Collectibles. If they have an effect, it will be applied permanently to your character. They cannot be sold or stack once obtained, and you can only have 1 of each. When obtained from an [[Special:MyLanguage/Activities|activity]], they drop from their own table, and thus do not take away other drop opportunities. Each collectible also grants 1 {achievementPoint} helping you to progress towards rewards and unlocks.",
         "materialsIntro": "'''Materials''' are resource [[Special:MyLanguage/Items|items]] gathered while training skills and used by [[Special:MyLanguage/Recipes|recipes]] to produce food, tools, weapons, shields, jewelry, and other items. Materials can also be obtained from [[Special:MyLanguage/Chests|chests]]. Materials with a fine version can replace a normal drop at a '''base rate of 1/100'''; fine materials sell for a higher price and improve crafting quality chances.",
         "untradableItems": {
