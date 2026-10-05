@@ -794,7 +794,16 @@
             "perRoll": "{chance} per tiro",
             "travelingCalc": "Il viaggio utilizza una funzione speciale per calcolare i tassi di caduta dei forzieri dell'agilità, anziché il tasso fisso per azione utilizzato in altre attività. Questo per impedire il farming dei forzieri attraverso viaggi brevi e costanti. <br>(0,096736 × 2) × (2,71828<sup>0,0165921</sup> × ‘'Livello abilità potenziato’') × ‘'Distanza’'",
             "intro": "'''{itemName}''' è un [[Special:MyLanguage/Treasury|oggetto del tesoro]] apribile.",
-            "PerChest": "{chance} per forziere"
+            "PerChest": "{chance} per forziere",
+            "navigation": {
+                "heading": "Navigazione forzieri",
+                "skill": "Forzieri delle abilità",
+                "regional": "Forzieri regionali",
+                "otherChests": "Altri forzieri",
+                "otherOpenables": "Altri contenitori"
+            },
+            "noLootTables": "Al momento non sono disponibili tabelle del bottino per questo contenitore.",
+            "tableOdds": "'''Possibilità:''' {chanceChest} per forziere <small>({chanceRoll} per tiro)</small><br>'''Probabilità:''' {oddsChest} <small>({oddsRoll})</small>"
         },
         "sources": {
             "Chest": "Rilascio dei forzieri",
@@ -916,6 +925,11 @@
         },
         "guides": {
             "none": "Non esiste ancora una guida. [{editUrl} Puoi contribuire a crearne una.]"
+        },
+        "collection": {
+            "title": "Abilità",
+            "count": "Attualmente in WalkScape ci sono {count} abilità.",
+            "seoDescription": "In WalkScape le abilità si allenano facendo passi nel mondo reale."
         }
     },
     "Recipes": {
@@ -987,7 +1001,9 @@
             "title": "Oggetti non scambiabili",
             "intro": "Tutti gli oggetti che non possono essere scambiati."
         },
-        "collectiblesIntro": "I '''collezionabili''' sono [[Special:MyLanguage/Items|oggetti]] speciali che non occupano spazio nell'[[Special:MyLanguage/Inventory|inventario]] e, una volta trovati, vengono aggiunti automaticamente in Icona del personaggio > Obiettivi > Oggetti speciali > Collezionabili. Se hanno un effetto, questo viene applicato in modo permanente al tuo personaggio. Una volta ottenuti non possono essere venduti né accumulati, e puoi averne solo 1 di ciascuno. Quando si ottengono da un'[[Special:MyLanguage/Activities|attività]], vengono rilasciati da una tabella dedicata e quindi non tolgono altre possibilità di rilascio. Ogni collezionabile assegna anche 1 {achievementPoint}, aiutandoti a progredire verso ricompense e sblocchi."
+        "collectiblesIntro": "I '''collezionabili''' sono [[Special:MyLanguage/Items|oggetti]] speciali che non occupano spazio nell'[[Special:MyLanguage/Inventory|inventario]] e, una volta trovati, vengono aggiunti automaticamente in Icona del personaggio > Obiettivi > Oggetti speciali > Collezionabili. Se hanno un effetto, questo viene applicato in modo permanente al tuo personaggio. Una volta ottenuti non possono essere venduti né accumulati, e puoi averne solo 1 di ciascuno. Quando si ottengono da un'[[Special:MyLanguage/Activities|attività]], vengono rilasciati da una tabella dedicata e quindi non tolgono altre possibilità di rilascio. Ogni collezionabile assegna anche 1 {achievementPoint}, aiutandoti a progredire verso ricompense e sblocchi.",
+        "consumablesIntro": "'''Consumabili''' sono [[Special:MyLanguage/Items|oggetti]] creati di solito con le [[Special:MyLanguage/Cooking#recipesSection|ricette]] dell'abilità [[Special:MyLanguage/Cooking|Cucina]], oppure ottenuti da altre [[Special:MyLanguage/Activities|attività]] e dai [[Special:MyLanguage/Chests|forzieri]].\n\nPer usare un consumabile in un'[[Special:MyLanguage/Activities|attività]], devi usarne abbastanza da coprire tutti i passi necessari a completare un'azione.\n\nPer esempio, se un'azione di [[Special:MyLanguage/Rescue team|Squadra di soccorso]] ti richiede 5.667 passi, devi usare 6 [[Special:MyLanguage/Jelly sandwich|Panini con marmellata]]. Ognuno copre 1.000 passi, quindi 6 panini coprono 6.000 passi.",
+        "petEggsIntro": "Le uova di animali domestici sono [[Special:MyLanguage/Items|oggetti]] che il giocatore raccoglie dalle attività o acquista nei negozi. Le uova possono essere '''riscattate''' e poi fatte '''schiudere''', dando vita ad [[Special:MyLanguage/Pets|animali domestici]] che possono aiutarti nei tuoi viaggi.\n\nLe uova hanno anche una versione ''Rara'' che può essere ricevuta al posto di quella normale con una '''probabilità base di 1/10'''. Da queste nascono versioni rare degli animali domestici, con tipo e aspetto diversi."
     },
     "RecipeCollections": {
         "collectionTitle": "Ricette",
@@ -1048,7 +1064,9 @@
             "withdrawOnly": "Solo prelievo",
             "noDepositOrWithdraw": "Impossibile prelevare o depositare",
             "secondaryBanks": "Banche secondarie",
-            "depositOnly": "Solo deposito"
+            "depositOnly": "Solo deposito",
+            "title": "Banche",
+            "seoDescription": "La banca è uno dei tipi di edificio di base del gioco. Le banche possono contenere una quantità illimitata di oggetti di qualsiasi tipo."
         }
     },
     "Rumors": {
