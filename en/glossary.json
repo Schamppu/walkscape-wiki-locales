@@ -97,6 +97,7 @@
         "oneInXRoll": "~1 in {number} roll",
         "oneInXRolls": "~1 in {number} rolls",
         "payment": "Payment",
+        "petType": "Pet",
         "pet": "Pet Name",
         "pets": "Pet Names",
         "petEgg": "Pet Egg Name",
@@ -456,7 +457,8 @@
         },
         "requirements": {
             "gameData": "{reputationAmount} {factionName} Faction Reputation",
-            "historyData": "Complete actions of the {activityName} activity. {actionCount}"
+            "historyData": "Complete actions of the {activityName} activity. {actionCount}",
+            "achievementPointsPercentage": "Have <icon i=\"achievement point\"/> <numberProgress current=\"{current}\" max=\"{max}\" />% of total achievement points."
         }
     },
     "Helpers": {
@@ -697,6 +699,10 @@
         }
     },
     "items": {
+        "chestCollection": {
+            "title": "Chests",
+            "subtable": "Sub-table"
+        },
         "chestPages": {
             "navigation": {
                 "heading": "Chest Navigation",
@@ -1028,13 +1034,33 @@
         }
     },
     "ItemCollections": {
+        "currenciesTitle": "Currencies",
+        "coinsTitle": "Coins",
+        "coinsIntro": "Coins are the main currency of WalkScape.",
+        "currenciesIntro": "'''Currencies''' are used to pay for items and services. [[Special:MyLanguage/Coins|Coins]] are the general currency. The special currency items below are used at particular shops or by the [[Special:MyLanguage/Mysterious Merchant|Mysterious Merchant]]. See each item's page for its sources and uses.",
         "consumablesIntro": "'''Consumables''' are [[Special:MyLanguage/Items|items]] typically made using [[Special:MyLanguage/Cooking#recipesSection|recipes]] from the [[Special:MyLanguage/Cooking|Cooking]] skill, or obtained from other [[Special:MyLanguage/Activities|activities]] and [[Special:MyLanguage/Chests|chests]].\n\nTo use a consumable on an [[Special:MyLanguage/Activities|activity]], you must be using enough of it to cover all the steps needed to complete one action.\n\nFor example, if one action of [[Special:MyLanguage/Rescue team|Rescue team]] takes you 5,667 steps, you need to use 6 [[Special:MyLanguage/Jelly sandwich|Jelly sandwiches]]. Each covers 1,000 steps, so 6 sandwiches provide 6,000 steps of coverage.",
         "petEggsIntro": "Pet eggs are [[Special:MyLanguage/Items|items]] that the player gathers from activities or purchases at shops. Pet eggs can be '''claimed''' and then '''hatched''' into [[Special:MyLanguage/Pets|pets]] that can help you on your journeys.\n\nPet eggs also have a ''Rare'' version that can be received in place of the regular version at a '''base rate of 1/10'''. These can be hatched into rare versions of pets that have a different type and appearance.",
         "collectiblesIntro": "'''Collectibles''' are special [[Special:MyLanguage/Items|items]] that require no [[Special:MyLanguage/Inventory|inventory]] space and get added automatically once found under your Character icon > Achievements > Special Items > Collectibles. If they have an effect, it will be applied permanently to your character. They cannot be sold or stack once obtained, and you can only have 1 of each. When obtained from an [[Special:MyLanguage/Activities|activity]], they drop from their own table, and thus do not take away other drop opportunities. Each collectible also grants 1 {achievementPoint} helping you to progress towards rewards and unlocks.",
         "materialsIntro": "'''Materials''' are resource [[Special:MyLanguage/Items|items]] gathered while training skills and used by [[Special:MyLanguage/Recipes|recipes]] to produce food, tools, weapons, shields, jewelry, and other items. Materials can also be obtained from [[Special:MyLanguage/Chests|chests]]. Materials with a fine version can replace a normal drop at a '''base rate of 1/100'''; fine materials sell for a higher price and improve crafting quality chances.",
+        "unobtainableItems": {
+            "title": "Unobtainable Items",
+            "intro": "All the items that cannot currently be obtained from any source."
+        },
         "untradableItems": {
             "title": "Untradable Items",
             "intro": "All the items that are ineligible for trading."
+        },
+        "unbankableItems": {
+            "title": "Unbankable Items",
+            "intro": "All the items that cannot be stored in the bank."
+        },
+        "undroppableItems": {
+            "title": "Undroppable Items",
+            "intro": "All the items that cannot be dropped."
+        },
+        "unsellableItems": {
+            "title": "Unsellable Items",
+            "intro": "All the items that cannot be sold."
         }
     },
     "RecipeCollections": {
