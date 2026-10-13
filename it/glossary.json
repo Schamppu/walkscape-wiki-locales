@@ -176,7 +176,7 @@
                 "Pet egg": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Pet_Eggs | uovo animale domestico]].",
                 "Container": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Chests | forziere]].",
                 "Currency": "L'elemento {itemName} [[Special:MyLanguage/Items | oggetto]] è una [[Special:MyLanguage/Currencies | valuta]].",
-                "Loot": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è uno [[Special:MyLanguage/Loot | oggetto bottino]].",
+                "Loot": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è uno [[Special:MyLanguage/Loot Items | oggetto bottino]].",
                 "Lore item": "L'[[Special:MyLanguage/Items | oggetto]] {itemName} è un [[Special:MyLanguage/Lore_Items | oggetto della storia]]."
             },
             "Plurals": {

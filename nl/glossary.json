@@ -303,7 +303,7 @@
                 "Container": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Chests | schatkist]].",
                 "Crafted": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Crafted | handgemaakt voorwerp]].",
                 "Currency": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Currencies | valuta]].",
-                "Loot": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Loot | buit voorwerp]].",
+                "Loot": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Loot Items | buit voorwerp]].",
                 "Pet egg": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Pet_Eggs | beestjes-ei]].",
                 "Consumable": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Consumables | verbruiksartikel]].",
                 "Collectible": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Collectibles | verzamelobject]].",

@@ -261,7 +261,8 @@
             "slot": "Slot:",
             "tradable": "Tradable:",
             "type": "Type:",
-            "value": "Value:"
+            "value": "Value:",
+            "values": "Values:"
         },
         "ItemsActions": {
             "ActivityRequirement": "Activity requirements must be met.",
@@ -287,7 +288,7 @@
                 "Container": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Chests | chest]].",
                 "Crafted": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Crafted | crafted item]].",
                 "Currency": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Currencies | currency]].",
-                "Loot": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Loot | loot item]].",
+                "Loot": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Loot Items | loot item]].",
                 "Material": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Materials | material]].",
                 "Pet egg": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Pet_Eggs | pet egg]].",
                 "Lore item": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Lore_Items | lore item]]."
@@ -1034,6 +1035,58 @@
         }
     },
     "ItemCollections": {
+        "tagCollectionTitle": "{tag} Items",
+        "tagCollectionIntro": "The following are all of the {tag} {itemType} currently in the game.",
+        "fineItemsIntro": "The following are all the fine [[Special:MyLanguage/Materials|Materials]] and [[Special:MyLanguage/Consumables|Consumables]] currently in the game.",
+        "lootItems": {
+            "title": "Loot Items",
+            "intro": "'''Loot Items''' are [[Special:MyLanguage/Items|items]] comprised mainly of [[Special:MyLanguage/Equipment|equipment]] that can be bought in [[Special:MyLanguage/Shops|shops]] or obtained from [[Special:MyLanguage/Chests|chests]] and other openables.",
+            "imageCaption": "The loot table for chests with their corresponding color and rarity.",
+            "qualityHeading": "Rarity",
+            "qualityIntro": "Similar to [[Special:MyLanguage/Crafted Items|Crafted Items]], they come in six increasingly better rarities:",
+            "qualityDescription": "Unlike [[Special:MyLanguage/Crafted Items|Crafted Items]], loot items have fixed rarities and attributes. For example, a [[Special:MyLanguage/Shovel axe|Shovel axe]] is always Legendary. Rarity generally indicates an item's power, rather than the number of attributes it has. An Ethereal item might grant a teleport ability as its only bonus."
+        },
+        "craftedItems": {
+            "title": "Crafted Items",
+            "intro": "'''Crafted Items''' are [[Special:MyLanguage/Items|items]] such as tools, weapons, shields, and other [[Special:MyLanguage/Equipment|equipment]] made by the player using [[Special:MyLanguage/Skills#artisanSkillsSection|artisan skills]].",
+            "imageCaption": "A tool crafting screen, with quality chances shown under the Rewards section.",
+            "qualityHeading": "Quality",
+            "qualityIntro": "Similar to [[Special:MyLanguage/Loot Items|Loot Items]], crafted items come in six increasingly better qualities:",
+            "qualityDescription": "Each quality includes the base attributes and the bonuses of all preceding qualities. Attributes are predetermined: every [[Special:MyLanguage/Iron pickaxe|Iron pickaxe]] of the same quality has the same attributes.\n\nYour chances of crafting higher quality items increase with skill level, [[Special:MyLanguage/Equipment|equipment]], buffs, and [[Special:MyLanguage/Fine Material|fine materials]].",
+            "tiersHeading": "Crafting Tiers",
+            "tiersIntro": "Crafted quality and material tier interact to produce overlapping usefulness, described by the Gear Score Index (GSI). This chart by floursifter compares qualities and GSI across crafted tiers, using pickaxes and hatchets."
+        },
+        "qualityTable": {
+            "quality": "Crafted Quality",
+            "rarity": "Loot Rarities",
+            "color": "In-Game Color",
+            "tag": "Tag",
+            "smallTag": "Small<br>Tag"
+        },
+        "qualityColors": {
+            "grey": "Grey",
+            "green": "Green",
+            "blue": "Blue",
+            "purple": "Purple",
+            "gold": "Gold",
+            "red": "Red"
+        },
+        "equipment": {
+            "title": "Equipment",
+            "imageCaption": "The Gear and Tool Interfaces.",
+            "intro": "Equipment are all the items that can be equipped to your character for [[Special:MyLanguage/Attributes|bonuses]] and [[Special:MyLanguage/Abilities|abilities]]. '''Gear''' can be equipped to the twelve gear slots, and '''tools''' to the six tool slots.",
+            "otherTables": "Other Tables",
+            "otherTablesIntro": "For equipment by source or requirement, see the following collections:",
+            "propertyTables": "Item Property Tables",
+            "gear": "Gear",
+            "gearIntro": "'''Gear''' are items equipped to the character's [[Special:MyLanguage/Inventory#Gear|gear slots]] in the Gear tab of the inventory.",
+            "tools": "Tools",
+            "toolsIntro": "'''Tools''' are items equipped to the character's [[Special:MyLanguage/Inventory#Tools|tool slots]] in the Gear tab of the inventory.",
+            "lootGear": "Looted Gear",
+            "craftedGear": "Crafted Gear",
+            "lootTools": "Looted Tools",
+            "craftedTools": "Crafted Tools"
+        },
         "currenciesTitle": "Currencies",
         "coinsTitle": "Coins",
         "coinsIntro": "Coins are the main currency of WalkScape.",
@@ -1042,6 +1095,23 @@
         "petEggsIntro": "Pet eggs are [[Special:MyLanguage/Items|items]] that the player gathers from activities or purchases at shops. Pet eggs can be '''claimed''' and then '''hatched''' into [[Special:MyLanguage/Pets|pets]] that can help you on your journeys.\n\nPet eggs also have a ''Rare'' version that can be received in place of the regular version at a '''base rate of 1/10'''. These can be hatched into rare versions of pets that have a different type and appearance.",
         "collectiblesIntro": "'''Collectibles''' are special [[Special:MyLanguage/Items|items]] that require no [[Special:MyLanguage/Inventory|inventory]] space and get added automatically once found under your Character icon > Achievements > Special Items > Collectibles. If they have an effect, it will be applied permanently to your character. They cannot be sold or stack once obtained, and you can only have 1 of each. When obtained from an [[Special:MyLanguage/Activities|activity]], they drop from their own table, and thus do not take away other drop opportunities. Each collectible also grants 1 {achievementPoint} helping you to progress towards rewards and unlocks.",
         "materialsIntro": "'''Materials''' are resource [[Special:MyLanguage/Items|items]] gathered while training skills and used by [[Special:MyLanguage/Recipes|recipes]] to produce food, tools, weapons, shields, jewelry, and other items. Materials can also be obtained from [[Special:MyLanguage/Chests|chests]]. Materials with a fine version can replace a normal drop at a '''base rate of 1/100'''; fine materials sell for a higher price and improve crafting quality chances.",
+        "activityEquipment": {
+            "title": "Activity Equipment",
+            "intro": "All the gear and tools that can drop from [[Special:MyLanguage/Activities|activities]].",
+            "craftedNote": "Crafted items always drop at Normal quality from activities."
+        },
+        "shopEquipment": {
+            "title": "Shop Equipment",
+            "intro": "All the gear and tools that can be bought from [[Special:MyLanguage/Shops|shops]]."
+        },
+        "upgradedEquipment": {
+            "title": "Upgraded Equipment",
+            "intro": "All the gear and tools that can be [[Special:MyLanguage/Recipes|crafted]] from other gear and tools."
+        },
+        "factionRequirementEquipment": {
+            "title": "Faction Requirement Equipment",
+            "intro": "All the gear and tools that have [[Special:MyLanguage/Factions|faction]] reputation requirements."
+        },
         "unobtainableItems": {
             "title": "Unobtainable Items",
             "intro": "All the items that cannot currently be obtained from any source."
