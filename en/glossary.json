@@ -106,6 +106,7 @@
         "petsRare": "Rare Pet Names",
         "price": "Price",
         "quality": "Quality",
+        "qualityRarity": "Quality/Rarity",
         "quantity": "Quantity",
         "rarity": "Rarity",
         "rawMaterials": "Raw Materials",
@@ -244,6 +245,7 @@
         "ItemInfobox": {
             "bankable": "Bankable:",
             "canDelete": "Can Be Retired:",
+            "difficulty": "Difficulty:",
             "droppable": "Droppable:",
             "duration": "Duration:",
             "effort": "Effort Value:",
@@ -1035,6 +1037,14 @@
         }
     },
     "ItemCollections": {
+        "skillUse": {
+            "title": "{skillName} Attribute Items",
+            "intro": "The following items all have an [[Special:MyLanguage/Attributes|attribute]] with a ''{skillRequirement}'' requirement, sorted by the type of attribute and item.",
+            "itemType": "Item Type",
+            "materialInput": "Applies when used as a material input.",
+            "consumableBuff": "Applies as a consumable buff.",
+            "empty": "No items currently provide attributes with this requirement."
+        },
         "tagCollectionTitle": "{tag} Items",
         "tagCollectionIntro": "The following are all of the {tag} {itemType} currently in the game.",
         "fineItemsIntro": "The following are all the fine [[Special:MyLanguage/Materials|Materials]] and [[Special:MyLanguage/Consumables|Consumables]] currently in the game.",
@@ -1158,6 +1168,38 @@
         "special": "Special",
         "skillExperience": "+{quantity} {skillName} Experience",
         "cosmetic": "{cosmeticName} Cosmetic"
+    },
+    "Attributes": {
+        "itemsIntro": "The following items all have a {attributeName} [[Special:MyLanguage/Attributes|attribute]].",
+        "disambiguation": {
+            "intro": "{attributeName} is an [[Special:MyLanguage/Attributes|attribute]] in WalkScape.",
+            "lookingFor": "You may be looking for:",
+            "itemsLink": "All the items with this attribute",
+            "mechanicsLink": "How the game uses the attribute in calculations."
+        },
+        "title": "Attributes",
+        "intro": "Attributes affect how you perform actions and the rewards you receive in WalkScape. Below are the attributes you can encounter, with links to their mechanics and the items that provide them.",
+        "seoDescription": "Attributes in WalkScape affect action rewards, work efficiency, steps required, and more. Browse attributes and items by skill used.",
+        "mechanicsLink": "Mechanics Page",
+        "itemsLink": "Items With This Attribute",
+        "skillsHeading": "Items by Skill Used",
+        "countsAsKeywordTitle": "Counts as Keyword",
+        "descriptions": {
+            "workEfficiency": "Changes the value of work that your steps produce. Positive work efficiency decreases the amount of steps required to complete an action, while negative work efficiency increases the amount of steps required to complete an action.",
+            "chestFind": "Changes the chance to find [[Special:MyLanguage/Chests|chests]] on action completion.",
+            "doubleAction": "On completion, changes the chance for an action to give full rewards (experience and loot table rolls) twice. If this triggers when [[Special:MyLanguage/Travelling|travelling]] - jump two nodes instead of one!",
+            "fineMaterialFind": "Changes the chance to find [[Special:MyLanguage/Fine Material|fine materials]] on action completion.",
+            "doubleRewards": "On completion, changes the chance for an action to give you two loot rolls instead of one.",
+            "bonusExperience": "Changes the experience rewarded on action completion.",
+            "inventorySpace": "Adds additional maximum [[Special:MyLanguage/Inventory|inventory]] spaces as long the item providing them is equipped.",
+            "stepsRequired": "Removes the listed amount of steps from the [[Special:MyLanguage/Activities|activity]] you are doing, great if you have capped on work efficiency!",
+            "noMaterialsConsumed": "Adds a chance to not use up the [[Special:MyLanguage/Materials|materials]] required for an [[Special:MyLanguage/Activities|activity]] that requires them.",
+            "qualityOutcome": "Changes the probabilities of getting higher quality [[Special:MyLanguage/Crafted Items|crafted items]].",
+            "findCollectibles": "Changes the chance to find [[Special:MyLanguage/Collectibles|Collectibles]] on action completion.",
+            "findGems": "Changes the chance to find [[Special:MyLanguage/Gems|gems]] on action completion.",
+            "findBirdNests": "Changes the chance to find [[Special:MyLanguage/Bird Nests|Bird Nests]] on action completion.",
+            "rollSpecialTable": "Adds a chance to roll on a special loot table after every action."
+        }
     },
     "Disambiguate": {
         "mysteriousMerchant": {
