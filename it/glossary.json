@@ -149,7 +149,8 @@
         "tagQuality": "Qualità {sortNumber}: {qualityString}",
         "tagRarity": "Rarità {sortNumber}: {rarityString}",
         "baseChestChance": "Possibilità base forziere<br><small>(per azione)</small>",
-        "amount": "{quantity}<big>x</big>"
+        "amount": "{quantity}<big>x</big>",
+        "petType": "Animale domestico"
     },
     "modules": {
         "ItemsIntroDescription": {
@@ -359,7 +360,8 @@
         },
         "requirements": {
             "gameData": "{reputationAmount} di reputazione con la fazione {factionName}",
-            "historyData": "Completa le azioni dell'attività {activityName}. {actionCount}"
+            "historyData": "Completa le azioni dell'attività {activityName}. {actionCount}",
+            "achievementPointsPercentage": "Avere <icon i=\"achievement point\"/> <numberProgress current=\"{current}\" max=\"{max}\" />% del totale dei punti obiettivo."
         },
         "ItemVariations": {
             "none": "Questo oggetto non ha varianti speciali.",
@@ -630,7 +632,7 @@
             "building": "Nome dell'edificio"
         },
         "PageNames": {
-            "spiritSavings": "Risparmi dello Spirito"
+            "spiritSavings": "Cassa di Risparmio degli Spiriti"
         }
     },
     "Characters": {
@@ -656,8 +658,8 @@
         },
         "Variants": {
             "mortonGhains": {
-                "broken": "Presso Risparmi dello Spirito Rotto",
-                "restored": "Presso Risparmi dello Spirito Restaurato"
+                "broken": "Presso la Cassa di Risparmio degli Spiriti (in rovina)",
+                "restored": "Presso la Cassa di Risparmio degli Spiriti (restaurata)"
             }
         }
     },
@@ -819,6 +821,10 @@
             "ShopPayment": "Valuta del negozio",
             "AchievementPoints": "Ricompensa in punti obiettivo",
             "Activity": "Rilascio dell'attività"
+        },
+        "chestCollection": {
+            "title": "Forzieri",
+            "subtable": "Sottotabella"
         }
     },
     "Locations": {
@@ -1003,7 +1009,27 @@
         },
         "collectiblesIntro": "I '''collezionabili''' sono [[Special:MyLanguage/Items|oggetti]] speciali che non occupano spazio nell'[[Special:MyLanguage/Inventory|inventario]] e, una volta trovati, vengono aggiunti automaticamente in Icona del personaggio > Obiettivi > Oggetti speciali > Collezionabili. Se hanno un effetto, questo viene applicato in modo permanente al tuo personaggio. Una volta ottenuti non possono essere venduti né accumulati, e puoi averne solo 1 di ciascuno. Quando si ottengono da un'[[Special:MyLanguage/Activities|attività]], vengono rilasciati da una tabella dedicata e quindi non tolgono altre possibilità di rilascio. Ogni collezionabile assegna anche 1 {achievementPoint}, aiutandoti a progredire verso ricompense e sblocchi.",
         "consumablesIntro": "'''Consumabili''' sono [[Special:MyLanguage/Items|oggetti]] creati di solito con le [[Special:MyLanguage/Cooking#recipesSection|ricette]] dell'abilità [[Special:MyLanguage/Cooking|Cucina]], oppure ottenuti da altre [[Special:MyLanguage/Activities|attività]] e dai [[Special:MyLanguage/Chests|forzieri]].\n\nPer usare un consumabile in un'[[Special:MyLanguage/Activities|attività]], devi usarne abbastanza da coprire tutti i passi necessari a completare un'azione.\n\nPer esempio, se un'azione di [[Special:MyLanguage/Rescue team|Squadra di soccorso]] ti richiede 5.667 passi, devi usare 6 [[Special:MyLanguage/Jelly sandwich|Panini con marmellata]]. Ognuno copre 1.000 passi, quindi 6 panini coprono 6.000 passi.",
-        "petEggsIntro": "Le uova di animali domestici sono [[Special:MyLanguage/Items|oggetti]] che il giocatore raccoglie dalle attività o acquista nei negozi. Le uova possono essere '''riscattate''' e poi fatte '''schiudere''', dando vita ad [[Special:MyLanguage/Pets|animali domestici]] che possono aiutarti nei tuoi viaggi.\n\nLe uova hanno anche una versione ''Rara'' che può essere ricevuta al posto di quella normale con una '''probabilità base di 1/10'''. Da queste nascono versioni rare degli animali domestici, con tipo e aspetto diversi."
+        "petEggsIntro": "Le uova di animali domestici sono [[Special:MyLanguage/Items|oggetti]] che il giocatore raccoglie dalle attività o acquista nei negozi. Le uova possono essere '''riscattate''' e poi fatte '''schiudere''', dando vita ad [[Special:MyLanguage/Pets|animali domestici]] che possono aiutarti nei tuoi viaggi.\n\nLe uova hanno anche una versione ''Rara'' che può essere ricevuta al posto di quella normale con una '''probabilità base di 1/10'''. Da queste nascono versioni rare degli animali domestici, con tipo e aspetto diversi.",
+        "currenciesTitle": "Valute",
+        "coinsTitle": "Monete",
+        "coinsIntro": "Le monete sono la valuta principale di WalkScape.",
+        "currenciesIntro": "Le '''valute''' servono a pagare oggetti e servizi. Le [[Special:MyLanguage/Coins|monete]] sono la valuta generale. Le valute speciali qui sotto si usano in negozi particolari o con il [[Special:MyLanguage/Mysterious Merchant|Mercante Misterioso]]. Consulta la pagina di ogni oggetto per le sue fonti e i suoi usi.",
+        "unobtainableItems": {
+            "title": "Oggetti non ottenibili",
+            "intro": "Tutti gli oggetti che al momento non possono essere ottenuti da nessuna fonte."
+        },
+        "unbankableItems": {
+            "title": "Oggetti non depositabili",
+            "intro": "Tutti gli oggetti che non possono essere depositati in banca."
+        },
+        "undroppableItems": {
+            "title": "Oggetti non abbandonabili",
+            "intro": "Tutti gli oggetti che non possono essere abbandonati."
+        },
+        "unsellableItems": {
+            "title": "Oggetti non vendibili",
+            "intro": "Tutti gli oggetti che non possono essere venduti."
+        }
     },
     "RecipeCollections": {
         "collectionTitle": "Ricette",
