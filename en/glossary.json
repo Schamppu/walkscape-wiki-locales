@@ -879,6 +879,38 @@
     "Pfp_Options": {
         "defaultUnlock": "Always available."
     },
+    "Abilities": {
+        "Page": {
+            "intro": "{abilityName} is a {abilityType} ability.",
+            "dropTables": "Drop Tables",
+            "rolls": "This ability rolls the following drop tables {amount} times."
+        },
+        "Collection": {
+            "title": "Abilities",
+            "intro": "Abilities are special features granted by items, activities, and pets that cause effects when triggered. Cooldowns and charges are shared for each ability, so multiple sources of the same ability grant access to one instance of it.",
+            "seoDescription": "Abilities granted by WalkScape items, activities, and pets, including effects, requirements, cooldowns, and charges.",
+            "typesHeading": "Ability Types",
+            "types": "* '''Item Abilities'''\n** {activeIcon} '''Active''' — Manually triggered by the player.\n** {passiveIcon} '''Passive''' — Always active, helping with travel or granting bonuses.\n** {consumableIcon} '''Consumable''' — Triggered by using a consumable item.\n* '''Activity Abilities'''\n** {activityIcon} '''Activity''' — Movement activities that teleport you after completing an action.\n** {emergencyIcon} '''Emergency''' — Emergency activities that return you to safety when you lack the items needed to travel normally.\n* '''Pet Abilities'''\n** {activeIcon} '''Active''' — Manually triggered by the player.\n** {passiveIcon} '''Passive''' — Always active, helping with travel or granting bonuses.",
+            "items": {
+                "heading": "Item Abilities",
+                "intro": "Each entry shows the source item, effect, activation requirements, cooldown, stored charges, and any additional notes. One charge is gained for each completed cooldown.",
+                "loot": "Loot Items",
+                "consumable": "Consumable Items"
+            },
+            "activities": {
+                "heading": "Activity Abilities",
+                "intro": "Each entry shows the activity granting the ability and its effect.",
+                "activity": "Movement Activities",
+                "emergency": "Emergency Activities"
+            },
+            "pets": {
+                "heading": "Pet Abilities",
+                "intro": "Each entry shows the source pet, effect, activation requirements, cooldown, stored charges, and any additional notes. One charge is gained for each completed cooldown.",
+                "active": "Active Abilities",
+                "passive": "Passive Abilities"
+            }
+        }
+    },
     "Rumors": {
         "Collection": {
             "intro": "Rumors are hints and tips given by {characters}."
