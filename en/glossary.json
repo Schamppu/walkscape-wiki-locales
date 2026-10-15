@@ -840,6 +840,12 @@
         }
     },
     "Pets": {
+        "Collection": {
+            "title": "Pets",
+            "petEggName": "Pet Egg Name",
+            "intro": "Pets are companions that you can summon to join and aid you on your travels in Arenum. Pets hatch from [[Special:MyLanguage/Pet Eggs|pet eggs]] that can be found by doing some activities or by purchasing them from shops.",
+            "experience": "Pets gain experience towards hatching or leveling up when selected as the active pet or egg and completing an action in an activity that meets the requirements for the pet. Eggs do not have any requirements. Pets gain 1 experience point per step spent on the activity, including steps used from the step bank. For example, completing an activity action that takes 50 steps awards 50 pet experience. Double action, double rewards, and XP attributes do not affect the amount of pet experience earned."
+        },
         "Abilities": {
             "unlock": "This ability is unlocked at level {unlockLevel}."
         },
@@ -857,7 +863,8 @@
             "Dark": "Dark",
             "Light": "Light",
             "Normal": "Normal",
-            "Rare": "Rare"
+            "Rare": "Rare",
+            "Variation": "Variation {number}"
         },
         "Intro": {
             "normal": "{petName} is a [[Special:MyLanguage/Pets | pet]]. It hatches from a {eggName}.",
