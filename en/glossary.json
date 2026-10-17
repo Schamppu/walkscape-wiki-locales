@@ -293,7 +293,7 @@
                 "Loot": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Loot Items | loot item]].",
                 "Material": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Materials | material]].",
                 "Pet egg": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Pet_Eggs | pet egg]].",
-                "Lore item": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Lore_Items | lore item]]."
+                "Lore item": "{itemName} is a [[Special:MyLanguage/Lore Items|lore item]]."
             },
             "None": "The {itemName} [[Special:MyLanguage/Items | item]] cannot currently be obtained.",
             "Plurals": {
@@ -1076,6 +1076,10 @@
         }
     },
     "ItemCollections": {
+        "loreTitle": "Lore Items",
+        "inventoryLabel": "inventory",
+        "achievementsLabel": "Achievements",
+        "loreIntro": "'''Lore items''' are special [[Special:MyLanguage/Items|items]] that take up no {inventory} space. Once found, they appear under your Character icon > {achievements} > Special Items > Lore items. Any effects apply permanently to your character. Lore items cannot be sold and do not stack, so obtaining another copy provides no additional benefit. All current lore items are delivered in messages from the {mailbox}.",
         "skillUse": {
             "title": "{skillName} Attribute Items",
             "intro": "The following items all have an [[Special:MyLanguage/Attributes|attribute]] with a ''{skillRequirement}'' requirement, sorted by the type of attribute and item.",
