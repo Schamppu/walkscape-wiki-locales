@@ -179,7 +179,7 @@
                 "Collectible": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Collectibles | Sammelgegenstand]].",
                 "Consumable": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Consumables | Verbrauchsgegenstand]].",
                 "Container": "Das {itemName} [[Special:MyLanguage/Items | item]] ist eine [[Special:MyLanguage/Chests | Truhe]].",
-                "Crafted": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Crafted | hergestellter Gegenstand]].",
+                "Crafted": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Crafted Items | hergestellter Gegenstand]].",
                 "Loot": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Loot Items | Beutegegenstand]].",
                 "Material": "Das {itemName} [[Special:MyLanguage/Items | item]] ist ein [[Special:MyLanguage/Materials | Material]]."
             },

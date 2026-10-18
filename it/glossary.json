@@ -171,7 +171,7 @@
             },
             "ItemTypes": {
                 "Material": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Materials | materiale]].",
-                "Crafted": "L'oggetto {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Crafted | oggetto creato]].",
+                "Crafted": "L'oggetto {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Crafted Items | oggetto creato]].",
                 "Collectible": "Il {itemName} [[Special:MyLanguage/Items | elemento]] è un [[Special:MyLanguage/Collectibles | Collezionabili]].",
                 "Consumable": "L'articolo {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Consumables | consumabili]].",
                 "Pet egg": "Il {itemName} [[Special:MyLanguage/Items | oggetto]] è un [[Special:MyLanguage/Pet_Eggs | uovo animale domestico]].",
@@ -204,7 +204,7 @@
             "RockStarAmuletNote": "Questa abilità fa sì che i tiri siano {rollAmount} sulla [[Special:MyLanguage/Gems#Gem_Pouch_Table|Tabella della Custodia di Gemme]].",
             "NoCooldown": "Nessun tempo di recupero.",
             "NoRequirement": "Nessun requisito.",
-            "ThatsAWrapNote": "Questa abilità effettua {rollAmount} tiri sulla [[Special:MyLanguage/Item_Finding_Items#Linens|tabella dei tessuti]].",
+            "ThatsAWrapNote": "Questa abilità effettua {rollAmount} tiri sulla [[Special:MyLanguage/Roll Special Table Items#Linens|tabella dei tessuti]].",
             "StudyTimeNote": "Questa abilità effettua {rollAmount} tiri sulla [[Special:MyLanguage/Study Time|tabella di Tempo dedicato allo studio]].",
             "TerminateNote": "L'esperienza assegnata da questa abilità dipende dal valore di impegno degli oggetti modificati dall'attributo.",
             "TerminateNoteXP": "Consulta la pagina {keyword} per maggiori dettagli. Questo attributo ha un modificatore {value}."
@@ -267,7 +267,7 @@
             "RecipeExperience": "Esperienza ricetta",
             "ChestRollNote": "<sup>†</sup>Nota: i forzieri effettuano più tiri per il bottino.",
             "RecipeOrString": " o ",
-            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] è un valore che indica il numero medio di passaggi per un articolo alla massima efficienza lavorativa.",
+            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/Glossary#General|W.E.A.R]] è un valore che indica il numero medio di passaggi per un articolo alla massima efficienza lavorativa.",
             "RecipeAndString": " e ",
             "RecipeOutputs": "Risultati della ricetta",
             "RecipeRollNote": "<sup>†</sup>Nota: questa ricetta effettua più tiri per le ricompense bonus.",
@@ -567,7 +567,7 @@
             "actionsIntro": "Dopo aver scelto un'attività, completi azioni finché non è più possibile continuare o finché non scegli qualcos'altro. Ogni azione è un completamento dell'attività e può assegnare esperienza, offrire la possibilità di trovare un [[Special:MyLanguage/Chests|forziere]] oppure creare o trasformare [[Special:MyLanguage/Materials|materiali]].",
             "categoriesIntro": "Le attività si dividono in tre grandi categorie:",
             "stepHandling": "I passi registrati mentre il gioco è in primo piano vengono applicati all'attività corrente in tempo reale. I passi registrati mentre il gioco è chiuso o in background vengono applicati quando lo riapri.",
-            "craftingOutcome": "Dove applicabile, ogni livello di abilità oltre il requisito di una [[Special:MyLanguage/Recipes|ricetta]] conferisce anche +1 di [[Special:MyLanguage/Crafting Outcome|Risultato creazione]] per l'oggetto creato, senza limite.",
+            "craftingOutcome": "Dove applicabile, ogni livello di abilità oltre il requisito di una [[Special:MyLanguage/Recipes|ricetta]] conferisce anche +1 di [[Special:MyLanguage/Quality Outcome|Risultato creazione]] per l'oggetto creato, senza limite.",
             "chestEligibility": "Per le attività che coinvolgono più di un'[[Special:MyLanguage/Skills|abilità]], puoi ricevere [[Special:MyLanguage/Chests|forzieri]] solo per le abilità che hanno un requisito di livello.",
             "skillsIntro": "Le seguenti abilità hanno attività associate. La pagina di ogni abilità elenca le sue attività e dove possono essere svolte.",
             "skillGroupGathering": "Raccolta risorse",
@@ -885,7 +885,7 @@
     },
     "skills": {
         "recipes": {
-            "craftingOutcomeBonus": "Ogni livello di {skillName} oltre il requisito di livello di una [[Special:MyLanguage/Recipes|ricetta]] conferisce +1 di [[Special:MyLanguage/Crafting Outcome|Risultato creazione]] per gli [[Special:MyLanguage/Crafted Items|oggetti creati]], senza limite.",
+            "craftingOutcomeBonus": "Ogni livello di {skillName} oltre il requisito di livello di una [[Special:MyLanguage/Recipes|ricetta]] conferisce +1 di [[Special:MyLanguage/Quality Outcome|Risultato creazione]] per gli [[Special:MyLanguage/Crafted Items|oggetti creati]], senza limite.",
             "tableIntroduction": "Le seguenti attività possono rilasciare {chestLink}.",
             "introduction": "Le seguenti ricette richiedono [[Special:MyLanguage/Materials|materiali]] e possono richiedere anche l'accesso a un servizio, di solito in un luogo specifico. Ogni ricetta produce, di base, un set di risultati."
         },
@@ -1033,7 +1033,7 @@
     },
     "RecipeCollections": {
         "collectionTitle": "Ricette",
-        "collectionIntro": "Le '''ricette''' trasformano i [[Special:MyLanguage/Materials|materiali]] in materiali lavorati, [[Special:MyLanguage/Consumables|consumabili]], equipaggiamento e altri oggetti. Le ricette possono richiedere l'accesso a un [[Special:MyLanguage/Services|servizio]] oltre ai materiali in ingresso. Ogni livello oltre il requisito di abilità di una ricetta conferisce +1 di [[Special:MyLanguage/Crafting Outcome|Risultato creazione]] per gli [[Special:MyLanguage/Crafted Items|oggetti creati]], senza limite."
+        "collectionIntro": "Le '''ricette''' trasformano i [[Special:MyLanguage/Materials|materiali]] in materiali lavorati, [[Special:MyLanguage/Consumables|consumabili]], equipaggiamento e altri oggetti. Le ricette possono richiedere l'accesso a un [[Special:MyLanguage/Services|servizio]] oltre ai materiali in ingresso. Ogni livello oltre il requisito di abilità di una ricetta conferisce +1 di [[Special:MyLanguage/Quality Outcome|Risultato creazione]] per gli [[Special:MyLanguage/Crafted Items|oggetti creati]], senza limite."
     },
     "RewardProgress": {
         "activitiesHeading": "Attività con ricompense di reputazione di fazione",

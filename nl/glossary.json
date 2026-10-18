@@ -232,7 +232,7 @@
             "NoSources": "Dit voorwerp is momenteel uit geen enkele bron te verkrijgen.",
             "ChestRollNote": "<sup>†</sup>Let op: Schatkisten geven meerdere keren kans op buit.",
             "RecipeRollNote": "<sup>†</sup>Let op: Dit recept geeft meer dan één keer kans op bonus beloningen.",
-            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is een waarde die het gemiddelde aantal stappen aangeeft voor één voorwerp met maximale werkefficiëntie.",
+            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/Glossary#General|W.E.A.R]] is een waarde die het gemiddelde aantal stappen aangeeft voor één voorwerp met maximale werkefficiëntie.",
             "RecipeOrString": " of ",
             "RecipeOutputs": "Resultaten Recept",
             "RecipeExperience": "Receptervaring",
@@ -301,7 +301,7 @@
         "ItemsIntroDescription": {
             "ItemTypes": {
                 "Container": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Chests | schatkist]].",
-                "Crafted": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Crafted | handgemaakt voorwerp]].",
+                "Crafted": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Crafted Items | handgemaakt voorwerp]].",
                 "Currency": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Currencies | valuta]].",
                 "Loot": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Loot Items | buit voorwerp]].",
                 "Pet egg": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Pet_Eggs | beestjes-ei]].",

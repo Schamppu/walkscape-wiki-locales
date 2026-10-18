@@ -272,7 +272,7 @@
             "NoCooldown": "No cooldown.",
             "NoRequirement": "No requirement.",
             "PresentRainNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
-            "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Item_Finding_Items#Linens|Linens Table]].",
+            "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Roll Special Table Items#Linens|Linens Table]].",
             "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]].",
             "StudyTimeNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Study Time|Study Time Table]].",
             "TerminateNote": "XP awarded by this ability depends on the effort value of the items modified by the attribute.",
@@ -288,7 +288,7 @@
                 "Collectible": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Collectibles | collectible]].",
                 "Consumable": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Consumables | consumable]].",
                 "Container": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Chests | chest]].",
-                "Crafted": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Crafted | crafted item]].",
+                "Crafted": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Crafted Items | crafted item]].",
                 "Currency": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Currencies | currency]].",
                 "Loot": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Loot Items | loot item]].",
                 "Material": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Materials | material]].",
@@ -340,7 +340,7 @@
             "RecipeOrString": " or ",
             "RecipeOutputs": "Recipe Outputs",
             "RecipeRollNote": "<sup>†</sup>Note: This recipe rolls for bonus rewards more than once.",
-            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/WEAR|W.E.A.R]] is a value that shows the average steps for one item at maximum work efficiency.",
+            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/Glossary#General|W.E.A.R]] is a value that shows the average steps for one item at maximum work efficiency.",
             "sectionHeaders": {
                 "AbilityActivation": "Ability Activation",
                 "AchievementCompletion": "Achievement Completion Reward",
@@ -509,7 +509,7 @@
             "movement": "'''[[Special:MyLanguage/Movement Activities|Movement activities]]''' — These move you to another location after one completed action. They include ordinary activities such as {ventureActivity}, as well as anti-softlock escape options such as {emergencyActivity} for locations you cannot otherwise leave with your current equipment.",
             "stepHandling": "Steps recorded while the game is in the foreground are applied to the current activity in real time. Steps recorded while the game is closed or in the background are applied when you return to it.",
             "workEfficiency": "Each level above an activity's skill requirement grants 1.25% [[Special:MyLanguage/Attributes|work efficiency]] for that activity, up to 25% at 20 levels above the requirement.",
-            "craftingOutcome": "Where applicable, each skill level above a [[Special:MyLanguage/Recipes|recipe's]] requirement also grants +1 [[Special:MyLanguage/Crafting Outcome|crafting outcome]] for the resulting crafted item, with no cap.",
+            "craftingOutcome": "Where applicable, each skill level above a [[Special:MyLanguage/Recipes|recipe's]] requirement also grants +1 [[Special:MyLanguage/Quality Outcome|crafting outcome]] for the resulting crafted item, with no cap.",
             "chestEligibility": "For activities involving more than one [[Special:MyLanguage/Skills|skill]], you can only receive [[Special:MyLanguage/Chests|chests]] for skills that have a level requirement.",
             "equipmentBonuses": "Only the primary skill determines which [[Special:MyLanguage/Equipment|equipment]] bonuses apply to an activity. Bonuses that apply to the primary skill also affect experience awarded to secondary skills.",
             "skillsHeading": "Skills",
@@ -1052,7 +1052,7 @@
         },
         "recipes": {
             "introduction": "The following recipes require [[Special:MyLanguage/Materials|materials]] and may also require access to a service, usually at a specific location. Each recipe produces one set of outputs by default.",
-            "craftingOutcomeBonus": "Each {skillName} level above a [[Special:MyLanguage/Recipes|recipe's]] level requirement grants +1 [[Special:MyLanguage/Crafting Outcome|Crafting Outcome]] toward [[Special:MyLanguage/Crafted Items|crafted items]], with no cap.",
+            "craftingOutcomeBonus": "Each {skillName} level above a [[Special:MyLanguage/Recipes|recipe's]] level requirement grants +1 [[Special:MyLanguage/Quality Outcome|Crafting Outcome]] toward [[Special:MyLanguage/Crafted Items|crafted items]], with no cap.",
             "tableIntroduction": "The following activities are eligible to drop {chestLink}."
         },
         "travelling": {
@@ -1192,7 +1192,7 @@
     },
     "RecipeCollections": {
         "collectionTitle": "Recipes",
-        "collectionIntro": "'''Recipes''' transform [[Special:MyLanguage/Materials|materials]] into refined materials, [[Special:MyLanguage/Consumables|consumables]], equipment, and other items. Recipes may require access to a [[Special:MyLanguage/Services|service]] in addition to their material inputs. Each level above a recipe's skill requirement grants +1 [[Special:MyLanguage/Crafting Outcome|Crafting Outcome]] toward [[Special:MyLanguage/Crafted Items|crafted items]], with no cap."
+        "collectionIntro": "'''Recipes''' transform [[Special:MyLanguage/Materials|materials]] into refined materials, [[Special:MyLanguage/Consumables|consumables]], equipment, and other items. Recipes may require access to a [[Special:MyLanguage/Services|service]] in addition to their material inputs. Each level above a recipe's skill requirement grants +1 [[Special:MyLanguage/Quality Outcome|Crafting Outcome]] toward [[Special:MyLanguage/Crafted Items|crafted items]], with no cap."
     },
     "RewardProgress": {
         "collectionTitle": "Faction Reputation",
@@ -1412,6 +1412,19 @@
     "Tips": {
         "title": "Tips",
         "intro": "Tips are messages to help explain or give information about game mechanics."
+    },
+    "Developers": {
+        "title": "Developers",
+        "infobox": {
+            "role": "Role"
+        },
+        "roles": {
+            "Schamppu": "Not a CEO",
+            "Maxchill": "Not an Artist",
+            "Myzozoz": "Not a Dev",
+            "Weasel": "Not a Designer",
+            "Crushy": "Not a Dev"
+        }
     },
     "Disambiguate": {
         "mysteriousMerchant": {
