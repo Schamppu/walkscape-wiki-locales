@@ -271,10 +271,10 @@
             "MemosphereNote": "Experience scales with skill level.<br>Experience = {timesLevel} &times; {skill} Level",
             "NoCooldown": "No cooldown.",
             "NoRequirement": "No requirement.",
-            "PresentRainNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain|Present Rain Table]].",
-            "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Roll Special Table Items#Linens|Linens Table]].",
-            "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Gems#Gem_Pouch_Table|Gem Pouch Table]].",
-            "StudyTimeNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Study Time|Study Time Table]].",
+            "PresentRainNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Present Rain (Ability)#dropTablesSection|Present Rain Table]].",
+            "ThatsAWrapNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/That's A Wrap (Ability)#dropTablesSection|Linens Table]].",
+            "RockStarAmuletNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Rock And Roll (Ability)#dropTablesSection|Gem Pouch Table]].",
+            "StudyTimeNote": "This ability makes {rollAmount} rolls on the [[Special:MyLanguage/Study Time (Ability)#dropTablesSection|Study Time Table]].",
             "TerminateNote": "XP awarded by this ability depends on the effort value of the items modified by the attribute.",
             "TerminateNoteXP": "See the {keyword} page for more details. This attribute has a {value} modifier."
         },
@@ -726,7 +726,7 @@
                 "birdNest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]] that can come from these [[Special:MyLanguage/Chests|chests]].",
                 "chestRolls": "These treasury items make {number} independent loot rolls when they are opened.",
                 "coinPouch": "This is the table for [[Special:MyLanguage/Coins|coins]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
-                "gemPouch": "This is the table for [[Special:MyLanguage/Gems|gems]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
+                "gemPouch": "This is the table for [[Special:MyLanguage/Gems#gemPouchTableSection|gems]] that can come from these pouches (similar to other [[Special:MyLanguage/Chests|chests]]).",
                 "genericChest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]], [[Special:MyLanguage/Coins|coins]], and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]].",
                 "rustyChest": "These are the sub-tables for the various [[Special:MyLanguage/Materials|materials]], and [[Special:MyLanguage/Items|items]] that can come from these [[Special:MyLanguage/Chests|chests]]."
             },
@@ -923,7 +923,34 @@
             "intro": "Rumors are hints and tips given by {characters}."
         }
     },
+    "Gems": {
+        "title": "Gems",
+        "intro": "'''Gems''' are [[Special:MyLanguage/Materials|materials]] found as special drops from many [[Special:MyLanguage/Mining|Mining]] activities and used in [[Special:MyLanguage/Trinketry|Trinketry]]. [[Special:MyLanguage/Rough gem (Keyword)|Rough gems]] can be shaped into [[Special:MyLanguage/Cut gem (Keyword)|cut gems]] and then crafted into [[Special:MyLanguage/Ring (Items Slot)|rings]]. Gems can also be found as [[Special:MyLanguage/Fine Items|fine materials]], increasing their value.",
+        "baseChances": "The tables show base chances per loot-table roll, before [[Special:MyLanguage/Find Gems (Mechanics)|Find gems]] bonuses. Values are for normal materials.",
+        "regionHeading": "{region} Gem Table",
+        "regionalIntro": "This table represents rough gems that can be found through activities in {region}.",
+        "pouchHeading": "Gem Pouch Table",
+        "pouchIntro": "This table contains gems that can be obtained from {pouch} and other sources.",
+        "attributeSourcesHeading": "Other Sources"
+    },
     "Routes": {
+        "overview": {
+            "title": "Routes",
+            "intro": "Routes connect two [[Special:MyLanguage/Locations|locations]] on the [https://map.walkscape.app/ game map]. The tables below show unmodified base distances. Your actual travel distance depends on your [[Special:MyLanguage/Agility|Agility]] level and equipment bonuses to [[Special:MyLanguage/Travelling (Mechanics)|travelling]]. Base distances are the same in both directions, but route requirements may differ.",
+            "chestIntro": "Each route consists of ten travelling actions, with an independent chance of finding an {chest} on each action. The '''Base Chest Chance (Per Action)''' column shows the chance for one action; '''Base Chest Chance (Per Route)''' shows the chance of finding at least one chest over all ten actions. These base chances depend on Base Steps and are unaffected by travelling efficiency or step reduction. They exclude [[Special:MyLanguage/Chest Finding (Mechanics)|Chest finding]] bonuses.",
+            "regionHeading": "{region} Routes",
+            "regionNames": {
+                "jarvonia": "Jarvonia",
+                "gdte": "GDTE",
+                "grand_duchy_of_trellin_erdwise": "GDTE",
+                "syrenthia": "Syrenthia",
+                "wallisia": "Wallisia",
+                "empire_of_wallisia": "Wallisia",
+                "wrentmark": "Wrentmark"
+            },
+            "perRoute": "Base Chest Chance<br><small>(Per Route)</small>",
+            "perAction": "Base Chest Chance<br><small>(Per Action)</small>"
+        },
         "Directions": {
             "N": {
                 "short": "N",
@@ -1076,6 +1103,11 @@
         }
     },
     "ItemCollections": {
+        "itemSlot": {
+            "toolName": "Tool",
+            "title": "{slot} Items",
+            "intro": "These are all the items that can be used in the {slot} item slot."
+        },
         "loreTitle": "Lore Items",
         "inventoryLabel": "inventory",
         "achievementsLabel": "Achievements",
@@ -1243,7 +1275,7 @@
             "noMaterialsConsumed": "Adds a chance to not use up the [[Special:MyLanguage/Materials|materials]] required for an [[Special:MyLanguage/Activities|activity]] that requires them.",
             "qualityOutcome": "Changes the probabilities of getting higher quality [[Special:MyLanguage/Crafted Items|crafted items]].",
             "findCollectibles": "Changes the chance to find [[Special:MyLanguage/Collectibles|Collectibles]] on action completion.",
-            "findGems": "Changes the chance to find [[Special:MyLanguage/Gems|gems]] on action completion.",
+            "findGems": "Changes the chance to find [[Special:MyLanguage/Gems#regionalGemTablesSection|gems]] on action completion.",
             "findBirdNests": "Changes the chance to find [[Special:MyLanguage/Bird Nests|Bird Nests]] on action completion.",
             "rollSpecialTable": "Adds a chance to roll on a special loot table after every action."
         }

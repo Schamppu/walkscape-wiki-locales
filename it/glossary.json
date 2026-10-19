@@ -200,12 +200,12 @@
         "ItemsActions": {
             "MemosphereNote": "L'esperienza aumenta con il livello di abilità.<br>Esperienza = {timesLevel} &times; livello di {skill}",
             "ActivityRequirement": "Devono essere soddisfatti i requisiti dell'attività.",
-            "PresentRainNote": "Questa abilità fa sì che {rollAmount} tiri sulla [[Special:MyLanguage/Present Rain|Tabella Pioggia di Regali]].",
-            "RockStarAmuletNote": "Questa abilità fa sì che i tiri siano {rollAmount} sulla [[Special:MyLanguage/Gems#Gem_Pouch_Table|Tabella della Custodia di Gemme]].",
+            "PresentRainNote": "Questa abilità fa sì che {rollAmount} tiri sulla [[Special:MyLanguage/Present Rain (Ability)#dropTablesSection|Tabella Pioggia di Regali]].",
+            "RockStarAmuletNote": "Questa abilità fa sì che i tiri siano {rollAmount} sulla [[Special:MyLanguage/Rock And Roll (Ability)#dropTablesSection|Tabella della Custodia di Gemme]].",
             "NoCooldown": "Nessun tempo di recupero.",
             "NoRequirement": "Nessun requisito.",
-            "ThatsAWrapNote": "Questa abilità effettua {rollAmount} tiri sulla [[Special:MyLanguage/Roll Special Table Items#Linens|tabella dei tessuti]].",
-            "StudyTimeNote": "Questa abilità effettua {rollAmount} tiri sulla [[Special:MyLanguage/Study Time|tabella di Tempo dedicato allo studio]].",
+            "ThatsAWrapNote": "Questa abilità effettua {rollAmount} tiri sulla [[Special:MyLanguage/That's A Wrap (Ability)#dropTablesSection|tabella dei tessuti]].",
+            "StudyTimeNote": "Questa abilità effettua {rollAmount} tiri sulla [[Special:MyLanguage/Study Time (Ability)#dropTablesSection|tabella di Tempo dedicato allo studio]].",
             "TerminateNote": "L'esperienza assegnata da questa abilità dipende dal valore di impegno degli oggetti modificati dall'attributo.",
             "TerminateNoteXP": "Consulta la pagina {keyword} per maggiori dettagli. Questo attributo ha un modificatore {value}."
         },

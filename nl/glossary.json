@@ -202,7 +202,7 @@
             "None": "Dit voorwerp heeft geen attributen."
         },
         "ItemsActions": {
-            "RockStarAmuletNote": "Dit voorwerp geeft {rollAmount} keer kans op buit uit de [[Special:MyLanguage/Gems#Gem_Pouch_Table|Edelstenenzak-tabel]].",
+            "RockStarAmuletNote": "Dit voorwerp geeft {rollAmount} keer kans op buit uit de [[Special:MyLanguage/Rock And Roll (Ability)#dropTablesSection|Edelstenenzak-tabel]].",
             "MemosphereNote": "Hoeveelheid ervaring is afhankelijk van vaardigheidsniveau.<br>Ervaring = {timesLevel}&times; {skill}-Niveau",
             "NoCooldown": "Geen cooldown.",
             "NoRequirement": "Geen vereiste.",

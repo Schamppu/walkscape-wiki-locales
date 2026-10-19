@@ -168,7 +168,7 @@
             "MemosphereNote": "Erfahrung skaliert mit dem Fertigkeitslevel.<br>Erfahrung = {timesLevel}&times; {skill}-Level",
             "NoCooldown": "Keine Abklingzeit.",
             "NoRequirement": "Keine Anforderung.",
-            "RockStarAmuletNote": "Dieser Gegenstand führt {rollAmount} Würfe auf dem [[Special:MyLanguage/Gems#Gem_Pouch_Table|Edelsteinbeutel-Tisch]] aus.",
+            "RockStarAmuletNote": "Dieser Gegenstand führt {rollAmount} Würfe auf dem [[Special:MyLanguage/Rock And Roll (Ability)#dropTablesSection|Edelsteinbeutel-Tisch]] aus.",
             "ActivityRequirement": "Aktivitätsvoraussetzungen müssen erfüllt sein."
         },
         "ItemsAttributes": {
