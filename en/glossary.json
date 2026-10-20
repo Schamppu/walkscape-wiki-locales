@@ -883,6 +883,27 @@
             "NoXPReq": "This pet has no special requirements to gain experience."
         }
     },
+    "Cosmetics": {
+        "intro": "Cosmetics change your character's appearance without changing their abilities or equipment statistics.",
+        "wearablesIntro": "Wearable cosmetics include outfits, headwear, and face, back, and eye accessories. Obtain them from {shops}, rewards, and other sources, then apply them using a {wardrobe}.",
+        "appearanceIntro": "Faces, noses, hairstyles, facepaint, expressions, and colors can be changed at a {barber}. The entries below list any additional unlock sources.",
+        "wearablesHeading": "Wearables",
+        "appearanceHeading": "Character appearance",
+        "backgroundsHeading": "Backgrounds",
+        "backgroundsIntro": "These regional banners form the basic PFP backgrounds. The dynamic background option changes the background with your character's location.",
+        "name": "Name",
+        "notes": "Notes",
+        "default": "Default",
+        "variant": "Variation {number}",
+        "previous": "Previous variation",
+        "next": "Next variation",
+        "chooseVariant": "Choose a variation for {name}",
+          "showAll": "Show all variations for {name}",
+          "showSelected": "Show the selected variation for {name}",
+        "unknownSource": "No source exists.",
+        "mailboxSource": "Mailbox gift: {message}",
+        "backgroundName": "{region} banner"
+    },
     "Pfp_Options": {
         "defaultUnlock": "Always available."
     },
