@@ -702,6 +702,10 @@
         }
     },
     "items": {
+        "fineMaterial": {
+            "title": "Fine Material",
+            "activityInputs": "Activity Inputs"
+        },
         "chestCollection": {
             "title": "Chests",
             "subtable": "Sub-table"
@@ -764,6 +768,15 @@
         }
     },
     "Locations": {
+        "Collection": {
+            "title": "Locations",
+            "intro": "Locations in [[Special:MyLanguage/Arenum|Arenum]], grouped by region and area type.",
+            "groups": {
+                "urban": "Urban Areas",
+                "other": "Other Areas",
+                "swamp": "The Swamp"
+            }
+        },
         "Activities": {
             "emergency": "These '''Emergency Activities''' are only visible if you are missing key items for traveling, and are there to prevent softlocks.",
             "hidden": "These '''Hidden Activities''' are only visible if you meet the requirements first.",
