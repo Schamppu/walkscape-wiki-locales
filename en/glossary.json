@@ -915,6 +915,7 @@
           "showAll": "Show all variations for {name}",
           "showSelected": "Show the selected variation for {name}",
         "unknownSource": "No source exists.",
+        "historicalSource": "Previously available; no longer obtainable.",
         "mailboxSource": "Mailbox gift: {message}",
         "backgroundName": "{region} banner"
     },
