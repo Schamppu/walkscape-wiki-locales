@@ -1,568 +1,460 @@
 {
-    "common": {
-        "achievementName": "Saavutuksen Nimi",
-        "activityName": "Aktiviteetin Nimi",
-        "always": "Aina",
-        "atLeast": "vähintään {number}",
-        "attribute": "Ominaisuus",
-        "attributes": "Ominaisuudet",
-        "baseRate": "Perus-<br>osuus",
-        "baseSteps": "Perus-<br>askeleet",
-        "baseXp": "Perus-<br>KP",
-        "baseXpStep": "Perus-<br>XP/askel",
-        "bonusExp": "Bonus-<br>kokemus",
-        "buildingName": "Rakennuksen nimi",
-        "chance": "Todennäköisyys",
-        "chanceChest": "Todennäköisyys<br><small>(/arkku)</small>",
-        "chanceRoll": "Todennäköisyys<br><small>(/heitto)</small>",
-        "charges": "Lataukset",
-        "chestName": "Arkku",
-        "cooldown": "Palautumisaika",
-        "cooldowns": "Palautumisajat",
-        "difficulty": "Vaikeus",
-        "duration": "Kesto",
-        "effect": "Vaikutus",
-        "factionName": "Ryhmittymä",
-        "finalChance": "Lopullinen<br>todennäköisyys",
-        "finalOdds": "Lopullinen<br>todennäköisyys",
-        "fineAttributes": "Oivat Ominaisuudet",
-        "initialAppearance": "Ensiesiintyminen",
-        "initialChance": "Alustava<br>Todennäköisyys",
-        "initialOdds": "Alustava<br>Todennäköisyys",
-        "itemName": "Esineen nimi",
-        "job": "Työtehtävä",
-        "jobBoardName": "Työtehtävätaulu",
-        "keywords": "Avainsanat",
-        "level": "Taso",
-        "location": "Paikka",
-        "locations": "Paikat",
-        "materials": "Käytetyt<br>Materiaalit",
-        "maxChanceLevel": "Ylimmän<br>Todennäköisyyden Taso",
-        "maxEfficency": "Ylin<br>Työtehokkuus",
-        "maxXpStep": "Ylin<br>XP/Askel",
-        "minSteps": "Alin<br>Askelmäärä",
-        "NA": "Ei saatavilla",
-        "need": "Tarve:",
-        "never": "Ei koskaan",
-        "noFine": "Tämä esine ei voi olla oiva.",
-        "none": "Ei mikään",
-        "normalAttributes": "Normaalit ominaisuudet",
-        "note": "Merkintä",
-        "nothing": "Ei mikään",
-        "odds": "Todennäköisyys",
-        "oneInX": "~1 {number}:sta",
-        "payment": "Maksu",
-        "price": "Hinta",
-        "quantity": "Määrä",
-        "rawMaterials": "Raakamateriaalit",
-        "recipeName": "Resepti",
-        "recipeWEAR": "Koko Reseptin<br>W.E.A.R.",
-        "region": "Alue",
-        "relAttribute": "Relevantti ominaisuus",
-        "relAttributes": "Relevantit ominaisuudet",
-        "requirement": "Vaatimus",
-        "requirements": "Vaatimukset",
-        "reward": "Palkinto",
-        "rewards": "Palkinnot",
-        "rollNote": "Toistuu {number} kertaa",
-        "serviceReq": "Palvelu-<br>vaatimus",
-        "shopName": "Kauppa",
-        "skill": "Taito",
-        "skills": "Taidot",
-        "skillWithLevel": "{skill} taso: {level}",
-        "source": "Lähde",
-        "stock": "varasto",
-        "supporter": "Tukija",
-        "totalBaseXpStep": "Kokonais<br>XP/ASkel",
-        "totalMaxXpStep": "Ylin <br>XP/Askel Summa",
-        "type": "Esineen tyyppi",
-        "value": "Arvo",
-        "valueWithStack": "Arvo<br>Yksi (Pino)",
-        "WEAR": "W.E.A.R.",
-        "buildingType": "Rakennuksen tyyppi",
-        "abilityNames": "Kykyjen nimet",
-        "abilityName": "Kyvyn nimi",
-        "applicableAttribute": "Tähän liittyvä<br>ominaisuus",
-        "baseChestChance": "Perusarkku-tn<br><small>(/toiminto)</small>",
-        "chipCost": "Lanttihinta",
-        "artisanRecipe": "Luovuusresepti",
-        "factionReward": "{factionName}-ryhmittymän palkinnot",
-        "building": "Rakennus",
-        "characterName": "Hahmon nimi",
-        "buildings": "Rakennukset",
-        "chanceActivation": "Todennäköisyys<br><small>/aktivointi</small>",
-        "date": "Päivämäärä",
-        "applicableAttributes": "Tähän liittyvät<br>ominaisuudet",
-        "direction": "Suunta",
-        "endingLocation": "Päätesijainti",
-        "cosmetics": "Kosmeettiset",
-        "description": "Kuvaus",
-        "item": "Esine",
-        "quality": "Laatu",
-        "rarity": "Harvinaisuus",
-        "serviceTeir": "Palvelun taso",
-        "slots": "Paikat",
-        "startingLocation": "Aloitussijainti",
-        "threshold": "Kynnys",
-        "tagEgg": "Lemmikkimuna {sortNumber}: {eggString}",
-        "tagMaterial": "Materiaali {sortNumber}: {materialString}",
-        "tagRarity": "Harvinaisuus {sortNumber}: {rarityString}",
-        "variations": "Muunnelmat",
-        "items": "Esineet",
-        "pet": "Lemmikin nimi",
-        "cosmetic": "Kosmeettinen",
-        "cosmeticType": "Kosmeettistyyppi",
-        "petsRare": "Harvinaisten lemmikkien nimet",
-        "sellValue": "Myyntiarvo",
-        "serviceName": "Palvelun nimi",
-        "tagQuality": "Laatu {sortNumber}: {qualityString}",
-        "tradedItem": "Esine vaihdettu",
-        "noRarePet": "Tämä lemmikki ei voi olla harvinainen.",
-        "pets": "Lemmikkien nimet",
-        "slot": "Paikka",
-        "oneInXActions": "~1 per {number} toimintoa",
-        "oneInXRolls": "~1 per {number} heittoa",
-        "petEgg": "Lemmikkimunan nimi",
-        "petsEgg": "Lemmikkimunien nimet",
-        "oddsRoll": "Todennäköisyys<br>(/heitto)",
-        "information": "Tiedot",
-        "images": "Kuvat",
-        "messageText": "Viesti",
-        "messages": "Viestit",
-        "messageSubject": "Aihe",
-        "message": "Viesti",
-        "petRare": "Harvinaisen lemmikin nimi",
-        "recipeOutputs": "Reseptin<br>tuotteet",
-        "regions": "Alueet",
-        "oneInXChests": "~1 per {number} arkkua",
-        "inputItems": "Syötteet",
-        "sources": "Lähteet"
+    "components": {
+        "version": {
+            "current": "",
+            "unknown": ""
+        }
     },
-    "pageHeaders": {
-        "abilities": "Kyvyt",
-        "ability": "Kyky",
-        "activities": "Aktiviteetit",
-        "activity": "Aktiviteetti",
-        "attribute": "Ominaisuus",
-        "attributes": "Ominaisuudet",
-        "bank": "Pankin asetukset",
-        "bonusDrops": "Bonussaaliit",
-        "building": "Rakennus",
-        "buildings": "Rakennukset",
-        "drops": "Dropit",
-        "emergencyActivities": "Hätäaktiviteetit",
-        "emergencyActivity": "Hätäaktiviteetti",
-        "error": "virhe",
-        "experience": "Kokemus",
-        "faction": "Ryhmittymä",
-        "factionRepDrops": "Ryhmittymämaineen Palkinnot",
-        "factions": "Ryhmittymät",
-        "gemDrops": "Jalokivi Drops",
-        "guides": "Oppaat",
-        "hiddenActivities": "Piilotetut Aktiviteetit",
-        "hiddenActivity": "Piilotettu Aktiviteetti",
-        "inventory": "Reppu",
-        "item": "Esine",
-        "items": "Esineet",
-        "jobBoard": "Työtehtävätaulu",
-        "jobBoards": "Työtehtävätaulut",
-        "loadouts": "Varustesetit",
-        "location": "Paikka",
-        "locations": "Paikat",
-        "lootTables": "Esinerivit",
-        "mainDrops": "Päädropit",
-        "purchases": "Ostokset",
-        "quantity": "Määrä",
-        "Quote": "Lainaus",
-        "Quotes": "Lainaukset",
-        "recipe": "Resepti",
-        "recipes": "Reseptit",
-        "relatedItems": "Liittyvät Esineet",
-        "requirement": "Vaatimus",
-        "requirements": "Vaatimukset",
-        "reward": "Palkinto",
-        "rewards": "Palkinto",
-        "route": "Reitti",
-        "routes": "Reitit",
-        "Rumor": "Juoru",
-        "Rumors": "Juorut",
-        "secondaryDrops": "Toissijaiset Dropit",
-        "service": "Palvelu",
-        "services": "Palvelut",
-        "sources": "Lähteet",
-        "travelingChest": "Arkkumäärän funktio matkustaessa",
-        "uses": "Käyttökoheet",
-        "visibility": "Näkyvyys",
-        "keyword": "Avainsana",
-        "keywords": "Avainsanat",
-        "attributesInput": "Ominaisuudet (syöte)",
-        "attachment": "Liite",
-        "character": "Hahmo",
-        "characters": "Hahmot",
-        "xpRequirement": "Edellytys kokemuksen keräämiseen",
-        "input": "Vaadittu esine",
-        "xpRequirements": "Edellytykset kokemuksen keräämiseen",
-        "attributeInput": "Ominaisuus (syöte)",
-        "attachments": "Liitteet",
-        "shops": "Kaupat",
-        "variations": "Muunnelmat",
-        "name": "Nimi",
-        "petXPHatch": "Kokemus kuoriutumiseen",
-        "inputs": "Vaaditut esineet",
-        "conditions": "Ehdot",
-        "condition": "Ehto",
-        "petXPGrow": "Kokemus kasvamiseen",
-        "shop": "Kauppa",
-        "Consumables": "Hyödykkeet",
-        "loreEntry": "Tarinan pala",
-        "loreEntries": "Tarinan palaset",
-        "names": "Nimet",
-        "prices": "Hinnat",
-        "travelling": "Matkustaessa",
-        "trivia": "Nippelitietoa"
-    },
-    "modules": {
-        "ItemInfobox": {
-            "bankable": "Pankkiin tallennettavissa:",
-            "droppable": "Pudotettavissa:",
-            "duration": "Kesto:",
-            "fineValue": "Oivan arvo:",
-            "fineVersion": "Oivan versio:",
-            "keyword": "Avainsana:",
-            "keywords": "Avainsanat:",
-            "properties": "Properties:",
-            "quality": "Laatu:",
-            "rarity": "Harvinaisuus:",
-            "searchKeyword": "Etsi<br>avainsanalla:",
-            "searchKeywords": "Etsi<br>avainsanoilla:",
-            "sellable": "Myytävissä:",
-            "slot": "Paikka:",
-            "tradable": "Kaupattavissa:",
-            "type": "Type:",
-            "value": "Arvo:",
-            "role": "Rooli:",
-            "canDelete": "Voidaan eläköidä:"
-        },
-        "ItemsActions": {
-            "ActivityRequirement": "",
-            "MemosphereNote": "",
-            "NoCooldown": "",
-            "NoRequirement": "",
-            "RockStarAmuletNote": ""
-        },
-        "ItemsAttributes": {
-            "None": ""
-        },
-        "ItemsIntroDescription": {
-            "ItemTypes": {
-                "Collectible": "",
-                "Consumable": "",
-                "Container": "",
-                "Crafted": "",
-                "Loot": "",
-                "Material": ""
-            },
-            "None": "",
-            "Plurals": {
-                "AchievementCompletion": "",
-                "AchievementPoint": "",
-                "Activity": "",
-                "Chest": "",
-                "FactionRepeatingReward": "",
-                "FactionReward": "",
-                "ItemAttribute": "",
-                "JobBoard": "",
-                "RecipeMain": "",
-                "RecipeSecondary": "",
-                "Shop": "",
-                "ShopPayment": ""
-            },
-            "Singulars": {
-                "AchievementCompletion": "",
-                "AchievementPoint": "",
-                "Activity": "",
-                "Chest": "",
-                "FactionRepeatingReward": "",
-                "FactionReward": "",
-                "ItemAttribute": "",
-                "JobBoard": "",
-                "RecipeMain": "",
-                "RecipeSecondary": "",
-                "Shop": "",
-                "ShopPayment": ""
+    "families": {
+        "abilities": {
+            "notes": {
+                "activityRequirement": "",
+                "memosphereNote": "",
+                "noCooldown": "",
+                "noRequirement": "",
+                "rockStarAmuletNote": ""
             }
         },
-        "ItemSources": {
-            "ActivityRollNote": "",
-            "ChestRollNote": "",
-            "FactionRepeatingReward": "",
-            "factionRewardRequirement": "",
-            "NoSources": "",
-            "RecipeRollNote": "",
-            "sectionHeaders": {
-                "AchievementCompletion": "",
-                "AchievementPoint": "",
-                "Activity": "",
-                "additionalRecipeOutputs": "",
-                "Chest": "",
-                "craftingFlow": "",
-                "FactionRepeatingReward": "",
-                "FactionReward": "",
-                "ItemAttribute": "",
-                "JobBoard": "",
-                "RecipeMain": "",
-                "RecipeSecondary": "",
-                "Shop": "",
-                "ShopPayment": ""
-            },
-            "WEARNote": ""
+        "achievements": {
+            "intro": {
+                "main": ""
+            }
         },
-        "ItemsRequirements": {
-            "None": ""
-        },
-        "ItemUses": {
-            "DefaultCollectible": "",
-            "DefaultConsumable": "",
-            "DefaultGear": "",
-            "DefaultMaterial": "",
-            "DefaultMemosphere": "",
-            "FactionReward": "",
-            "NoUses": "",
-            "Plurals": {
-                "AchievementUse": "",
-                "JobBoardUse": "",
-                "RecipeUse": "",
-                "RequirementUse": "",
-                "SpecialCurrencyUse": "",
-                "SpecialShopPaymentUse": ""
+        "activities": {
+            "infobox": {
+                "efficiency": "",
+                "mainSkill": ""
             },
-            "RequirementUses": {
-                "Plurals": {
-                    "activities": "",
-                    "items": "",
-                    "locations": "",
-                    "services": "",
-                    "terrain_modifiers": ""
+            "intro": {
+                "movement": "",
+                "skilling": ""
+            },
+            "locations": {
+                "entry": "{locationLink} in {regionLink}",
+                "none": "",
+                "plural": "",
+                "singular": ""
+            },
+            "lootTables": {
+                "specialTableNote": "",
+                "tableRollNote": ""
+            },
+            "requirements": {
+                "keyword": "",
+                "none": "",
+                "requirements": "",
+                "skill": ""
+            },
+            "visibility": {
+                "actionNotDone": "It is only visible if you haven't done the following:",
+                "emergency": {
+                    "mainString": ""
                 },
-                "Singulars": {
-                    "activities": "",
-                    "items": "",
-                    "locations": "",
-                    "services": "",
-                    "terrain_modifiers": ""
+                "hidden": {
+                    "mainString": ""
+                },
+                "keywordEquipped": "",
+                "keywordNotEquipped": "It is only visible if you don't meet the following keyword requirements:",
+                "normal": {
+                    "mainString": ""
+                }
+            }
+        },
+        "buildings": {
+            "bank": {
+                "hasDeposit": "",
+                "hasWithdraw": ""
+            },
+            "infobox": {
+                "type": "Type:"
+            },
+            "intro": {
+                "character": "",
+                "main": "",
+                "noCharacter": ""
+            },
+            "requirements": {
+                "none": ""
+            }
+        },
+        "characters": {
+            "infobox": {
+                "location": "",
+                "locations": ""
+            },
+            "intro": {
+                "main": ""
+            },
+            "quotes": {
+                "none": "{characterName} dosen't feel like speaking at this moment."
+            },
+            "rumors": {
+                "none": ""
+            }
+        },
+        "items": {
+            "attributes": {
+                "none": ""
+            },
+            "collections": {
+                "supporterDesignedItems": {
+                    "intro": ""
                 }
             },
-            "sectionHeaders": {
-                "AchievementUse": "",
-                "JobBoardUse": "",
-                "RecipeUse": "",
-                "RequirementUse": "",
-                "SpecialCurrencyUse": "Currency",
-                "SpecialShopPaymentUse": ""
+            "containers": {
+                "findingAttribute": {
+                    "birdNests": "",
+                    "chestFinding": ""
+                },
+                "intro": "",
+                "lootIntro": {
+                    "adventuringGuild": "",
+                    "birdNest": "",
+                    "chestRolls": "",
+                    "coinPouch": "",
+                    "gemPouch": "",
+                    "genericChest": "",
+                    "rustyChest": ""
+                },
+                "sectionHeaders": {
+                    "main": "",
+                    "money": "",
+                    "rarity": ""
+                },
+                "sources": {
+                    "adventuringGuild": "",
+                    "coral": "",
+                    "genericActivities": "",
+                    "regional": "",
+                    "skilling": "",
+                    "sunken": ""
+                }
             },
-            "Singulars": {
-                "AchievementUse": "",
-                "JobBoardUse": "",
-                "RecipeUse": "",
-                "RequirementUse": "",
-                "SpecialCurrencyUse": "",
-                "SpecialShopPaymentUse": ""
-            }
-        },
-        "Keywords": {
-            "activityIntro": "",
-            "bannedKeywordMultiple": "",
-            "bannedKeywordSingular": "",
-            "consumableIntro": "",
-            "equipmentIntro": "",
-            "gearSet": "The following are all of the [[Special:MyLanguage/Equipment | gear and tools]] that use the '''{Keyword_Name}''' gear set keyword.",
-            "locationIntro": "",
-            "materialIntro": "",
-            "recipeIntro": "",
-            "returnString": "",
-            "supporterIntro": "",
-            "unknown": "",
-            "weightIntro": "The following are all of the [[Special:MyLanguage/Items | items]] that use the '''{Keyword_Name}''' weight keyword.\n\nIt changes the maximum size of the stack of items in your to {stackSize} per stack."
-        },
-        "requirements": {
-            "gameData": "",
-            "historyData": "Complete actions of the {activtiyName} activity. {actionCount}"
-        }
-    },
-    "Helpers": {
-        "addGearGuide": "",
-        "autoString": "",
-        "editGear": "",
-        "editGuide": "",
-        "noGear": "",
-        "noGuide": "",
-        "unknownString": "",
-        "versionString": ""
-    },
-    "Achievements": {
-        "Infobox": {
-            "type": "Type:"
-        },
-        "Intro": {
-            "main": ""
-        },
-        "Requirements": {
-            "None": "This activity has no requirements."
-        },
-        "Rewards": {
-            "None": "",
-            "Other": "",
-            "Points": ""
-        }
-    },
-    "Activities": {
-        "Infobox": {
-            "efficiency": "",
-            "mainSkill": ""
-        },
-        "Intro": {
-            "Movement": "",
-            "Skilling": ""
-        },
-        "Locations": {
-            "Entry": "{location} in {region}",
-            "None": "",
-            "Plural": "",
-            "Singular": ""
-        },
-        "LootTables": {
-            "SpecialTableNote": "",
-            "TableRollNote": ""
-        },
-        "Requirements": {
-            "Keyword": "",
-            "None": "",
-            "Requirements": "",
-            "Skill": ""
-        },
-        "Visibility": {
-            "actionDone": "",
-            "actionNotDone": "It is only visible if you haven't done the following:",
-            "Emergency": {
-                "MainString": "",
-                "Type": ""
+            "infobox": {
+                "bankable": "Pankkiin tallennettavissa:",
+                "canDelete": "Voidaan eläköidä:",
+                "droppable": "Pudotettavissa:",
+                "duration": "Kesto:",
+                "fineValue": "Oivan arvo:",
+                "keyword": "Avainsana:",
+                "keywords": "Avainsanat:",
+                "properties": "Properties:",
+                "rarity": "Harvinaisuus:",
+                "searchKeyword": "Etsi<br>avainsanalla:",
+                "searchKeywords": "Etsi<br>avainsanoilla:",
+                "sellable": "Myytävissä:",
+                "slot": "Paikka:",
+                "tradable": "Kaupattavissa:",
+                "type": "Type:",
+                "value": "Arvo:"
             },
-            "Hidden": {
-                "MainString": "",
-                "Type": ""
+            "intro": {
+                "itemTypes": {
+                    "collectible": "",
+                    "consumable": "",
+                    "container": "",
+                    "crafted": "",
+                    "loot": "",
+                    "material": ""
+                }
             },
-            "keywordEquipped": "",
-            "keywordNotEquipped": "It is only visible if you don't meet the following keyword requirements:",
-            "Normal": {
-                "MainString": "",
-                "Type": "Normal"
-            }
-        }
-    },
-    "Buildings": {
-        "Bank": {
-            "hasDeposit": "",
-            "hasWithdraw": ""
-        },
-        "Infobox": {
-            "type": "Type:"
-        },
-        "Intro": {
-            "character": "",
-            "main": "",
-            "noCharacter": ""
-        },
-        "Requirements": {
-            "None": ""
-        }
-    },
-    "Characters": {
-        "Infobox": {
-            "location": "",
-            "locations": ""
-        },
-        "Intro": {
-            "main": ""
-        },
-        "Quotes": {
-            "none": "{characterName} dosen't feel like speaking at this moment."
-        },
-        "Rumors": {
-            "none": ""
-        }
-    },
-    "items": {
-        "chestPages": {
-            "findingAttribute": {
-                "birdNests": "",
-                "chestFinding": ""
-            },
-            "intro": "",
-            "lootIntro": {
-                "adventuringGuild": "",
-                "birdNest": "",
-                "chestRolls": "",
-                "coinPouch": "",
-                "gemPouch": "",
-                "genericChest": "",
-                "rustyChest": ""
-            },
-            "PerChest": "",
-            "perRoll": "",
-            "sectionHeaders": {
-                "main": "",
-                "money": "",
-                "rarity": ""
+            "requirements": {
+                "none": ""
             },
             "sources": {
-                "adventuringGuild": "",
-                "coral": "",
-                "genericActivities": "",
-                "regional": "",
-                "skilling": "",
-                "sunken": ""
+                "factionRepeatingReward": "",
+                "factionRewardRequirement": "",
+                "noSources": "",
+                "sectionHeaders": {
+                    "achievementCompletion": "",
+                    "achievementPoint": "",
+                    "activity": "",
+                    "chest": "",
+                    "factionRepeatingReward": "",
+                    "factionReward": "",
+                    "itemAttribute": "",
+                    "jobBoard": "",
+                    "recipeSecondary": "",
+                    "shop": "",
+                    "shopPayment": ""
+                },
+                "wearNote": ""
             },
-            "travelingCalc": ""
+            "uses": {
+                "defaultCollectible": "",
+                "defaultConsumable": "",
+                "defaultGear": "",
+                "defaultMaterial": "",
+                "defaultMemosphere": "",
+                "plurals": {
+                    "achievementUse": "",
+                    "jobBoardUse": "",
+                    "recipeUse": "",
+                    "requirementUse": "",
+                    "specialCurrencyUse": "",
+                    "specialShopPaymentUse": ""
+                },
+                "requirementUses": {
+                    "plurals": {
+                        "activities": "",
+                        "items": "",
+                        "locations": "",
+                        "services": "",
+                        "terrainModifiers": ""
+                    },
+                    "singulars": {
+                        "activities": "",
+                        "items": "",
+                        "locations": "",
+                        "services": "",
+                        "terrainModifiers": ""
+                    }
+                },
+                "sectionHeaders": {
+                    "achievementUse": "",
+                    "recipeUse": "",
+                    "specialCurrencyUse": "Currency",
+                    "specialShopPaymentUse": ""
+                },
+                "singulars": {
+                    "achievementUse": "",
+                    "jobBoardUse": "",
+                    "recipeUse": "",
+                    "requirementUse": "",
+                    "specialCurrencyUse": "",
+                    "specialShopPaymentUse": ""
+                }
+            }
+        },
+        "locations": {
+            "activities": {
+                "emergency": "",
+                "hidden": "These '''Hidden Activities''' are only visible if you complete certain required actions first.",
+                "main": ""
+            },
+            "buildings": {
+                "main": ""
+            },
+            "factions": {
+                "main": "",
+                "sub": ""
+            },
+            "intro": {
+                "main": ""
+            },
+            "routes": {
+                "baseSteps": "",
+                "main": ""
+            },
+            "services": {
+                "main": ""
+            }
+        },
+        "shops": {
+            "allSell": "",
+            "limitedSell": "",
+            "noBuy": "This shop currently has nothing for sale.",
+            "noSell": "",
+            "restrictedSell": "",
+            "specialSell": ""
         }
     },
-    "Locations": {
-        "Activities": {
-            "emergency": "",
-            "hidden": "These '''Hidden Activities''' are only visible if you complete certain required actions first.",
-            "main": ""
+    "shared": {
+        "footer": {
+            "automaticUpdate": ""
         },
-        "Buildings": {
-            "main": ""
+        "guides": {
+            "create": "",
+            "edit": "",
+            "none": ""
         },
-        "Factions": {
-            "main": "",
-            "sub": ""
+        "headings": {
+            "ability": "Kyky",
+            "activity": "Aktiviteetti",
+            "attachment": "Liite",
+            "attachments": "Liitteet",
+            "attributesInput": "Ominaisuudet (syöte)",
+            "bank": "Pankin asetukset",
+            "bonusDrops": "Bonussaaliit",
+            "building": "Rakennus",
+            "character": "Hahmo",
+            "condition": "Ehto",
+            "conditions": "Ehdot",
+            "consumables": "Hyödykkeet",
+            "emergencyActivity": "Hätäaktiviteetti",
+            "experience": "Kokemus",
+            "faction": "Ryhmittymä",
+            "factionRepDrops": "Ryhmittymämaineen Palkinnot",
+            "gemDrops": "Jalokivi Drops",
+            "guides": "Oppaat",
+            "hiddenActivity": "Piilotettu Aktiviteetti",
+            "input": "Vaadittu esine",
+            "inputs": "Vaaditut esineet",
+            "inventory": "Reppu",
+            "jobBoard": "Työtehtävätaulu",
+            "keyword": "Avainsana",
+            "location": "Paikka",
+            "lootTables": "Esinerivit",
+            "loreEntry": "Tarinan pala",
+            "mainDrops": "Päädropit",
+            "names": "Nimet",
+            "petXpGrow": "Kokemus kasvamiseen",
+            "petXpHatch": "Kokemus kuoriutumiseen",
+            "prices": "Hinnat",
+            "purchases": "Ostokset",
+            "quote": "Lainaus",
+            "quotes": "Lainaukset",
+            "recipe": "Resepti",
+            "rewards": "Palkinto",
+            "route": "Reitti",
+            "rumor": "Juoru",
+            "rumors": "Juorut",
+            "secondaryDrops": "Toissijaiset Dropit",
+            "service": "Palvelu",
+            "travelling": "Matkustaessa",
+            "trivia": "Nippelitietoa",
+            "uses": "Käyttökoheet",
+            "visibility": "Näkyvyys",
+            "xpRequirement": "Edellytys kokemuksen keräämiseen",
+            "xpRequirements": "Edellytykset kokemuksen keräämiseen"
         },
-        "Intro": {
-            "main": ""
+        "labels": {
+            "abilities": "Kyvyt",
+            "abilityName": "Kyvyn nimi",
+            "abilityNames": "Kykyjen nimet",
+            "achievementName": "Saavutuksen Nimi",
+            "activities": "Aktiviteetit",
+            "activityName": "Aktiviteetin Nimi",
+            "artisanRecipe": "Luovuusresepti",
+            "attribute": "Ominaisuus",
+            "attributes": "Ominaisuudet",
+            "baseRate": "Perus-<br>osuus",
+            "baseSteps": "Perus-<br>askeleet",
+            "baseXp": "Perus-<br>KP",
+            "baseXpStep": "Perus-<br>XP/askel",
+            "bonusExp": "Bonus-<br>kokemus",
+            "buildingName": "Rakennuksen nimi",
+            "buildings": "Rakennukset",
+            "chance": "Todennäköisyys",
+            "chanceActivation": "Todennäköisyys<br><small>/aktivointi</small>",
+            "chanceRoll": "Todennäköisyys<br><small>(/heitto)</small>",
+            "characterName": "Hahmon nimi",
+            "characters": "Hahmot",
+            "charges": "Lataukset",
+            "chestName": "Arkku",
+            "chipCost": "Lanttihinta",
+            "cooldown": "Palautumisaika",
+            "cosmetic": "Kosmeettinen",
+            "cosmeticType": "Kosmeettistyyppi",
+            "cosmetics": "Kosmeettiset",
+            "date": "Päivämäärä",
+            "description": "Kuvaus",
+            "difficulty": "Vaikeus",
+            "direction": "Suunta",
+            "drops": "Dropit",
+            "duration": "Kesto",
+            "effect": "Vaikutus",
+            "emergencyActivities": "Hätäaktiviteetit",
+            "endingLocation": "Päätesijainti",
+            "factionName": "Ryhmittymä",
+            "factions": "Ryhmittymät",
+            "finalChance": "Lopullinen<br>todennäköisyys",
+            "finalOdds": "Lopullinen<br>todennäköisyys",
+            "fineAttributes": "Oivat Ominaisuudet",
+            "hiddenActivities": "Piilotetut Aktiviteetit",
+            "images": "Kuvat",
+            "information": "Tiedot",
+            "initialAppearance": "Ensiesiintyminen",
+            "initialChance": "Alustava<br>Todennäköisyys",
+            "initialOdds": "Alustava<br>Todennäköisyys",
+            "inputItems": "Syötteet",
+            "item": "Esine",
+            "itemName": "Esineen nimi",
+            "items": "Esineet",
+            "job": "Työtehtävä",
+            "jobBoardName": "Työtehtävätaulu",
+            "jobBoards": "Työtehtävätaulut",
+            "keywords": "Avainsanat",
+            "level": "Taso",
+            "location": "Paikka",
+            "locations": "Paikat",
+            "materials": "Käytetyt<br>Materiaalit",
+            "maxChanceLevel": "Ylimmän<br>Todennäköisyyden Taso",
+            "maxEfficency": "Ylin<br>Työtehokkuus",
+            "maxXpStep": "Ylin<br>XP/Askel",
+            "messageSubject": "Aihe",
+            "minSteps": "Alin<br>Askelmäärä",
+            "na": "Ei saatavilla",
+            "name": "Nimi",
+            "never": "Ei koskaan",
+            "noFine": "Tämä esine ei voi olla oiva.",
+            "noRarePet": "Tämä lemmikki ei voi olla harvinainen.",
+            "none": "Ei mikään",
+            "normalAttributes": "Normaalit ominaisuudet",
+            "note": "Merkintä",
+            "nothing": "Ei mikään",
+            "odds": "Todennäköisyys",
+            "oddsRoll": "Todennäköisyys<br>(/heitto)",
+            "oneInX": "~1 {oddsDenominator}:sta",
+            "oneInXActions": "~1 per {oddsDenominator} toimintoa",
+            "oneInXChests": "~1 per {oddsDenominator} arkkua",
+            "oneInXRolls": "~1 per {oddsDenominator} heittoa",
+            "payment": "Maksu",
+            "pet": "Lemmikin nimi",
+            "petRare": "Harvinaisen lemmikin nimi",
+            "price": "Hinta",
+            "primaryRecipeOutput": "",
+            "quality": "Laatu",
+            "quantity": "Määrä",
+            "rarity": "Harvinaisuus",
+            "recipeName": "Resepti",
+            "recipeOutputs": "Reseptin<br>tuotteet",
+            "recipes": "Reseptit",
+            "region": "Alue",
+            "regions": "Alueet",
+            "relAttribute": "Relevantti ominaisuus",
+            "relAttributes": "Relevantit ominaisuudet",
+            "requirement": "Vaatimus",
+            "requirements": "Vaatimukset",
+            "reward": "Palkinto",
+            "rewards": "Palkinnot",
+            "rollNote": "Toistuu {rollCount} kertaa",
+            "routes": "Reitit",
+            "sellValue": "Myyntiarvo",
+            "serviceName": "Palvelun nimi",
+            "serviceReq": "Palvelu-<br>vaatimus",
+            "serviceTeir": "Palvelun taso",
+            "services": "Palvelut",
+            "shopName": "Kauppa",
+            "shops": "Kaupat",
+            "skill": "Taito",
+            "skillWithLevel": "{skillLink} taso: {level}",
+            "skills": "Taidot",
+            "slot": "Paikka",
+            "source": "Lähde",
+            "sources": "Lähteet",
+            "startingLocation": "Aloitussijainti",
+            "stock": "varasto",
+            "supporter": "Tukija",
+            "tagEgg": "Lemmikkimuna {sortOrder}: {eggLabel}",
+            "tagMaterial": "Materiaali {sortOrder}: {materialLabel}",
+            "tagQuality": "Laatu {sortOrder}: {qualityName}",
+            "tagRarity": "Harvinaisuus {sortOrder}: {rarityName}",
+            "threshold": "Kynnys",
+            "totalBaseXpStep": "Kokonais<br>XP/ASkel",
+            "totalMaxXpStep": "Ylin <br>XP/Askel Summa",
+            "tradedItem": "Esine vaihdettu",
+            "type": "Esineen tyyppi",
+            "value": "Arvo",
+            "valueWithStack": "Arvo<br>Yksi (Pino)",
+            "variations": "Muunnelmat",
+            "wear": "W.E.A.R."
         },
-        "Routes": {
-            "baseSteps": "",
-            "main": ""
+        "requirements": {
+            "historyData": "Complete actions of the {activityName} activity. {actionCountText}"
         },
-        "Services": {
-            "main": ""
+        "visibility": {
+            "actionDone": ""
         }
-    },
-    "Shops": {
-        "allSell": "",
-        "cosmeticTypes": {
-            "back_accessorie": "",
-            "eye_accessory": "",
-            "face_accessorie": "",
-            "hair": "",
-            "headwear": "",
-            "outfit": ""
-        },
-        "limitedSell": "",
-        "nobuy": "This shop currently has nothing for sale.",
-        "noSell": "",
-        "restrictedSell": "",
-        "specialSell": ""
     }
 }

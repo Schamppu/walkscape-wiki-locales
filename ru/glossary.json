@@ -1,260 +1,227 @@
 {
-    "common": {
-        "shopName": "Название Магазина",
-        "always": "Всегда",
-        "achievementName": "Название Достижения",
-        "chestName": "Название Сундука",
-        "cooldown": "Восстановление",
-        "difficulty": "Сложность",
-        "skills": "Навыки",
-        "information": "Информация",
-        "maxEfficency": "Максимальная<br>Эффективность Работы",
-        "minSteps": "Минимум<br>Шагов",
-        "need": "Необходимо:",
-        "never": "Никогда",
-        "noFine": "Этот предмет не может быть качественным.",
-        "pet": "Имя Питомца",
-        "petEgg": "Название Яйца Питомца",
-        "price": "Цена",
-        "quantity": "Количество",
-        "rarity": "Редкость",
-        "recipeName": "Название Рецепта",
-        "region": "Регион",
-        "relAttributes": "Связанные Атрибуты",
-        "requirement": "Требование",
-        "requirements": "Требования",
-        "reward": "Награда",
-        "rewards": "Награды",
-        "serviceName": "Название Услуги",
-        "skill": "Навык",
-        "slot": "Слот",
-        "slots": "Слоты",
-        "source": "Источник",
-        "sources": "Источники",
-        "type": "Тип Предмета",
-        "oneInX": "~1 из {number}",
-        "petRare": "Имя Редкого Питомца",
-        "relAttribute": "Связанный Атрибут",
-        "buildingType": "Тип Здания",
-        "serviceReq": "Требование<br>Услуги",
-        "materials": "Использованные<br>Материалы",
-        "abilityName": "Название Способности",
-        "chance": "Шанс",
-        "atLeast": "{number} или более",
-        "charges": "Заряды",
-        "buildingName": "Название Здания",
-        "chanceActivation": "Шанс<br>(За Активацию)",
-        "itemName": "Название Предмета",
-        "jobBoardName": "Название Доски Заданий",
-        "keywords": "Ключевые Слова",
-        "level": "Уровень",
-        "location": "Локация",
-        "locations": "Локации",
-        "direction": "Направление",
-        "duration": "Длительность",
-        "effect": "Эффект",
-        "factionName": "Название Фракции",
-        "activityName": "Название Активности",
-        "cooldowns": "Восстановления",
-        "note": "Примечание",
-        "artisanRecipe": "Ремесленный Рецепт",
-        "attribute": "Атрибут",
-        "attributes": "Атрибуты"
+    "editorial": {
+        "cosmetics": {
+            "acquisition": {
+                "defaultUnlock": "Всегда доступно."
+            }
+        }
     },
-    "pageHeaders": {
-        "factionRepDrops": "Награды за Репутацию Фракции",
-        "item": "Предмет",
-        "items": "Предметы",
-        "inventory": "Инвентарь",
-        "relatedItems": "Связанные Предметы",
-        "requirement": "Требование",
-        "route": "Маршрут",
-        "abilities": "Способности",
-        "ability": "Способность",
-        "attributes": "Атрибуты",
-        "building": "Здание",
-        "buildings": "Здания",
-        "error": "ошибка",
-        "faction": "Фракция",
-        "factions": "Фракции",
-        "guides": "Руководства",
-        "hiddenActivity": "Скрытая Активность",
-        "inputs": "Необходимые Предметы",
-        "jobBoard": "Доска Заданий",
-        "keyword": "Ключевое Слово",
-        "loadouts": "Наборы Снаряжения",
-        "location": "Локация",
-        "locations": "Локации",
-        "quantity": "Количество",
-        "Quote": "Цитата",
-        "Quotes": "Цитаты",
-        "recipe": "Рецепт",
-        "recipes": "Рецепты",
-        "reward": "Награда",
-        "jobBoards": "Доски Заданий",
-        "routes": "Маршруты",
-        "Rumor": "Слух",
-        "Rumors": "Слухи",
-        "service": "Услуга",
-        "shop": "Магазин",
-        "shops": "Магазины",
-        "sources": "Источники",
-        "visibility": "Видимость",
-        "name": "Имя",
-        "names": "Имена",
-        "petXPGrow": "Опыт Для Взросления",
-        "petXPHatch": "Опыт Для Вылупления",
-        "attribute": "Атрибут",
-        "input": "Необходимый Предмет",
-        "keywords": "Ключевые Слова",
-        "services": "Услуги",
-        "rewards": "Награды",
-        "hiddenActivities": "Скрытые Активностт",
-        "requirements": "Требования",
-        "xpRequirement": "Требование для Получения Опыта",
-        "activities": "Активности",
-        "activity": "Активность",
-        "xpRequirements": "Требования для Получения Опыта"
-    },
-    "modules": {
-        "ItemInfobox": {
-            "type": "Тип:",
-            "keywords": "Ключевые слова:",
-            "fineVersion": "Качественная Версия:",
-            "quality": "Качество:",
-            "rarity": "Редкость:",
-            "slot": "Слот:",
-            "value": "Стоимость:",
-            "duration": "Длительность:",
-            "keyword": "Ключевое слово:"
-        },
-        "ItemsActions": {
-            "ActivityRequirement": "Требования активности должны быть удовлетворены.",
-            "NoRequirement": "Требования нет.",
-            "NoCooldown": "Перезарядки нет.",
-            "MemosphereNote": "Опыт зависит от уровня навыка.<br>Опыт = {timesLevel}&times; Уровень {skill}"
-        },
-        "ItemsAttributes": {
-            "None": "У этого предмета нет атрибутов."
-        },
-        "ItemsIntroDescription": {
-            "ItemTypes": {
-                "Collectible": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Collectibles | коллекционный предмет]].",
-                "Consumable": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Consumables | расходник]].",
-                "Container": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Chests | сундук]]."
-            },
-            "Plurals": {
-                "Activity": "Может быть получен из [[Special:MyLanguage/Activities | активностей]].",
-                "Chest": "Может быть найден в [[Special:MyLanguage/Chests | сундуках]].",
-                "FactionReward": "Может быть наградой за получение достаточного количества [[Special:MyLanguage/Faction Reputation | репутации фракции]].",
-                "Shop": "Может быть приобретён в некоторых [[Special:MyLanguage/Shops | магазинах]].",
-                "ShopPayment": "Может приниматься в качестве оплаты в некоторых [[Special:MyLanguage/Shops | магазинах]].",
-                "AbilityActivation": "Может быть получен при активации [[Special:MyLanguage/Abilities | способностей]].",
-                "AchievementPoint": "Может быть получен в качестве награды за получение достаточного числа [[Special:MyLanguage/Achievement Points | очков достижений]].",
-                "AchievementCompletion": "Может быть получен в качестве награды за выполнение [[Special:MyLanguage/Achievements | достижений]].",
-                "FactionRepeatingReward": "Может быть повторяющейся наградой за получение достаточного количества [[Special:MyLanguage/Faction Reputation | репутации фракции]].",
-                "JobBoard": "Может быть наградой за выполнение [[Special:MyLanguage/Job Boards | работы с доски заданий]]."
-            },
-            "Singulars": {
-                "AchievementCompletion": "Может быть наградой за получение [[Special:MyLanguage/Achievements | достижения]].",
-                "AbilityActivation": "Может быть получен при активации [[Special:MyLanguage/Abilities | способности]].",
-                "AchievementPoint": "Может быть получен в качестве награды за получение достаточного числа [[Special:MyLanguage/Achievement Points | очков достижений]]."
+    "families": {
+        "abilities": {
+            "notes": {
+                "activityRequirement": "Требования активности должны быть удовлетворены.",
+                "memosphereNote": "Опыт зависит от уровня навыка.<br>Опыт = {experiencePerSkillLevel}&times; Уровень {skillName}",
+                "noCooldown": "Перезарядки нет.",
+                "noRequirement": "Требования нет."
             }
         },
-        "ItemUses": {
-            "Plurals": {
-                "SpecialCurrencyUse": "{itemName} может использоваться как валюта в следующих [[Special:MyLanguage/Shops|магазинах]]:",
-                "SpecialShopPaymentUse": "{itemName} может быть продан в следующих [[Special:MyLanguage/Shops|магазинах]], чтобы получить особую валюту:"
+        "characters": {
+            "rumors": {
+                "none": "{characterName} пока не сообщает никаких слухов."
+            }
+        },
+        "items": {
+            "attributes": {
+                "none": "У этого предмета нет атрибутов."
             },
-            "RequirementUses": {
-                "Plurals": {
-                    "activities": "{itemName} необходим для выполнения следующих активностей:"
+            "infobox": {
+                "duration": "Длительность:",
+                "keyword": "Ключевое слово:",
+                "keywords": "Ключевые слова:",
+                "rarity": "Редкость:",
+                "slot": "Слот:",
+                "type": "Тип:",
+                "value": "Стоимость:"
+            },
+            "intro": {
+                "itemTypes": {
+                    "collectible": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Collectibles | коллекционный предмет]].",
+                    "consumable": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Consumables | расходник]].",
+                    "container": "[[Special:MyLanguage/Items | Предмет]] {itemName} — это [[Special:MyLanguage/Chests | сундук]]."
+                }
+            },
+            "uses": {
+                "plurals": {
+                    "specialCurrencyUse": "{itemName} может использоваться как валюта в следующих [[Special:MyLanguage/Shops|магазинах]]:",
+                    "specialShopPaymentUse": "{itemName} может быть продан в следующих [[Special:MyLanguage/Shops|магазинах]], чтобы получить особую валюту:"
+                },
+                "requirementUses": {
+                    "plurals": {
+                        "activities": "{itemName} необходим для выполнения следующих активностей:"
+                    }
                 }
             }
-        }
-    },
-    "Characters": {
-        "Rumors": {
-            "none": "{characterName} пока не сообщает никаких слухов."
-        }
-    },
-    "Shops": {
-        "noSell": "В этом магазине нельзя ничего продать.",
-        "noBuy": "На данный момент в этом магазине ничего не продаётся.",
-        "restrictedSell": "В этом магазине можно продать только некоторые предметы.",
-        "allBuy": "Этот магазин продаёт предметы.",
-        "allSell": "Все обычные предметы могут быть проданы в этом магазине.",
-        "limitedSell": "Только эти предметы могут быть проданы в данном магазине."
-    },
-    "Pets": {
-        "Infobox": {
-            "static": "Статичный:",
-            "Dark": "Тёмный",
-            "Normal": "Обычный",
-            "Light": "Светлый",
-            "Rare": "Редкий",
-            "animation": "Анимированный:"
         },
-        "Requirement": {
-            "NoXPReq": "У этого питомца нет требований для получения опыта."
-        },
-        "Experience": {
-            "ChangeToJuvenile": "Этот питомец станет '''Детёнышем''', когда достигнет уровня {nextLevel}.",
-            "ChangeToAdult": "Этот питомец станет '''Взрослым''', когда достигнет уровня {nextLevel}.",
-            "XPGain": "Потребуется дополнительно {addedExperienceNum} опыта, чтобы достичь уровня {nextLevel}. (всего потребуется {totalExperienceNum} опыта)"
-        },
-        "Intro": {
-            "stageEgg": "Этот питомец является Яйцом с уровня 0 до уровня 1.",
-            "stageAdult": "Этот питомец становится взрослым на уровне {adultLevel}.",
-            "stageJuvi": "Этот питомец является Детёнышем с уровня 1 до уровня {adultLevel}."
-        },
-        "Names": {
-            "main": "Питомец может иметь одно из следующих имён по умолчанию, когда вылупляется:"
-        },
-        "Normal": "Обычный Питомец",
-        "Rare": "Редкий Питомец"
-    },
-    "Routes": {
-        "Directions": {
-            "N": {
-                "short": "С",
-                "name": "Север"
+        "pets": {
+            "experience": {
+                "changeToAdult": "Этот питомец станет '''Взрослым''', когда достигнет уровня {targetLevel}.",
+                "changeToJuvenile": "Этот питомец станет '''Детёнышем''', когда достигнет уровня {targetLevel}.",
+                "xpGain": "Потребуется дополнительно {additionalExperience} опыта, чтобы достичь уровня {targetLevel}. (всего потребуется {totalExperience} опыта)"
             },
-            "E": {
-                "short": "В",
-                "name": "Восток"
+            "infobox": {
+                "normal": "Обычный",
+                "rare": "Редкий",
+                "static": "Статичный:"
             },
-            "NW": {
-                "short": "СЗ",
-                "name": "Северо-запад"
+            "intro": {
+                "stageAdult": "Этот питомец становится взрослым на уровне {adultLevel}.",
+                "stageEgg": "Этот питомец является Яйцом с уровня 0 до уровня 1.",
+                "stageJuvi": "Этот питомец является Детёнышем с уровня 1 до уровня {adultLevel}."
             },
-            "W": {
-                "name": "Запад",
-                "short": "З"
+            "names": {
+                "main": "Питомец может иметь одно из следующих имён по умолчанию, когда вылупляется:"
             },
-            "C": {
-                "name": "Центр",
-                "short": "Ц"
-            },
-            "NE": {
-                "short": "СВ",
-                "name": "Северо-восток"
-            },
-            "SE": {
-                "short": "ЮВ",
-                "name": "Юго-восток"
-            },
-            "SW": {
-                "short": "ЮЗ",
-                "name": "Юго-запад"
-            },
-            "S": {
-                "short": "Ю",
-                "name": "Юг"
+            "normal": "Обычный Питомец",
+            "rare": "Редкий Питомец",
+            "requirement": {
+                "noXpReq": "У этого питомца нет требований для получения опыта."
             }
+        },
+        "routes": {
+            "directions": {
+                "c": {
+                    "name": "Центр",
+                    "short": "Ц"
+                },
+                "e": {
+                    "name": "Восток",
+                    "short": "В"
+                },
+                "n": {
+                    "name": "Север",
+                    "short": "С"
+                },
+                "ne": {
+                    "name": "Северо-восток",
+                    "short": "СВ"
+                },
+                "nw": {
+                    "name": "Северо-запад",
+                    "short": "СЗ"
+                },
+                "s": {
+                    "name": "Юг",
+                    "short": "Ю"
+                },
+                "se": {
+                    "name": "Юго-восток",
+                    "short": "ЮВ"
+                },
+                "sw": {
+                    "name": "Юго-запад",
+                    "short": "ЮЗ"
+                },
+                "w": {
+                    "name": "Запад",
+                    "short": "З"
+                }
+            }
+        },
+        "shops": {
+            "allBuy": "Этот магазин продаёт предметы.",
+            "allSell": "Все обычные предметы могут быть проданы в этом магазине.",
+            "limitedSell": "Только эти предметы могут быть проданы в данном магазине.",
+            "noBuy": "На данный момент в этом магазине ничего не продаётся.",
+            "noSell": "В этом магазине нельзя ничего продать.",
+            "restrictedSell": "В этом магазине можно продать только некоторые предметы."
         }
     },
-    "Pfp_Options": {
-        "defaultUnlock": "Всегда доступно."
+    "shared": {
+        "headings": {
+            "ability": "Способность",
+            "activity": "Активность",
+            "building": "Здание",
+            "faction": "Фракция",
+            "factionRepDrops": "Награды за Репутацию Фракции",
+            "guides": "Руководства",
+            "hiddenActivity": "Скрытая Активность",
+            "input": "Необходимый Предмет",
+            "inputs": "Необходимые Предметы",
+            "inventory": "Инвентарь",
+            "jobBoard": "Доска Заданий",
+            "keyword": "Ключевое Слово",
+            "location": "Локация",
+            "names": "Имена",
+            "petXpGrow": "Опыт Для Взросления",
+            "petXpHatch": "Опыт Для Вылупления",
+            "quote": "Цитата",
+            "quotes": "Цитаты",
+            "recipe": "Рецепт",
+            "rewards": "Награды",
+            "route": "Маршрут",
+            "rumor": "Слух",
+            "rumors": "Слухи",
+            "service": "Услуга",
+            "visibility": "Видимость",
+            "xpRequirement": "Требование для Получения Опыта",
+            "xpRequirements": "Требования для Получения Опыта"
+        },
+        "labels": {
+            "abilities": "Способности",
+            "abilityName": "Название Способности",
+            "achievementName": "Название Достижения",
+            "activities": "Активности",
+            "activityName": "Название Активности",
+            "artisanRecipe": "Ремесленный Рецепт",
+            "attribute": "Атрибут",
+            "attributes": "Атрибуты",
+            "buildingName": "Название Здания",
+            "buildings": "Здания",
+            "chance": "Шанс",
+            "chanceActivation": "Шанс<br>(За Активацию)",
+            "charges": "Заряды",
+            "chestName": "Название Сундука",
+            "cooldown": "Восстановление",
+            "difficulty": "Сложность",
+            "direction": "Направление",
+            "duration": "Длительность",
+            "effect": "Эффект",
+            "factionName": "Название Фракции",
+            "factions": "Фракции",
+            "hiddenActivities": "Скрытые Активностт",
+            "information": "Информация",
+            "itemName": "Название Предмета",
+            "items": "Предметы",
+            "jobBoardName": "Название Доски Заданий",
+            "jobBoards": "Доски Заданий",
+            "keywords": "Ключевые Слова",
+            "level": "Уровень",
+            "location": "Локация",
+            "locations": "Локации",
+            "materials": "Использованные<br>Материалы",
+            "maxEfficency": "Максимальная<br>Эффективность Работы",
+            "minSteps": "Минимум<br>Шагов",
+            "name": "Имя",
+            "never": "Никогда",
+            "noFine": "Этот предмет не может быть качественным.",
+            "note": "Примечание",
+            "oneInX": "~1 из {oddsDenominator}",
+            "pet": "Имя Питомца",
+            "petRare": "Имя Редкого Питомца",
+            "price": "Цена",
+            "quantity": "Количество",
+            "rarity": "Редкость",
+            "recipeName": "Название Рецепта",
+            "recipes": "Рецепты",
+            "region": "Регион",
+            "relAttribute": "Связанный Атрибут",
+            "relAttributes": "Связанные Атрибуты",
+            "requirement": "Требование",
+            "requirements": "Требования",
+            "reward": "Награда",
+            "rewards": "Награды",
+            "routes": "Маршруты",
+            "serviceName": "Название Услуги",
+            "serviceReq": "Требование<br>Услуги",
+            "services": "Услуги",
+            "shopName": "Название Магазина",
+            "shops": "Магазины",
+            "skill": "Навык",
+            "skills": "Навыки",
+            "slot": "Слот",
+            "source": "Источник",
+            "sources": "Источники",
+            "type": "Тип Предмета"
+        }
     }
 }

@@ -1,17 +1,19 @@
 {
-    "Shops": {
-        "noBuy": "Esta loja não tem atualmente nada para venda.",
-        "limitedSell": "Apenas estes artigos podem ser vendidos nesta loja."
+    "families": {
+        "shops": {
+            "limitedSell": "Apenas estes artigos podem ser vendidos nesta loja.",
+            "noBuy": "Esta loja não tem atualmente nada para venda."
+        }
     },
-    "common": {
-        "artisanRecipe": "Receita Artesanal",
-        "achievementName": "Nome da Conquista",
-        "activityName": "Nome da Actividade",
-        "attributes": "Atributos",
-        "baseRate": "Taxa<br>Base",
-        "abilityName": "Nome da Habilidade",
-        "always": "Sempre",
-        "atLeast": "{number} ou mais",
-        "attribute": "Atributo"
+    "shared": {
+        "labels": {
+            "abilityName": "Nome da Habilidade",
+            "achievementName": "Nome da Conquista",
+            "activityName": "Nome da Actividade",
+            "artisanRecipe": "Receita Artesanal",
+            "attribute": "Atributo",
+            "attributes": "Atributos",
+            "baseRate": "Taxa<br>Base"
+        }
     }
 }

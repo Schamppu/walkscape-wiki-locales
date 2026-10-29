@@ -1,667 +1,542 @@
 {
-    "common": {
-        "always": "Altijd",
-        "activityName": "Naam Van Activiteit",
-        "achievementName": "Naam Van Prestatie",
-        "attribute": "Attribuut",
-        "attributes": "Attributen",
-        "baseRate": "Basis<br>Kans",
-        "baseSteps": "Basis<br>Stappen",
-        "baseXp": "Basis<br>XP",
-        "baseXpStep": "Basis<br>XP/Stap",
-        "bonusExp": "Bonus<br>EXP",
-        "buildingType": "Gebouwtype",
-        "chance": "Kans",
-        "chanceChest": "Kans<br>(Per Schatkist)",
-        "chanceRoll": "Kans<br>(Per Keer)",
-        "charges": "Ladingen",
-        "cooldown": "Cooldown",
-        "cooldowns": "Cooldowns",
-        "difficulty": "Moeilijkheid",
-        "duration": "Tijdsduur",
-        "effect": "Effect",
-        "factionName": "Naam Van Factie",
-        "finalChance": "Uiteindelijke<br>Kans",
-        "finalOdds": "Uiteindelijke<br>Kans",
-        "fineAttributes": "Attributen Van Hoge Kwaliteit",
-        "initialAppearance": "Oorspronkelijke<br>Uitstraling",
-        "initialChance": "Oorspronkelijke<br>Kans",
-        "initialOdds": "Oorspronkelijke<br>Kans",
-        "itemName": "Naam Van Voorwerp",
-        "job": "Klusjesverzoek",
-        "jobBoardName": "Naam Van Prikbord",
-        "keywords": "Sleutelwoorden",
-        "level": "Niveau",
-        "location": "Locatie",
-        "locations": "Locaties",
-        "materials": "Materialen<br>Gebruikt",
-        "maxEfficency": "Maximale<br>Werkefficiëntie",
-        "maxXpStep": "Maximale<br>XP/Stap",
-        "minSteps": "Minimale<br>Stappen",
-        "NA": "N.v.t.",
-        "need": "Vereist:",
-        "never": "Nooit",
-        "noFine": "Dit voorwerp kan niet van hoge kwaliteit zijn.",
-        "none": "Geen",
-        "normalAttributes": "Normale Attributen",
-        "nothing": "Niets",
-        "odds": "Kans",
-        "note": "Let op",
-        "oneInX": "~1 per {number}",
-        "price": "Prijs",
-        "quantity": "Hoeveelheid",
-        "rawMaterials": "Ruwe Materialen",
-        "recipeWEAR": "Volledige Recept<br>W.E.A.R.",
-        "region": "Regio",
-        "relAttribute": "Relevant Attribuut",
-        "payment": "Betaling",
-        "relAttributes": "Relevante Attributen",
-        "requirement": "Vereiste",
-        "requirements": "Vereisten",
-        "reward": "Beloning",
-        "rewards": "Beloningen",
-        "serviceReq": "Voorzieningsvereiste",
-        "shopName": "Naam Van Winkel",
-        "rollNote": "{number} keer kans",
-        "skills": "Vaardigheden",
-        "skillWithLevel": "{skill} niv. {level}",
-        "source": "Bron",
-        "stock": "Voorraad",
-        "supporter": "Financieel Steuner",
-        "totalBaseXpStep": "Totale Basis<br>XP/Stap",
-        "type": "Voorwerptype",
-        "value": "Waarde",
-        "valueWithStack": "Waarde<br>Enkele (Stapel)",
-        "WEAR": "W.E.A.R.",
-        "atLeast": "{number} of meer",
-        "skill": "Vaardigheid",
-        "buildingName": "Naam Van Gebouw",
-        "chestName": "Naam Van Schatkist",
-        "maxChanceLevel": "Maximale Kans<br>Niveau",
-        "recipeName": "Naam Van Recept",
-        "totalMaxXpStep": "Totale Maximale<br>XP/Stap",
-        "recipeOutputs": "Resultaten<br>Recept",
-        "serviceName": "Naam Van Voorziening",
-        "serviceTeir": "Voorzieningsniveau",
-        "startingLocation": "Startlocatie",
-        "direction": "Richting",
-        "endingLocation": "Eindlocatie",
-        "rarity": "Zeldzaamheid",
-        "slot": "Vak",
-        "sources": "Bronnen",
-        "artisanRecipe": "Ambachtsrecept",
-        "slots": "Vakken",
-        "information": "Informatie",
-        "pets": "Namen Van Beestje",
-        "petsEgg": "Namen Van Beestjes-Ei",
-        "petEgg": "Naam Van Beestjes-Ei",
-        "petRare": "Naam Van Zeldzaam Beestje",
-        "images": "Afbeeldingen",
-        "pet": "Naam Van Beestje",
-        "petsRare": "Namen Van Zeldzame Beestjes",
-        "abilityName": "Naam Van Ability",
-        "chanceActivation": "Kans<br>(Per Activatie)",
-        "building": "Gebouw",
-        "regions": "Regio's",
-        "buildings": "Gebouwen",
-        "characterName": "Personage naam",
-        "oneInXActions": "~1 per {number} acties"
+    "components": {
+        "version": {
+            "current": "Deze pagina is bijgewerkt om informatie weer te geven van spelversie:",
+            "unknown": "Deze pagina geeft informatie weer van een '''Onbekende''' spelversie."
+        }
     },
-    "pageHeaders": {
-        "abilities": "Abilities",
-        "ability": "Ability",
-        "activities": "Activiteiten",
-        "activity": "Activiteit",
-        "attribute": "Attribuut",
-        "attributes": "Attributen",
-        "bank": "Bankopties",
-        "bonusDrops": "Bonusbuit",
-        "building": "Gebouw",
-        "buildings": "Gebouwen",
-        "drops": "Buittabellen",
-        "emergencyActivities": "Noodactiviteiten",
-        "error": "fout",
-        "experience": "Ervaring-Informatie",
-        "faction": "Factie",
-        "factions": "Facties",
-        "gemDrops": "Edelstenenbuit",
-        "guides": "Handleidingen",
-        "hiddenActivities": "Verborgen Activiteiten",
-        "hiddenActivity": "Verborgen Activiteit",
-        "input": "Voorwerp Vereist",
-        "inputs": "Voorwerpen Vereist",
-        "inventory": "Inventaris",
-        "item": "Voorwerp",
-        "items": "Voorwerpen",
-        "jobBoard": "Prikbord",
-        "jobBoards": "Prikborden",
-        "loadouts": "Uitrustingssets",
-        "location": "Locatie",
-        "locations": "Locaties",
-        "lootTables": "Buittabellen",
-        "mainDrops": "Hoofdbuit",
-        "name": "Naam",
-        "names": "Namen",
-        "petXPGrow": "Ervaring Tot Opgroeien",
-        "petXPHatch": "Ervaring Tot Uitkomen",
-        "purchases": "Aankopen",
-        "quantity": "Hoeveelheid",
-        "Quote": "Quote",
-        "Quotes": "Quotes",
-        "recipe": "Recept",
-        "recipes": "Recepten",
-        "relatedItems": "Gerelateerde Voorwerpen",
-        "requirement": "Vereiste",
-        "requirements": "Vereisten",
-        "reward": "Beloning",
-        "rewards": "Beloningen",
-        "route": "Route",
-        "routes": "Routes",
-        "Rumor": "Gerucht",
-        "Rumors": "Geruchten",
-        "secondaryDrops": "Secundaire Buit",
-        "service": "Voorziening",
-        "services": "Voorzieningen",
-        "sources": "Bronnen",
-        "travelingChest": "Reisschatkist-kansformule",
-        "uses": "Gebruik",
-        "visibility": "Zichtbaarheid",
-        "xpRequirement": "Vereiste Om Ervaring Te Krijgen",
-        "xpRequirements": "Vereisten Om Ervaring Te Krijgen",
-        "emergencyActivity": "Noodactiviteit",
-        "factionRepDrops": "Factiereputatie-beloning",
-        "keyword": "Sleutelwoord",
-        "keywords": "Sleutelwoorden",
-        "shop": "Winkel",
-        "shops": "Winkels",
-        "attributeInput": "Attribuut (invoer)",
-        "attributesInput": "Attributen (invoer)"
+    "editorial": {
+        "cosmetics": {
+            "acquisition": {
+                "defaultUnlock": "Altijd beschikbaar."
+            }
+        }
     },
-    "modules": {
-        "ItemInfobox": {
-            "searchKeyword": "Zoek<br>Sleutelwoord:",
-            "searchKeywords": "Zoek<br>Sleutelwoorden:",
-            "rarity": "Zeldzaamheid:",
-            "bankable": "Stortbaar In Bank:",
-            "droppable": "Weg Te Gooien:",
-            "duration": "Tijdsduur:",
-            "fineValue": "Waarde Hoge Kwaliteit:",
-            "fineVersion": "Hoge Kwaliteit:",
-            "keyword": "Sleutelwoord:",
-            "keywords": "Sleutelwoorden:",
-            "properties": "Eigenschappen:",
-            "quality": "Kwaliteit:",
-            "sellable": "Verkoopbaar:",
-            "slot": "Uitrustingsvak:",
-            "tradable": "Te Ruilen:",
-            "type": "Type:",
-            "value": "Waarde:",
-            "role": "Rol:"
+    "families": {
+        "abilities": {
+            "notes": {
+                "activityRequirement": "Activiteitsvereisten moeten worden voldaan.",
+                "memosphereNote": "Hoeveelheid ervaring is afhankelijk van vaardigheidsniveau.<br>Ervaring = {experiencePerSkillLevel}&times; {skillName}-Niveau",
+                "noCooldown": "Geen cooldown.",
+                "noRequirement": "Geen vereiste.",
+                "rockStarAmuletNote": "Dit voorwerp geeft {rollCount} keer kans op buit uit de [[Special:MyLanguage/Rock And Roll (Ability)#dropTablesSection|Edelstenenzak-tabel]]."
+            }
         },
-        "ItemsAttributes": {
-            "None": "Dit voorwerp heeft geen attributen."
+        "achievements": {
+            "intro": {
+                "main": "{achievementName} is een [[Special:MyLanguage/Achievements | prestatie]]."
+            }
         },
-        "ItemsActions": {
-            "RockStarAmuletNote": "Dit voorwerp geeft {rollAmount} keer kans op buit uit de [[Special:MyLanguage/Rock And Roll (Ability)#dropTablesSection|Edelstenenzak-tabel]].",
-            "MemosphereNote": "Hoeveelheid ervaring is afhankelijk van vaardigheidsniveau.<br>Ervaring = {timesLevel}&times; {skill}-Niveau",
-            "NoCooldown": "Geen cooldown.",
-            "NoRequirement": "Geen vereiste.",
-            "ActivityRequirement": "Activiteitsvereisten moeten worden voldaan."
-        },
-        "ItemSources": {
-            "sectionHeaders": {
-                "JobBoard": "Prikbordbetaling",
-                "AchievementCompletion": "Prestatievoltooiings-beloning",
-                "AchievementPoint": "Prestatiepunt-beloning",
-                "additionalRecipeOutputs": "Extra Receptresultaten",
-                "Chest": "Schatkistbuit",
-                "craftingFlow": "Ambachtsvolgorde",
-                "FactionReward": "Factiebeloning",
-                "ItemAttribute": "Voorwerpattribuut-buit",
-                "MysteriousMerchant": "Heimelijke Handelaar",
-                "RecipeMain": "Primaire Receptresultaat",
-                "RecipeSecondary": "Secundaire Receptresultaat",
-                "Shop": "Winkelaankopen",
-                "ShopPayment": "Winkelvaluta",
-                "FactionRepeatingReward": "Herhaaldelijke Factiebeloning",
-                "Activity": "Activiteitenbuit"
+        "activities": {
+            "collection": {
+                "bonusExperienceHeading": "Bonus Ervaring-bronnen",
+                "noSecondaryActivities": "Er zijn geen activiteiten die bonus {skillName}-ervaring geven."
             },
-            "FactionRepeatingReward": "Elke {reputationAmount} Factiereputatie",
-            "factionRewardRequirement": "{reputationAmount} {factionName} Factiereputatie",
-            "ActivityRollNote": "<sup>†</sup>Let op: Deze activiteit geeft vaker dan één keer kans op buit.",
-            "NoSources": "Dit voorwerp is momenteel uit geen enkele bron te verkrijgen.",
-            "ChestRollNote": "<sup>†</sup>Let op: Schatkisten geven meerdere keren kans op buit.",
-            "RecipeRollNote": "<sup>†</sup>Let op: Dit recept geeft meer dan één keer kans op bonus beloningen.",
-            "WEARNote": "<sup>‡</sup>[[Special:MyLanguage/Glossary#General|W.E.A.R]] is een waarde die het gemiddelde aantal stappen aangeeft voor één voorwerp met maximale werkefficiëntie.",
-            "RecipeOrString": " of ",
-            "RecipeOutputs": "Resultaten Recept",
-            "RecipeExperience": "Receptervaring",
-            "RecipeAndString": " en "
-        },
-        "ItemUses": {
-            "NoUses": "Dit voorwerp heeft momenteel geen functie.",
-            "sectionHeaders": {
-                "AchievementUse": "Prestatie",
-                "ActivityInputUse": "Activiteit-invoer",
-                "JobBoardUse": "Prikborden",
-                "MysteriousMerchant": "Heimelijke Handelaar",
-                "PetEggUse": "Een Beestje Uitbroeden",
-                "RecipeUse": "Receptingrediënt",
-                "RequirementUse": "Vereisten",
-                "SpecialCurrencyUse": "Valuta",
-                "SpecialShopPaymentUse": "Speciale Verkoop"
+            "infobox": {
+                "efficiency": "Maximale Efficiëntie:",
+                "mainSkill": "Hoofdvaardigheid:"
             },
-            "DefaultCollectible": "Dit voorwerp geeft 1 [[Special:MyLanguage/Achievement Points|prestatiepunt]] wanneer het gevonden wordt.",
-            "DefaultConsumable": "Dit voorwerp kan verbruikt worden voor een tijdelijke bonus.",
-            "DefaultGear": "Dit voorwerp kan gedragen worden door je personage.",
-            "DefaultMemosphere": "Herinnerondo's kunnen gebruikt worden om ervaring te krijgen.",
-            "FactionReward": "{factionName} Factiereputatie",
-            "Plurals": {
-                "JobBoardUse": "{itemName} kan gevraagd worden voor de volgende [[Special:MyLanguage/Job Boards|klusjes]]:",
-                "RecipeUse": "{itemName} is een ingrediënt in de volgende [[Special:MyLanguage/Recipes|recepten]]:",
-                "RequirementUse": "{itemName} is nodig voor de volgende speciale gevallen:",
-                "SpecialCurrencyUse": "{itemName} kan als valuta gebruikt worden bij de volgende [[Special:MyLanguage/Shops|winkels]]:",
-                "ActivityInputUse": "{itemName} kan gebruikt worden als invoer voor de volgende [[Special:MyLanguage/Activities | activiteiten]]:",
-                "SpecialShopPaymentUse": "{itemName} kan verkocht worden bij de volgende [[Special:MyLanguage/Shops|winkels]] om een speciale valuta te verkrijgen:",
-                "AchievementUse": "{itemName} is nodig voor de volgende [[Special:MyLanguage/Achievements|prestaties]]:"
+            "inputs": {
+                "pluralRequired": "Deze activiteit vereist het invoeren van de volgende voorwerpen voor elke actie:",
+                "singularRequired": "Deze activiteit vereist het invoeren van het volgende voorwerp voor elke actie:"
             },
-            "RequirementUses": {
-                "Plurals": {
-                    "activities": "{itemName} is benodigd om de volgende activiteiten te doen:",
-                    "items": "{itemName} is benodigd voor een attribuut op de volgende voorwerpen:",
-                    "locations": "{itemName} is nodig om de volgende locaties te kunnen zien:",
-                    "services": "{itemName} is nodig om de volgende voorzieningen te gebruiken:",
-                    "terrain_modifiers": "{itemName} is nodig voor de volgende routes:"
+            "intro": {
+                "movement": "Dit is een [[Special:MyLanguage/Movement_Activities|verplaatsings-activiteit]], je zult geteleporteerd worden naar {destinationLink} bij het voltooien van een actie.",
+                "skilling": "De [[Special:MyLanguage/Activities | activiteit]] {activityName} is een {skillLink}-activiteit."
+            },
+            "locations": {
+                "entry": "{locationLink} in {regionLink}",
+                "none": "Deze activiteit is momenteel op geen enkele locatie uit te voeren.",
+                "plural": "Deze activiteit kan op de volgende locaties uitgevoerd worden:",
+                "singular": "Deze activiteit kan op de volgende locatie uitgevoerd worden:"
+            },
+            "lootTables": {
+                "specialTableNote": "Bij elke buit heb je kans om meerdere van de secundaire buit-opties te verkrijgen.",
+                "tableRollNote": "<sup>†</sup>Let op: Je hebt {rollCount} keer kans op buit uit deze tabel."
+            },
+            "requirements": {
+                "keyword": "Sleutelwoordvereisten:",
+                "none": "Deze activiteit heeft geen vereisten.",
+                "requirements": "Andere vereisten:",
+                "skill": "Vaardigheidsniveau-vereisten:"
+            },
+            "visibility": {
+                "actionNotDone": "Het is alleen zichtbaar als je het volgende ''niet'' hebt gedaan:",
+                "emergency": {
+                    "mainString": "Dit is een '''nood'''-activiteit."
                 },
-                "Singulars": {
-                    "activities": "{itemName} is nodig om de volgende activiteit te doen:",
-                    "items": "{itemName} is nodig voor een attribuut op het volgende voorwerp:",
-                    "locations": "{itemName} is nodig om de volgende locatie te zien:",
-                    "services": "{itemName} is nodig om de volgende voorziening te gebruiken:",
-                    "terrain_modifiers": "{itemName} is nodig voor de volgende route:"
+                "hidden": {
+                    "mainString": "Dit is een '''verborgen''' activiteit."
+                },
+                "keywordEquipped": "Het is alleen zichtbaar als je de voldoet aan de volgende sleutelwoord-vereisten:",
+                "keywordNotEquipped": "Het is alleen zichtbaar als je ''niet'' voldoet aan de volgende sleutelwoord-vereisten:",
+                "normal": {
+                    "mainString": "Deze activiteit is altijd zichtbaar."
+                }
+            }
+        },
+        "buildings": {
+            "bank": {
+                "hasDeposit": "{depositIcon} Bij dit gebouw kun je je voorwerpen in de bank '''storten'''.",
+                "hasWithdraw": "{withdrawIcon} Bij dit gebouw kun je je voorwerpen uit de bank '''opnemen'''."
+            },
+            "infobox": {
+                "type": "Type:"
+            },
+            "intro": {
+                "character": "Hier woont {characterName}.",
+                "main": "{buildingName} is een \"{buildingType}\" [[Special:MyLanguage/Buildings | gebouw]] dat zich bevindt in {locationLink} in de {regionLink} regio.",
+                "noCharacter": "Er is hier momenteel geen [[Special:MyLanguage/Characters | karakter]]."
+            },
+            "requirements": {
+                "mainReq": "Je kunt dit gebouw alleen in als je voldoet aan de volgende vereiste:",
+                "mainReqs": "Je kunt dit gebouw alleen in als je voldoet aan de volgende vereisten:",
+                "negReq": "Je kunt dit gebouw ''niet'' in als je voldoet aan de volgende vereiste:",
+                "negReqs": "Je kunt dit gebouw ''niet'' in als je voldoet aan de volgende vereisten:",
+                "none": "Dit gebouw heeft geen vereisten om er binnen te gaan."
+            },
+            "visibility": {
+                "actionNotDone": "Het is alleen zichtbaar als je het volgende ''niet'' hebt gedaan:",
+                "hidden": {
+                    "mainString": "Dit is een '''verborgen''' gebouw."
+                },
+                "keywordEquipped": "Het is alleen zichtbaar als je voldoet aan de volgende sleutelwoord-vereisten:",
+                "keywordNotEquipped": "Het is alleen zichtbaar als je ''niet'' voldoet aan de volgende sleutelwoord-vereisten:"
+            }
+        },
+        "characters": {
+            "infobox": {
+                "location": "Locatie:",
+                "locations": "Locaties:"
+            },
+            "intro": {
+                "main": "{characterName} is een [[Special:MyLanguage/Characters | karakter]] die te vinden is in {buildingLink} in {locationLink} in de {regionLink} regio."
+            },
+            "quotes": {
+                "none": "{characterName} heeft momenteel geen zin om te praten."
+            },
+            "rumors": {
+                "none": "{characterName} heeft momenteel geen geruchten te delen."
+            }
+        },
+        "items": {
+            "attributes": {
+                "none": "Dit voorwerp heeft geen attributen."
+            },
+            "collections": {
+                "supporterDesignedItems": {
+                    "intro": "Onderstaand zijn alle [[Special:MyLanguage/Equipment | uitrusting- en gereedschapsvoorwerpen]] die door cult leaders zijn aangedragen die momenteel in het spel te vinden zijn."
                 }
             },
-            "Singulars": {
-                "ActivityInputUse": "{itemName} wordt gebruikt als invoer voor de volgende [[Special:MyLanguage/Activities | activiteit]]:",
-                "JobBoardUse": "{itemName} kan gevraagd worden voor het volgende [[Special:MyLanguage/Job Boards | klusje]]:",
-                "RecipeUse": "{itemName} is een ingrediënt in het volgende [[Special:MyLanguage/Recipes | recept]]:",
-                "RequirementUse": "{itemName} is nodig in het volgende speciale geval:",
-                "SpecialCurrencyUse": "{itemName} kan gebruikt worden als valuta in de volgende [[Special:MyLanguage/Shops | winkel]]:",
-                "SpecialShopPaymentUse": "{itemName} kan verkocht worden in de volgende [[Special:MyLanguage/Shops | winkel]] om een speciale valuta te verkrijgen:",
-                "AchievementUse": "{itemName} is nodig voor de volgende [[Special:MyLanguage/Achievements | prestaties]]:",
-                "PetEggUse": "{itemName} is een ei dat geclaimd kan worden en vervolgens uitgebroed kan worden tot een {petName} beestje."
+            "containers": {
+                "findingAttribute": {
+                    "birdNests": " Er is een hogere kans om ze te vinden met de [[File:Bird Nest.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests (Mechanics)|Vogelnesten Vinden]]''' [[Special:MyLanguage/Find_Bird_Nests_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]].",
+                    "chestFinding": " Er is een hogere kans om ze te vinden met de [[File:Chest Find (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Schatkisten vinden]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]]."
+                },
+                "intro": "'''{itemName}''' is een [[Special:MyLanguage/Treasury|schatkamer-voorwerp]] dat te openen is.",
+                "lootIntro": {
+                    "adventuringGuild": "Er zijn sub-tabellen voor de verschillende [[Special:MyLanguage/Materials|materialen]] en [[Special:MyLanguage/Items|voorwerpen]] die uit deze [[Special:MyLanguage/Chests|schatkisten]] kunnen komen.",
+                    "birdNest": "Er zijn sub-tabellen voor de verschillende [[Special:MyLanguage/Materials|materialen]] die uit deze [[Special:MyLanguage/Chests|schatkisten]] kunnen komen.",
+                    "chestRolls": "Deze schatkamer-voorwerpen geven {rollCount} keer kans op buit wanneer ze geopend worden.",
+                    "coinPouch": "Dit is de tabel voor [[Special:MyLanguage/Coins|munten]] die uit deze zakjes kunnen komen (vergelijkbaar met andere [[Special:MyLanguage/Chests|schatkisten]]).",
+                    "gemPouch": "Dit is de tabel voor [[Special:MyLanguage/Gems|edelstenen]] die uit deze zakjes kunnen komen (vergelijkbaar met andere [[Special:MyLanguage/Chests|schatkisten]]).",
+                    "genericChest": "Er zijn sub-tabellen voor de verschillende [[Special:MyLanguage/Materials|materialen]], [[Special:MyLanguage/Coins|munten]], en [[Special:MyLanguage/Items|voorwerpen]] die uit deze [[Special:MyLanguage/Chests|schatkisten]] kunnen komen.",
+                    "rustyChest": "Er zijn sub-tabellen voor de verschillende [[Special:MyLanguage/Materials|materialen]] en [[Special:MyLanguage/Items|voorwerpen]] die uit deze[[Special:MyLanguage/Chests|schatkisten]] kunnen komen."
+                },
+                "sectionHeaders": {
+                    "main": "Hoofdbuit-tabel",
+                    "money": "Tabel Voor Waardevolle Buit",
+                    "rarity": "Tabel Voor {rarityName} Buit"
+                },
+                "sources": {
+                    "adventuringGuild": " Het kan gekocht worden in de [[Special:MyLanguage/Buildings#outpostType|Avonturiersgilde-gebouwen]].",
+                    "coral": " Het kan als buit gevonden worden bij de meeste [[Special:MyLanguage/{pageTitle}#itemSourcesSection|activiteiten]] in [[Special:MyLanguage/Syrenthia|Syrenthië]].",
+                    "genericActivities": " Het kan gevonden worden door het voltooien van verschillende [[Special:MyLanguage/{pageTitle}#itemSourcesSection|activiteiten]].",
+                    "regional": " Het kan [[Special:MyLanguage/{pageTitle}#itemSourcesSection|als beloning gegeven worden]] vanuit [[Special:MyLanguage/Job Boards|{Prikborden]] en [[Special:MyLanguage/Faction Reputation|Factiereputatie]].",
+                    "skilling": " Het kan als buit gevonden worden bij {skillLink} activiteiten, kan worden verkrijgen uit enkele [[Special:MyLanguage/{pageTitle}#itemSourcesSection|andere bronnen]]. Deze [[Schatkisten]] zijn de enige manier om sommige {skillLink}-gebaseerde [[Special:MyLanguage/Equipment|Uitrusting]] te verkrijgen.",
+                    "sunken": " Het kan als buit gevonden worden bij enkele [[Special:MyLanguage/{pageTitle}#itemSourcesSection|zee-gerelateerde activiteiten]]."
+                }
             },
-            "DefaultMaterial": "Dit voorwerp wordt momenteel niet gebruikt voor een recept of andere functie.",
-            "ActivityInputUses": {
-                "noAttributeBonus": "Deze activiteit profiteert niet van materiaal eigenschappen.",
-                "fineBenefit": "Deze activiteit profiteert extra van het gebruik van [[Special:MyLanguage/Fine_Material#Activity_Inputs|fine material]].",
-                "noFineBenefit": "Deze activiteit profiteert niet van het gebruik van [[Special:MyLanguage/Fine_Material#Activity_Inputs|fijn materiaal]]."
-            }
-        },
-        "ItemsIntroDescription": {
-            "ItemTypes": {
-                "Container": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Chests | schatkist]].",
-                "Crafted": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Crafted Items | handgemaakt voorwerp]].",
-                "Currency": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Currencies | valuta]].",
-                "Loot": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Loot Items | buit voorwerp]].",
-                "Pet egg": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Pet_Eggs | beestjes-ei]].",
-                "Consumable": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Consumables | verbruiksartikel]].",
-                "Collectible": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Collectibles | verzamelobject]].",
-                "Material": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Materials | materiaal]]."
+            "infobox": {
+                "bankable": "Stortbaar In Bank:",
+                "droppable": "Weg Te Gooien:",
+                "duration": "Tijdsduur:",
+                "fineValue": "Waarde Hoge Kwaliteit:",
+                "keyword": "Sleutelwoord:",
+                "keywords": "Sleutelwoorden:",
+                "properties": "Eigenschappen:",
+                "rarity": "Zeldzaamheid:",
+                "searchKeyword": "Zoek<br>Sleutelwoord:",
+                "searchKeywords": "Zoek<br>Sleutelwoorden:",
+                "sellable": "Verkoopbaar:",
+                "slot": "Uitrustingsvak:",
+                "tradable": "Te Ruilen:",
+                "type": "Type:",
+                "value": "Waarde:"
             },
-            "None": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is momenteel niet verkrijgbaar.",
-            "Plurals": {
-                "AchievementCompletion": "Het kan gegeven worden als beloning voor het voltooien van [[Special:MyLanguage/Achievements | prestaties]].",
-                "Activity": "Het kan als buit gevonden worden bij [[Special:MyLanguage/Achievements | activiteiten]].",
-                "Chest": "Het kan gevonden worden in [[Special:MyLanguage/Chests | schatkisten]].",
-                "ItemAttribute": "Het kan als buit gevonden worden als speciaal resultaat van de [[Special:MyLanguage/Item_Finding_(Mechanics) | speciale buittabel]] [[Special:MyLanguage/Attributes | attributen]].",
-                "RecipeMain": "Het kan gemaakt worden met [[Special:MyLanguage/Recipes | ambachtsvaardigheid-recepten]].",
-                "RecipeSecondary": "Het kan verkregen worden als secundair resultaat van [[Special:MyLanguage/Recipes | ambachtsvaardigheid-recepten]].",
-                "Shop": "Het kan gekocht worden bij sommige [[Special:MyLanguage/Shops | winkels]].",
-                "FactionReward": "Het kan gegeven worden als beloning voor het verkrijgen van voldoende [[Special:MyLanguage/Faction Reputation | factiereputatie]].",
-                "FactionRepeatingReward": "Het kan gegeven worden als herhaaldelijke beloning voor het verkrijgen van voldoende [[Special:MyLanguage/Faction Reputation | factiereputatie]].",
-                "AchievementPoint": "Het kan gegeven worden als beloning voor het verkrijgen van genoeg [[Special:MyLanguage/Achievement Points | prestatiepunten]].",
-                "JobBoard": "Het kan als beloning gegeven worden voor het voltooien van [[Special:MyLanguage/Job Boards | prikbordklusje]].",
-                "ShopPayment": "Het kan gegeven worden als betaling voor het verkopen van voorwerpen aan sommige [[Special:MyLanguage/Shops | winkels]]."
+            "intro": {
+                "itemTypes": {
+                    "collectible": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Collectibles | verzamelobject]].",
+                    "consumable": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Consumables | verbruiksartikel]].",
+                    "container": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Chests | schatkist]].",
+                    "crafted": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Crafted Items | handgemaakt voorwerp]].",
+                    "currency": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Currencies | valuta]].",
+                    "loot": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Loot Items | buit voorwerp]].",
+                    "material": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Materials | materiaal]].",
+                    "petEgg": "Het [[Special:MyLanguage/Items | voorwerp]] {itemName} is een [[Special:MyLanguage/Pet_Eggs | beestjes-ei]]."
+                }
             },
-            "Singulars": {
-                "AchievementCompletion": "Het kan als beloning gegeven worden voor het voltooien van een [[Special:MyLanguage/Achievements | prestatie]].",
-                "Activity": "Het kan gevonden worden als buit van een [[Special:MyLanguage/Activities | activiteit]].",
-                "Chest": "Het kan gevonden worden in een [[Special:MyLanguage/Chests | schatkist]].",
-                "FactionRepeatingReward": "Het kan als herhaaldelijke beloning gegeven worden voor het verkrijgen van voldoende [[Special:MyLanguage/Faction Reputation | factiereputatie]].",
-                "ItemAttribute": "Het kan als buit gevonden worden als speciaal resultaat van een [[Special:MyLanguage/Item_Finding_(Mechanics) | speciale buittabel]] [[Special:MyLanguage/Attributes | attribuut]].",
-                "RecipeMain": "Het kan gemaakt worden met een [[Special:MyLanguage/Recipes | ambachtsvaardigheid-recept]].",
-                "RecipeSecondary": "Het kan verkregen worden als secundair resultaat van een [[Special:MyLanguage/Recipes | ambachtsvaardigheid-recept]].",
-                "Shop": "Het kan gekocht worden in een [[Special:MyLanguage/Shops | winkel]].",
-                "ShopPayment": "Het kan als betaling gegeven worden voor het verkopen van voorwerpen aan een [[Special:MyLanguage/Shops | winkel]].",
-                "AchievementPoint": "Het kan als beloning gegeven worden voor het verkrijgen van voldoende [[Special:MyLanguage/Achievement Points | prestatiepunten]].",
-                "FactionReward": "Het kan als beloning gegeven worden voor het behalen van voldoende [[Special:MyLanguage/Faction Reputation | factiereputatie]].",
-                "JobBoard": "Het kan gegeven als beloning gegeven worden voor het voltooien van een [[Special:MyLanguage/Job Boards | prikbordklusje]]."
-            }
-        },
-        "ItemsRequirements": {
-            "None": "Dit voorwerp heeft geen vereisten om het te kunnen gebruiken."
-        },
-        "Keywords": {
-            "activityIntro": "Onderstaand zijn alle [[Special:MyLanguage/Activities | activiteiten]] die de '''{Keyword_Name}''' activiteiten-sleutelwoord gebruiken.",
-            "consumableIntro": "Onderstaand zijn alle [[Special:MyLanguage/Consumables | verbruiksvoorwerpen]] die het '''{Keyword_Name}''' verbruiksvoorwerp sleutelwoord gebruiken.",
-            "gearSet": "Onderstaand zijn alle [[Special:MyLanguage/Equipment | uitrustings- en gereedschapsvoorwerpen]] die het '''{Keyword_Name}''' uitrustingsset-sleutelwoord gebruiken.",
-            "locationIntro": "Onderstaand zijn all [[Special:MyLanguage/Locations | locaties]] die het '''{Keyword_Name}''' locatie-sleutelwoord gebruiken.",
-            "returnString": "Ga terug naar de {keywordImage} [[Special:MyLanguage/Keywords#{keywordType} | Sleutelwoorden]] pagina.",
-            "supporterIntro": "Onderstaand zijn alle [[Special:MyLanguage/Equipment | uitrusting- en gereedschapsvoorwerpen]] die door cult leaders zijn aangedragen die momenteel in het spel te vinden zijn.",
-            "unknown": "'''{Keyword_Name}''' is een onbekend type.",
-            "bannedKeywordMultiple": "Dit is een '''Verbannen Sleutelwoord''' en onderdeel van een verbannen sleutelwoordgroep waarvan je maar één voorwerp met een van deze sleutelwoorden in je gereedschapsvakken tegelijk kunt dragen:",
-            "bannedKeywordSingular": "Dit is een '''Verbannen Sleutelwoord''' waarvan je maar één voorwerp met hetzelfde verbannen sleutelwoord tegelijk in je gereedschapsvakken mag dragen.",
-            "equipmentIntro": "Onderstaand zijn alle [[Special:MyLanguage/Equipment | uitrustings- en gereedschapsvoorwerpen]] die het '''{Keyword_Name}''' uitrustings-sleutelwoord gebruiken.",
-            "materialIntro": "Onderstaand zijn alle [[Special:MyLanguage/Materials | materialen]] die het '''{Keyword_Name}''' materiaal-sleutelwoord gebruiken.",
-            "recipeIntro": "Onderstaand zijn alle [[Special:MyLanguage/Recipes | recepten]] die het '''{Keyword_Name}''' recepten-sleutelwoord gebruiken.",
-            "weightIntro": "Onderstaand zijn alle [[Special:MyLanguage/Items | voorwerpen]] die het '''{Keyword_Name}''' gewicht-sleutelwoord gebruiken.\n\nHet bepaalt de maximale grootte van de stapel van voorwerpen in je inventaris tot {stackSize} per stapel.",
-            "serviceIntro": "Onderstaand zijn alle [[Special:MyLanguage/Services | voorzieningen]] die het '''{Keyword_Name}''' voorzieningensleutelwoord gebruiken.",
-            "gearSetIntro": "Onderstaand zijn alle [[Special:MyLanguage/Equipment | uitrusting- en gereedschapsvoorwerpen]] die het '''{Keyword_Name}''' uitrustingsset-sleutelwoord gebruiken."
-        },
-        "requirements": {
-            "gameData": "{reputationAmount} {factionName} Factiereputatie",
-            "historyData": "Voltooi acties van de {activityName} activiteit. {actionCount}"
-        }
-    },
-    "Buildings": {
-        "Infobox": {
-            "type": "Type:"
-        },
-        "Visibility": {
-            "Normal": {
-                "MainString": "Dit gebouw is altijd zichtbaar.",
-                "Type": "Normaal"
-            },
-            "actionDone": "Het is alleen zichtbaar als je het volgende hebt gedaan:",
-            "actionNotDone": "Het is alleen zichtbaar als je het volgende ''niet'' hebt gedaan:",
-            "Hidden": {
-                "MainString": "Dit is een '''verborgen''' gebouw.",
-                "Type": "Verborgen"
-            },
-            "keywordEquipped": "Het is alleen zichtbaar als je voldoet aan de volgende sleutelwoord-vereisten:",
-            "keywordNotEquipped": "Het is alleen zichtbaar als je ''niet'' voldoet aan de volgende sleutelwoord-vereisten:"
-        },
-        "Bank": {
-            "hasDeposit": "Bij dit gebouw kun je je voorwerpen in de bank '''storten'''.",
-            "hasWithdraw": "Bij dit gebouw kun je je voorwerpen uit de bank '''opnemen''''."
-        },
-        "Intro": {
-            "character": "Hier woont {characterName}.",
-            "noCharacter": "Er is hier momenteel geen [[Special:MyLanguage/Characters | karakter]].",
-            "main": "{buildingName} is een \"{buildingType}\" [[Special:MyLanguage/Buildings | gebouw]] dat zich bevindt in {buildingLocation} in de {buildingRegion} regio."
-        },
-        "Requirements": {
-            "mainReq": "Je kunt dit gebouw alleen in als je voldoet aan de volgende vereiste:",
-            "mainReqs": "Je kunt dit gebouw alleen in als je voldoet aan de volgende vereisten:",
-            "negReqs": "Je kunt dit gebouw ''niet'' in als je voldoet aan de volgende vereisten:",
-            "negReq": "Je kunt dit gebouw ''niet'' in als je voldoet aan de volgende vereiste:",
-            "None": "Dit gebouw heeft geen vereisten om er binnen te gaan."
-        }
-    },
-    "Helpers": {
-        "addGearGuide": "Je kunt helpen er een te maken.",
-        "autoString": "Deze pagina wordt automatisch bijgewerkt om informatie in de [[Special:MyLanguage/Versions | de huidige spelversie]] weer te geven.",
-        "editGear": "Uitrustingssets Bewerken",
-        "editGuide": "Handleidingen Bewerken",
-        "noGear": "Er bestaan nog geen uitrustingssets.",
-        "noGuide": "Er bestaan nog geen handleidingen.",
-        "versionString": "Deze pagina is bijgewerkt om informatie weer te geven van spelversie:",
-        "unknownString": "Deze pagina geeft informatie weer van een '''Onbekende''' spelversie."
-    },
-    "Achievements": {
-        "Infobox": {
-            "type": "Type:"
-        },
-        "Intro": {
-            "main": "{achievementName} is een [[Special:MyLanguage/Achievements | prestatie]]."
-        },
-        "Rewards": {
-            "None": "Deze activiteit heeft geen beloningen.",
-            "Other": "Andere beloningen:",
-            "Points": "Prestatiepunt-beloningen:",
-            "SkillXP": "Vaardigheidservaring",
-            "Special": "Speciaal"
-        }
-    },
-    "Activities": {
-        "Infobox": {
-            "efficiency": "Maximale Efficiëntie:",
-            "mainSkill": "Hoofdvaardigheid:"
-        },
-        "Collections": {
-            "secondaryHeader": "Bonus Ervaring-bronnen",
-            "noSecondaryActivites": "Er zijn geen activiteiten die bonus {skillName}-ervaring geven."
-        },
-        "Inputs": {
-            "Singular": "Deze activiteit vereist het invoeren van het volgende voorwerp voor elke actie:",
-            "Plural": "Deze activiteit vereist het invoeren van de volgende voorwerpen voor elke actie:"
-        },
-        "Intro": {
-            "Skilling": "De [[Special:MyLanguage/Activities | activiteit]] {activityName} is een {mainSkill}-activiteit.",
-            "Movement": "Dit is een [[Special:MyLanguage/Movement_Activities|verplaatsings-activiteit]], je zult geteleporteerd worden naar {locationEntry} bij het voltooien van een actie."
-        },
-        "Locations": {
-            "Entry": "{location} in {region}",
-            "None": "Deze activiteit is momenteel op geen enkele locatie uit te voeren.",
-            "Plural": "Deze activiteit kan op de volgende locaties uitgevoerd worden:",
-            "Singular": "Deze activiteit kan op de volgende locatie uitgevoerd worden:"
-        },
-        "LootTables": {
-            "SpecialTableNote": "Bij elke buit heb je kans om meerdere van de secundaire buit-opties te verkrijgen.",
-            "TableRollNote": "<sup>†</sup>Let op: Je hebt {rollNumber} keer kans op buit uit deze tabel."
-        },
-        "Requirements": {
-            "Keyword": "Sleutelwoordvereisten:",
-            "None": "Deze activiteit heeft geen vereisten.",
-            "Requirements": "Andere vereisten:",
-            "Skill": "Vaardigheidsniveau-vereisten:"
-        },
-        "Visibility": {
-            "actionDone": "Het is alleen zichtbaar als je het volgende hebt gedaan:",
-            "actionNotDone": "Het is alleen zichtbaar als je het volgende ''niet'' hebt gedaan:",
-            "Emergency": {
-                "Type": "Nood",
-                "MainString": "Dit is een '''nood'''-activiteit."
-            },
-            "Hidden": {
-                "Type": "Verborgen",
-                "MainString": "Dit is een '''verborgen''' activiteit."
-            },
-            "keywordEquipped": "Het is alleen zichtbaar als je de voldoet aan de volgende sleutelwoord-vereisten:",
-            "Normal": {
-                "MainString": "Deze activiteit is altijd zichtbaar.",
-                "Type": "Normaal"
-            },
-            "keywordNotEquipped": "Het is alleen zichtbaar als je ''niet'' voldoet aan de volgende sleutelwoord-vereisten:"
-        }
-    },
-    "items": {
-        "chestPages": {
-            "PerChest": "{chance} Per Kist",
-            "perRoll": "{chance} Per Keer",
-            "sectionHeaders": {
-                "main": "Hoofdbuit-tabel",
-                "money": "Tabel Voor Waardevolle Buit",
-                "rarity": "Tabel Voor {rarityName} Buit"
-            },
-            "lootIntro": {
-                "rustyChest": "Er zijn sub-tabellen voor de verschillende [[Special:MyLanguage/Materials|materialen]] en [[Special:MyLanguage/Items|voorwerpen]] die uit deze[[Special:MyLanguage/Chests|schatkisten]] kunnen komen.",
-                "genericChest": "Er zijn sub-tabellen voor de verschillende [[Special:MyLanguage/Materials|materialen]], [[Special:MyLanguage/Coins|munten]], en [[Special:MyLanguage/Items|voorwerpen]] die uit deze [[Special:MyLanguage/Chests|schatkisten]] kunnen komen.",
-                "chestRolls": "Deze schatkamer-voorwerpen geven {number} keer kans op buit wanneer ze geopend worden.",
-                "gemPouch": "Dit is de tabel voor [[Special:MyLanguage/Gems|edelstenen]] die uit deze zakjes kunnen komen (vergelijkbaar met andere [Special:MyLanguage/Chests|schatkisten]]).",
-                "birdNest": "Er zijn sub-tabellen voor de verschillende [[Special:MyLanguage/Materials|materialen]] die uit deze [[Special:MyLanguage/Chests|schatkisten]] kunnen komen.",
-                "adventuringGuild": "Er zijn sub-tabellen voor de verschillende [[Special:MyLanguage/Materials|materialen]] en [[Special:MyLanguage/Items|voorwerpen]] die uit deze [[Special:MyLanguage/Chests|schatkisten]] kunnen komen.",
-                "coinPouch": "Dit is de tabel voor [[Special:MyLanguage/Coins|munten]] die uit deze zakjes kunnen komen (vergelijkbaar met andere [Special:MyLanguage/Chests|schatkisten]])."
+            "requirements": {
+                "none": "Dit voorwerp heeft geen vereisten om het te kunnen gebruiken."
             },
             "sources": {
-                "adventuringGuild": " Het kan gekocht worden in de [[Special:MyLanguage/Buildings#outpostType|Avonturiersgilde-gebouwen]].",
-                "genericActivities": " Het kan gevonden worden door het voltooien van verschillende [[Special:MyLanguage/{pageName}#itemSourcesSection|activiteiten]].",
-                "sunken": " Het kan als buit gevonden worden bij enkele [[Special:MyLanguage/{pageName}#itemSourcesSection|zee-gerelateerde activiteiten]].",
-                "coral": " Het kan als buit gevonden worden bij de meeste [[Special:MyLanguage/{pageName}#itemSourcesSection|activiteiten]] in [[Special:MyLanguage/Syrenthia|Syrenthië]].",
-                "skilling": " Het kan als buit gevonden worden bij {skillName} activiteiten, kan worden verkrijgen uit enkele [[Special:MyLanguage/{pageName}#itemSourcesSection|andere bronnen]]. Deze [[Schatkisten]] zijn de enige manier om sommige {skillName}-gebaseerde [[Special:MyLanguage/Equipment|Uitrusting]] te verkrijgen.",
-                "regional": " Het kan [[Special:MyLanguage/{pageName}#itemSourcesSection|als beloning gegeven worden]] vanuit [[Special:MyLanguage/Job Boards|{Prikborden]] en [[Special:MyLanguage/Faction Reputation|Factiereputatie]]."
+                "factionRepeatingReward": "Elke {reputationPoints} Factiereputatie",
+                "factionRewardRequirement": "{reputationPoints} {factionName} Factiereputatie",
+                "noSources": "Dit voorwerp is momenteel uit geen enkele bron te verkrijgen.",
+                "recipeExperience": "Receptervaring",
+                "recipeOutputs": "Resultaten Recept",
+                "sectionHeaders": {
+                    "achievementCompletion": "Prestatievoltooiings-beloning",
+                    "achievementPoint": "Prestatiepunt-beloning",
+                    "activity": "Activiteitenbuit",
+                    "chest": "Schatkistbuit",
+                    "factionRepeatingReward": "Herhaaldelijke Factiebeloning",
+                    "factionReward": "Factiebeloning",
+                    "itemAttribute": "Voorwerpattribuut-buit",
+                    "jobBoard": "Prikbordbetaling",
+                    "recipeSecondary": "Secundaire Receptresultaat",
+                    "shop": "Winkelaankopen",
+                    "shopPayment": "Winkelvaluta"
+                },
+                "wearNote": "<sup>‡</sup>[[Special:MyLanguage/Glossary#General|W.E.A.R]] is een waarde die het gemiddelde aantal stappen aangeeft voor één voorwerp met maximale werkefficiëntie."
             },
-            "intro": "'''{itemName}''' is een [[Special:MyLanguage/Treasury|schatkamer-voorwerp]] dat te openen is.",
-            "findingAttribute": {
-                "birdNests": " Er is een hogere kans om ze te vinden met de [[File:Bird Nest.svg|20px]] '''[[Special:MyLanguage/Find Bird Nests (Mechanics)|Vogelnesten Vinden]]''' [[Special:MyLanguage/Find_Bird_Nests_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]].",
-                "chestFinding": " Er is een hogere kans om ze te vinden met de [[File:Chest Find (Attribute Icon).svg|20px]] '''[[Special:MyLanguage/Chest Finding (Mechanics)|Schatkisten vinden]]''' [[Special:MyLanguage/Chest_Finding_Items|equipment]] [[Special:MyLanguage/Attributes|attribuut]]."
-            },
-            "travelingCalc": "Bij het reizen wordt een speciale formule gebruikt die de kans op het vinden van Behendigheid-schatkisten berekent, in plaats van de vaste kans per actie in andere activiteiten. Hierdoor is het niet mogelijk om op een snelle manier schatkisten te verkrijgen door continu korte reizen te maken.<br>(0.096736 &times; 2) &times; (2.71828<sup>0.0165921</sup> &times; ''Verhoogd Vaardigheidsniveau'') &times; ''Afstand''"
-        },
-        "sources": {
-            "AchievementCompletion": "Beloning Voor Voltooien Prestatie",
-            "AchievementPoints": "Prestatiepunt Beloning",
-            "Chest": "Schatkistenbuit",
-            "FactionRepeatingReward": "Herhalende Factiebeloning",
-            "FactionReward": "Factiebeloning",
-            "ItemAttribute": "Voorwerpattributen-buit",
-            "JobBoard": "Prikbord-betaling",
-            "RecipeMain": "Primair Receptresultaat",
-            "RecipeSecondary": "Secundair Receptresultaat",
-            "Shop": "Winkelaankoop",
-            "ShopPayment": "Winkelvaluta",
-            "Activity": "Activiteitsbuit",
-            "MysteriousMerchantItems": "Verkocht Door Heimelijke Handelaar"
-        }
-    },
-    "Characters": {
-        "Infobox": {
-            "location": "Locatie:",
-            "locations": "Locaties:"
-        },
-        "Intro": {
-            "main": "{characterName} is een [[Special:MyLanguage/Characters | karakter]] die te vinden is in {characterLocation} in {buildingLocation} in de {buildingRegion} regio."
-        },
-        "Quotes": {
-            "none": "{characterName} heeft momenteel geen zin om te praten."
-        },
-        "Rumors": {
-            "none": "{characterName} heeft momenteel geen geruchten te delen."
-        }
-    },
-    "Pets": {
-        "Rare": "Zeldzaam Beestje",
-        "Abilities": {
-            "unlock": "Deze ability wordt vrijgespeeld op niveau {unlockLevel}."
-        },
-        "Attributes": {
-            "unlock": "Deze attributen zijn actief op niveau {unlockLeven}."
-        },
-        "Normal": "Normaal Beestje",
-        "Infobox": {
-            "Dark": "Donker",
-            "animation": "Geanimeerd:",
-            "Light": "Licht",
-            "Normal": "Normaal",
-            "Rare": "Zeldzaam",
-            "static": "Statisch:"
-        },
-        "Experience": {
-            "ChangeToAdult": "Dit beestje wordt '''Volwassen''' wanneer het niveau {nextLevel} bereikt.",
-            "XPGain": "Vereist nog eens {addedExperienceNum} om te vorderen naar niveau {nextLevel}. (Totaal {totalExperienceNum} ervaring vereist)",
-            "ChangeToJuvenile": "Dit beestje wordt een '''Jonkie''' wanneer het niveau {nextLevel} bereikt."
-        },
-        "Intro": {
-            "rare": "{petName} is een zeldzaam [[Special:MyLanguage/Pets | beestje]]. Het komt uit een zeldzaam {eggName}.",
-            "stageAdult": "Dit beestje wordt Volwassen op niveau {adultLevel}.",
-            "stageEgg": "Dit beestje is een Ei van niveau 0 tot niveau 1.",
-            "stageJuvi": "Dit beestje is een Jonkie van niveau 1 tot {adultLevel}.",
-            "normal": "{petName} is een [[Special:MyLanguage/Pets | beestje]]. Het komt uit een {eggName}."
-        },
-        "Requirement": {
-            "NoXPReq": "Dit beestje heeft geen speciale vereisten om ervaring te krijgen."
-        },
-        "Names": {
-            "main": "Dit zijn de standaardnamen die dit beestje kan hebben wanneer het uit een ei komt:"
-        }
-    },
-    "Locations": {
-        "Activities": {
-            "hidden": "Deze '''Verborgen Activiteiten''' zijn alleen zichtbaar als je voldoet aan de vereisten.",
-            "emergency": "Deze '''Noodactiviteiten''' zijn alleen zichtbaar als je voorwerpen mist die vereist zijn om te reizen, en zijn er om te voorkomen dat je personage vast komt te zitten.",
-            "main": "Onderstaande [[Special:MyLanguage/Activities | activiteiten]] zijn altijd beschikbaar op deze locatie."
-        },
-        "Buildings": {
-            "main": "Onderstaande [[Special:MyLanguage/Buildings | gebouwen]] kunnen bezocht worden op deze locatie."
-        },
-        "Factions": {
-            "sub": "{locationName} heeft de onderstaande [[Special:MyLanguage/Job_Boards | prikborden]]:",
-            "main": "{locationName} is onderdeel van de onderstaande [[Special:MyLanguage/Faction_Reputation | facties]]:"
-        },
-        "Intro": {
-            "main": "{locationName} is een [[Special:MyLanguage/Locations | locatie]] die gevonden kan worden in de {locationRegion} regio."
-        },
-        "Routes": {
-            "baseSteps": "Basisstappen",
-            "main": "Onderstaande [[Special:MyLanguage/Routes | routes]] zijn beschikbaar op deze locatie."
-        },
-        "Services": {
-            "main": "Onderstaande [[Special:MyLanguage/Services | voorzieningen]] kunnen gebruikt worden op deze locatie."
-        },
-        "Keywords": {
-            "main": "De onderstaande [[Special:MyLanguage/Keywords#Location_Keywords | sleutelwoorden]] zijn van toepassing op deze locatie."
-        }
-    },
-    "Routes": {
-        "Directions": {
-            "N": {
-                "short": "N",
-                "name": "Noord"
-            },
-            "NE": {
-                "short": "NO",
-                "name": "Noordoost"
-            },
-            "E": {
-                "short": "O",
-                "name": "Oost"
-            },
-            "SE": {
-                "short": "ZO",
-                "name": "Zuidoost"
-            },
-            "S": {
-                "short": "Z",
-                "name": "Zuid"
-            },
-            "SW": {
-                "short": "ZW",
-                "name": "Zuidwest"
-            },
-            "W": {
-                "short": "W",
-                "name": "West"
-            },
-            "NW": {
-                "short": "NW",
-                "name": "Noordwest"
-            },
-            "C": {
-                "short": "M",
-                "name": "Midden"
+            "uses": {
+                "activityInputUses": {
+                    "fineBenefit": "Deze activiteit profiteert extra van het gebruik van [[Special:MyLanguage/Fine_Material#Activity_Inputs|fine material]].",
+                    "noAttributeBonus": "Deze activiteit profiteert niet van materiaal eigenschappen.",
+                    "noFineBenefit": "Deze activiteit profiteert niet van het gebruik van [[Special:MyLanguage/Fine_Material#Activity_Inputs|fijn materiaal]]."
+                },
+                "defaultCollectible": "Dit voorwerp geeft 1 [[Special:MyLanguage/Achievement Points|prestatiepunt]] wanneer het gevonden wordt.",
+                "defaultConsumable": "Dit voorwerp kan verbruikt worden voor een tijdelijke bonus.",
+                "defaultGear": "Dit voorwerp kan gedragen worden door je personage.",
+                "defaultMaterial": "Dit voorwerp wordt momenteel niet gebruikt voor een recept of andere functie.",
+                "defaultMemosphere": "Herinnerondo's kunnen gebruikt worden om ervaring te krijgen.",
+                "plurals": {
+                    "achievementUse": "{itemName} is nodig voor de volgende [[Special:MyLanguage/Achievements|prestaties]]:",
+                    "activityInputUse": "{itemName} kan gebruikt worden als invoer voor de volgende [[Special:MyLanguage/Activities | activiteiten]]:",
+                    "jobBoardUse": "{itemName} kan gevraagd worden voor de volgende [[Special:MyLanguage/Job Boards|klusjes]]:",
+                    "recipeUse": "{itemName} is een ingrediënt in de volgende [[Special:MyLanguage/Recipes|recepten]]:",
+                    "requirementUse": "{itemName} is nodig voor de volgende speciale gevallen:",
+                    "specialCurrencyUse": "{itemName} kan als valuta gebruikt worden bij de volgende [[Special:MyLanguage/Shops|winkels]]:",
+                    "specialShopPaymentUse": "{itemName} kan verkocht worden bij de volgende [[Special:MyLanguage/Shops|winkels]] om een speciale valuta te verkrijgen:"
+                },
+                "requirementUses": {
+                    "plurals": {
+                        "activities": "{itemName} is benodigd om de volgende activiteiten te doen:",
+                        "items": "{itemName} is benodigd voor een attribuut op de volgende voorwerpen:",
+                        "locations": "{itemName} is nodig om de volgende locaties te kunnen zien:",
+                        "services": "{itemName} is nodig om de volgende voorzieningen te gebruiken:",
+                        "terrainModifiers": "{itemName} is nodig voor de volgende routes:"
+                    },
+                    "singulars": {
+                        "activities": "{itemName} is nodig om de volgende activiteit te doen:",
+                        "items": "{itemName} is nodig voor een attribuut op het volgende voorwerp:",
+                        "locations": "{itemName} is nodig om de volgende locatie te zien:",
+                        "services": "{itemName} is nodig om de volgende voorziening te gebruiken:",
+                        "terrainModifiers": "{itemName} is nodig voor de volgende route:"
+                    }
+                },
+                "sectionHeaders": {
+                    "achievementUse": "Prestatie",
+                    "activityInputUse": "Activiteit-invoer",
+                    "mysteriousMerchant": "Heimelijke Handelaar",
+                    "petEggUse": "Een Beestje Uitbroeden",
+                    "recipeUse": "Receptingrediënt",
+                    "specialCurrencyUse": "Valuta",
+                    "specialShopPaymentUse": "Speciale Verkoop"
+                },
+                "singulars": {
+                    "achievementUse": "{itemName} is nodig voor de volgende [[Special:MyLanguage/Achievements | prestaties]]:",
+                    "activityInputUse": "{itemName} wordt gebruikt als invoer voor de volgende [[Special:MyLanguage/Activities | activiteit]]:",
+                    "jobBoardUse": "{itemName} kan gevraagd worden voor het volgende [[Special:MyLanguage/Job Boards | klusje]]:",
+                    "petEggUse": "{itemName} is een ei dat geclaimd kan worden en vervolgens uitgebroed kan worden tot een {petName} beestje.",
+                    "recipeUse": "{itemName} is een ingrediënt in het volgende [[Special:MyLanguage/Recipes | recept]]:",
+                    "requirementUse": "{itemName} is nodig in het volgende speciale geval:",
+                    "specialCurrencyUse": "{itemName} kan gebruikt worden als valuta in de volgende [[Special:MyLanguage/Shops | winkel]]:",
+                    "specialShopPaymentUse": "{itemName} kan verkocht worden in de volgende [[Special:MyLanguage/Shops | winkel]] om een speciale valuta te verkrijgen:"
+                }
             }
         },
-        "regionBorder": "Deze route gaat van {startRegion} naar {endRegion}."
-    },
-    "Shops": {
-        "allBuy": "Deze winkel heeft voorwerpen te koop.",
-        "allSell": "Alle normale voorwerpen kunnen verkocht worden aan deze winkel.",
-        "cosmeticTypes": {
-            "eye_accessory": "Oogaccessoires Cosmetica",
-            "face_accessorie": "Gezichtaccessoires Cosmetica",
-            "hair": "Kapsel Cosmetica",
-            "outfit": "Outfit Cosmetica",
-            "back_accessorie": "Rugaccessoires Cosmetica",
-            "headwear": "Hoofddeksel Cosmetica"
+        "locations": {
+            "activities": {
+                "emergency": "Deze '''Noodactiviteiten''' zijn alleen zichtbaar als je voorwerpen mist die vereist zijn om te reizen, en zijn er om te voorkomen dat je personage vast komt te zitten.",
+                "hidden": "Deze '''Verborgen Activiteiten''' zijn alleen zichtbaar als je voldoet aan de vereisten.",
+                "main": "Onderstaande [[Special:MyLanguage/Activities | activiteiten]] zijn altijd beschikbaar op deze locatie."
+            },
+            "buildings": {
+                "main": "Onderstaande [[Special:MyLanguage/Buildings | gebouwen]] kunnen bezocht worden op deze locatie."
+            },
+            "factions": {
+                "main": "{locationName} is onderdeel van de onderstaande [[Special:MyLanguage/Faction_Reputation | facties]]:",
+                "sub": "{locationName} heeft de onderstaande [[Special:MyLanguage/Job_Boards | prikborden]]:"
+            },
+            "intro": {
+                "main": "{locationName} is een [[Special:MyLanguage/Locations | locatie]] die gevonden kan worden in de {regionLink} regio."
+            },
+            "keywords": {
+                "main": "De onderstaande [[Special:MyLanguage/Keywords#Location_Keywords | sleutelwoorden]] zijn van toepassing op deze locatie."
+            },
+            "routes": {
+                "baseSteps": "Basisstappen",
+                "main": "Onderstaande [[Special:MyLanguage/Routes | routes]] zijn beschikbaar op deze locatie."
+            },
+            "services": {
+                "main": "Onderstaande [[Special:MyLanguage/Services | voorzieningen]] kunnen gebruikt worden op deze locatie."
+            }
         },
-        "limitedSell": "Alleen deze voorwerpen kunnen verkocht worden aan deze winkel.",
-        "noBuy": "Deze winkel heeft momenteel niks te koop.",
-        "restrictedSell": "Slechts enkele voorwerpen kunnen worden verkocht aan deze winkel.",
-        "noSell": "Er kan niks worden verkocht aan deze winkel.",
-        "specialSell": "Naast alle normale voorwerpen kunnen ook deze voorwerpen worden verkocht aan deze winkel."
+        "pets": {
+            "abilities": {
+                "unlock": "Deze ability wordt vrijgespeeld op niveau {unlockLevel}."
+            },
+            "experience": {
+                "changeToAdult": "Dit beestje wordt '''Volwassen''' wanneer het niveau {targetLevel} bereikt.",
+                "changeToJuvenile": "Dit beestje wordt een '''Jonkie''' wanneer het niveau {targetLevel} bereikt.",
+                "xpGain": "Vereist nog eens {additionalExperience} om te vorderen naar niveau {targetLevel}. (Totaal {totalExperience} ervaring vereist)"
+            },
+            "infobox": {
+                "normal": "Normaal",
+                "rare": "Zeldzaam",
+                "static": "Statisch:"
+            },
+            "intro": {
+                "normal": "{petName} is een [[Special:MyLanguage/Pets | beestje]]. Het komt uit een {eggLinks}.",
+                "rare": "{petName} is een zeldzaam [[Special:MyLanguage/Pets | beestje]]. Het komt uit een zeldzaam {eggLinks}.",
+                "stageAdult": "Dit beestje wordt Volwassen op niveau {adultLevel}.",
+                "stageEgg": "Dit beestje is een Ei van niveau 0 tot niveau 1.",
+                "stageJuvi": "Dit beestje is een Jonkie van niveau 1 tot {adultLevel}."
+            },
+            "names": {
+                "main": "Dit zijn de standaardnamen die dit beestje kan hebben wanneer het uit een ei komt:"
+            },
+            "normal": "Normaal Beestje",
+            "rare": "Zeldzaam Beestje",
+            "requirement": {
+                "noXpReq": "Dit beestje heeft geen speciale vereisten om ervaring te krijgen."
+            }
+        },
+        "routes": {
+            "directions": {
+                "c": {
+                    "name": "Midden",
+                    "short": "M"
+                },
+                "e": {
+                    "name": "Oost",
+                    "short": "O"
+                },
+                "n": {
+                    "name": "Noord",
+                    "short": "N"
+                },
+                "ne": {
+                    "name": "Noordoost",
+                    "short": "NO"
+                },
+                "nw": {
+                    "name": "Noordwest",
+                    "short": "NW"
+                },
+                "s": {
+                    "name": "Zuid",
+                    "short": "Z"
+                },
+                "se": {
+                    "name": "Zuidoost",
+                    "short": "ZO"
+                },
+                "sw": {
+                    "name": "Zuidwest",
+                    "short": "ZW"
+                },
+                "w": {
+                    "name": "West",
+                    "short": "W"
+                }
+            },
+            "regionBorder": "Deze route gaat van {originRegionLink} naar {destinationRegionLink}."
+        },
+        "shops": {
+            "allBuy": "Deze winkel heeft voorwerpen te koop.",
+            "allSell": "Alle normale voorwerpen kunnen verkocht worden aan deze winkel.",
+            "limitedSell": "Alleen deze voorwerpen kunnen verkocht worden aan deze winkel.",
+            "noBuy": "Deze winkel heeft momenteel niks te koop.",
+            "noSell": "Er kan niks worden verkocht aan deze winkel.",
+            "restrictedSell": "Slechts enkele voorwerpen kunnen worden verkocht aan deze winkel.",
+            "specialSell": "Naast alle normale voorwerpen kunnen ook deze voorwerpen worden verkocht aan deze winkel."
+        }
     },
-    "Pfp_Options": {
-        "defaultUnlock": "Altijd beschikbaar."
+    "shared": {
+        "footer": {
+            "automaticUpdate": "Deze pagina wordt automatisch bijgewerkt om informatie in de [[Special:MyLanguage/Versions | de huidige spelversie]] weer te geven."
+        },
+        "guides": {
+            "create": "Je kunt helpen er een te maken.",
+            "edit": "Handleidingen Bewerken",
+            "none": "Er bestaan nog geen handleidingen."
+        },
+        "headings": {
+            "ability": "Ability",
+            "activity": "Activiteit",
+            "attributesInput": "Attributen (invoer)",
+            "bank": "Bankopties",
+            "bonusDrops": "Bonusbuit",
+            "building": "Gebouw",
+            "emergencyActivity": "Noodactiviteit",
+            "experience": "Ervaring-Informatie",
+            "faction": "Factie",
+            "factionRepDrops": "Factiereputatie-beloning",
+            "gemDrops": "Edelstenenbuit",
+            "guides": "Handleidingen",
+            "hiddenActivity": "Verborgen Activiteit",
+            "input": "Voorwerp Vereist",
+            "inputs": "Voorwerpen Vereist",
+            "inventory": "Inventaris",
+            "jobBoard": "Prikbord",
+            "keyword": "Sleutelwoord",
+            "location": "Locatie",
+            "lootTables": "Buittabellen",
+            "mainDrops": "Hoofdbuit",
+            "names": "Namen",
+            "petXpGrow": "Ervaring Tot Opgroeien",
+            "petXpHatch": "Ervaring Tot Uitkomen",
+            "purchases": "Aankopen",
+            "quote": "Quote",
+            "quotes": "Quotes",
+            "recipe": "Recept",
+            "rewards": "Beloningen",
+            "route": "Route",
+            "rumor": "Gerucht",
+            "rumors": "Geruchten",
+            "secondaryDrops": "Secundaire Buit",
+            "service": "Voorziening",
+            "uses": "Gebruik",
+            "visibility": "Zichtbaarheid",
+            "xpRequirement": "Vereiste Om Ervaring Te Krijgen",
+            "xpRequirements": "Vereisten Om Ervaring Te Krijgen"
+        },
+        "labels": {
+            "abilities": "Abilities",
+            "abilityName": "Naam Van Ability",
+            "achievementName": "Naam Van Prestatie",
+            "activities": "Activiteiten",
+            "activityName": "Naam Van Activiteit",
+            "artisanRecipe": "Ambachtsrecept",
+            "attribute": "Attribuut",
+            "attributes": "Attributen",
+            "baseRate": "Basis<br>Kans",
+            "baseSteps": "Basis<br>Stappen",
+            "baseXp": "Basis<br>XP",
+            "baseXpStep": "Basis<br>XP/Stap",
+            "bonusExp": "Bonus<br>EXP",
+            "buildingName": "Naam Van Gebouw",
+            "buildings": "Gebouwen",
+            "chance": "Kans",
+            "chanceActivation": "Kans<br>(Per Activatie)",
+            "chanceRoll": "Kans<br>(Per Keer)",
+            "characterName": "Personage naam",
+            "charges": "Ladingen",
+            "chestName": "Naam Van Schatkist",
+            "cooldown": "Cooldown",
+            "difficulty": "Moeilijkheid",
+            "direction": "Richting",
+            "drops": "Buittabellen",
+            "duration": "Tijdsduur",
+            "effect": "Effect",
+            "emergencyActivities": "Noodactiviteiten",
+            "endingLocation": "Eindlocatie",
+            "factionName": "Naam Van Factie",
+            "factions": "Facties",
+            "finalChance": "Uiteindelijke<br>Kans",
+            "finalOdds": "Uiteindelijke<br>Kans",
+            "fineAttributes": "Attributen Van Hoge Kwaliteit",
+            "hiddenActivities": "Verborgen Activiteiten",
+            "images": "Afbeeldingen",
+            "information": "Informatie",
+            "initialAppearance": "Oorspronkelijke<br>Uitstraling",
+            "initialChance": "Oorspronkelijke<br>Kans",
+            "initialOdds": "Oorspronkelijke<br>Kans",
+            "itemName": "Naam Van Voorwerp",
+            "items": "Voorwerpen",
+            "job": "Klusjesverzoek",
+            "jobBoardName": "Naam Van Prikbord",
+            "jobBoards": "Prikborden",
+            "keywords": "Sleutelwoorden",
+            "level": "Niveau",
+            "location": "Locatie",
+            "locations": "Locaties",
+            "materials": "Materialen<br>Gebruikt",
+            "maxChanceLevel": "Maximale Kans<br>Niveau",
+            "maxEfficency": "Maximale<br>Werkefficiëntie",
+            "maxXpStep": "Maximale<br>XP/Stap",
+            "minSteps": "Minimale<br>Stappen",
+            "na": "N.v.t.",
+            "name": "Naam",
+            "never": "Nooit",
+            "noFine": "Dit voorwerp kan niet van hoge kwaliteit zijn.",
+            "none": "Geen",
+            "normalAttributes": "Normale Attributen",
+            "note": "Let op",
+            "nothing": "Niets",
+            "odds": "Kans",
+            "oneInX": "~1 per {oddsDenominator}",
+            "oneInXActions": "~1 per {oddsDenominator} acties",
+            "payment": "Betaling",
+            "pet": "Naam Van Beestje",
+            "petRare": "Naam Van Zeldzaam Beestje",
+            "price": "Prijs",
+            "primaryRecipeOutput": "Primaire Receptresultaat",
+            "quantity": "Hoeveelheid",
+            "rarity": "Zeldzaamheid",
+            "recipeName": "Naam Van Recept",
+            "recipeOutputs": "Resultaten<br>Recept",
+            "recipes": "Recepten",
+            "region": "Regio",
+            "regions": "Regio's",
+            "relAttribute": "Relevant Attribuut",
+            "relAttributes": "Relevante Attributen",
+            "requirement": "Vereiste",
+            "requirements": "Vereisten",
+            "reward": "Beloning",
+            "rewards": "Beloningen",
+            "rollNote": "{rollCount} keer kans",
+            "routes": "Routes",
+            "serviceName": "Naam Van Voorziening",
+            "serviceReq": "Voorzieningsvereiste",
+            "serviceTeir": "Voorzieningsniveau",
+            "services": "Voorzieningen",
+            "shopName": "Naam Van Winkel",
+            "shops": "Winkels",
+            "skill": "Vaardigheid",
+            "skillWithLevel": "{skillLink} niv. {level}",
+            "skills": "Vaardigheden",
+            "slot": "Vak",
+            "source": "Bron",
+            "sources": "Bronnen",
+            "startingLocation": "Startlocatie",
+            "stock": "Voorraad",
+            "supporter": "Financieel Steuner",
+            "totalBaseXpStep": "Totale Basis<br>XP/Stap",
+            "totalMaxXpStep": "Totale Maximale<br>XP/Stap",
+            "type": "Voorwerptype",
+            "value": "Waarde",
+            "valueWithStack": "Waarde<br>Enkele (Stapel)",
+            "wear": "W.E.A.R."
+        },
+        "requirements": {
+            "historyData": "Voltooi acties van de {activityName} activiteit. {actionCountText}"
+        },
+        "visibility": {
+            "actionDone": "Het is alleen zichtbaar als je het volgende hebt gedaan:"
+        }
     }
 }

@@ -1,7 +1,9 @@
 {
-    "common": {
-        "achievementName": "実績名",
-        "activityName": "アクティビティ名",
-        "abilityName": "技名"
+    "shared": {
+        "labels": {
+            "abilityName": "技名",
+            "achievementName": "実績名",
+            "activityName": "アクティビティ名"
+        }
     }
 }

@@ -1,12 +1,12 @@
 {
-    "common": {
-        "artisanRecipe": "Řemeslný recept",
-        "atLeast": "{číslo} nebo více",
-        "activityName": "Název aktivity",
-        "always": "Vždy",
-        "abilityNames": "Názvy schopností",
-        "attribute": "Vlastnost",
-        "achievementName": "Název úspěchu",
-        "abilityName": "Název schopnosti"
+    "shared": {
+        "labels": {
+            "abilityName": "Název schopnosti",
+            "abilityNames": "Názvy schopností",
+            "achievementName": "Název úspěchu",
+            "activityName": "Název aktivity",
+            "artisanRecipe": "Řemeslný recept",
+            "attribute": "Vlastnost"
+        }
     }
 }
