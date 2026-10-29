@@ -418,7 +418,7 @@
             "requirements": "Vaatimukset",
             "reward": "Palkinto",
             "rewards": "Palkinnot",
-            "rollNote": "Toistuu {rollCount} kertaa",
+            "rollNote": "Toistuu {rollCount} kertaa.",
             "routes": "Reitit",
             "sellValue": "Myyntiarvo",
             "serviceName": "Palvelun nimi",
