@@ -508,7 +508,7 @@
             "requirements": "Vereisten",
             "reward": "Beloning",
             "rewards": "Beloningen",
-            "rollNote": "{rollCount} keer kans",
+            "rollNote": "{rollCount} keer kans.",
             "routes": "Routes",
             "serviceName": "Naam Van Voorziening",
             "serviceReq": "Voorzieningsvereiste",
