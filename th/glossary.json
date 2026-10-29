@@ -1,1 +1,7 @@
-{}
+{
+    "common": {
+        "always": "เสมอ",
+        "amount": "{quantity}<big>x</big>",
+        "building": "อาคาร"
+    }
+}
