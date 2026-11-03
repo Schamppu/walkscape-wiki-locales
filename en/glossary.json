@@ -103,6 +103,9 @@
             "regionHeading": "{regionName} Gem Table",
             "regionalIntro": "This table represents rough gems that can be found through activities in {regionLink}.",
             "title": "Gems"
+        },
+        "titles": {
+            "secretTitleNote": "This is a \"secret title\" that is hidden until unlocked."
         }
     },
     "families": {
