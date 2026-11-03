@@ -1271,7 +1271,7 @@
         },
         "requirements": {
             "achievementPointsPercentage": "Have <icon i=\"achievement point\"/> <numberProgress />% of total achievement points.",
-            "historyData": "Complete actions of the {activityName} activity. {actionCountText}"
+            "historyData": "Complete the {activityName} activity {actionCountText} times."
         },
         "visibility": {
             "actionDone": "It is only visible if you have done the following:",
