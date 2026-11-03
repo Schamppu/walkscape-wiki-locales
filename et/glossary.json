@@ -190,7 +190,7 @@
             "requirements": "Tingimused",
             "reward": "Tasu",
             "rewards": "Tasud",
-            "rollNote": "Veeretab {rollCount} korda",
+            "rollNote": "Veeretab {rollCount} korda.",
             "routes": "Marsruudid",
             "serviceName": "Teenuse Nimi",
             "serviceReq": "Teenuse<br>Tingimus",
