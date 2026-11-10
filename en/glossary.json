@@ -596,7 +596,7 @@
                     "abilityCharging": "{itemName} is used to charge the following [[Special:MyLanguage/Abilities | abilities]]:",
                     "achievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements|achievements]]:",
                     "activityInputUse": "{itemName} can be used as an input for the following [[Special:MyLanguage/Activities | activities]]:",
-                    "jobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards|jobs]]:",
+                    "jobBoardUse": "{itemName} can be handed in for jobs on the following [[Special:MyLanguage/Job Boards|job boards]]:",
                     "recipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes|recipes]]:",
                     "requirementUse": "{itemName} is a requirement in the following special cases:",
                     "specialCurrencyUse": "{itemName} can be used as currency at the following [[Special:MyLanguage/Shops|shops]]:",
@@ -632,7 +632,7 @@
                     "abilityCharging": "{itemName} is used to charge the following [[Special:MyLanguage/Abilities | ability]]:",
                     "achievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements | achievement]]:",
                     "activityInputUse": "{itemName} is used as a required input for the following [[Special:MyLanguage/Activities | activity]]:",
-                    "jobBoardUse": "{itemName} can be requested from the following [[Special:MyLanguage/Job Boards | job]]:",
+                    "jobBoardUse": "{itemName} can be handed in for jobs on the following [[Special:MyLanguage/Job Boards|job board]]:",
                     "petEggUse": "{itemName} is an pet egg that can be claimed then hatched into a {petName} pet.",
                     "recipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes | recipe]]:",
                     "requirementUse": "{itemName} is a requirement in the following special case:",
@@ -648,6 +648,61 @@
                 "material": "The [[Special:MyLanguage/Fine Material | 'fine' quality material]] can replace a normal drop with a base rate of 1/100. This can be increased by using [[Special:MyLanguage/Fine Material Finding | items with the fine material finding attribute]].",
                 "none": "This item has no special variations.",
                 "processed": "The [[Special:MyLanguage/Fine Material | 'fine' quality material]] can can be [[Special:MyLanguage/Recipes | crafted from artisan recipes]] by using all [[Fine Material | fine material]] inputs."
+            }
+        },
+        "jobBoards": {
+            "title": "Job Boards",
+            "betaNotice": "<blockquote>'''Development preview.''' These pages describe possible jobs and rewards. Quantity ranges are estimates based on beta data and provisional rules; check the job card before preparing a hand-in.</blockquote>",
+            "intro": "'''{boardName}''' is a job board at {location} in {region}. The tables below describe the range of requests and rewards this board may offer.",
+            "collectionIntro": "Job boards offer a shared set of jobs each week. Access to a job depends on your reputation level with the board's faction. Each board page lists possible requests and rewards, including estimated quantities; these are not this week's jobs.",
+            "seoDescription": "Possible requests, estimated quantities, faction reputation requirements and rewards for {boardName}.",
+            "accessNote": "The requirements below use your faction reputation level with {faction}. All players share the weekly jobs, with higher faction levels unlocking additional tiers. Guaranteed rewards apply to requests matching their listed themes.",
+            "requestsNote": "Each row groups possible quantities for one item quality or material variant across this board's job tiers and payouts. The faction-level columns distinguish a quality requested directly from one accepted as a higher-quality alternative. A dash means that use is absent from this estimate. Ranges show outer bounds; intermediate quantities and combinations of rows are not guaranteed.",
+            "rewardsNote": "Guaranteed rewards and random draws are listed separately, even when they pay the same thing. Quantities are estimated totals per job; zero means a reward may be absent. Draw weights compare eligible rewards at each draw and are not per-job probabilities. Themes restrict ordinary draws; bonus draws are provisionally allowed to use any valid reward on the board.",
+            "qualityNote": "These are relative weights for the quality initially requested, before individual goal overrides, quality bounds and payout affordability are applied. They are not final percentages. Higher-quality hand-in alternatives do not need a positive draw weight.",
+            "currentNote": "This page describes possibilities across weekly rotations. The current weekly job list will be added when it becomes available.",
+            "anyRequest": "Any request",
+            "guaranteed": "Guaranteed",
+            "randomDraw": "Random draw",
+            "noRequests": "No generated requests are available under this estimate.",
+            "noRewards": "No generated rewards are available under this estimate.",
+            "reputationReward": "{name} reputation",
+            "experienceReward": "{name} experience",
+            "days": "{count} days",
+            "headings": {
+                "access": "Faction Requirements and Weekly Jobs",
+                "requests": "Possible Requests",
+                "rewards": "Possible Rewards",
+                "quality": "Quality Selection",
+                "current": "Current Weekly Jobs",
+                "estimates": "About These Estimates",
+                "boards": "Job Boards"
+            },
+            "labels": {
+                "factionLevel": "Faction Reputation<br>Level Required",
+                "jobsPerWeek": "Jobs per Week",
+                "guaranteedRewards": "Guaranteed Rewards<br><small>(Matching Requests)</small>",
+                "bonusJobs": "Estimated Bonus<br>Jobs per Week",
+                "variant": "Quality / Variant",
+                "estimatedQuantity": "Estimated<br>Quantity",
+                "requestedAtLevel": "Requested at<br>Faction Level",
+                "alternativeAtLevel": "Higher-Quality Alternative<br>at Faction Level",
+                "payment": "Payment",
+                "estimatedPerJob": "Estimated Quantity<br>per Job",
+                "drawWeight": "Relative Draw<br>Weight",
+                "requestThemes": "Request Themes",
+                "accessFaction": "Access Faction",
+                "rotation": "Rotation",
+                "requestItems": "Possible<br>Request Items",
+                "itemRewards": "Possible<br>Item Rewards"
+            },
+            "assumptions": {
+                "payout": "Requested quantities use the value of everything paid, including guaranteed rewards. Ordinary reward draws fill the normal reward budget with rewards matching the request's themes.",
+                "bonus": "Bonus jobs add a separate reward budget. For this preview, that extra budget may draw any eligible board reward regardless of the request's themes. This exception still needs confirmation.",
+                "repeated": "A reward may be drawn more than once for the same job. This is a working assumption.",
+                "rounding": "Initial quantities round to the nearest whole number, with halves rounded up and a minimum of one. Higher-quality alternatives round down from the unrounded payout value; alternatives below one are omitted. The full rounding rule still needs verification.",
+                "qualities": "Generated crafted qualities must fit the job's payout value. Higher-quality alternatives stay within the goal's maximum quality. Goal-specific value multipliers and quality weights override defaults.",
+                "allocation": "Weekly job tiers use weighted counts, with any remaining slots assigned by largest remainder. Bonus-job counts round to the nearest whole number within each tier. These allocation details are provisional where the configured shares are fractional."
             }
         },
         "keywords": {
@@ -992,6 +1047,7 @@
         "shops": {
             "allBuy": "This shop has items for sale.",
             "allSell": "All normal items may be sold at this shop.",
+            "allSellExceptCurrency": "All normal items may be sold at this shop for coins except for {itemLink} (all variations).",
             "collection": {
                 "intro": "Shops are places where you can buy and sell items. They are usually found in [[Special:MyLanguage/Buildings|buildings]]. Visit a shop's building page for its inventory and characters.",
                 "type": "Building Type"
@@ -1000,7 +1056,8 @@
             "noBuy": "This shop currently has nothing for sale.",
             "noSell": "Nothing may be sold at this shop.",
             "restrictedSell": "Only some items may be sold at this shop.",
-            "specialSell": "These items can be sold to this shop in addition to all normal items."
+            "specialSell": "These items can be sold to this shop in addition to all normal items.",
+            "specialSellExceptCurrency": "These items can be sold to this shop in addition to all normal items except for {itemLink} (all variations), which cannot be sold for coins."
         },
         "skills": {
             "activities": {
