@@ -652,7 +652,7 @@
         },
         "jobBoards": {
             "title": "Job Boards",
-            "betaNotice": "{{Page Announcement|These pages describe possible jobs and rewards. Quantity ranges are estimates based on beta data and provisional rules; check the job card before preparing a hand-in.}}",
+            "betaNotice": "{{Page Announcement|These pages describe possible jobs and rewards. Quantity ranges are estimates based on data and my best understanding; check the job card before preparing a hand-in.<br>-bonez565}}",
             "intro": "'''{boardName}''' is a {jobBoardLink} at {location} in {region}. The tables below describe the range of requests and rewards this board may offer.",
             "jobBoardLinkText": "job board",
             "collectionIntro": "Job boards offer a shared set of jobs each week. Access to a job depends on your reputation level with the board's faction. Each board page lists possible requests and rewards, including estimated quantities.",
