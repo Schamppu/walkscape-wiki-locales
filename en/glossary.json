@@ -664,6 +664,10 @@
             "rewardsNote": "Guaranteed rewards and random draws are listed separately, even when they pay the same thing. Every generated job pays its tier's guaranteed rewards. Draws use the full enabled board pool, without matching request themes, and bonus value joins the ordinary draw budget. Authored reward themes are informational. Zero means a reward may be absent. Draw weights compare eligible rewards at each draw and are not per-job probabilities.",
             "qualityNote": "These are relative weights for the quality initially requested, before goal overrides and quality bounds. They are not final percentages. A crafted quality must fit the guaranteed reward value plus the ordinary draw budget, without bonus value; if none fits, the lowest quality remains. Higher-quality substitutes use the rounded request count, round up to at least one, and must have a strictly greater value multiplier. Substitutes do not need a positive draw weight and cannot be mixed within one hand-in.",
             "archiveTitle": "Job Board Jobs Archive",
+            "navigation": {
+                "previous": "← Previous week",
+                "next": "Next week →"
+            },
             "archiveIntro": "This archive collects the jobs offered by each board in each saved weekly rotation. Open a week to view its jobs, grouped by board and reputation level.",
             "archiveSeoDescription": "Weekly WalkScape job-board archives, including requested items, higher-quality alternatives, rewards and faction reputation requirements.",
             "archiveUpdateNotice": "This archive records saved weekly job offers. Each week's date range identifies the rotation its jobs belong to.",
