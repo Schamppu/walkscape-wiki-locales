@@ -72,7 +72,7 @@
             },
             "intro": {
                 "movement": "Questa è un'[[Special:MyLanguage/Movement_Activities|attività di movimento]], verrai teletrasportato a {destinationLink} al completamento di un'azione.",
-                "skilling": "L'attività {activityName} [[Special:MyLanguage/Activities |]] è un'attività {skillLink}."
+                "skilling": "L'attività {activityName} è [[Special:MyLanguage/Activities|un'attività]] {skillLink}."
             },
             "locations": {
                 "entry": "{locationLink} in {regionLink}",
