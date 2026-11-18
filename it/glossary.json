@@ -904,7 +904,7 @@
         },
         "requirements": {
             "achievementPointsPercentage": "Avere <icon i=\"achievement point\"/> <numberProgress />% del totale dei punti obiettivo.",
-            "historyData": "Completa le azioni dell'attività {activityName}. {actionCountText}"
+            "historyData": "Completa le azioni dell'attività {activityName} {actionCountText}."
         },
         "visibility": {
             "actionDone": "È visibile solo se hai fatto quanto segue:",
