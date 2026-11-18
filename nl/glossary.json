@@ -533,7 +533,7 @@
             "wear": "W.E.A.R."
         },
         "requirements": {
-            "historyData": "Voltooi acties van de {activityName} activiteit. {actionCountText}"
+            "historyData": "Voltooi acties van de {activityName} activiteit {actionCountText}."
         },
         "visibility": {
             "actionDone": "Het is alleen zichtbaar als je het volgende hebt gedaan:"
