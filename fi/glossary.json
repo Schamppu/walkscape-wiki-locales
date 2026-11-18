@@ -451,7 +451,7 @@
             "wear": "W.E.A.R."
         },
         "requirements": {
-            "historyData": "Complete actions of the {activityName} activity. {actionCountText}"
+            "historyData": "Complete the {activityName} activity {actionCountText} times."
         },
         "visibility": {
             "actionDone": ""
