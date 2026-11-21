@@ -362,6 +362,10 @@
                     "intro": "All the gear and tools that can drop from [[Special:MyLanguage/Activities|activities]].",
                     "title": "Activity Equipment"
                 },
+                "blueprints": {
+                    "intro": "'''Blueprints''' are {itemsLink} that permanently unlock one or more {recipesLink} when used. The table below lists each blueprint's recipe unlocks and known sources.",
+                    "title": "Blueprints"
+                },
                 "chests": {
                     "title": "Chests"
                 },
@@ -537,6 +541,7 @@
             },
             "intro": {
                 "itemTypes": {
+                    "blueprint": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Blueprints | blueprint]] that permanently unlocks a recipe when obtained and used.",
                     "collectible": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Collectibles | collectible]].",
                     "consumable": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Consumables | consumable]].",
                     "container": "The {itemName} [[Special:MyLanguage/Items | item]] is a [[Special:MyLanguage/Chests | chest]].",
@@ -588,6 +593,7 @@
                     "requireFine": "This activity requires using [[Special:MyLanguage/Fine_Material|fine material]] inputs."
                 },
                 "defaultCollectible": "This item grants 1 [[Special:MyLanguage/Achievement Points|achievement point]] when found.",
+                "defaultBlueprint": "No recipe unlock is currently known for this blueprint.",
                 "defaultConsumable": "This item may be consumed for a temporary buff.",
                 "defaultGear": "This item may be equipped to your character.",
                 "defaultMaterial": "This item is not currently used by any recipe or special use.",
@@ -596,6 +602,7 @@
                     "abilityCharging": "{itemName} is used to charge the following [[Special:MyLanguage/Abilities | abilities]]:",
                     "achievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements|achievements]]:",
                     "activityInputUse": "{itemName} can be used as an input for the following [[Special:MyLanguage/Activities | activities]]:",
+                    "blueprintRecipeUnlock": "{itemName} unlocks the following [[Special:MyLanguage/Recipes|recipes]]:",
                     "jobBoardUse": "{itemName} can be handed in for jobs on the following [[Special:MyLanguage/Job Boards|job boards]]:",
                     "recipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes|recipes]]:",
                     "requirementUse": "{itemName} is a requirement in the following special cases:",
@@ -622,6 +629,7 @@
                     "abilityCharging": "Ability Charging",
                     "achievementUse": "Achievement",
                     "activityInputUse": "Activity Input",
+                    "blueprintRecipeUnlock": "Recipe Unlocks",
                     "mysteriousMerchant": "Mysterious Merchant",
                     "petEggUse": "Hatch A Pet",
                     "recipeUse": "Recipe Ingredient",
@@ -632,6 +640,7 @@
                     "abilityCharging": "{itemName} is used to charge the following [[Special:MyLanguage/Abilities | ability]]:",
                     "achievementUse": "{itemName} is needed for the following [[Special:MyLanguage/Achievements | achievement]]:",
                     "activityInputUse": "{itemName} is used as a required input for the following [[Special:MyLanguage/Activities | activity]]:",
+                    "blueprintRecipeUnlock": "{itemName} unlocks the following [[Special:MyLanguage/Recipes | recipe]]:",
                     "jobBoardUse": "{itemName} can be handed in for jobs on the following [[Special:MyLanguage/Job Boards|job board]]:",
                     "petEggUse": "{itemName} is an pet egg that can be claimed then hatched into a {petName} pet.",
                     "recipeUse": "{itemName} is an ingredient in the following [[Special:MyLanguage/Recipes | recipe]]:",
@@ -727,6 +736,8 @@
             "activityRequirementIntro": "An activity may require an equipped item with a particular keyword. For example, {activityLink} requires {pickaxeKeywordLink} equipment.",
             "bannedIntro": "Banned keywords restrict equipment combinations. For example, {sickleLink} and {macheteLink} both carry {foragingKeywordLink}, so they cannot be equipped together. The label does not mean the items are forbidden entirely.",
             "bannedKeyword": "(Banned Keyword)",
+            "blueprintHeading": "Blueprint Keywords",
+            "blueprintIntro": "These keywords categorize blueprint items, which permanently unlock recipes when used.",
             "consumableHeading": "Consumable Keywords",
             "consumableIntro": "These keywords categorize {consumablesLink}, including food, beverages, fishing bait, and memospheres. They may also be checked by achievements.",
             "containerHeading": "Container Keywords",
@@ -924,6 +935,7 @@
                 "craftingFlow": "Crafting Flow"
             },
             "infobox": {
+                "defaultUnlock": "Unlocked By Default:",
                 "requiredLevel": "Required Level:"
             },
             "intro": {
@@ -931,7 +943,11 @@
             },
             "output": "Recipe Output",
             "primaryOutputs": "Primary Recipe Outputs",
-            "secondaryOutputs": "Secondary Recipe Outputs"
+            "secondaryOutputs": "Secondary Recipe Outputs",
+            "visibility": {
+                "blueprintUnlock": "This recipe is unlocked by using the {blueprintLink}.",
+                "defaultUnlock": "This recipe is unlocked by default and always available if other requirements are met."
+            }
         },
         "rewardProgress": {
             "achievementIntro": "'''Achievement Points''' are given for completing {achievementsLink} and obtaining {collectiblesLink}. Different difficulties of achievements award different amounts of achievement points, and each collectible awards one achievement point.",
